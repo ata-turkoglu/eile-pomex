@@ -1,0 +1,49 @@
+.infoContainer{
+    width: 100%;
+    height: fit-content;
+    padding-inline: 10%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: rgb(248, 248, 251);
+
+    h2{
+        margin-top: 2.2rem;
+        margin-bottom: 3.4rem;
+    }
+
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .imgContainer{
+            width: 50%;
+            height: 100%;
+    
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    
+        .textContainer{
+            width: 50%;
+            height: 100%;
+            padding: 2rem;
+    
+            p{
+                font-size: 1rem;
+                text-align: left;
+                text-indent: 1rem;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    
+}
