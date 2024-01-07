@@ -29,7 +29,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img className="d-block w-100" src={img3} />
                     </div>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block">
                         <h4>Yüksek Kalite Standartlarımız</h4>
                         <p>
                             Tamamıyla AR-GE bölümümüz tarafından geliştirilen ve

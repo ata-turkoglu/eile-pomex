@@ -6,33 +6,13 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Products from "./pages/Products.jsx";
 import References from "./pages/References.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
-
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Home />,
-    },
-    {
-        path: "/products",
-        element: <Products />,
-    },
-    {
-        path: "/references",
-        element: <References />,
-    },
-    {
-        path: "/about",
-        element: <About />,
-    },
-]);
 
 function App() {
     return (
         <>
             <Header />
-            <div className="pagContainer">
+            <div className="pageContainer">
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
                     <Route path="/products" element={<Products />}></Route>

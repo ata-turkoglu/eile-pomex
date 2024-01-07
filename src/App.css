@@ -13,8 +13,23 @@
   align-items: center;
   justify-content: flex-start;
   padding-inline: 2rem;
+
+}
+
+.products{
+  padding-top: 100px;
 }
 
 .spacerH50{
   height: 50px;
+  
 }
+
+
+@media screen and (max-width: 768px) {
+  .home{padding-inline:0;}
+
+  .spacerH50{
+    display: none
+  }
+};

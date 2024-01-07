@@ -14,13 +14,13 @@ function Footer() {
                 <img src={erper} />
                 <img src={persan} />
             </div>
-            <div class="vr"></div>
+            <div className="vr"></div>
             <div className="footer-links">
                 <Link className="nav-item">Hakkımızda</Link>
                 <Link className="nav-item">Ürünler</Link>
                 <Link className="nav-item">Referanslar</Link>
             </div>
-            <div class="vr"></div>
+            <div className="vr"></div>
             <div className="footer-adress">
                 <h5 className="mb-4">Eile Pomex Yapı Kimyasalları</h5>
                 <p>Ankara Asfaltı Belkahve Mevkii No:277</p>
@@ -28,7 +28,7 @@ function Footer() {
                 <p>Tel : 0232 360 17 77</p>
                 <p>Fax : 0232 360 16 16</p>
             </div>
-            <div class="vr"></div>
+            <div className="vr"></div>
             <div className="footer-map">map</div>
         </div>
     );
