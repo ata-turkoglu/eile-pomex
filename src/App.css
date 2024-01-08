@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
+  font-family: 'Sofia Sans', sans-serif;
 }
 .app{
   width: 100%;
@@ -11,7 +12,7 @@
 }
 
 .home{
-  /* padding-top: 100px; */
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;

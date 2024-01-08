@@ -9,7 +9,7 @@ function Header() {
     const [narrowHeader, setNarrowHeader] = useState(false);
     useEffect(() => {
         function setHeaderHeight() {
-            if (window.scrollY > 100) {
+            if (window.scrollY > 200) {
                 setNarrowHeader(true);
             } else {
                 setNarrowHeader(false);
@@ -36,7 +36,10 @@ function Header() {
             >
                 <img src={narrowHeader ? roundLogo : logo} />
             </div>
-            <div className="nav-container">
+            <div
+                className="nav-container"
+                style={{ alignItems: narrowHeader ? "center" : "flex-end" }}
+            >
                 <Link className="nav-item" to="/">
                     Anasayfa
                 </Link>

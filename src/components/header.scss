@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-block: 1rem;
+    padding-top: 1rem;
     padding-inline: 2rem;
     box-shadow: 0 5px 10px -3px rgb(205, 205, 205);
     transition: height ease .3s;
@@ -25,12 +25,11 @@
     }
 
     .nav-container{
-        width: 40%;
+        width: 80%;
         height: 100%;
         display: flex;
-        align-items: center;
-        align-self: center;
-        justify-content: space-around;
+        align-items: flex-end;
+        justify-content: flex-start;
         margin-left: 5rem;
 
         .nav-item{
@@ -40,6 +39,16 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: rgb(16, 16, 89);
             font-size: 1.1rem;
+            padding-inline: 1rem;
+            border-right: 1px solid rgb(210, 210, 210);
+        }
+     
+        .nav-item:last-child{
+            border-right: none;
+        }
+
+        .nav-item:hover{
+            background-color: rgb(218, 218, 218);
         }
     }
 }
