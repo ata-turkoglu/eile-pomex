@@ -19,6 +19,9 @@ function Header() {
                 <Link className="nav-item" to="/products">
                     Ürünler
                 </Link>
+                <Link className="nav-item" to="/docs">
+                    Belgelerimiz
+                </Link>
                 <Link className="nav-item" to="/references">
                     Referanslar
                 </Link>
