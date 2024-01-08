@@ -1,8 +1,13 @@
 .header{
     position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     z-index: 3;
     width: 100%;
     height: 100px;
+    max-height: 100px;
+    overflow: hidden;
     background-color: rgba(240, 240, 240, 0.97);
     display: flex;
     align-items: center;
@@ -35,10 +40,6 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: rgb(16, 16, 89);
             font-size: 1.2rem;
-        }
-
-        @media screen and (max-width:768px) {
-            display: none;
         }
     }
 }
