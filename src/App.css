@@ -22,7 +22,7 @@
 }
 
 .products{
-  /* padding-top: 100px; */
+  padding-top: 100px;
 }
 
 .spacerH50{
@@ -39,7 +39,7 @@
   }
 };
 
-.headerNav{
+.header{
   position: fixed;
   z-index: 3;
   width: 100%;

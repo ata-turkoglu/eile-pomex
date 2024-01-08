@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import HeaderNav from "./components/headerNav.jsx";
+import Header from "./components/header.jsx";
 import Footer from "./components/footer";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
@@ -12,7 +12,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
     return (
         <div className="app">
-            <HeaderNav />
+            <Header />
             <div className="pageContainer">
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
