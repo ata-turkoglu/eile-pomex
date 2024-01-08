@@ -1,4 +1,4 @@
-.header{
+.headerNav{
     position: fixed;
     z-index: 3;
     width: 100%;
@@ -47,8 +47,8 @@
             border-right: none;
         }
 
-        .nav-item:hover{
+        /* .nav-item:hover{
             background-color: rgb(218, 218, 218);
-        }
+        } */
     }
 }

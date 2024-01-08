@@ -23,7 +23,7 @@ function Header() {
 
     return (
         <div
-            className="header"
+            className="headerNav"
             style={{
                 height: narrowHeader ? "50px" : "100px",
                 paddingBlock: narrowHeader ? "0" : "1rem",
