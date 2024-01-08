@@ -1,11 +1,11 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "./header.scss";
+import "./headerNav.scss";
 import logo from "../assets/eile-logo.png";
 import roundLogo from "../assets/eile-round.png";
 import { Link } from "react-router-dom";
 
-function Header() {
+function HeaderNav() {
     const [narrowHeader, setNarrowHeader] = useState(false);
     useEffect(() => {
         function setHeaderHeight() {
@@ -60,4 +60,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default HeaderNav;
