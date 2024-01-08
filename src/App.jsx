@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import "./components/headerNav.scss";
 import HeaderNav from "./components/headerNav.jsx";
 import Footer from "./components/footer";
 import Home from "./pages/Home.jsx";
