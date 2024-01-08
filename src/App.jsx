@@ -11,7 +11,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
     return (
-        <>
+        <div className="app">
             <Header />
             <div className="pageContainer">
                 <Routes>
@@ -23,7 +23,7 @@ function App() {
                 </Routes>
             </div>
             <Footer />
-        </>
+        </div>
     );
 }
 
