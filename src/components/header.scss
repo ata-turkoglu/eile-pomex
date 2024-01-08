@@ -1,16 +1,8 @@
-.header{
-    position: fixed;
-    z-index: 3;
-    width: 100%;
-    height: 100px;
-    background-color: rgba(240, 240, 240, 0.97);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-block: 1rem;
-    padding-inline: 2rem;
+ .active{
+        background-color: #5f7ccc;
+    }
 
-    .logo-container{
+    nav .logo-container{
         height: 100%;
         width: auto;
 
@@ -18,26 +10,98 @@
             width: 100%;
             height: 100%;
         }
-    }
-
-    .nav-container{
-        width: 50%;
+    }  
+    nav {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(240, 240, 240, 0.97);
+        position: sticky;
+        top: 0;
+    }
+    
+    nav ul {
+        display: flex;
+        width: 50%;
         align-items: center;
         align-self: flex-end;
         justify-content: space-around;
-
-        .nav-item{
-            cursor: pointer;
-            font-weight: 600;
-            text-decoration: none;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: rgb(16, 16, 89);
-            font-size: 1.2rem;
+    }
+    
+    nav ul li {
+       list-style: none;
+       
+    }
+    
+    nav ul li a {
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 0.5rem;
+        margin: 0 0.5rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.2rem;
+    }
+    
+    nav ul li a:not(.active):hover {
+        background-color:#172554 ;
+        color: white;
+    }
+    
+    nav .menu {
+        display: none;
+        position: absolute;
+        top: 0.75rem;
+        right: 0.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 2.25rem;
+        height: 2rem;
+    }
+    
+    nav .menu span {
+        height: 0.4rem;
+        width: 100%;
+        background-color: #0f172a;
+        border-radius: 0.2rem;
+    }
+    
+    
+    @media (max-width: 480px) {
+        nav .menu {
+            display: flex;
         }
-
-        @media screen and (max-width:768px) {
+    
+        nav {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        nav ul {
             display: none;
+            flex-direction:column;
+            width: 100%;
+            margin-bottom: 0.25rem;
+        }
+    
+        nav ul.open {
+            display: flex;
+        }
+    
+        nav ul li {
+            width: 100%;
+            text-align: center;
+        }
+    
+        nav ul li a {
+            margin: 0.2rem 0.5rem;
         }
     }
-}
+
+
+
+
+   
