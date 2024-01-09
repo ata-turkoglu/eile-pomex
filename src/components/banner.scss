@@ -21,6 +21,25 @@
         align-items: center;
         justify-content: center;
         padding: 1rem;
-    
+        animation: 1s ease slide-left;
     }
 }
+.slide-right {
+    animation: 1s ease slide-right;
+  }
+@keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+@keyframes slide-left {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: -100%;
+    }
+  }

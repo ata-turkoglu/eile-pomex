@@ -16,15 +16,26 @@ function Header() {
       }
 
     return (
-        <nav>
+        <div className="header">
             <div className="logo-container">
                 <img src={logo} />
             </div>
-
-            <div className="menu" onClick={toggleActiveClass}>
-                <span></span>
-                <span></span>
-                <span></span>
+            <div className="nav-container">
+                <Link className="nav-item" to="/">
+                    Anasayfa
+                </Link>
+                <Link className="nav-item" to="/about">
+                    Hakkımızda
+                </Link>
+                <Link className="nav-item" to="/products">
+                    Ürünler
+                </Link>
+                <Link className="nav-item" to="/docs">
+                    Belgelerimiz
+                </Link>
+                <Link className="nav-item" to="/references">
+                    Referanslar
+                </Link>
             </div>
             
             <div>

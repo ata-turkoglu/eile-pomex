@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/header.jsx";
 import Footer from "./components/footer";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
