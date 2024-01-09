@@ -9,16 +9,18 @@
     background-color: rgb(244, 249, 249);
 
     h2{
-        margin-top: 2.2rem;
-        margin-bottom: 3.4rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
     }
 
     .content{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+/*         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
 
         .groupCard{
             position: relative;

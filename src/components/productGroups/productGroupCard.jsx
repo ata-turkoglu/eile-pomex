@@ -4,9 +4,9 @@ import "./productGroupSection.scss";
 function ProductGroupCard({ image, text, icon }) {
     return (
         <div className="groupCard">
-            <div className="groupIcon">
+            {/*<div className="groupIcon">
                 <img src={icon} />
-            </div>
+            </div>*/}
             <div className="imgContainer">
                 <img src={image} />
             </div>

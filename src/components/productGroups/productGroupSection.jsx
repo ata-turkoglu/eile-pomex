@@ -8,6 +8,7 @@ import img4 from "../../assets/productGroups/c4.jpg";
 import img5 from "../../assets/productGroups/c5.jpeg";
 import img6 from "../../assets/productGroups/c6.jpeg";
 import img7 from "../../assets/productGroups/c7.jpeg";
+import img8 from "../../assets/introCarousel/siva.jpg";
 import icon1 from "../../assets/groupIcons/i1.png";
 import icon2 from "../../assets/groupIcons/i2.png";
 import icon3 from "../../assets/groupIcons/i3.png";
@@ -50,6 +51,7 @@ function ProductGroupSection() {
                     text="Fuga ve Derz Dolgular"
                     icon={icon4}
                 />
+                <ProductCard image={img8} text="Sıvalar" icon={icon4} />
             </div>
         </div>
     );

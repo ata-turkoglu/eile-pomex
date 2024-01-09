@@ -5,6 +5,7 @@ import logo from "../assets/eile-logo.png";
 import roundLogo from "../assets/eile-round.png";
 import { Link } from "react-router-dom";
 import productsJSON from "../data/products.json";
+import { Instagram, Facebook, Twitter, Linkedin } from "lucide-react";
 
 function Header() {
     const [narrowHeader, setNarrowHeader] = useState(false);
@@ -35,6 +36,7 @@ function Header() {
             className="header"
             style={{
                 height: narrowHeader ? "50px" : "100px",
+                paddingLeft: narrowHeader ? "2rem" : "0",
             }}
         >
             <Link
@@ -42,7 +44,7 @@ function Header() {
                     narrowHeader ? "logo-container-narrow" : "logo-container"
                 }
                 to="/"
-                style={{ paddingBlock: narrowHeader ? "0" : "1rem" }}
+                /* style={{ paddingBlock: narrowHeader ? "0" : "1rem" }} */
             >
                 <img src={narrowHeader ? roundLogo : logo} />
             </Link>
@@ -57,9 +59,7 @@ function Header() {
                     to="/products"
                     style={{
                         paddingBlock: narrowHeader ? "0" : "1rem",
-                        backgroundColor: hoverProducts
-                            ? "rgb(245, 245, 245)"
-                            : "",
+                        alignItems: narrowHeader ? "center" : "flex-end",
                     }}
                     onMouseOver={() => setHoverProducts(true)}
                     onMouseLeave={() => setHoverProducts(false)}
@@ -69,24 +69,52 @@ function Header() {
                 <Link
                     className="nav-item"
                     to="/about"
-                    style={{ paddingBlock: narrowHeader ? "0" : "1rem" }}
+                    style={{
+                        paddingBlock: narrowHeader ? "0" : "1rem",
+                        alignItems: narrowHeader ? "center" : "flex-end",
+                    }}
                 >
                     Hakkımızda
                 </Link>
                 <Link
                     className="nav-item"
                     to="/docs"
-                    style={{ paddingBlock: narrowHeader ? "0" : "1rem" }}
+                    style={{
+                        paddingBlock: narrowHeader ? "0" : "1rem",
+                        alignItems: narrowHeader ? "center" : "flex-end",
+                    }}
                 >
                     Belgelerimiz
                 </Link>
                 <Link
                     className="nav-item"
                     to="/references"
-                    style={{ paddingBlock: narrowHeader ? "0" : "1rem" }}
+                    style={{
+                        paddingBlock: narrowHeader ? "0" : "1rem",
+                        alignItems: narrowHeader ? "center" : "flex-end",
+                    }}
                 >
                     Referanslar
                 </Link>
+                <Link
+                    className="nav-item"
+                    to="/contact"
+                    style={{
+                        paddingBlock: narrowHeader ? "0" : "1rem",
+                        alignItems: narrowHeader ? "center" : "flex-end",
+                    }}
+                >
+                    İletişim
+                </Link>
+            </div>
+            <div className="socialContainer">
+                <Linkedin color="rgb(0,91,168)" style={{ cursor: "pointer" }} />
+                <Twitter color="rgb(0,91,168)" style={{ cursor: "pointer" }} />
+                <Instagram
+                    color="rgb(0,91,168)"
+                    style={{ cursor: "pointer" }}
+                />
+                <Facebook color="rgb(0,91,168)" style={{ cursor: "pointer" }} />
             </div>
             {hoverProducts && (
                 <div
