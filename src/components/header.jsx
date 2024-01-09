@@ -25,9 +25,9 @@ function Header() {
                 <span></span>
                 <span></span>
                 <span></span>
-            <div>
-                
             </div>
+            
+            <div>
             <ul className={menuOpen ? "open" : ""}>
                 <li onClick={removeActive}>
                     <NavLink to="/">Anasayfa</NavLink>
@@ -42,6 +42,7 @@ function Header() {
                     <NavLink to="/references">Referanslar</NavLink>
                 </li>
             </ul>
+            </div>
         </nav>
 
     );
