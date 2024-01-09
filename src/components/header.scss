@@ -1,14 +1,30 @@
+
  .active{
         background-color: #5f7ccc;
     }
 
+.header{
+    z-index: 3;
+    width: 100%;
+    height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    background-color: rgba(250, 250, 250, 0.97);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+
+
     nav .logo-container{
         height: 100%;
-        width: auto;
+        width: 200px;
 
         img{
             width: 100%;
             height: 100%;
+            object-fit: contain;
         }
     }  
     nav {
@@ -74,6 +90,7 @@
         nav .menu {
             display: flex;
         }
+
     
         nav {
             flex-direction: column;
@@ -99,6 +116,7 @@
         nav ul li a {
             margin: 0.2rem 0.5rem;
         }
+
     }
 
 

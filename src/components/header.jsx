@@ -20,11 +20,11 @@ function Header() {
             <div className="logo-container">
                 <img src={logo} />
             </div>
+
             <div className="menu" onClick={toggleActiveClass}>
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
             <div>
                 
             </div>
