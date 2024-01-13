@@ -1,5 +1,6 @@
 import React from "react";
 import Intro from "../components/intro";
+import Metrics from "../components/metrics";
 import Info from "../components/info";
 import Banner from "../components/banner";
 import Brands from "../components/brands";
@@ -11,7 +12,7 @@ function Home() {
     return (
         <div className="home">
             <Intro />
-            {/*<div className="spacerH50"></div>*/}
+            <Metrics />
             <Info
                 image={thermomexImg}
                 text="Çimento esaslı, karışımında bulunan gözenekli yapıya sahip doğal hafif agregalar sayesinde uygulandığı yüzeyde nefes alan ısı-ses ve yangın yalıtımı sağlayan, sıva formunda çok amaçlı yalıtım malzemesidir. Yapıların dış ve iç cephelerinde tuğla-gaz beton-bims blok gibi yüzeyler üzerine kaba sıva yerine uygulanır."

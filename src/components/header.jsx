@@ -194,7 +194,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            Belgelerimiz
+                            BELGELERİMİZ
                         </Link>
                         <Link
                             className="nav-item"
@@ -218,7 +218,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            İletişim
+                            İLETİŞİM
                         </Link>
                     </div>
                     <div

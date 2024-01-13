@@ -2,9 +2,11 @@ import React from "react";
 import "./intro.scss";
 import { useState } from "react";
 import { Carousel } from "react-bootstrap";
-import img1 from "../assets/introCarousel/s0.png";
-import img2 from "../assets/introCarousel/s1.jpg";
+import img1 from "../assets/introCarousel/thermal-plaster.jpeg";
+import img2 from "../assets/introCarousel/waterproofing.jpeg";
 import img3 from "../assets/introCarousel/s2.jpg";
+import img4 from "../assets/introCarousel/tile-adhesive.jpeg";
+import img5 from "../assets/introCarousel/joint-grout.jpeg";
 
 function Intro() {
     const [index, setIndex] = useState(0);
@@ -17,12 +19,16 @@ function Intro() {
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <div className="imgContainer">
-                        <img className="d-block w-100" src={img1} />
+                        <img className="d-block w-100" src={img4} />
                     </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className="imgContainer">
-                        <img className="d-block w-100" src={img2} />
+                    <div className="carousel-caption d-none d-md-block">
+                        <h4>Çimento Esaslı Yapıştırıcılar</h4>
+                        <p>
+                            Tamamıyla AR-GE bölümümüz tarafından geliştirilen ve
+                            üretilen ürünlerimiz yüksek teknolojiye sahip
+                            labaratuvarlarımızdan onay almadan satışa
+                            çıkmamaktadır.
+                        </p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -37,6 +43,21 @@ function Intro() {
                             labaratuvarlarımızdan onay almadan satışa
                             çıkmamaktadır.
                         </p>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="imgContainer">
+                        <img className="d-block w-100" src={img5} />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="imgContainer">
+                        <img className="d-block w-100" src={img1} />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="imgContainer">
+                        <img className="d-block w-100" src={img2} />
                     </div>
                 </Carousel.Item>
             </Carousel>
