@@ -5,7 +5,15 @@ import logo from "../assets/eile-logo.png";
 import roundLogo from "../assets/eile-round.png";
 import { Link } from "react-router-dom";
 import productsJSON from "../data/products.json";
-import { Instagram, Facebook, Twitter, Linkedin, Phone } from "lucide-react";
+import {
+    Instagram,
+    Facebook,
+    Twitter,
+    Linkedin,
+    Phone,
+    MapPin,
+    Search,
+} from "lucide-react";
 
 function Header() {
     const [narrowHeader, setNarrowHeader] = useState(false);
@@ -37,6 +45,10 @@ function Header() {
             style={{
                 height: narrowHeader ? "50px" : "100px",
                 paddingLeft: narrowHeader ? "2rem" : "0",
+                borderImage: narrowHeader
+                    ? "linear-gradient(to right,white, rgb(1,90,170), white) 30"
+                    : "",
+                borderWidth: narrowHeader ? 3 : "",
             }}
         >
             <Link
@@ -56,37 +68,42 @@ function Header() {
             >
                 {!narrowHeader && (
                     <div className="nav-container-top">
+                        <MapPin color="rgb(1,90,170)" size={18} />
                         <span
-                            style={{ marginRight: "3rem", fontSize: ".9rem" }}
+                            style={{
+                                marginLeft: "1rem",
+                                marginRight: "3rem",
+                                fontSize: ".9rem",
+                            }}
                         >
                             Ankara Asfaltı Belkahve Mevkii No:277 Kavaklıdere
                             Köyü Bornova / İZMİR
                         </span>
-                        <Phone color="rgb(0,91,168)" size={18} />
+                        <Phone color="rgb(1,90,170)" size={18} />
                         <span style={{ marginInline: "1rem" }}>
                             0 232 360 17 77
                         </span>
                         <Linkedin
-                            color="rgb(0,91,168)"
+                            color="rgb(1,90,170)"
                             style={{
                                 cursor: "pointer",
                                 marginRight: "10px",
-                                marginLeft: "24px",
+                                marginLeft: "2rem",
                             }}
                             size={18}
                         />
                         <Twitter
-                            color="rgb(0,91,168)"
+                            color="rgb(1,90,170)"
                             style={{ cursor: "pointer", marginRight: "10px" }}
                             size={18}
                         />
                         <Instagram
-                            color="rgb(0,91,168)"
+                            color="rgb(1,90,170)"
                             style={{ cursor: "pointer", marginRight: "10px" }}
                             size={18}
                         />
                         <Facebook
-                            color="rgb(0,91,168)"
+                            color="rgb(1,90,170)"
                             style={{ cursor: "pointer", marginRight: "10px" }}
                             size={18}
                         />
@@ -161,24 +178,16 @@ function Header() {
                         >
                             İletişim
                         </Link>
-                        {/*<div className="socialContainer">
-                            <Linkedin
-                                color="rgb(0,91,168)"
-                                style={{ cursor: "pointer" }}
-                            />
-                            <Twitter
-                                color="rgb(0,91,168)"
-                                style={{ cursor: "pointer" }}
-                            />
-                            <Instagram
-                                color="rgb(0,91,168)"
-                                style={{ cursor: "pointer" }}
-                            />
-                            <Facebook
-                                color="rgb(0,91,168)"
-                                style={{ cursor: "pointer" }}
-                            />
-                        </div>*/}
+                    </div>
+                    <div
+                        className="searchContainer"
+                        style={{ alignItems: narrowHeader ? "center" : "" }}
+                    >
+                        <Search
+                            color="rgb(16, 16, 89)"
+                            style={{ cursor: "pointer", marginRight: "10px" }}
+                            size={24}
+                        />
                     </div>
                 </div>
             </div>

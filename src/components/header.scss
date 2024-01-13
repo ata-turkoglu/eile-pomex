@@ -1,3 +1,5 @@
+//rgb(37,89,164)
+
 .header{
     position: fixed;
     z-index: 4;
@@ -14,6 +16,8 @@
     transition: height ease .3s;
 /*     border-bottom: 1px solid rgb(230, 230, 230); */
     font-family: 'Play', sans-serif;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, rgb(1,90,170) 25%, white) 30;
 
     .logo-container{
         height: 100%;
@@ -61,7 +65,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
-                padding-left: 3rem;
+                padding-left: 0rem;
                 .nav-item{
                     height: 100%;
                     position: relative;
@@ -78,11 +82,24 @@
                     text-transform: capitalize;
                     text-transform: uppercase;
                 }
+
+                .nav-item:first-child{
+                    padding-left: 2.5rem;
+                }
                 
                 .nav-item:hover{
                     background-color: rgb(245, 245, 245);
-                    border-bottom: 4px solid rgb(0,91,168);
+                    /* border-bottom: 4px solid rgb(0,91,168); */
                 }
+            }
+            .searchContainer{
+                width: fit-content;
+                height: 100%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                padding: 1rem;
+                color: rgb(16, 16, 89);
             }
             .socialContainer{
                 width: 15%;
@@ -102,7 +119,7 @@
     
     .headerBelowPart{
         position: absolute;
-        top: 100%;
+        top: 103%;
         left: 0;
         height: fit-content;
         width: 100%;

@@ -2,6 +2,7 @@ import React from "react";
 import Intro from "../components/intro";
 import Info from "../components/info";
 import Banner from "../components/banner";
+import Brands from "../components/brands";
 import ProductGroupSection from "../components/productGroups/productGroupSection";
 import infoImage1 from "../assets/introCarousel/siva.jpg";
 import bannerImage from "../assets/sustainability.jpg";
@@ -18,6 +19,7 @@ function Home() {
             <Banner image={bannerImage} />
             {/*<div className="spacerH50"></div>*/}
             <ProductGroupSection />
+            <Brands />
             <div className="spacerH50"></div>
         </div>
     );
