@@ -21,7 +21,6 @@
         align-items: center;
         justify-content: center;
         padding: 1rem;
-        animation: 1s ease slide-left;
     }
 }
 .slide-right {
@@ -29,10 +28,10 @@
   }
 @keyframes slide-right {
     from {
-      margin-left: -100%;
+      left: -100%;
     }
     to {
-      margin-left: 0%;
+      left: 0;
     }
   }
 @keyframes slide-left {
