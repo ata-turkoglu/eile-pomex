@@ -14,11 +14,13 @@ import {
     MapPin,
     Search,
 } from "lucide-react";
+import Form from "react-bootstrap/Form";
 
 function Header() {
     const [narrowHeader, setNarrowHeader] = useState(false);
     const [products, setProducts] = useState([]);
     const [hoverProducts, setHoverProducts] = useState(false);
+    const [collapse, setCollapse] = useState(true);
 
     useEffect(() => {
         function setHeaderHeight() {
@@ -29,15 +31,55 @@ function Header() {
             }
         }
         window.addEventListener("scroll", setHeaderHeight);
-
-        const res = productsJSON.map((item) => {
-            return <p key={item.key}>{item.name}</p>;
-        });
-        setProducts(res);
         return () => {
             window.removeEventListener("scroll", setHeaderHeight);
         };
     }, []);
+
+    useEffect(() => {
+        const res = (
+            <div className="productListContainer">
+                {productsJSON.map((item) => {
+                    return (
+                        <div
+                            key={item.key}
+                            className={
+                                collapse
+                                    ? "productListItem"
+                                    : "productListItem1"
+                            }
+                        >
+                            <div
+                                className={
+                                    collapse ? "productGroup" : "productGroup1"
+                                }
+                            >
+                                <p>{item.name}</p>
+                            </div>
+                            {item.subGroups && (
+                                <div
+                                    className={
+                                        collapse
+                                            ? "productSubGroups"
+                                            : "productSubGroups1"
+                                    }
+                                >
+                                    {item.subGroups.map((subGroup) => {
+                                        return (
+                                            <p key={subGroup.key}>
+                                                {subGroup.name}
+                                            </p>
+                                        );
+                                    })}
+                                </div>
+                            )}
+                        </div>
+                    );
+                })}
+            </div>
+        );
+        setProducts(res);
+    }, [collapse]);
 
     return (
         <div
@@ -183,6 +225,21 @@ function Header() {
                         className="searchContainer"
                         style={{ alignItems: narrowHeader ? "center" : "" }}
                     >
+                        <span
+                            style={{
+                                paddingRight: ".6rem",
+                                paddingBottom: ".12rem",
+                            }}
+                        >
+                            Right
+                        </span>
+                        <Form.Check
+                            type="switch"
+                            style={{ marginRight: "2rem" }}
+                            label="Down"
+                            checked={collapse}
+                            onChange={(e) => setCollapse(e.target.checked)}
+                        />
                         <Search
                             color="rgb(16, 16, 89)"
                             style={{ cursor: "pointer", marginRight: "10px" }}

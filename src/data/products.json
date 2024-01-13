@@ -1,15 +1,81 @@
 [
     {
         "key": "1",
-        "name": "Onarım ve Güçlendirme Sistemleri"
+        "name": "Onarım ve Güçlendirme Sistemleri",
+        "subGroups": [
+            {
+                "key": "9",
+                "name": "Kimyasal Dübeller"
+            },
+            {
+                "key": "10",
+                "name": "Epoksi Esaslı Onarım Güçlendirme"
+            },
+            {
+                "key": "11",
+                "name": "Çimento Esaslı Onarım Güçlendirme"
+            },
+            {
+                "key": "12",
+                "name": "Karbon Esaslı Onarım Güçlendirme"
+            },
+            {
+                "key": "13",
+                "name": "Tarihi Eser Onarım Güçlendirme"
+            }
+        ]
     },
     {
         "key": "2",
-        "name": "Su Yalıtım Sistemleri"
+        "name": "Su Yalıtım Sistemleri",
+        "subGroups": [
+            {
+                "key": "14",
+                "name": "Çimento Esaslı Su Yalıtım"
+            },
+            {
+                "key": "15",
+                "name": "Akrilik Esaslı Su Yalıtım"
+            },
+            {
+                "key": "16",
+                "name": "Bitüm Esaslı Su Yalıtım"
+            },
+            {
+                "key": "17",
+                "name": "Epoksi Poliüretan Esaslı Su Yalıtım"
+            },
+            {
+                "key": "18",
+                "name": "Epoksi Katran Esaslı Su Yalıtım"
+            },
+            {
+                "key": "19",
+                "name": "Dilatasyon Bandı"
+            }
+        ]
     },
     {
         "key": "3",
-        "name": "Zemin Sistemleri"
+        "name": "Zemin Sistemleri",
+        "subGroups": [
+            {
+                "key": "20",
+                "name": "Çimento Esaslı Zemin Sistemleri"
+            },
+            {
+                "key": "21",
+                "name": "Epoksi Poliüretan Esaslı Kaplamalar Boyalar"
+            },
+            {
+                "key": "22",
+                "name": "Epoksi Poliüretan Esaslı Astarlar"
+            },
+            {
+                "key": "23",
+                "name": "Kür Malzemeleri"
+            }
+        ]
     },
     {
         "key": "4",
@@ -21,11 +87,31 @@
     },
     {
         "key": "6",
-        "name": "Yapıştırıcılar"
+        "name": "Yapıştırıcılar",
+        "subGroups": [
+            {
+                "key": "24",
+                "name": "Çimento Esaslı Yapıştırıcılar"
+            },
+            {
+                "key": "25",
+                "name": "Epoksi Esaslı Yapıştırıcılar"
+            }
+        ]
     },
     {
         "key": "7",
-        "name": "Fuga Derz Dolgular"
+        "name": "Fuga Derz Dolgular",
+        "subGroups": [
+            {
+                "key": "26",
+                "name": "Çimento Esaslı Fugalar"
+            },
+            {
+                "key": "27",
+                "name": "Epoksi Esaslı Fugalar"
+            }
+        ]
     },
     {
         "key": "8",

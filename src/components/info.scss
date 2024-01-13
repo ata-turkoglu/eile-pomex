@@ -41,7 +41,9 @@
             height: 100%;
             border-radius: 70px 0 70px 0;
             overflow: hidden;
-            border: 5px outset rgb(1,90,170) ;
+            /* border: 5px outset rgb(1,90,170) ; */
+            border: 8px outset rgb(1,169,156) ;
+            box-shadow: 0 0 15px -3px grey;
 
             @media screen and (max-width:768px) {
                 width: 100%;

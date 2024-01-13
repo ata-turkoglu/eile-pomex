@@ -1,0 +1,42 @@
+/* .productListItem{
+    height: fit-content;
+    width: fit-content;
+}
+.productGroup{
+    transition: all ease .2s;
+}
+.productGroup > p{
+    text-wrap: nowrap;
+    text-align: left;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.productGroup:hover{
+    border-left: 3px solid rgb(1,90,170);
+    padding-left: 3px;
+
+}
+.productListItem:hover .productSubGroups{
+    display: block;
+}
+
+.productSubGroups{
+    display: none;
+    transition: all ease .2s;
+    transform-origin: top;
+    animation: .25s ease-out slide-nav-right;
+}
+
+.productGroup:hover{
+    display: block;
+}
+
+.productListItem > .productSubGroups p{
+    text-wrap: nowrap;
+    text-align: left;
+    padding: 0;
+    padding-left: 2rem;
+    font-size: .8rem;
+    cursor: pointer;
+} */

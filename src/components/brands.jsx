@@ -14,6 +14,20 @@ function Brands() {
                 </div>
                 <div className="images">
                     <div className="imgContainer">
+                        <img src={persanWhiteImg} />
+                    </div>
+                    <div className="imgContainer">
+                        <img src={sardesQuartzImg} />
+                    </div>
+                    <div className="imgContainer">
+                        <img src={eileWhiteImg} />
+                    </div>
+                    <div className="imgContainer">
+                        <img src={sardesQuartzImg} />
+                    </div>
+                </div>
+                <div className="images">
+                    <div className="imgContainer">
                         <img src={sardesQuartzImg} />
                     </div>
                     <div className="imgContainer">
