@@ -46,12 +46,14 @@ function ProductGroupSection() {
                     text="Astar ve Destek Ürünleri"
                     icon={icon1}
                 />
+                {/* 
                 <ProductCard
                     image={img7}
                     text="Fuga ve Derz Dolgular"
                     icon={icon4}
                 />
-                <ProductCard image={img8} text="Sıvalar" icon={icon4} />
+                <ProductCard image={img8} text="Sıvalar" icon={icon4} /> 
+                */}
             </div>
         </div>
     );
