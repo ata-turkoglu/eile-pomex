@@ -170,7 +170,7 @@ function Header() {
                             onMouseOver={() => setHoverProducts(true)}
                             onMouseLeave={() => setHoverProducts(false)}
                         >
-                            Ürünler
+                            <span>Ürünler</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -182,7 +182,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            Hakkımızda
+                            <span>Hakkımızda</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -194,7 +194,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            BELGELERİMİZ
+                            <span>BELGELERİMİZ</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -206,7 +206,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            Referanslar
+                            <span>Referanslar</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -218,7 +218,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            İLETİŞİM
+                            <span>İLETİŞİM</span>
                         </Link>
                     </div>
                     <div

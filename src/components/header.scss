@@ -82,6 +82,9 @@
                     padding-inline: 1.5rem;
                     text-transform: capitalize;
                     text-transform: uppercase;
+                    span{
+                        filter: drop-shadow(0 0 5px darken($main-grey,10%));
+                    }
                 }
 
                 .nav-item:first-child{

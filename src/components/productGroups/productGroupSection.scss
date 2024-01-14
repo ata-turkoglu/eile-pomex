@@ -1,3 +1,4 @@
+@import "../../variables.scss";
 .productGroupSection{
     width: 100%;
     height: fit-content;
@@ -12,6 +13,7 @@
     h2{
         margin-top: 4rem;
         margin-bottom: 2rem;
+        filter: drop-shadow(0 0 5px darken($main-grey,10%));
     }
 
     .content{

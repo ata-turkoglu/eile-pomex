@@ -16,12 +16,14 @@
 
         .metricIcon{
             color: $logo-blue;
+            filter: drop-shadow(0 0 5px darken($main-grey,5%));
         }
 
         .metricCount{
-            font-size: 1.3rem;
+            font-size: 2rem;
             font-weight: 600;
             color: black;
+            filter: drop-shadow(0 0 5px darken($main-grey,5%));
         }
         
         p{

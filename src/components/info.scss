@@ -21,6 +21,7 @@
     h2{
         margin-top: 3rem;
         margin-bottom: 2rem;
+        filter: drop-shadow(0 0 5px darken($main-grey,10%));
 
         @media screen and (max-width:768px) {
             margin-bottom: 1.2rem;
