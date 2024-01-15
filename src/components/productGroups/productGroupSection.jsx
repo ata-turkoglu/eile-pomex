@@ -18,7 +18,7 @@ import icon5 from "../../assets/groupIcons/i5.png";
 function ProductGroupSection() {
     return (
         <div className="productGroupSection">
-            <h2>Ürün Grupları</h2>
+            <h2>Ürün Grupları / Örnek Projeler</h2>
             <div className="content">
                 <ProductCard
                     image={img1}
