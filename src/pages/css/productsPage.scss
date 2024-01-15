@@ -1,0 +1,106 @@
+.products{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 100vh;
+    
+    .categories{
+        min-width: 280px;
+        width: fit-content;
+        min-height: calc(100vh - 100px);
+        padding: 2rem 1rem;
+        border-right: 1px solid rgb(200, 200, 200);
+        /* background-color: rgb(240, 240, 240); */
+
+        ul.group{
+            margin: 0;
+            padding: 0;
+            span{
+                font-size: .9rem;
+            }
+            span{
+                &:hover {
+                    border-bottom: 1px solid grey;
+                }
+            }
+
+            li{
+                height: fit-content;
+                list-style: none;
+                margin: 0;
+                cursor: pointer;
+                margin-bottom: 1.5rem;
+                padding: 0;
+                text-align: left;
+                transition: transform ease .2s;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                .open{
+                    animation: .25s ease-out slide-nav-down;
+                }
+                .close{
+                    animation: .25s ease-out slide-nav-up;
+                }
+    
+
+                ul.subGroup{
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    padding-block: .5rem;
+                    padding-left: .5rem;
+                    transform-origin: top;
+                    
+                    li{
+                        list-style: none;
+                        margin: 0;
+                        cursor: pointer;
+                        padding: 0;
+                        text-align: left;
+                        font-size: .8rem;
+                        transition: transform ease .2s;
+                        padding-block: .3rem;
+                        &:hover{
+                            transform: translateX(8px);
+                            transition: transform ease .2s;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .productList{
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;    
+    }
+}
+
+@keyframes slide-nav-down {
+    from {
+        opacity: 0;
+        transform: scaleY(0)
+    }
+    to {
+        opacity: 1;
+        transform: scaleY(1)
+        
+    }
+  }
+@keyframes slide-nav-up {
+    from {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+    to {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+  }
