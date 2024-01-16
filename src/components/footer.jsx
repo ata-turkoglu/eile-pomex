@@ -1,35 +1,101 @@
 import React from "react";
 import "./footer.scss";
-import pomza_export from "../assets/companies/pomza_export.jpeg";
-import erper from "../assets/companies/erper.png";
-import persan from "../assets/companies/persan.jpeg";
 import { Link } from "react-router-dom";
+import { Instagram, Facebook, Linkedin, Youtube } from "lucide-react";
 
 function Footer() {
     return (
         <div className="footer">
-            <div className="footer-companies">
-                <h5 className="mb-4">Grup Şirketlerimiz</h5>
-                <img src={pomza_export} />
-                <img src={erper} />
-                <img src={persan} />
+            <div className="sb__footer section__padding">
+                <div className="sb__footer-links">
+                    <div className="sb__footer-links-div">
+                        <h4>HAKKIMIZDA</h4>
+                        <a href="/kalite-politikamiz">
+                            <p>Kalite Politikamız</p>
+                        </a>
+                        <a href="/misyon-vizyon">
+                            <p>Misyonumuz-Vizyonumuz</p>
+                        </a>
+                    </div>
+
+                    <div className="sb__footer-links-div">
+
+                        <h4>ÜRÜNLERİMİZ</h4>
+                        <a href="/onarim-guclendirme-sistemleri">
+                            <p>Onarım Güçlendirme Sistemleri</p>
+                        </a>
+                        <a href="/su-yalitim-sistemleri">
+                            <p>Su Yalıtım Sistemleri</p>
+                        </a>
+                        <a href="/zemin-sistemleri">
+                            <p>Zemin Sistemleri</p>
+                        </a>
+                        <a href="/sivalar">
+                            <p>Sıvalar</p>
+                        </a>
+                        <a href="/yapistiricilar">
+                            <p>Yapıştırıcılar</p>
+                        </a>
+                        <a href="/fuga-derz-dolgular">
+                            <p>Fuga Derz Dolgular</p>
+                        </a>
+                        <a href="/astar-ve-kalip-ayiricilar">
+                            <p>Astar ve Destek Ürünleri</p>
+                        </a>
+                    </div>
+
+                    <div className="sb__footer-links-div">
+                        <h4>BELGELERİMİZ</h4>
+                        <a href="/firma-belgeleri">
+                            <p>Firma Belgeleri</p>
+                        </a>
+                        <a href="/ürün-belgeleri">
+                            <p>Ürün Belgeleri</p>
+                        </a>
+                    </div>
+
+                    <div className="sb__footer-address">
+                        <h4 className="mb-4">Eile Pomex Yapı Kimyasalları</h4>
+                        <p>Ankara Asfaltı Belkahve Mevkii No:277</p>
+                        <p>Kavaklıdere Köyü Bornova / İZMİR</p>
+                        <p>Tel : 0232 360 17 77</p>
+                        <p>Fax : 0232 360 16 16</p>
+                    </div>
+
+                    {/* <div className="sb__footer-links-div">
+                        <h4>Bizi Takip Edin</h4>
+                        <div className="socialmedia">
+                            <Instagram />
+                            <Facebook />
+                            <Youtube />
+                            <Linkedin  style={{marginLeft: "5px"}}/>
+                            
+                        </div>
+                    </div> */}
+
+                    <div className="sb__footer-map-section">
+                        <iframe width="350" height="300" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
+                         src="https://maps.google.com/maps?width=350&amp;height=300&amp;hl=en&amp;q=Ankara%20Asfalt%C4%B1%20Belkahve%20Mevkii%20No:277%20Kavakl%C4%B1dere%20K%C3%B6y%C3%BC%20Bornova%20/%20%C4%B0ZM%C4%B0R+(Eile%20Pomex)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Find Population on Map</a></iframe>
+                        </div>
+                </div>
+
+                <hr></hr>
+
+                <div className="sb__footer-below">
+                    <div className="sb__footer-copyright">
+                        <p>
+                            @{new Date().getFullYear()} Eile Pomex Tüm Hakları Saklıdır.
+                        </p>
+                    </div>
+                    <div className="sb__footer-below-links">
+                        <a href="/KKVK">
+                            <div> <p>Kişisel Verilerin Korunması</p></div>
+                        </a>
+                    </div>
+                </div>
+
+                
             </div>
-            <div className="vr"></div>
-            <div className="footer-links">
-                <Link className="nav-item">Hakkımızda</Link>
-                <Link className="nav-item">Ürünler</Link>
-                <Link className="nav-item">Referanslar</Link>
-            </div>
-            <div className="vr"></div>
-            <div className="footer-adress">
-                <h5 className="mb-4">Eile Pomex Yapı Kimyasalları</h5>
-                <p>Ankara Asfaltı Belkahve Mevkii No:277</p>
-                <p>Kavaklıdere Köyü Bornova / İZMİR</p>
-                <p>Tel : 0232 360 17 77</p>
-                <p>Fax : 0232 360 16 16</p>
-            </div>
-            <div className="vr"></div>
-            <div className="footer-map">map</div>
         </div>
     );
 }
