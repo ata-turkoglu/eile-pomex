@@ -4,28 +4,130 @@
         "name": "Su Yalıtım Sistemleri",
         "subGroups": [
             {
-                "key": "9",
-                "name": "Çimento Esaslı Su Yalıtım"
+                "key": "1-1",
+                "name": "Çimento Esaslı Su Yalıtım",
+                "items": [
+                    {
+                        "key": "1-1-1",
+                        "name": "eile A SEAL",
+                        "img": null
+                    },
+                    {
+                        "key": "1-1-2",
+                        "name": "eile MAX SEAL ELASTİK",
+                        "img": null
+                    },
+                    {
+                        "key": "1-1-3",
+                        "name": "eile MAX SEAL",
+                        "img": null
+                    },
+                    {
+                        "key": "1-1-4",
+                        "name": "eile KAPİLER",
+                        "img": null
+                    },
+                    {
+                        "key": "1-1-5",
+                        "name": "POMEX WATER BOND",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "10",
-                "name": "Akrilik Esaslı Su Yalıtım"
+                "key": "1-2",
+                "name": "Akrilik Esaslı Su Yalıtım",
+                "items": [
+                    {
+                        "key": "1-2-1",
+                        "name": "eile LİKİT AKRİLİK",
+                        "img": null
+                    },
+                    {
+                        "key": "1-2-2",
+                        "name": "eile ELASTOMER",
+                        "img": null
+                    },
+                    {
+                        "key": "1-2-3",
+                        "name": "eile ELASTOMER TEXTURE",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "11",
-                "name": "Bitüm Esaslı Su Yalıtım"
+                "key": "1-3",
+                "name": "Bitüm Esaslı Su Yalıtım",
+                "items": [
+                    {
+                        "key": "1-3-1",
+                        "name": "eile MET ZZK-40",
+                        "img": null
+                    },
+                    {
+                        "key": "1-3-2",
+                        "name": "eile BİTÜ-ÇİM ELASTİK",
+                        "img": null
+                    },
+                    {
+                        "key": "1-3-3",
+                        "name": "eile BİTÜ-ÇİM",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "12",
-                "name": "Epoksi Poliüretan Esaslı Su Yalıtım"
+                "key": "1-4",
+                "name": "Epoksi Poliüretan Esaslı Su Yalıtım",
+                "items": [
+                    {
+                        "key": "1-4-1",
+                        "name": "eile EPX 018",
+                        "img": null
+                    },
+                    {
+                        "key": "1-4-2",
+                        "name": "eile POLİJET 120",
+                        "img": null
+                    },
+                    {
+                        "key": "1-4-3",
+                        "name": "eile PUR 012",
+                        "img": null
+                    },
+                    {
+                        "key": "1-4-4",
+                        "name": "eile PUR 710",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "13",
-                "name": "Epoksi Katran Esaslı Su Yalıtım"
+                "key": "1-5",
+                "name": "Epoksi Katran Esaslı Su Yalıtım",
+                "items": [
+                    {
+                        "key": "1-5-1",
+                        "name": "eile EPX 2222",
+                        "img": null
+                    },
+                    {
+                        "key": "1-5-2",
+                        "name": "eile EPS 876",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "14",
-                "name": "Dilatasyon Bandı"
+                "key": "1-6",
+                "name": "Dilatasyon Bandı",
+                "items": [
+                    {
+                        "key": "1-6-1",
+                        "name": "FC 805 System",
+                        "img": null
+                    }
+                ]
             }
         ]
     },
@@ -34,24 +136,144 @@
         "name": "Onarım ve Güçlendirme Sistemleri",
         "subGroups": [
             {
-                "key": "15",
-                "name": "Kimyasal Dübeller"
+                "key": "2-1",
+                "name": "Kimyasal Dübeller",
+                "items": [
+                    {
+                        "key": "2-1-1",
+                        "name": "eile POWER WT 1",
+                        "img": null
+                    },
+                    {
+                        "key": "2-1-2",
+                        "name": "eile EPOX",
+                        "img": null
+                    },
+                    {
+                        "key": "2-1-3",
+                        "name": "eile ROTFIX",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "16",
-                "name": "Epoksi Esaslı Onarım Güçlendirme"
+                "key": "2-2",
+                "name": "Epoksi Esaslı Onarım Güçlendirme",
+                "items": [
+                    {
+                        "key": "2-2-1",
+                        "name": "eile EPX 100",
+                        "img": null
+                    },
+                    {
+                        "key": "2-2-2",
+                        "name": "eile EPX 50",
+                        "img": null
+                    },
+                    {
+                        "key": "2-2-3",
+                        "name": "eile EPX 120",
+                        "img": null
+                    },
+                    {
+                        "key": "2-2-4",
+                        "name": "eile EPX 240 G",
+                        "img": null
+                    },
+                    {
+                        "key": "2-2-5",
+                        "name": "eile EPX 300",
+                        "img": null
+                    },
+                    {
+                        "key": "2-2-6",
+                        "name": "eile WT 78",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "17",
-                "name": "Çimento Esaslı Onarım Güçlendirme"
+                "key": "2-3",
+                "name": "Çimento Esaslı Onarım Güçlendirme",
+                "items": [
+                    {
+                        "key": "2-3-1",
+                        "name": "eile GROUT 50 C",
+                        "img": null
+                    },
+                    {
+                        "key": "2-3-2",
+                        "name": "eile GROUT 60 C",
+                        "img": null
+                    },
+                    {
+                        "key": "2-3-3",
+                        "name": "eile TH 60",
+                        "img": null
+                    },
+                    {
+                        "key": "2-3-4",
+                        "name": "eile TH 70",
+                        "img": null
+                    },
+                    {
+                        "key": "2-3-5",
+                        "name": "eile SNS 804",
+                        "img": null
+                    },
+                    {
+                        "key": "2-3-6",
+                        "name": "eile A-K8",
+                        "img": null
+                    },
+                    {
+                        "key": "2-3-7",
+                        "name": "POMEX BRÜT BETON TAMİR HARCI",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "18",
-                "name": "Karbon Esaslı Onarım Güçlendirme"
+                "key": "2-4",
+                "name": "Karbon Esaslı Onarım Güçlendirme",
+                "items": [
+                    {
+                        "key": "2-4-1",
+                        "name": "eile CARBOSHIELD",
+                        "img": null
+                    },
+                    {
+                        "key": "2-4-2",
+                        "name": "eile CARBOFRP",
+                        "img": null
+                    },
+                    {
+                        "key": "2-4-3",
+                        "name": "eile EPX 33",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "19",
-                "name": "Tarihi Eser Onarım Güçlendirme"
+                "key": "2-5",
+                "name": "Tarihi Eser Onarım Güçlendirme",
+                "items": [
+                    {
+                        "key": "2-5-1",
+                        "name": "eile HORASAN HARCI",
+                        "img": null
+                    },
+                    {
+                        "key": "2-5-2",
+                        "name": "eile LIME INJECTION",
+                        "img": null
+                    },
+                    {
+                        "key": "2-5-3",
+                        "name": "HİDROLİK KİREÇ",
+                        "img": null
+                    }
+                ]
             }
         ]
     },
@@ -60,20 +282,133 @@
         "name": "Zemin Sistemleri",
         "subGroups": [
             {
-                "key": "20",
-                "name": "Çimento Esaslı Zemin Sistemleri"
+                "key": "3-1",
+                "name": "Çimento Esaslı Zemin Sistemleri",
+                "items": [
+                    {
+                        "key": "3-1-1",
+                        "name": "eile Top 110 s",
+                        "img": null
+                    },
+                    {
+                        "key": "3-1-2",
+                        "name": "eile KORUND 120 F",
+                        "img": null
+                    },
+                    {
+                        "key": "3-1-3",
+                        "name": "POMEX YÜZEY SERTLEŞTİRİCİ",
+                        "img": null
+                    },
+                    {
+                        "key": "3-1-4",
+                        "name": "eile LEVEL",
+                        "img": null
+                    },
+                    {
+                        "key": "3-1-5",
+                        "name": "eile PERFLOOR",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "21",
-                "name": "Epoksi Poliüretan Esaslı Kaplamalar Boyalar"
+                "key": "3-2",
+                "name": "Epoksi Poliüretan Esaslı Kaplamalar Boyalar",
+                "items": [
+                    {
+                        "key": "3-2-1",
+                        "name": "eile EPX 550",
+                        "img": null
+                    },
+                    {
+                        "key": "3-2-2",
+                        "name": "eile PUR 053",
+                        "img": null
+                    },
+                    {
+                        "key": "3-2-3",
+                        "name": "eile EPX 400",
+                        "img": null
+                    },
+                    {
+                        "key": "3-2-4",
+                        "name": "eile EPX 629",
+                        "img": null
+                    },
+                    {
+                        "key": "3-2-5",
+                        "name": "eile EAP 435",
+                        "img": null
+                    },
+                    {
+                        "key": "3-2-6",
+                        "name": "eile EAP 4000",
+                        "img": null
+                    },
+                    {
+                        "key": "3-2-7",
+                        "name": "eile EPX 830",
+                        "img": null
+                    },
+                    {
+                        "key": "3-2-8",
+                        "name": "eile EPX 730",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "22",
-                "name": "Epoksi Poliüretan Esaslı Astarlar"
+                "key": "3-3",
+                "name": "Epoksi Poliüretan Esaslı Astarlar",
+                "items": [
+                    {
+                        "key": "3-3-1",
+                        "name": "eile EPX 021",
+                        "img": null
+                    },
+                    {
+                        "key": "3-3-2",
+                        "name": "eile EPX 260",
+                        "img": null
+                    },
+                    {
+                        "key": "3-3-3",
+                        "name": "eile EPX 225",
+                        "img": null
+                    },
+                    {
+                        "key": "3-3-4",
+                        "name": "eile EPX 110",
+                        "img": null
+                    },
+                    {
+                        "key": "3-3-5",
+                        "name": "eile EPS 201",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "23",
-                "name": "Kür Malzemeleri"
+                "key": "3-4",
+                "name": "Kür Malzemeleri",
+                "items": [
+                    {
+                        "key": "3-4-1",
+                        "name": "eile CURING 105",
+                        "img": null
+                    },
+                    {
+                        "key": "3-4-2",
+                        "name": "eile CURING AST",
+                        "img": null
+                    },
+                    {
+                        "key": "3-4-3",
+                        "name": "eile PARKÜR",
+                        "img": null
+                    }
+                ]
             }
         ]
     },
@@ -82,12 +417,61 @@
         "name": "Yapıştırıcılar",
         "subGroups": [
             {
-                "key": "24",
-                "name": "Çimento Esaslı Yapıştırıcılar"
+                "key": "4-1",
+                "name": "Çimento Esaslı Yapıştırıcılar",
+                "items": [
+                    {
+                        "key": "4-1-1",
+                        "name": "eile SYP 1000",
+                        "img": null
+                    },
+                    {
+                        "key": "4-1-2",
+                        "name": "eile FLEX YAPIŞTIRICI",
+                        "img": null
+                    },
+                    {
+                        "key": "4-1-3",
+                        "name": "POMEX SERAMİK YAPIŞTIRMA HARCI",
+                        "img": null
+                    },
+                    {
+                        "key": "4-1-4",
+                        "name": "POMEX HAVUZ YAPIŞTIRICISI",
+                        "img": null
+                    },
+                    {
+                        "key": "4-1-5",
+                        "name": "eile POMEX 28",
+                        "img": null
+                    },
+                    {
+                        "key": "4-1-6",
+                        "name": "POMEX HIZLI DONAN SERAMİK YAPIŞTIRICISI",
+                        "img": null
+                    },
+                    {
+                        "key": "4-1-7",
+                        "name": "POMEX GRANİT YAPIŞTIRICISI",
+                        "img": null
+                    },
+                    {
+                        "key": "4-1-8",
+                        "name": "POMEX GAZBETON YAPIŞTIRICISI",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "25",
-                "name": "Epoksi Esaslı Yapıştırıcılar"
+                "key": "4-2",
+                "name": "Epoksi Esaslı Yapıştırıcılar",
+                "items": [
+                    {
+                        "key": "4-2-1",
+                        "name": "eile EPX 927",
+                        "img": null
+                    }
+                ]
             }
         ]
     },
@@ -96,25 +480,175 @@
         "name": "Fuga Derz Dolgular",
         "subGroups": [
             {
-                "key": "26",
-                "name": "Çimento Esaslı Fugalar"
+                "key": "5-1",
+                "name": "Çimento Esaslı Fugalar",
+                "items": [
+                    {
+                        "key": "5-1-1",
+                        "name": "POMEX DERZ DOLGU",
+                        "img": null
+                    },
+                    {
+                        "key": "5-1-2",
+                        "name": "POMEX FLEX FUGA",
+                        "img": null
+                    },
+                    {
+                        "key": "5-1-3",
+                        "name": "POMEX HAVUZ FUGA",
+                        "img": null
+                    },
+                    {
+                        "key": "5-1-4",
+                        "name": "POMEX RUSTİK FUGA",
+                        "img": null
+                    }
+                ]
             },
             {
-                "key": "27",
-                "name": "Epoksi Esaslı Fugalar"
+                "key": "5-2",
+                "name": "Epoksi Esaslı Fugalar",
+                "items": [
+                    {
+                        "key": "5-2-1",
+                        "name": "eile EPX 630",
+                        "img": null
+                    },
+                    {
+                        "key": "5-2-2",
+                        "name": "eile POLİÜRETAN MASTİK 100",
+                        "img": null
+                    },
+                    {
+                        "key": "5-2-3",
+                        "name": "EİLE POLİÜERTAN MASTİK 125",
+                        "img": null
+                    }
+                ]
             }
         ]
     },
     {
         "key": "6",
-        "name": "Isı Ses Yangın İzolasyonu"
+        "name": "Isı Ses Yangın İzolasyonu",
+        "items": [
+            {
+                "key": "6-0-1",
+                "name": "THERMOMEX- D ŞAP",
+                "img": null
+            },
+            {
+                "key": "6-0-2",
+                "name": "POMEX THERMOMEX SIVA",
+                "img": null
+            },
+            {
+                "key": "6-0-3",
+                "name": "POMEX THERMOMEX ŞAP",
+                "img": null
+            },
+            {
+                "key": "6-0-4",
+                "name": "eile PLY 2100",
+                "img": null
+            },
+            {
+                "key": "6-0-5",
+                "name": "eile PLS 2000",
+                "img": null
+            },
+            {
+                "key": "6-0-6",
+                "name": "POMEX ISI MANTOLAMA SIVASI",
+                "img": null
+            },
+            {
+                "key": "6-0-7",
+                "name": "POMEX ISI MANTOLAMA YAPIŞTIRICISI",
+                "img": null
+            }
+        ]
     },
     {
         "key": "7",
-        "name": "Sıvalar"
+        "name": "Sıvalar",
+        "items": [
+            {
+                "key": "7-0-1",
+                "name": "POMEX GBS 5000",
+                "img": null
+            },
+            {
+                "key": "7-0-2",
+                "name": "eile SON KAT ELYAFLI SIVA",
+                "img": null
+            },
+            {
+                "key": "7-0-3",
+                "name": "eile MİNERAL SIVA – DS 40",
+                "img": null
+            },
+            {
+                "key": "7-0-4",
+                "name": "POMEX İNCE SIVA",
+                "img": null
+            },
+            {
+                "key": "7-0-5",
+                "name": "POMEX KALIN SIVA",
+                "img": null
+            },
+            {
+                "key": "7-0-6",
+                "name": "POMEX MAKİNA SIVASI",
+                "img": null
+            }
+        ]
     },
     {
         "key": "8",
-        "name": "Astar ve Destek Ürünleri"
+        "name": "Astar ve Destek Ürünleri",
+        "items": [
+            {
+                "key": "8-0-1",
+                "name": "eile ASTAR E",
+                "img": null
+            },
+            {
+                "key": "8-0-2",
+                "name": "eile TU-05",
+                "img": null
+            },
+            {
+                "key": "8-0-3",
+                "name": "eile TU 06",
+                "img": null
+            },
+            {
+                "key": "8-0-4",
+                "name": "eile LATEX",
+                "img": null
+            },
+            {
+                "key": "8-0-5",
+                "name": "eile FİBER",
+                "img": null
+            },
+            {
+                "key": "8-0-6",
+                "name": "eile KA 100",
+                "img": null
+            },
+            {
+                "key": "8-0-7",
+                "name": "eile KA 300",
+                "img": null
+            },
+            {
+                "key": "8-0-8",
+                "name": "eile EPX 201",
+                "img": null
+            }
+        ]
     }
 ]
