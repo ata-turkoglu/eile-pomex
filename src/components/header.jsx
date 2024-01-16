@@ -20,7 +20,7 @@ function Header() {
     const [narrowHeader, setNarrowHeader] = useState(false);
     const [products, setProducts] = useState([]);
     const [hoverProducts, setHoverProducts] = useState(false);
-    const [collapse, setCollapse] = useState(true);
+    const [collapse, setCollapse] = useState(false);
 
     useEffect(() => {
         function setHeaderHeight() {
