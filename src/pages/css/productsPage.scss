@@ -99,7 +99,7 @@
         animation: .25s ease-out bg-slide-right;
 
         h3{
-
+            filter: drop-shadow(0 0 5px darken($main-grey,10%));
         }
 
         .productList{

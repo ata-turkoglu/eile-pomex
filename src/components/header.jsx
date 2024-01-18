@@ -49,13 +49,14 @@ function Header() {
                                     : "productListItem1"
                             }
                         >
-                            <div
+                            <Link
                                 className={
                                     collapse ? "productGroup" : "productGroup1"
                                 }
+                                to={"/products/" + item.key}
                             >
                                 <p>{item.name}</p>
-                            </div>
+                            </Link>
                             {item.subGroups && (
                                 <div
                                     className={
@@ -66,9 +67,13 @@ function Header() {
                                 >
                                     {item.subGroups.map((subGroup) => {
                                         return (
-                                            <p key={subGroup.key}>
+                                            <Link
+                                                key={subGroup.key}
+                                                className="subGroupLink"
+                                                to={"/products/" + subGroup.key}
+                                            >
                                                 {subGroup.name}
-                                            </p>
+                                            </Link>
                                         );
                                     })}
                                 </div>
@@ -160,7 +165,7 @@ function Header() {
                     <div className="nav-container-links">
                         <Link
                             className="nav-item"
-                            to="/products"
+                            to="/products/0"
                             style={{
                                 paddingBlock: narrowHeader ? "0" : "1rem",
                                 alignItems: narrowHeader
@@ -241,7 +246,7 @@ function Header() {
                             onChange={(e) => setCollapse(e.target.checked)}
                         />
                         <Search
-                            color="rgb(16, 16, 89)"
+                            color="rgb(16,16,89)"
                             style={{ cursor: "pointer", marginRight: "10px" }}
                             size={24}
                         />
