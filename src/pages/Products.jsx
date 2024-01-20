@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./css/productsPage.scss";
 import productData from "../data/products.json";
 import ProductCard from "../components/productCard";
@@ -15,10 +15,12 @@ function Products() {
     const [header, setHeader] = useState(null);
 
     let { productKey } = useParams();
+    const initiated = useRef(false);
 
     useEffect(() => {
         console.log("productKey", productKey);
         handleCategoryItemClick(productKey);
+        initiated.current = true;
     }, [productKey]);
 
     const handleGroupClick = (key) => {
@@ -45,7 +47,7 @@ function Products() {
     };
 
     const handleCategoryItemClick = (key) => {
-        console.log("handleCategoryItemClick");
+        console.log("handleCategoryItemClick", key, initiated);
         const keyList = key.split("-");
         const len = keyList.length;
         if (len == 1) {
@@ -55,13 +57,16 @@ function Products() {
             } else {
                 const group = productData.find((group) => group.key == key);
                 if (group.subGroups) {
-                    /* const items = group.subGroups.reduce((acc, curr) => {
-                        acc.push(...curr.items);
-                        return acc;
-                    }, []);
-                    setHeader(group.name);
-                    setProducts(items); */
-                    handleGroupClick(key);
+                    if (initiated.current) {
+                        handleGroupClick(key);
+                    } else {
+                        const items = group.subGroups.reduce((acc, curr) => {
+                            acc.push(...curr.items);
+                            return acc;
+                        }, []);
+                        setHeader(group.name);
+                        setProducts(items);
+                    }
                 } else {
                     setHeader(group.name);
                     setProducts(group.items);

@@ -186,6 +186,24 @@
                     border-left: 3px solid $logo-green;
                     padding-left: 3px;
                 }
+
+                .subGroupLink{
+                    display: block;
+                    text-wrap: nowrap;
+                    text-align: left;
+                    padding: 0;
+                    margin-block: 1rem;
+                    margin-left: 1rem;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    transition: all ease .2s;
+                    text-decoration: none;
+                    color: $text-black;
+                }
+                .subGroupLink:hover{
+                    border-left: 4px solid $logo-green;
+                    padding-left: 3px;
+                }
             }
             
         }
