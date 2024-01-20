@@ -1,9 +1,10 @@
-import React, { useEffect, useLayoutEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./css/productsPage.scss";
 import productData from "../data/products.json";
 import ProductCard from "../components/productCard";
 import pImg from "../assets/products/grout50c.png";
 import { ChevronDown, ChevronRight } from "lucide-react";
+import { useParams } from "react-router-dom";
 
 function Products() {
     const [productCategories, setProductCategories] = useState([]);
@@ -12,6 +13,13 @@ function Products() {
     const [selectedGroup, setSelectedGroup] = useState(null);
     const [selectedSubGroup, setSelectedSubGroup] = useState(null);
     const [header, setHeader] = useState(null);
+
+    let { productKey } = useParams();
+
+    useEffect(() => {
+        console.log("productKey", productKey);
+        handleCategoryItemClick(productKey);
+    }, [productKey]);
 
     const handleGroupClick = (key) => {
         let list = JSON.parse(JSON.stringify(selectedGroups));
@@ -35,6 +43,53 @@ function Products() {
         }
         setSelectedGroups(list);
     };
+
+    const handleCategoryItemClick = (key) => {
+        console.log("handleCategoryItemClick");
+        const keyList = key.split("-");
+        const len = keyList.length;
+        if (len == 1) {
+            if (keyList[0] == 0) {
+                setHeader("Products");
+                setProducts(productData);
+            } else {
+                const group = productData.find((group) => group.key == key);
+                if (group.subGroups) {
+                    /* const items = group.subGroups.reduce((acc, curr) => {
+                        acc.push(...curr.items);
+                        return acc;
+                    }, []);
+                    setHeader(group.name);
+                    setProducts(items); */
+                    handleGroupClick(key);
+                } else {
+                    setHeader(group.name);
+                    setProducts(group.items);
+                }
+            }
+        } else if (len == 2) {
+            const groupKey = keyList[0];
+            const subGroupKey = keyList[1];
+
+            const group = productData.find((group) => group.key == groupKey);
+
+            if (subGroupKey == 0) {
+                const items = group.subGroups.reduce((acc, curr) => {
+                    acc.push(...curr.items);
+                    return acc;
+                }, []);
+                setHeader(group.name);
+                setProducts(items);
+            } else {
+                const subGroup = group.subGroups.find((sub) => sub.key == key);
+                console.log("---", key, subGroup);
+                setHeader(subGroup.name);
+                setProducts(subGroup.items);
+            }
+        }
+    };
+
+    //setCategoryList(leftSideBar)
     useEffect(() => {
         let categoryList = (
             <ul className="group">
@@ -45,7 +100,10 @@ function Products() {
                             onClick={() => setSelectedGroup(group.key)}
                         >
                             <span
-                                onClick={() => handleGroupClick(group.key)}
+                                /* onClick={() => handleGroupClick(group.key)} */
+                                onClick={() =>
+                                    handleCategoryItemClick(group.key)
+                                }
                                 /* className={
                                     selectedGroup == group.key && "bg-slide"
                                 } */
@@ -82,7 +140,10 @@ function Products() {
                                             <li
                                                 key={sub.key}
                                                 onClick={() =>
-                                                    setSelectedSubGroup(sub.key)
+                                                    /* setSelectedSubGroup(sub.key) */
+                                                    handleCategoryItemClick(
+                                                        sub.key
+                                                    )
                                                 }
                                             >
                                                 {sub.name}
@@ -99,7 +160,7 @@ function Products() {
         setProductCategories(categoryList);
     }, [selectedGroups]);
 
-    useEffect(() => {
+    /* useEffect(() => {
         console.log("selectedSubGroup", selectedSubGroup);
         if (!selectedSubGroup) {
             setHeader("Products");
@@ -135,7 +196,7 @@ function Products() {
                 setProducts(subGroup.items);
             }
         }
-    }, [selectedSubGroup]);
+    }, [selectedSubGroup]); */
 
     return (
         <div className="products">
