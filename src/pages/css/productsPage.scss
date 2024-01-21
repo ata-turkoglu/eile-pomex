@@ -4,12 +4,13 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    min-height: 100vh;
+    height:  calc(100vh);
+    overflow: hidden;
     
     .categories{
         width: max-content;
         min-height: calc(100vh - 100px);
-        height: fit-content;
+        height: 100%;
         padding-block: 2rem;
         border-right: 1px solid rgb(200, 200, 200);
         /* background-color: rgb(240, 240, 240); */
@@ -17,6 +18,8 @@
         ul.group{
             margin: 0;
             padding: 0;
+            height: 100%;
+            overflow: auto;
             
             li{
                 height: fit-content;
@@ -91,7 +94,6 @@
                 //animation: .3s ease-out bg-slide-right ;
             }
         }
-
     }
 
     .listContainer{
@@ -99,6 +101,7 @@
         padding-top: 2rem;
         flex: 1;
         animation: .25s ease-out bg-slide-right;
+        height: 100%;
 
         h3{
             filter: drop-shadow(0 0 5px darken($main-grey,10%));
@@ -112,6 +115,8 @@
             align-items: flex-start;
             justify-content: center;
             animation: .25s ease-out bg-slide-right;
+            overflow: auto;
+            height: 100%;
         }
     }
 
