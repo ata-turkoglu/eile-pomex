@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
 import "./css/productsPage.scss";
 import productData from "../data/products.json";
 import ProductCard from "../components/productCard";
@@ -17,8 +17,11 @@ function Products() {
     let { productKey } = useParams();
     const initiated = useRef(false);
 
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     useEffect(() => {
-        console.log("productKey", productKey);
         handleCategoryItemClick(productKey);
         initiated.current = true;
     }, [productKey]);
@@ -47,7 +50,6 @@ function Products() {
     };
 
     const handleCategoryItemClick = (key) => {
-        console.log("handleCategoryItemClick", key, initiated);
         const keyList = key.split("-");
         const len = keyList.length;
         if (len == 1) {
@@ -87,7 +89,6 @@ function Products() {
                 setProducts(items);
             } else {
                 const subGroup = group.subGroups.find((sub) => sub.key == key);
-                console.log("---", key, subGroup);
                 setHeader(subGroup.name);
                 setProducts(subGroup.items);
             }
@@ -100,12 +101,8 @@ function Products() {
             <ul className="group">
                 {productData.map((group) => {
                     return (
-                        <li
-                            key={group.key}
-                            onClick={() => setSelectedGroup(group.key)}
-                        >
+                        <li key={group.key}>
                             <span
-                                /* onClick={() => handleGroupClick(group.key)} */
                                 onClick={() =>
                                     handleCategoryItemClick(group.key)
                                 }
@@ -133,7 +130,7 @@ function Products() {
                                 >
                                     <li
                                         onClick={() =>
-                                            setSelectedSubGroup(
+                                            handleCategoryItemClick(
                                                 group.key + "-0"
                                             )
                                         }
@@ -145,7 +142,6 @@ function Products() {
                                             <li
                                                 key={sub.key}
                                                 onClick={() =>
-                                                    /* setSelectedSubGroup(sub.key) */
                                                     handleCategoryItemClick(
                                                         sub.key
                                                     )

@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
+import "./css/docsPage.scss";
 
 function Docs() {
-    return <div>Belgelerimiz</div>;
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    return (
+        <div className="docs">
+            <h1>Belgelerimiz</h1>
+        </div>
+    );
 }
 
 export default Docs;

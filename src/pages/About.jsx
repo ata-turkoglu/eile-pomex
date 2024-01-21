@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
+import "./css/aboutPage.scss";
 
 function About() {
-    return <div>About Page</div>;
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    return (
+        <div className="about">
+            <h1>About Page</h1>
+        </div>
+    );
 }
 
 export default About;

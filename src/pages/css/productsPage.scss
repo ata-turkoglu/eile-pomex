@@ -37,6 +37,7 @@
                     font-size: 1rem;
                     padding-block: .3rem;
                     color: $logo-blue;
+                    font-weight: 600;
                     text-wrap: nowrap;
                     filter: drop-shadow(0 0 5px darken($main-grey,10%));
                 }
@@ -74,7 +75,8 @@
                         transition: transform ease .2s;
                         padding-block: .3rem;
                         padding-right: .5rem;
-                        color: $logo-green;
+                        /* color: $logo-green; */
+                        color: $test;
                         text-wrap: nowrap;
                         filter: drop-shadow(0 0 5px darken($main-grey,5%));
                         &:hover{

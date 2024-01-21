@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import Intro from "../components/intro";
 import Metrics from "../components/metrics";
 import Info from "../components/info";
@@ -9,6 +9,10 @@ import infoImage1 from "../assets/introCarousel/siva.jpg";
 import thermomexImg from "../assets/products/thermomex.png";
 import bannerImage from "../assets/sustainability.jpg";
 function Home() {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="home">
             <Intro />
