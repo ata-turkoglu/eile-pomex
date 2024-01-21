@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Products from "./pages/Products.jsx";
+import ProductDetails from "./pages/ProductDetails.jsx";
 import References from "./pages/References.jsx";
 import Docs from "./pages/Docs.jsx";
 import Contact from "./pages/Contact.jsx";
@@ -20,6 +21,10 @@ function App() {
                     <Route
                         path="/products/:productKey"
                         element={<Products />}
+                    ></Route>
+                    <Route
+                        path="/product-details/:productKey"
+                        element={<ProductDetails />}
                     ></Route>
                     <Route path="/about" element={<About />}></Route>
                     <Route path="/references" element={<References />}></Route>

@@ -1,9 +1,9 @@
 import React from "react";
 import "./productCard.scss";
 
-function ProductCard({ image, text }) {
+function ProductCard({ image, text, onClick }) {
     return (
-        <div className="productCard">
+        <div className="productCard" onClick={onClick}>
             <div className="productCard-imgContainer">
                 <img src={image} />
             </div>

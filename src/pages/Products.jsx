@@ -4,7 +4,7 @@ import productData from "../data/products.json";
 import ProductCard from "../components/productCard";
 import pImg from "../assets/products/grout50c.png";
 import { ChevronDown, ChevronRight } from "lucide-react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 function Products() {
     const [productCategories, setProductCategories] = useState([]);
@@ -14,6 +14,7 @@ function Products() {
     const [selectedSubGroup, setSelectedSubGroup] = useState(null);
     const [header, setHeader] = useState(null);
 
+    const navigate = useNavigate();
     let { productKey } = useParams();
     const initiated = useRef(false);
 
@@ -49,7 +50,7 @@ function Products() {
         setSelectedGroups(list);
     };
 
-    const handleCategoryItemClick = (key) => {
+    const handleCategoryItemClick = (key, fromCategory = true) => {
         const keyList = key.split("-");
         const len = keyList.length;
         if (len == 1) {
@@ -59,7 +60,7 @@ function Products() {
             } else {
                 const group = productData.find((group) => group.key == key);
                 if (group.subGroups) {
-                    if (initiated.current) {
+                    if (initiated.current && fromCategory) {
                         handleGroupClick(key);
                     } else {
                         const items = group.subGroups.reduce((acc, curr) => {
@@ -92,6 +93,14 @@ function Products() {
                 setHeader(subGroup.name);
                 setProducts(subGroup.items);
             }
+        }
+    };
+
+    const handleProductClick = (key) => {
+        if (key.includes("-")) {
+            navigate("/product-details/" + key);
+        } else {
+            handleCategoryItemClick(key, false);
         }
     };
 
@@ -161,44 +170,6 @@ function Products() {
         setProductCategories(categoryList);
     }, [selectedGroups]);
 
-    /* useEffect(() => {
-        console.log("selectedSubGroup", selectedSubGroup);
-        if (!selectedSubGroup) {
-            setHeader("Products");
-            setProducts(productData);
-            return;
-        }
-        if (!selectedSubGroup.includes("-")) {
-            const group = productData.find(
-                (group) => group.key == selectedSubGroup
-            );
-            setHeader(group.name);
-            setProducts(group.items);
-        } else {
-            let IDs = selectedSubGroup.split("-");
-
-            const groupID = IDs[0];
-            const subGroupID = IDs[1];
-
-            const group = productData.find((group) => group.key == groupID);
-
-            if (subGroupID == 0) {
-                const items = group.subGroups.reduce((acc, curr) => {
-                    acc.push(...curr.items);
-                    return acc;
-                }, []);
-                setHeader(group.name);
-                setProducts(items);
-            } else {
-                const subGroup = group.subGroups.find(
-                    (sub) => sub.key == selectedSubGroup
-                );
-                setHeader(subGroup.name);
-                setProducts(subGroup.items);
-            }
-        }
-    }, [selectedSubGroup]); */
-
     return (
         <div className="products">
             <div className="categories">{productCategories}</div>
@@ -211,6 +182,7 @@ function Products() {
                                 key={item.key}
                                 image={pImg}
                                 text={item.name}
+                                onClick={() => handleProductClick(item.key)}
                             />
                         );
                     })}
