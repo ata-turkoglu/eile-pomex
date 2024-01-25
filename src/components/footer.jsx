@@ -56,10 +56,10 @@ function Footer() {
 
                     <div className="sb__footer-address">
                         <h4 className="mb-4">Eile Pomex Yapı Kimyasalları</h4>
-                        <p>Ankara Asfaltı Belkahve Mevkii No:277</p>
-                        <p>Kavaklıdere Köyü Bornova / İZMİR</p>
-                        <p>Tel : 0232 360 17 77</p>
-                        <p>Fax : 0232 360 16 16</p>
+                        <p>Yeniköy Mah. Menderes-Orhanlı Yolu Sk.</p>
+                        <p>No: 179/26 Menderes/İzmir</p>
+                        <p>Tel : 0232 360 16 16</p>
+                        <p>Fax : 0232 360 17 77</p>
                     </div>
 
                     {/* <div className="sb__footer-links-div">
@@ -75,7 +75,7 @@ function Footer() {
 
                     <div className="sb__footer-map-section">
                         <iframe width="350" height="300" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
-                         src="https://maps.google.com/maps?width=350&amp;height=300&amp;hl=en&amp;q=Ankara%20Asfalt%C4%B1%20Belkahve%20Mevkii%20No:277%20Kavakl%C4%B1dere%20K%C3%B6y%C3%BC%20Bornova%20/%20%C4%B0ZM%C4%B0R+(Eile%20Pomex)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Find Population on Map</a></iframe>
+                         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Yenik%C3%B6y%20Mah.%20Menderes-Orhanl%C4%B1%20Yolu%20Sk.%20No:%20179/26%20Menderes/%C4%B0zmir+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
                         </div>
                 </div>
 

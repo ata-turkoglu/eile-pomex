@@ -70,10 +70,10 @@ function Contact() {
                             </div>
 
                             <div className="text">
-                                <h3>Adress</h3>
+                                <h3>Adres</h3>
                                 <p>
-                                    Ankara Asfaltı Belkahve Mevkii No:277 <br />
-                                    Kavaklıdere Köyü Bornova /İzmir{" "}
+                                    Yeniköy Mah. Menderes-Orhanlı Yolu Sk. <br />
+                                    No: 179/26 Menderes/İzmir
                                 </p>
                             </div>
                         </div>
@@ -84,8 +84,8 @@ function Contact() {
                             </div>
 
                             <div className="text">
-                                <h3>Phone</h3>
-                                <p>0232 360 17 77</p>
+                                <h3>Telefon</h3>
+                                <p>0232 360 16 16</p>
                             </div>
                         </div>
 
@@ -95,7 +95,7 @@ function Contact() {
                             </div>
                             <div className="text">
                                 <h3>Fax</h3>
-                                <p>0232 360 16 16</p>
+                                <p>0232 360 17 77</p>
                             </div>
                         </div>
                     </div>

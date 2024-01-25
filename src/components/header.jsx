@@ -123,12 +123,12 @@ function Header() {
                                 fontSize: ".9rem",
                             }}
                         >
-                            Ankara Asfaltı Belkahve Mevkii No:277 Kavaklıdere
-                            Köyü Bornova / İZMİR
+                            Yeniköy Mah. Menderes-Orhanlı Yolu Sk.
+                            No: 179/26  Menderes/İzmir
                         </span>
                         <Phone color="rgb(1,90,170)" size={18} />
                         <span style={{ marginInline: "1rem" }}>
-                            0 232 360 17 77
+                            0 232 360 16 16
                         </span>
                         <Linkedin
                             color="rgb(1,90,170)"
