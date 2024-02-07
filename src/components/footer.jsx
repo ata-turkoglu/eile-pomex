@@ -75,7 +75,7 @@ function Footer() {
 
                     <div className="sb__footer-map-section">
                         <iframe width="350" height="300" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
-                         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Yenik%C3%B6y%20Mah.%20Menderes-Orhanl%C4%B1%20Yolu%20Sk.%20No:%20179/26%20Menderes/%C4%B0zmir+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
+                         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(ET%C4%B0PER%20Perlit%20%C4%B0%C5%9Fletme%20-%20POMZAEXPORT%20MADENC%C4%B0L%C4%B0K%20A.%C5%9E.)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe>
                         </div>
                 </div>
 
