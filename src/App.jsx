@@ -9,13 +9,22 @@ import ProductDetails from "./pages/ProductDetails.jsx";
 import References from "./pages/References.jsx";
 import Docs from "./pages/Docs.jsx";
 import Contact from "./pages/Contact.jsx";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
-function App() {
+function App(navigation) {
+    const route = useLocation();
+    const checkProductDetails = (route) => {
+        return route.pathname.includes("product-details");
+    };
     return (
         <div className="app">
             <Header />
-            <div className="pageContainer">
+            <div
+                className="pageContainer"
+                style={{
+                    paddingBottom: checkProductDetails(route) ? "0" : "1rem",
+                }}
+            >
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
                     <Route

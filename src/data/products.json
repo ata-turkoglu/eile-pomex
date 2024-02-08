@@ -10,27 +10,37 @@
                     {
                         "key": "1-1-1",
                         "name": "eile A SEAL",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-1-2",
                         "name": "eile MAX SEAL ELASTİK",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-1-3",
                         "name": "eile MAX SEAL",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-1-4",
                         "name": "eile KAPİLER",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-1-5",
                         "name": "POMEX WATER BOND",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -41,17 +51,23 @@
                     {
                         "key": "1-2-1",
                         "name": "eile LİKİT AKRİLİK",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-2-2",
                         "name": "eile ELASTOMER",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-2-3",
                         "name": "eile ELASTOMER TEXTURE",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -62,17 +78,23 @@
                     {
                         "key": "1-3-1",
                         "name": "eile MET ZZK-40",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-3-2",
                         "name": "eile BİTÜ-ÇİM ELASTİK",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-3-3",
                         "name": "eile BİTÜ-ÇİM",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -83,22 +105,30 @@
                     {
                         "key": "1-4-1",
                         "name": "eile EPX 018",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-4-2",
                         "name": "eile POLİJET 120",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-4-3",
                         "name": "eile PUR 012",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-4-4",
                         "name": "eile PUR 710",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -109,12 +139,16 @@
                     {
                         "key": "1-5-1",
                         "name": "eile EPX 2222",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "1-5-2",
                         "name": "eile EPS 876",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -125,7 +159,9 @@
                     {
                         "key": "1-6-1",
                         "name": "FC 805 System",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             }
@@ -142,17 +178,62 @@
                     {
                         "key": "2-1-1",
                         "name": "eile POWER WT 1",
-                        "img": null
+                        "img": "/assets/products/power_wt1.png",
+                        "info": "Two-Component, Adherence Augmenter and Corrosion Preventing Epoxy Resin Based Mortar",
+                        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                        "areasOfUsage": [
+                            "Woodwork lover, lamp, pipe, satellite dish mounting",
+                            "Water closet, bathroom armateurs",
+                            "Reinforcement anchorage, ironstone planting",
+                            "Advertising sign, road sign, doors, guardrails, hand rails, tent mounting"
+                        ],
+                        "featuresOfProduct": [
+                            "It is rapid curing",
+                            "It can be used with standard guns",
+                            "It can be used at low temperatures",
+                            "Its load carrying capacity is high and consumption is low"
+                        ],
+                        "beforeApplication": "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."
                     },
                     {
                         "key": "2-1-2",
                         "name": "eile EPOX",
-                        "img": null
+                        "img": "/assets/products/epox.png",
+                        "info": "Epoxy Acrylate Based Adherence Augmenter and Corrosion Preventing Epoxy Resin Based Mortar",
+                        "description": null,
+                        "areasOfUsage": [
+                            "Woodwork lover, lamp, pipe, satellite dish mounting",
+                            "Water closet, bathroom armateurs",
+                            "Reinforcement anchorage, ironstone planting",
+                            "Advertising sign, road sign, doors, guardrails, hand rails, tent mounting"
+                        ],
+                        "featuresOfProduct": [
+                            "It is rapid curing",
+                            "It can be used with standard guns",
+                            "It can be used at low temperatures",
+                            "Its load carrying capacity is high and consumption is low"
+                        ],
+                        "beforeApplication": "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."
                     },
                     {
                         "key": "2-1-3",
                         "name": "eile ROTFIX",
-                        "img": null
+                        "img": "/assets/products/rotfix.png",
+                        "info": "Polyester Based Thixotropic Mounting Material",
+                        "description": null,
+                        "areasOfUsage": [
+                            "Woodwork lover, lamp, pipe, satellite dish mounting",
+                            "Water closet, bathroom armateurs",
+                            "Reinforcement anchorage, ironstone planting",
+                            "Advertising sign, road sign, doors, guardrails, hand rails, tent mounting"
+                        ],
+                        "featuresOfProduct": [
+                            "It is rapid curing",
+                            "It can be used with standard guns",
+                            "It can be used at low temperatures",
+                            "Its load carrying capacity is high and consumption is low"
+                        ],
+                        "beforeApplication": "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."
                     }
                 ]
             },
@@ -162,33 +243,45 @@
                 "items": [
                     {
                         "key": "2-2-1",
-                        "name": "eile EPX 100",
-                        "img": null
+                        "name": "eile EPX 50",
+                        "img": "/assets/products/epx_50.png",
+                        "info": "Epoxy Based Two-Component, Thixotropic Anchorage and Mounting Epoxy Repair Resin",
+                        "description": null
                     },
                     {
                         "key": "2-2-2",
-                        "name": "eile EPX 50",
-                        "img": null
+                        "name": "eile EPX 100",
+                        "img": "/assets/products/epx_100.png",
+                        "info": "Epoxy Based Two-Component, Thixotropic Repair, Anchorage and Adhesive Mortar",
+                        "description": null
                     },
                     {
                         "key": "2-2-3",
                         "name": "eile EPX 120",
-                        "img": null
+                        "img": "/assets/products/teneke_epx_120.png",
+                        "info": "Epoxy Based, High Strength, Low Viscosity Grout Resin",
+                        "description": null
                     },
                     {
                         "key": "2-2-4",
                         "name": "eile EPX 240 G",
-                        "img": null
+                        "img": "/assets/products/epx_240.png",
+                        "info": "Three Component Epoxy Grout Mortar",
+                        "description": null
                     },
                     {
                         "key": "2-2-5",
                         "name": "eile EPX 300",
-                        "img": null
+                        "img": "/assets/products/eile_genel_teneke.png",
+                        "info": "Two-Component, Adherence Augmenter and Corrosion Preventing Epoxy Resin Based Mortar",
+                        "description": null
                     },
                     {
                         "key": "2-2-6",
                         "name": "eile WT 78",
-                        "img": null
+                        "img": "/assets/products/eile_genel_teneke.png",
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -199,37 +292,51 @@
                     {
                         "key": "2-3-1",
                         "name": "eile GROUT 50 C",
-                        "img": null
+                        "img": "/assets/products/grout50c.png",
+                        "info": " Lorem Ipsum",
+                        "description": null
                     },
                     {
                         "key": "2-3-2",
                         "name": "eile GROUT 60 C",
-                        "img": null
+                        "img": "/assets/products/grout60c.png",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-3-3",
                         "name": "eile TH 60",
-                        "img": null
+                        "img": "/assets/products/th60.png",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-3-4",
                         "name": "eile TH 70",
-                        "img": null
+                        "img": "/assets/products/th70.png",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-3-5",
                         "name": "eile SNS 804",
-                        "img": null
+                        "img": "/assets/products/sns804.png",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-3-6",
                         "name": "eile A-K8",
-                        "img": null
+                        "img": "/assets/products/a-k8.png",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-3-7",
                         "name": "POMEX BRÜT BETON TAMİR HARCI",
-                        "img": null
+                        "img": "/assets/products/gorsel_yok.png",
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -240,17 +347,23 @@
                     {
                         "key": "2-4-1",
                         "name": "eile CARBOSHIELD",
-                        "img": null
+                        "img": "/assets/products/carboshild.jpg",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-4-2",
                         "name": "eile CARBOFRP",
-                        "img": null
+                        "img": "/assets/products/carbo_frp.jpg",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-4-3",
                         "name": "eile EPX 33",
-                        "img": null
+                        "img": "/assets/products/teneke_epx_33.png",
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -261,17 +374,23 @@
                     {
                         "key": "2-5-1",
                         "name": "eile HORASAN HARCI",
-                        "img": null
+                        "img": "/assets/products/horasan_harci.png",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-5-2",
                         "name": "eile LIME INJECTION",
-                        "img": null
+                        "img": "/assets/products/lime_injection.png",
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "2-5-3",
                         "name": "HİDROLİK KİREÇ",
-                        "img": null
+                        "img": "/assets/products/gorsel_yok.png",
+                        "info": null,
+                        "description": null
                     }
                 ]
             }
@@ -288,27 +407,37 @@
                     {
                         "key": "3-1-1",
                         "name": "eile Top 110 s",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-1-2",
                         "name": "eile KORUND 120 F",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-1-3",
                         "name": "POMEX YÜZEY SERTLEŞTİRİCİ",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-1-4",
                         "name": "eile LEVEL",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-1-5",
                         "name": "eile PERFLOOR",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -319,42 +448,58 @@
                     {
                         "key": "3-2-1",
                         "name": "eile EPX 550",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-2-2",
                         "name": "eile PUR 053",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-2-3",
                         "name": "eile EPX 400",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-2-4",
                         "name": "eile EPX 629",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-2-5",
                         "name": "eile EAP 435",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-2-6",
                         "name": "eile EAP 4000",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-2-7",
                         "name": "eile EPX 830",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-2-8",
                         "name": "eile EPX 730",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -365,27 +510,37 @@
                     {
                         "key": "3-3-1",
                         "name": "eile EPX 021",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-3-2",
                         "name": "eile EPX 260",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-3-3",
                         "name": "eile EPX 225",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-3-4",
                         "name": "eile EPX 110",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-3-5",
                         "name": "eile EPS 201",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             },
@@ -396,17 +551,23 @@
                     {
                         "key": "3-4-1",
                         "name": "eile CURING 105",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-4-2",
                         "name": "eile CURING AST",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     },
                     {
                         "key": "3-4-3",
                         "name": "eile PARKÜR",
-                        "img": null
+                        "img": null,
+                        "info": null,
+                        "description": null
                     }
                 ]
             }

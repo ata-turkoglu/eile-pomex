@@ -6,7 +6,7 @@ import Banner from "../components/banner";
 import Brands from "../components/brands";
 import ProductGroupSection from "../components/productGroups/productGroupSection";
 import infoImage1 from "../assets/introCarousel/siva.jpg";
-import thermomexImg from "../assets/products/thermomex.png";
+import thermomexImg from "/assets/products/thermomex.png";
 import bannerImage from "../assets/sustainability.jpg";
 function Home() {
     useLayoutEffect(() => {

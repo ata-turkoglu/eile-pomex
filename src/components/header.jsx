@@ -38,7 +38,7 @@ function Header() {
 
     useEffect(() => {
         const res = (
-            <div className="productListContainer">
+            <div id="productListContainer" className="productListContainer">
                 {productsJSON.map((item) => {
                     return (
                         <div
@@ -53,6 +53,7 @@ function Header() {
                                 className={
                                     collapse ? "productGroup" : "productGroup1"
                                 }
+                                onClick={handleListItemClick}
                                 to={"/products/" + item.key}
                             >
                                 <p>{item.name}</p>
@@ -70,6 +71,7 @@ function Header() {
                                             <Link
                                                 key={subGroup.key}
                                                 className="subGroupLink"
+                                                onClick={handleListItemClick}
                                                 to={"/products/" + subGroup.key}
                                             >
                                                 {subGroup.name}
@@ -85,6 +87,13 @@ function Header() {
         );
         setProducts(res);
     }, [collapse]);
+
+    const handleListItemClick = () => {
+        const el = document.getElementById("productListContainer");
+        if (el) {
+            el.style.display = "none";
+        }
+    };
 
     return (
         <div
@@ -123,8 +132,8 @@ function Header() {
                                 fontSize: ".9rem",
                             }}
                         >
-                            Yeniköy Mah. Menderes-Orhanlı Yolu Sk.
-                            No: 179/26  Menderes/İzmir
+                            Yeniköy Mah. Menderes-Orhanlı Yolu Sk. No: 179/26
+                            Menderes/İzmir
                         </span>
                         <Phone color="rgb(1,90,170)" size={18} />
                         <span style={{ marginInline: "1rem" }}>

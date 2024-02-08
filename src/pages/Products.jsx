@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
 import "./css/productsPage.scss";
 import productData from "../data/products.json";
 import ProductCard from "../components/productCard";
-import pImg from "../assets/products/grout50c.png";
+import pImg from "/assets/products/grout50c.png";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { useParams, useNavigate } from "react-router-dom";
 
@@ -180,7 +180,7 @@ function Products() {
                         return (
                             <ProductCard
                                 key={item.key}
-                                image={pImg}
+                                image={item.img || pImg}
                                 text={item.name}
                                 onClick={() => handleProductClick(item.key)}
                             />
