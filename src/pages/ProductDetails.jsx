@@ -3,6 +3,8 @@ import "./css/productDetails.scss";
 import ProductData from "../data/products.json";
 import { useParams } from "react-router-dom";
 import img from "../../public/assets/products/eile_genel_teneke.png";
+import { Accordion } from "react-bootstrap";
+import appImg from "../../public/assets/products/grout60c_app.png";
 
 function ProductDetails() {
     const { productKey } = useParams();
@@ -88,23 +90,84 @@ function ProductDetails() {
                                 </div>
                             </div>
                             <div className="rightPart">
-                                <div className="beforeApplication">
-                                    <h4>
-                                        Application Procedure Surface
-                                        Preparation
-                                    </h4>
-                                    <p>
-                                        {product.beforeApplication ||
-                                            "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
-                                    </p>
+                                <div className="imgContainer">
+                                    <img src={appImg} />
                                 </div>
-                                <div className="beforeApplication">
-                                    <h4>Application</h4>
-                                    <p>
-                                        {product.beforeApplication ||
-                                            "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
-                                    </p>
-                                </div>
+                                <Accordion>
+                                    <Accordion.Item eventKey="0">
+                                        <Accordion.Header>
+                                            <h5>Surface Preparation</h5>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <p>
+                                                {product.beforeApplication ||
+                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
+                                            </p>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                    <Accordion.Item eventKey="1">
+                                        <Accordion.Header>
+                                            <h5>Mixing</h5>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <p>
+                                                {product.beforeApplication ||
+                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
+                                            </p>
+                                            <p>
+                                                <strong>Mixture Ratio:</strong>{" "}
+                                                by weight 3:1
+                                            </p>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                    <Accordion.Item eventKey="2">
+                                        <Accordion.Header>
+                                            <h5>Application</h5>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <p>
+                                                {product.beforeApplication ||
+                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
+                                            </p>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                    <Accordion.Item eventKey="3">
+                                        <Accordion.Header>
+                                            <h5>
+                                                Points to Take Into
+                                                Consideration
+                                            </h5>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <p>
+                                                {product.package ||
+                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
+                                            </p>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                    <Accordion.Item eventKey="4">
+                                        <Accordion.Header>
+                                            <h5>Package</h5>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <p>
+                                                {product.package ||
+                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
+                                            </p>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                    <Accordion.Item eventKey="5">
+                                        <Accordion.Header>
+                                            <h5>Storage</h5>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <p>
+                                                {product.storage ||
+                                                    "It should be stored in unopened original package between +5 °C and +35 °C. It should be protected from direct sunlight and frost. And opened product should be stored in original package by closing its cover."}
+                                            </p>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                </Accordion>
                             </div>
                         </div>
                     </div>
