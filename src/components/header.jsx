@@ -239,7 +239,7 @@ function Header() {
                         className="searchContainer"
                         style={{ alignItems: narrowHeader ? "center" : "" }}
                     >
-                        <span
+                        {/* <span
                             style={{
                                 paddingRight: ".6rem",
                                 paddingBottom: ".12rem",
@@ -253,7 +253,7 @@ function Header() {
                             label="Down"
                             checked={collapse}
                             onChange={(e) => setCollapse(e.target.checked)}
-                        />
+                        /> */}
                         <Search
                             color="rgb(16,16,89)"
                             style={{ cursor: "pointer", marginRight: "10px" }}
