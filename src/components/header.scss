@@ -19,10 +19,14 @@
     font-family: 'Play', sans-serif;
     border-bottom: 5px solid;
     border-image: linear-gradient(to right, rgb(1,90,170) 25%, white) 30;
+    @media screen and (max-width: 768px) {
+        justify-content: space-between;
+    }
 
     .logo-container{
         height: 100%;
         width: auto;
+        min-width: 255px;
         img{
             width: 100%;
             height: 100%;
@@ -45,14 +49,26 @@
         align-items: flex-start;
         justify-content: space-between;
 
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
         &-top{
             width: 100%;
             height:30%;
-            padding-left: 5rem;
             display: flex;
             align-items: center;
             justify-content: flex-end;
             border-bottom: 1px solid rgb(227, 227, 227);
+            
+            .address-bar{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
         }
         &-bottom{
             width: 100%;
@@ -83,7 +99,7 @@
                     text-transform: capitalize;
                     text-transform: uppercase;
                     span{
-                        filter: drop-shadow(0 0 5px darken($main-grey,10%));
+                        filter: drop-shadow(0 0 2px darken($main-grey,10%));
                     }
                 }
 
@@ -119,6 +135,56 @@
 
 
     }
+
+    #menu-btn {
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        width: 4vmax;
+        height: 4vmax;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        margin-right: 2.5vw;
+        justify-self: flex-end;
+      }
+
+    .menu-btn-burger {
+        width: 4vmax;
+        height: 0.5vmax;
+        background: $main-blue;
+        border-radius: 0.15vmax;
+        transition: all 0.5s ease-in-out;
+      }
+      .menu-btn-burger::before,
+      .menu-btn-burger::after {
+        content: "";
+        left: 0;
+        position: absolute;
+        width: 4vmax;
+        height: 0.5vmax;
+        background: $main-blue;
+        border-radius: 0.2vmax;
+        transition: all 0.5s ease-in-out;
+      }
+      .menu-btn-burger::before {
+        transform: translateY(-1.1vmax);
+      }
+      .menu-btn-burger::after {
+        transform: translateY(1.1vmax);
+      }
+      #menu-btn.open .menu-btn-burger {
+        transform: translateX(2.5vmax);
+        background: transparent;
+      }
+      #menu-btn.open .menu-btn-burger::before {
+        transform: rotate(45deg) translate(-2.5vmax, 2.5vmax);
+      }
+      #menu-btn.open .menu-btn-burger::after {
+        transform: rotate(-45deg) translate(-2.5vmax, -2.5vmax);
+      }
 
     
     .headerBelowPart{
@@ -331,3 +397,4 @@
         
     }
   }
+

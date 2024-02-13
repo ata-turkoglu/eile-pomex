@@ -95,6 +95,31 @@ function Header() {
         }
     };
 
+    const menuChange = () => {
+        let elem = document.getElementById("menu-btn");
+        let nav = document.getElementById("navigation");
+        let social = document.getElementById("tosocial");
+        /* if (!this.menu) {
+            nav.classList.add("sdown");
+            elem.classList.add("open");
+            social.classList.add("sleft");
+            this.menu = true;
+            setTimeout(() => {
+                social.classList.remove("sdown");
+                nav.classList.remove("sdown");
+            }, 400);
+        } else {
+            nav.classList.add("sup");
+            elem.classList.remove("open");
+            social.classList.add("sright");
+            setTimeout(() => {
+                this.menu = false;
+                nav.classList.remove("sup");
+                social.classList.remove("sright");
+            }, 400);
+        } */
+    };
+
     return (
         <div
             className="header"
@@ -124,21 +149,23 @@ function Header() {
             >
                 {!narrowHeader && (
                     <div className="nav-container-top">
-                        <MapPin color="rgb(1,90,170)" size={18} />
-                        <span
-                            style={{
-                                marginLeft: "1rem",
-                                marginRight: "3rem",
-                                fontSize: ".9rem",
-                            }}
-                        >
-                            Yeniköy Mah. Menderes-Orhanlı Yolu Sk. No: 179/26
-                            Menderes/İzmir
-                        </span>
-                        <Phone color="rgb(1,90,170)" size={18} />
-                        <span style={{ marginInline: "1rem" }}>
-                            0 232 360 16 16
-                        </span>
+                        <div className="address-bar">
+                            <MapPin color="rgb(1,90,170)" size={18} />
+                            <span
+                                style={{
+                                    marginLeft: "1rem",
+                                    marginRight: "3rem",
+                                    fontSize: ".9rem",
+                                }}
+                            >
+                                Yeniköy Mah. Menderes-Orhanlı Yolu Sk. No:
+                                179/26 Menderes/İzmir
+                            </span>
+                            <Phone color="rgb(1,90,170)" size={18} />
+                            <span style={{ marginInline: "1rem" }}>
+                                0 232 360 16 16
+                            </span>
+                        </div>
                         <Linkedin
                             color="rgb(1,90,170)"
                             style={{
@@ -261,6 +288,9 @@ function Header() {
                         />
                     </div>
                 </div>
+            </div>
+            <div id="menu-btn" onClick={menuChange}>
+                <div class="menu-btn-burger"></div>
             </div>
             {hoverProducts && (
                 <div

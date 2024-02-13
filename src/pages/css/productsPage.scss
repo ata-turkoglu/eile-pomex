@@ -42,7 +42,7 @@
                     color: $logo-blue;
                     font-weight: 600;
                     text-wrap: nowrap;
-                    filter: drop-shadow(0 0 5px darken($main-grey,10%));
+                    filter: drop-shadow(0 0 0px darken($main-grey,10%));
                 }
                 span{
                     &:hover {
@@ -104,7 +104,7 @@
         height: 100%;
 
         h3{
-            filter: drop-shadow(0 0 5px darken($main-grey,10%));
+            filter: drop-shadow(0 0 1px darken($main-grey,10%));
         }
 
         .productList{

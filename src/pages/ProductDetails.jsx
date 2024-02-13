@@ -70,26 +70,18 @@ function ProductDetails() {
                         </div>
                         <div className="informationPart">
                             <div className="centerPart">
-                                <div className="info">
-                                    <div className="description">
-                                        {product.description ||
-                                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
-                                    </div>
-                                    <div className="areasOfUsage">
-                                        <h4>Area of Usage</h4>
-                                        {renderAreasofUsage(
-                                            product.areasOfUsage
-                                        )}
-                                    </div>
-                                    <div className="featuresOfProduct">
-                                        <h4>Features of Product</h4>
-                                        {renderFeatures(
-                                            product.featuresOfProduct
-                                        )}
-                                    </div>
+                                <div className="description">
+                                    {product.description ||
+                                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
                                 </div>
-                            </div>
-                            <div className="rightPart">
+                                <div className="areasOfUsage">
+                                    <h4>Area of Usage</h4>
+                                    {renderAreasofUsage(product.areasOfUsage)}
+                                </div>
+                                <div className="featuresOfProduct">
+                                    <h4>Features of Product</h4>
+                                    {renderFeatures(product.featuresOfProduct)}
+                                </div>
                                 <div className="imgContainer">
                                     <img src={appImg} />
                                 </div>
