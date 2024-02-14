@@ -139,7 +139,7 @@
     #menu-btn {
         box-sizing: border-box;
         position: relative;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         align-self: center;
@@ -149,6 +149,9 @@
         transition: all 0.5s ease-in-out;
         margin-right: 2.5vw;
         justify-self: flex-end;
+        @media screen and (max-width:768px) {
+            display: flex;
+        }
       }
 
     .menu-btn-burger {
