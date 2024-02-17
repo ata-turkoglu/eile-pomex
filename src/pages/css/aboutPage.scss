@@ -1,8 +1,14 @@
+@import "../../variables.scss";
+
 .about {
   width: 100%;
   height: 100%;
   position: relative;
   padding-top: 100px;
+  
+  @media screen and (max-width:768px) {
+    padding-top: $mobile-padding-top;
+  }
 
   .banner-area {
     background-image: url("../../assets/about/about_us.jpg");

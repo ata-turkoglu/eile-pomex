@@ -122,6 +122,21 @@ function Header() {
             }, 390);
         }
     };
+    const menuClose = () => {
+        const elem = document.getElementById("menu-btn");
+        const nav = document.getElementById("mobileNavigation");
+        const social = document.getElementById("toSocial");
+        nav.classList.add("sup");
+        elem.classList.remove("open");
+        social.classList.add("sright");
+        setTimeout(() => {
+            nav.classList.remove("sup");
+            social.classList.remove("sright");
+        }, 400);
+        setTimeout(() => {
+            setMobileNav(false);
+        }, 390);
+    };
 
     return (
         <div
@@ -338,19 +353,39 @@ function Header() {
                 className="mobileNavigation"
                 style={mobileNav ? { display: "flex" } : { display: "none" }}
             >
-                <Link className="nav-item" to="/products/0">
+                <Link
+                    className="nav-item"
+                    to="/products/0"
+                    onClick={() => menuClose()}
+                >
                     <span>Ürünler</span>
                 </Link>
-                <Link className="nav-item" to="/about">
+                <Link
+                    className="nav-item"
+                    to="/about"
+                    onClick={() => menuClose()}
+                >
                     <span>Hakkımızda</span>
                 </Link>
-                <Link className="nav-item" to="/docs">
+                <Link
+                    className="nav-item"
+                    to="/docs"
+                    onClick={() => menuClose()}
+                >
                     <span>Belgelerimiz</span>
                 </Link>
-                <Link className="nav-item" to="/references">
+                <Link
+                    className="nav-item"
+                    to="/references"
+                    onClick={() => menuClose()}
+                >
                     <span>Referanslar</span>
                 </Link>
-                <Link className="nav-item" to="/contact">
+                <Link
+                    className="nav-item"
+                    to="/contact"
+                    onClick={() => menuClose()}
+                >
                     <span>İletişim</span>
                 </Link>
             </div>

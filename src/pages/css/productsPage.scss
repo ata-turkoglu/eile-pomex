@@ -6,6 +6,10 @@
     justify-content: flex-start;
     height:  calc(100vh);
     overflow: hidden;
+
+    @media screen and (max-width:768px) {
+        padding-top: $mobile-padding-top;
+      }
     
     .categories{
         width: max-content;
