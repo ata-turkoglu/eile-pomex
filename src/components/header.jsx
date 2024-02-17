@@ -21,6 +21,7 @@ function Header() {
     const [products, setProducts] = useState([]);
     const [hoverProducts, setHoverProducts] = useState(false);
     const [collapse, setCollapse] = useState(false);
+    const [mobileNav, setMobileNav] = useState(false);
 
     useEffect(() => {
         function setHeaderHeight() {
@@ -96,28 +97,30 @@ function Header() {
     };
 
     const menuChange = () => {
-        let elem = document.getElementById("menu-btn");
-        let nav = document.getElementById("navigation");
-        let social = document.getElementById("tosocial");
-        /* if (!this.menu) {
-            nav.classList.add("sdown");
+        const elem = document.getElementById("menu-btn");
+        const nav = document.getElementById("mobileNavigation");
+        const social = document.getElementById("toSocial");
+        if (!mobileNav) {
             elem.classList.add("open");
+            nav.classList.add("sdown");
             social.classList.add("sleft");
-            this.menu = true;
+            setMobileNav(true);
             setTimeout(() => {
-                social.classList.remove("sdown");
+                social.classList.remove("sleft");
                 nav.classList.remove("sdown");
             }, 400);
         } else {
-            nav.classList.add("sup");
             elem.classList.remove("open");
+            nav.classList.add("sup");
             social.classList.add("sright");
             setTimeout(() => {
-                this.menu = false;
                 nav.classList.remove("sup");
                 social.classList.remove("sright");
             }, 400);
-        } */
+            setTimeout(() => {
+                setMobileNav(false);
+            }, 390);
+        }
     };
 
     return (
@@ -289,8 +292,37 @@ function Header() {
                     </div>
                 </div>
             </div>
+            <div
+                id="toSocial"
+                style={mobileNav ? { display: "flex" } : { display: "none" }}
+            >
+                <Linkedin
+                    color="rgb(1,90,170)"
+                    style={{
+                        cursor: "pointer",
+                        marginRight: "10px",
+                        marginLeft: "2rem",
+                    }}
+                    size={18}
+                />
+                <Twitter
+                    color="rgb(1,90,170)"
+                    style={{ cursor: "pointer", marginRight: "10px" }}
+                    size={18}
+                />
+                <Instagram
+                    color="rgb(1,90,170)"
+                    style={{ cursor: "pointer", marginRight: "10px" }}
+                    size={18}
+                />
+                <Facebook
+                    color="rgb(1,90,170)"
+                    style={{ cursor: "pointer", marginRight: "10px" }}
+                    size={18}
+                />
+            </div>
             <div id="menu-btn" onClick={menuChange}>
-                <div class="menu-btn-burger"></div>
+                <div className="menu-btn-burger"></div>
             </div>
             {hoverProducts && (
                 <div
@@ -301,6 +333,27 @@ function Header() {
                     {products}
                 </div>
             )}
+            <div
+                id="mobileNavigation"
+                className="mobileNavigation"
+                style={mobileNav ? { display: "flex" } : { display: "none" }}
+            >
+                <Link className="nav-item" to="/products/0">
+                    <span>Ürünler</span>
+                </Link>
+                <Link className="nav-item" to="/about">
+                    <span>Hakkımızda</span>
+                </Link>
+                <Link className="nav-item" to="/docs">
+                    <span>Belgelerimiz</span>
+                </Link>
+                <Link className="nav-item" to="/references">
+                    <span>Referanslar</span>
+                </Link>
+                <Link className="nav-item" to="/contact">
+                    <span>İletişim</span>
+                </Link>
+            </div>
         </div>
     );
 }

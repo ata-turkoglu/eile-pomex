@@ -2,6 +2,7 @@
 @import "../variables.scss";
 
 .header{
+    box-sizing: border-box;
     position: fixed;
     z-index: 4;
     width: 100%;
@@ -12,15 +13,16 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /* padding-inline: 2rem; */
-    /* box-shadow: 0 5px 10px -3px rgb(205, 205, 205); */
     transition: height ease .3s;
-/*     border-bottom: 1px solid rgb(230, 230, 230); */
     font-family: 'Play', sans-serif;
     border-bottom: 5px solid;
     border-image: linear-gradient(to right, rgb(1,90,170) 25%, white) 30;
+
     @media screen and (max-width: 768px) {
+        height: 76px !important;
         justify-content: space-between;
+        border-image: linear-gradient(to right, rgb(1,90,170) 50%, white) 30;
+        overflow: visible;
     }
 
     .logo-container{
@@ -31,6 +33,11 @@
             width: 100%;
             height: 100%;
             object-fit:contain;
+        }
+        @media screen and (max-width:768px) {
+            height: 101%;
+            width: auto;
+            min-width: unset;
         }
     }
 
@@ -152,7 +159,7 @@
         @media screen and (max-width:768px) {
             display: flex;
         }
-      }
+    }
 
     .menu-btn-burger {
         width: 4vmax;
@@ -160,9 +167,9 @@
         background: $main-blue;
         border-radius: 0.15vmax;
         transition: all 0.5s ease-in-out;
-      }
-      .menu-btn-burger::before,
-      .menu-btn-burger::after {
+    }
+    .menu-btn-burger::before,
+    .menu-btn-burger::after {
         content: "";
         left: 0;
         position: absolute;
@@ -171,25 +178,36 @@
         background: $main-blue;
         border-radius: 0.2vmax;
         transition: all 0.5s ease-in-out;
-      }
-      .menu-btn-burger::before {
+    }
+    .menu-btn-burger::before {
         transform: translateY(-1.1vmax);
-      }
-      .menu-btn-burger::after {
+    }
+    .menu-btn-burger::after {
         transform: translateY(1.1vmax);
-      }
-      #menu-btn.open .menu-btn-burger {
+    }
+    #menu-btn.open .menu-btn-burger {
         transform: translateX(2.5vmax);
         background: transparent;
-      }
-      #menu-btn.open .menu-btn-burger::before {
+    }
+    #menu-btn.open .menu-btn-burger::before {
         transform: rotate(45deg) translate(-2.5vmax, 2.5vmax);
-      }
-      #menu-btn.open .menu-btn-burger::after {
+    }
+    #menu-btn.open .menu-btn-burger::after {
         transform: rotate(-45deg) translate(-2.5vmax, -2.5vmax);
-      }
+    }
 
-    
+    #toSocial{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: none;
+    }
+
     .headerBelowPart{
         position: absolute;
         top: 100%;
@@ -367,6 +385,7 @@
     
         }
     }
+
 }
 .form-check-input:checked{
     background-color: $logo-blue !important;
@@ -376,6 +395,113 @@
 
 .form-check-input{
     box-shadow: none !important;
+}
+
+.mobileNavigation{
+    display: none;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: absolute;
+    z-index: 5;
+    background: white;
+    top: calc(100% + 5px);
+    left: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 2rem;
+
+    .nav-item {
+        margin: 0;
+        margin-inline: 3rem;
+        padding: 0;
+        position: relative;
+        height: fit-content;
+        box-sizing: border-box;
+        margin-block: 1rem;
+        font-size: 2rem;
+        font-weight: 400;
+        cursor: pointer;
+        color: $main-blue;
+        text-decoration: none;
+        filter: drop-shadow(0 0 3px darken($main-grey,10%));
+      }
+      .nav-item::after {
+        content: "";
+        position: absolute;
+        width: 120%;
+        border-radius: 0.5rem;
+        transform: scaleX(0);
+        height: .2rem;
+        bottom: -25%;
+        left: -10%;
+        background-color: $main-blue;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      .nav-item:hover:after {
+        height: .2rem;
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+      .nav_item_active::after {
+        content: "";
+        height: 0.2rem;
+        position: absolute;
+        width: 120%;
+        border-radius: 0.5rem;
+        transform: none;
+      }
+}
+.sup {
+    transform-origin: top;
+    animation: scaleup 0.4s ease-in-out, opadec 0.4s;
+  }
+.sdown {
+    transform-origin: top;
+    animation: scaledown 0.4s ease-in-out, opainc 0.4s;
+}
+.sright {
+    animation: scaleright 0.4s ease-in-out;
+}
+.sleft {
+    animation: scaleleft 0.4s ease-in-out;
+}
+@keyframes scaleleft {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+@keyframes scaleright {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+}
+@keyframes scaleup {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1, 0);
+    }
+}
+@keyframes scaledown {
+    from {
+      transform: scale(1, 0);
+    }
+    to {
+      transform: scale(1, 1);
+    }
 }
 
 @keyframes slide-nav-down {

@@ -10,6 +10,10 @@
     padding-bottom:4rem;
     background-color: rgb(244, 249, 249);
 
+    @media screen and (max-width:768px) {
+        overflow: hidden;
+    }
+
     h2{
         margin-top: 4rem;
         margin-bottom: 2rem;
