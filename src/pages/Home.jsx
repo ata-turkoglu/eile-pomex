@@ -14,7 +14,7 @@ function Home() {
     }, []);
 
     return (
-        <div className="home">
+        <div id="home" className="home">
             <Intro />
             <Metrics />
             <Info

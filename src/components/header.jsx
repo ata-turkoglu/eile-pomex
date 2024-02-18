@@ -156,6 +156,7 @@ function Header() {
                 }
                 to="/"
                 /* style={{ paddingBlock: narrowHeader ? "0" : "1rem" }} */
+                onClick={menuClose}
             >
                 <img src={narrowHeader ? roundLogo : logo} />
             </Link>

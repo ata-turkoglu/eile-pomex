@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "./banner.scss";
 
 function Banner({ image }) {
+    const [mobileView, setMobileView] = useState(false);
     const [location, setLocation] = useState(null);
     const [showText, setShowText] = useState(false);
     function checkScroll() {
@@ -11,6 +12,9 @@ function Banner({ image }) {
         }
     }
     useEffect(() => {
+        if (window.innerWidth < 768) {
+            setMobileView(true);
+        }
         const el = document.getElementById("banner");
         const loc = el.offsetTop - window.screen.availHeight / 2;
         setLocation(loc);
@@ -26,9 +30,9 @@ function Banner({ image }) {
     return (
         <div id="banner" className="banner">
             <img src={image} />
-            {showText ? (
+            {showText || mobileView ? (
                 <div className="banner-content slide-right">
-                    <h3 className="mb-4">
+                    <h3 className={mobileView ? "mb-3" : "mb-4"}>
                         Yaşadığımız Çevreyi ve Sizi Önemsiyoruz!
                     </h3>
                     <p>
@@ -39,6 +43,7 @@ function Banner({ image }) {
             ) : (
                 ""
             )}
+            {mobileView && <div className="banner-mobile-shadow"></div>}
         </div>
     );
 }
