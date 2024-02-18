@@ -12,37 +12,28 @@ function Swiper({ children, gap }) {
 
     useEffect(() => {
         window.innerWidth < 768 ? setMobile(true) : setMobile(false);
-        setWrapperPadding();
-
-        if (mobile) {
-            window.addEventListener("touchstart", handleMouseDown);
-            window.addEventListener("touchend", handleMouseUp);
-        } else {
-            window.addEventListener("mousedown", handleMouseDown);
-            window.addEventListener("mouseup", handleMouseUp);
+        const wrappers = document.getElementsByClassName("wrapper");
+        for (let i = 0; i < wrappers.length; i++) {
+            wrappers[i].style.width = window.innerWidth * 0.8 + "px";
         }
-        return () => {
-            window.removeEventListener("mousedown", handleMouseDown);
-            window.removeEventListener("mouseup", handleMouseUp);
-            window.removeEventListener("touchstart", handleMouseDown);
-            window.removeEventListener("touchend", handleMouseUp);
-        };
-    });
+        setDimensions(wrappers);
+    }, []);
 
-    const setWrapperPadding = () => {
+    const setDimensions = (wrappers) => {
+        const gapMatch = gap ? gap.match(/\d+/g) : undefined;
+        let margin = gapMatch ? Number(gapMatch[0]) : 10;
         const swiper = document.getElementById("swiper");
         setSwiper(swiper);
-        const wrappers = document.getElementsByClassName("wrapper");
         const outerWidth = swiper.clientWidth;
-        const padding = (outerWidth - wrappers[0].clientWidth) / 4;
-        setScroll(outerWidth - padding * 2);
-        for (let i = 0; i < wrappers.length; i++) {
-            wrappers[i].style.marginInline = padding + "px";
-        }
+        const space = outerWidth - wrappers[0].clientWidth - margin * 2;
+        const restPart = space / 2;
+        setScroll(outerWidth - restPart * 2 - margin);
+        swiper.style.paddingInline = restPart + margin + "px";
     };
 
     const handleMouseDown = (e) => {
         if (mobile) {
+            e.stopPropagation();
             setStartX(e.changedTouches[0].clientX);
         }
         setMouseDown(true);
@@ -55,6 +46,7 @@ function Swiper({ children, gap }) {
     const handleMouseMove = (e) => {
         if (mouseDown && !mouseUp) {
             if (mobile) {
+                e.stopPropagation();
                 if (e?.changedTouches) {
                     const touchMove = e.changedTouches[0].clientX - startX;
                     setStartX(e.changedTouches[0].clientX);
@@ -82,6 +74,8 @@ function Swiper({ children, gap }) {
                     key={index}
                     className="wrapper"
                     onMouseMove={handleMouseMove}
+                    onTouchStart={handleMouseDown}
+                    onTouchEnd={handleMouseUp}
                 >
                     {item}
                 </div>
