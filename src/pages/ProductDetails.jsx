@@ -1,16 +1,18 @@
 import React, { useLayoutEffect, useState } from "react";
 import "./css/productDetails.scss";
 import ProductData from "../data/products.json";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import img from "../../public/assets/products/eile_genel_teneke.png";
 import { Accordion } from "react-bootstrap";
 import appImg from "../../public/assets/products/grout60c_app.png";
-import { ListFilter } from "lucide-react";
+import { ChevronLeft } from "lucide-react";
 
 function ProductDetails() {
     const { productKey } = useParams();
     const [product, setProduct] = useState(null);
     const [mobileView, setMobileView] = useState(false);
+
+    const navigate = useNavigate();
 
     useLayoutEffect(() => {
         if (window.innerWidth < 768) {
@@ -62,28 +64,11 @@ function ProductDetails() {
             "Its load carrying capacity is high and consumption is low",
         ]
     ) => {
-        return list.map((item, index) => <li key={index}>{item}</li>);
+        return list.map((item, index) => <li key={index}>{item.trim()}</li>);
     };
 
-    const handleShowCategory = () => {
-        /* const el = document.getElementById("product-categories");
-        if (
-            !el.classList.contains("close-categories") &&
-            !el.classList.contains("open-categories")
-        ) {
-            el.classList.add("open-categories");
-            el.style.visibility = "visible";
-        } else if (el.classList.contains("open-categories")) {
-            el.classList.remove("open-categories");
-            el.classList.add("close-categories");
-            setTimeout(() => {
-                el.style.visibility = "hidden";
-            }, 400);
-        } else if (el.classList.contains("close-categories")) {
-            el.classList.remove("close-categories");
-            el.classList.add("open-categories");
-            el.style.visibility = "visible";
-        } */
+    const handleBack = () => {
+        navigate(-1);
     };
 
     return (
@@ -93,10 +78,13 @@ function ProductDetails() {
                     <div className="headerContainer">
                         {mobileView && (
                             <div className="filter-icon">
-                                <ListFilter onClick={handleShowCategory} />
+                                <ChevronLeft
+                                    strokeWidth={3}
+                                    onClick={handleBack}
+                                />
                             </div>
                         )}
-                        <h3>{product.name}</h3>
+                        <h1>{product.name}</h1>
                         {mobileView && <div className="filter-icon"></div>}
                     </div>
                     <div className="firstPart">
