@@ -2,6 +2,7 @@
     {
         "key": "1",
         "name": "Su Yalıtım Sistemleri",
+        "img": "/assets/categories/waterproofing.jpg",
         "subGroups": [
             {
                 "key": "1-1",
@@ -170,6 +171,7 @@
     {
         "key": "2",
         "name": "Onarım ve Güçlendirme Sistemleri",
+        "img": "/assets/categories/repair-and-reinforcement.jpg",
         "subGroups": [
             {
                 "key": "2-1",
@@ -399,6 +401,7 @@
     {
         "key": "3",
         "name": "Zemin Sistemleri",
+        "img": "/assets/categories/ground-systems.jpg",
         "subGroups": [
             {
                 "key": "3-1",
@@ -576,6 +579,7 @@
     {
         "key": "4",
         "name": "Yapıştırıcılar",
+        "img": "/assets/categories/ceramic-adhesives.jpg",
         "subGroups": [
             {
                 "key": "4-1",
@@ -639,6 +643,7 @@
     {
         "key": "5",
         "name": "Fuga Derz Dolgular",
+        "img": "/assets/categories/tile-grouts.jpg",
         "subGroups": [
             {
                 "key": "5-1",
@@ -692,6 +697,7 @@
     {
         "key": "6",
         "name": "Isı Ses Yangın İzolasyonu",
+        "img": "/assets/categories/thermal-insulation-systems.jpg",
         "items": [
             {
                 "key": "6-0-1",
@@ -733,6 +739,7 @@
     {
         "key": "7",
         "name": "Sıvalar",
+        "img": "/assets/categories/plasters.jpg",
         "items": [
             {
                 "key": "7-0-1",
@@ -769,6 +776,7 @@
     {
         "key": "8",
         "name": "Astar ve Destek Ürünleri",
+        "img": "/assets/categories/primer-and-support-products.jpg",
         "items": [
             {
                 "key": "8-0-1",
