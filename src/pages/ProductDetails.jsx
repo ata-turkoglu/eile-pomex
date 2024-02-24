@@ -5,10 +5,21 @@ import { useParams } from "react-router-dom";
 import img from "../../public/assets/products/eile_genel_teneke.png";
 import { Accordion } from "react-bootstrap";
 import appImg from "../../public/assets/products/grout60c_app.png";
+import { ListFilter } from "lucide-react";
 
 function ProductDetails() {
     const { productKey } = useParams();
     const [product, setProduct] = useState(null);
+    const [mobileView, setMobileView] = useState(false);
+
+    useLayoutEffect(() => {
+        if (window.innerWidth < 768) {
+            /* document.getElementById("product-categories").style.visibility =
+                "hidden"; */
+            setMobileView(true);
+        }
+        window.scrollTo(0, 0);
+    }, []);
 
     useLayoutEffect(() => {
         const list = productKey.split("-");
@@ -54,11 +65,40 @@ function ProductDetails() {
         return list.map((item, index) => <li key={index}>{item}</li>);
     };
 
+    const handleShowCategory = () => {
+        /* const el = document.getElementById("product-categories");
+        if (
+            !el.classList.contains("close-categories") &&
+            !el.classList.contains("open-categories")
+        ) {
+            el.classList.add("open-categories");
+            el.style.visibility = "visible";
+        } else if (el.classList.contains("open-categories")) {
+            el.classList.remove("open-categories");
+            el.classList.add("close-categories");
+            setTimeout(() => {
+                el.style.visibility = "hidden";
+            }, 400);
+        } else if (el.classList.contains("close-categories")) {
+            el.classList.remove("close-categories");
+            el.classList.add("open-categories");
+            el.style.visibility = "visible";
+        } */
+    };
+
     return (
         <>
             {product && (
                 <div className="productDetails">
-                    <h1>{product.name}</h1>
+                    <div className="headerContainer">
+                        {mobileView && (
+                            <div className="filter-icon">
+                                <ListFilter onClick={handleShowCategory} />
+                            </div>
+                        )}
+                        <h3>{product.name}</h3>
+                        {mobileView && <div className="filter-icon"></div>}
+                    </div>
                     <div className="firstPart">
                         <div className="leftPart">
                             <div className="imgContainer">
