@@ -1,68 +1,84 @@
 @import "../../variables.scss";
 
-.products{
+.products {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    height:  calc(100vh);
+    height: calc(100vh);
     overflow: hidden;
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width: 768px) {
         padding-top: $mobile-padding-top;
-      }
-    
-    .categories{
+    }
+
+    .close-categories {
+        animation: bg-slide-left 0.5s ease;
+    }
+    .open-categories {
+        animation: bg-slide-right 0.5s ease;
+    }
+
+    .categories {
         width: max-content;
         min-height: calc(100vh - 100px);
         height: 100%;
         padding-block: 2rem;
         border-right: 1px solid rgb(200, 200, 200);
-        /* background-color: rgb(240, 240, 240); */
+        background-color: white;
 
-        ul.group{
+        @media screen and (max-width: 768px) {
+            margin-top: calc(1.3rem + 0.6vw + 2rem);
+            position: absolute;
+            z-index: 1;
+            //animation: bg-slide-right .5s ease;
+            border: none;
+            box-shadow: 0 10px 15px -3px grey;
+            padding-block: 1rem;
+        }
+
+        ul.group {
             margin: 0;
             padding: 0;
             height: 100%;
             overflow: auto;
-            
-            li{
+
+            li {
                 height: fit-content;
                 list-style: none;
                 margin: 0;
                 cursor: pointer;
                 padding: 0;
                 text-align: left;
-                transition: transform ease .2s;
+                transition: transform ease 0.2s;
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: flex-start;
 
-                span{
+                span {
                     padding-inline: 1rem;
                     width: 100%;
                     font-size: 1rem;
-                    padding-block: .3rem;
+                    padding-block: 0.3rem;
                     color: $logo-blue;
                     font-weight: 600;
                     text-wrap: nowrap;
-                    filter: drop-shadow(0 0 0px darken($main-grey,10%));
+                    filter: drop-shadow(0 0 0px darken($main-grey, 10%));
                 }
-                span{
+                span {
                     &:hover {
                         border-bottom: 1px solid $main-grey;
                     }
                 }
 
-                .open{
-                    animation: .25s ease-out slide-nav-down;
+                .open {
+                    animation: 0.25s ease-out slide-nav-down;
                 }
-                .close{
-                    animation: .25s ease-out slide-nav-up;
+                .close {
+                    animation: 0.25s ease-out slide-nav-up;
                 }
-    
 
-                ul.subGroup{
+                ul.subGroup {
                     display: none;
                     height: 100%;
                     width: 100%;
@@ -71,72 +87,103 @@
                     padding-bottom: 1rem;
                     padding-left: 1.5rem;
                     transform-origin: top;
-                    
-                    li{
+
+                    li {
                         list-style: none;
                         margin: 0;
                         cursor: pointer;
                         padding: 0;
                         text-align: left;
-                        font-size: .9rem;
-                        transition: transform ease .2s;
-                        padding-block: .3rem;
-                        padding-right: .5rem;
+                        font-size: 0.9rem;
+                        transition: transform ease 0.2s;
+                        padding-block: 0.3rem;
+                        padding-right: 0.5rem;
                         /* color: $logo-green; */
                         color: $main-blue;
                         text-wrap: nowrap;
-                        filter: drop-shadow(0 0 5px darken($main-grey,5%));
-                        &:hover{
+                        filter: drop-shadow(0 0 5px darken($main-grey, 5%));
+                        &:hover {
                             transform: translateX(8px);
-                            transition: transform ease .2s;
+                            transition: transform ease 0.2s;
                         }
                     }
                 }
             }
-            .bg-slide{
+            .bg-slide {
                 background-color: $main-grey;
                 //animation: .3s ease-out bg-slide-right ;
             }
         }
     }
 
-    .listContainer{
+    .listContainer {
         margin: 0;
         padding-top: 2rem;
         flex: 1;
-        animation: .25s ease-out bg-slide-right;
+        animation: 0.25s ease-out bg-slide-right;
         height: 100%;
 
-        h3{
-            filter: drop-shadow(0 0 1px darken($main-grey,10%));
+        @media screen and (max-width: 768px) {
+            padding-top: 0;
         }
 
-        .productList{
+        .headerContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            @media screen and (max-width:768px){
+                justify-content: space-between;
+                padding-block: 1rem;
+            }
+            .filter-icon {
+                height: 100%;
+                width: fit-content;
+                display: grid;
+                justify-items: center;
+                cursor: pointer;
+                padding-left: 1rem;
+            }
+            h3 {
+                padding: 0;
+                margin: 0;
+                filter: drop-shadow(0 0 1px darken($main-grey, 10%));
+            }
+        }
+
+        .productList {
             padding: 2rem;
             display: flex;
             flex: 1;
             flex-wrap: wrap;
             align-items: flex-start;
             justify-content: center;
-            animation: .25s ease-out bg-slide-right;
+            animation: 0.25s ease-out bg-slide-right;
             overflow: auto;
             height: 100%;
+
+            @media screen and (max-width: 768px) {
+                padding-inline: 1rem;
+                padding-bottom: 4rem;
+                padding-top: 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+            }
         }
     }
-
 }
 
 @keyframes slide-nav-down {
     from {
         opacity: 0;
-        transform: scaleY(0)
+        transform: scaleY(0);
     }
     to {
         opacity: 1;
-        transform: scaleY(1)
-        
+        transform: scaleY(1);
     }
-  }
+}
 @keyframes slide-nav-up {
     from {
         opacity: 1;
@@ -146,13 +193,22 @@
         opacity: 0;
         transform: scaleY(0);
     }
-  }
+}
 
-  @keyframes bg-slide-right {
+@keyframes bg-slide-right {
     from {
         transform: translateX(-100%);
     }
-    to{
+    to {
         transform: translateX(0);
     }
-  }
+}
+
+@keyframes bg-slide-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

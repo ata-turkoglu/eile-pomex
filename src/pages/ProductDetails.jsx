@@ -1,14 +1,27 @@
 import React, { useLayoutEffect, useState } from "react";
 import "./css/productDetails.scss";
 import ProductData from "../data/products.json";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import img from "../../public/assets/products/eile_genel_teneke.png";
 import { Accordion } from "react-bootstrap";
 import appImg from "../../public/assets/products/grout60c_app.png";
+import { ChevronLeft } from "lucide-react";
 
 function ProductDetails() {
     const { productKey } = useParams();
     const [product, setProduct] = useState(null);
+    const [mobileView, setMobileView] = useState(false);
+
+    const navigate = useNavigate();
+
+    useLayoutEffect(() => {
+        if (window.innerWidth < 768) {
+            /* document.getElementById("product-categories").style.visibility =
+                "hidden"; */
+            setMobileView(true);
+        }
+        window.scrollTo(0, 0);
+    }, []);
 
     useLayoutEffect(() => {
         const list = productKey.split("-");
@@ -51,14 +64,29 @@ function ProductDetails() {
             "Its load carrying capacity is high and consumption is low",
         ]
     ) => {
-        return list.map((item, index) => <li key={index}>{item}</li>);
+        return list.map((item, index) => <li key={index}>{item.trim()}</li>);
+    };
+
+    const handleBack = () => {
+        navigate(-1);
     };
 
     return (
         <>
             {product && (
                 <div className="productDetails">
-                    <h1>{product.name}</h1>
+                    <div className="headerContainer">
+                        {mobileView && (
+                            <div className="filter-icon">
+                                <ChevronLeft
+                                    strokeWidth={3}
+                                    onClick={handleBack}
+                                />
+                            </div>
+                        )}
+                        <h1>{product.name}</h1>
+                        {mobileView && <div className="filter-icon"></div>}
+                    </div>
                     <div className="firstPart">
                         <div className="leftPart">
                             <div className="imgContainer">

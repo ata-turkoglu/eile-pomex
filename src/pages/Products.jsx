@@ -5,6 +5,7 @@ import ProductCard from "../components/productCard";
 import pImg from "/assets/products/grout50c.png";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { useParams, useNavigate } from "react-router-dom";
+import { ListFilter } from "lucide-react";
 
 function Products() {
     const [productCategories, setProductCategories] = useState([]);
@@ -13,12 +14,18 @@ function Products() {
     const [selectedGroup, setSelectedGroup] = useState(null);
     const [selectedSubGroup, setSelectedSubGroup] = useState(null);
     const [header, setHeader] = useState(null);
+    const [mobileView, setMobileView] = useState(false);
 
     const navigate = useNavigate();
     let { productKey } = useParams();
     const initiated = useRef(false);
 
     useLayoutEffect(() => {
+        if (window.innerWidth < 768) {
+            setMobileView(true);
+            document.getElementById("product-categories").style.visibility =
+                "hidden";
+        }
         window.scrollTo(0, 0);
     }, []);
 
@@ -76,6 +83,9 @@ function Products() {
                 }
             }
         } else if (len == 2) {
+            if (mobileView) {
+                handleShowCategory();
+            }
             const groupKey = keyList[0];
             const subGroupKey = keyList[1];
 
@@ -170,11 +180,42 @@ function Products() {
         setProductCategories(categoryList);
     }, [selectedGroups]);
 
+    const handleShowCategory = () => {
+        const el = document.getElementById("product-categories");
+        if (
+            !el.classList.contains("close-categories") &&
+            !el.classList.contains("open-categories")
+        ) {
+            el.classList.add("open-categories");
+            el.style.visibility = "visible";
+        } else if (el.classList.contains("open-categories")) {
+            el.classList.remove("open-categories");
+            el.classList.add("close-categories");
+            setTimeout(() => {
+                el.style.visibility = "hidden";
+            }, 400);
+        } else if (el.classList.contains("close-categories")) {
+            el.classList.remove("close-categories");
+            el.classList.add("open-categories");
+            el.style.visibility = "visible";
+        }
+    };
+
     return (
         <div className="products">
-            <div className="categories">{productCategories}</div>
+            <div id="product-categories" className="categories">
+                {productCategories}
+            </div>
             <div className="listContainer">
-                <h3>{header}</h3>
+                <div className="headerContainer">
+                    {mobileView && (
+                        <div className="filter-icon">
+                            <ListFilter onClick={handleShowCategory} />
+                        </div>
+                    )}
+                    <h3>{header}</h3>
+                    {mobileView && <div className="filter-icon"></div>}
+                </div>
                 <div className="productList">
                     {products.map((item) => {
                         return (
