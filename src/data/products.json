@@ -10,35 +10,35 @@
                     {
                         "key": "1-1-1",
                         "name": "eile A SEAL",
-                        "img": null,
+                        "img": "/assets/products/a-seal.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-1-2",
                         "name": "eile MAX SEAL ELASTİK",
-                        "img": null,
+                        "img": "/assets/products/max-seal-elastic.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-1-3",
                         "name": "eile MAX SEAL",
-                        "img": null,
+                        "img": "/assets/products/max_seal.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-1-4",
                         "name": "eile KAPİLER",
-                        "img": null,
+                        "img": "/assets/products/kapiler_render.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-1-5",
                         "name": "POMEX WATER BOND",
-                        "img": null,
+                        "img": "/assets/products/water_bond_render.png",
                         "info": null,
                         "description": null
                     }
@@ -51,21 +51,21 @@
                     {
                         "key": "1-2-1",
                         "name": "eile LİKİT AKRİLİK",
-                        "img": null,
+                        "img": "/assets/products/likit_akrilik.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-2-2",
                         "name": "eile ELASTOMER",
-                        "img": null,
+                        "img": "/assets/products/elastomer_render.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-2-3",
                         "name": "eile ELASTOMER TEXTURE",
-                        "img": null,
+                        "img": "/assets/products/elastomer_texture.png",
                         "info": null,
                         "description": null
                     }
@@ -78,21 +78,21 @@
                     {
                         "key": "1-3-1",
                         "name": "eile MET ZZK-40",
-                        "img": null,
+                        "img": "/assets/products/met_zzk_40.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-3-2",
                         "name": "eile BİTÜ-ÇİM ELASTİK",
-                        "img": null,
+                        "img": "/assets/products/bitu_cim_elas.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-3-3",
                         "name": "eile BİTÜ-ÇİM",
-                        "img": null,
+                        "img": "/assets/products/bitu_cim.png",
                         "info": null,
                         "description": null
                     }
@@ -105,28 +105,28 @@
                     {
                         "key": "1-4-1",
                         "name": "eile EPX 018",
-                        "img": null,
+                        "img": "/assets/products/teneke_epx_018.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-4-2",
                         "name": "eile POLİJET 120",
-                        "img": null,
+                        "img": "/assets/products/polijet_120.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-4-3",
                         "name": "eile PUR 012",
-                        "img": null,
+                        "img": "/assets/products/teneke_pur_012.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-4-4",
                         "name": "eile PUR 710",
-                        "img": null,
+                        "img": "/assets/products/teneke_pur_710.png",
                         "info": null,
                         "description": null
                     }
@@ -139,14 +139,14 @@
                     {
                         "key": "1-5-1",
                         "name": "eile EPX 2222",
-                        "img": null,
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "1-5-2",
                         "name": "eile EPS 876",
-                        "img": null,
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "info": null,
                         "description": null
                     }
@@ -159,7 +159,7 @@
                     {
                         "key": "1-6-1",
                         "name": "FC 805 System",
-                        "img": null,
+                        "img": "/assets/products/dilatasyon.png",
                         "info": null,
                         "description": null
                     }
@@ -272,7 +272,7 @@
                     {
                         "key": "2-2-5",
                         "name": "eile EPX 300",
-                        "img": "/assets/products/eile_genel_teneke.png",
+                        "img": "/assets/products/epx_300.png",
                         "info": "Two-Component, Adherence Augmenter and Corrosion Preventing Epoxy Resin Based Mortar",
                         "description": null
                     },
@@ -407,35 +407,35 @@
                     {
                         "key": "3-1-1",
                         "name": "eile Top 110 s",
-                        "img": null,
+                        "img": "/assets/products/top110_S.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-1-2",
                         "name": "eile KORUND 120 F",
-                        "img": null,
+                        "img": "/assets/products/korund120f.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-1-3",
                         "name": "POMEX YÜZEY SERTLEŞTİRİCİ",
-                        "img": null,
+                        "img": "/assets/products/zeminyuzeysert.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-1-4",
                         "name": "eile LEVEL",
-                        "img": null,
+                        "img": "/assets/products/level_render.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-1-5",
                         "name": "eile PERFLOOR",
-                        "img": null,
+                        "img": "/assets/products/eilegenel.png",
                         "info": null,
                         "description": null
                     }
@@ -448,56 +448,56 @@
                     {
                         "key": "3-2-1",
                         "name": "eile EPX 550",
-                        "img": null,
+                        "img": "/assets/products/epx550.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-2-2",
                         "name": "eile PUR 053",
-                        "img": null,
+                        "img": "/assets/products/pur_053.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-2-3",
                         "name": "eile EPX 400",
-                        "img": null,
+                        "img": "/assets/products/teneke_bos.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-2-4",
                         "name": "eile EPX 629",
-                        "img": null,
+                        "img": "/assets/products/teneke_bos.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-2-5",
                         "name": "eile EAP 435",
-                        "img": null,
+                        "img": "/assets/products/teneke_bos.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-2-6",
                         "name": "eile EAP 4000",
-                        "img": null,
+                        "img": "/assets/products/teneke_bos.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-2-7",
                         "name": "eile EPX 830",
-                        "img": null,
+                        "img": "/assets/products/teneke_bos.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-2-8",
                         "name": "eile EPX 730",
-                        "img": null,
+                        "img": "/assets/products/teneke_bos.png",
                         "info": null,
                         "description": null
                     }
@@ -510,35 +510,35 @@
                     {
                         "key": "3-3-1",
                         "name": "eile EPX 021",
-                        "img": null,
+                        "img": "/assets/products/epx_021.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-3-2",
                         "name": "eile EPX 260",
-                        "img": null,
+                        "img": "/assets/products/teneke_bos.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-3-3",
                         "name": "eile EPX 225",
-                        "img": null,
+                        "img": "/assets/products/epx_225.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-3-4",
                         "name": "eile EPX 110",
-                        "img": null,
+                        "img": "/assets/products/epx_110.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-3-5",
                         "name": "eile EPS 201",
-                        "img": null,
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "info": null,
                         "description": null
                     }
@@ -551,21 +551,21 @@
                     {
                         "key": "3-4-1",
                         "name": "eile CURING 105",
-                        "img": null,
+                        "img": "/assets/products/eile_curing105.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-4-2",
                         "name": "eile CURING AST",
-                        "img": null,
+                        "img": "/assets/products/eile_curing_AST.png",
                         "info": null,
                         "description": null
                     },
                     {
                         "key": "3-4-3",
                         "name": "eile PARKÜR",
-                        "img": null,
+                        "img": "/assets/products/eile_parkur.png",
                         "info": null,
                         "description": null
                     }
@@ -584,42 +584,42 @@
                     {
                         "key": "4-1-1",
                         "name": "eile SYP 1000",
-                        "img": null
+                        "img": "/assets/products/syp1000.png"
                     },
                     {
                         "key": "4-1-2",
                         "name": "eile FLEX YAPIŞTIRICI",
-                        "img": null
+                        "img": "/assets/products/flexyapistirmaharci.png"
                     },
                     {
                         "key": "4-1-3",
                         "name": "POMEX SERAMİK YAPIŞTIRMA HARCI",
-                        "img": null
+                        "img": "/assets/products/seramikyapistirmaharci.png"
                     },
                     {
                         "key": "4-1-4",
                         "name": "POMEX HAVUZ YAPIŞTIRICISI",
-                        "img": null
+                        "img": "/assets/products/eilegenel.png"
                     },
                     {
                         "key": "4-1-5",
                         "name": "eile POMEX 28",
-                        "img": null
+                        "img": "/assets/products/eilegenel.png"
                     },
                     {
                         "key": "4-1-6",
                         "name": "POMEX HIZLI DONAN SERAMİK YAPIŞTIRICISI",
-                        "img": null
+                        "img": "/assets/products/eilegenel.png"
                     },
                     {
                         "key": "4-1-7",
                         "name": "POMEX GRANİT YAPIŞTIRICISI",
-                        "img": null
+                        "img": "/assets/products/granityapharci.png"
                     },
                     {
                         "key": "4-1-8",
                         "name": "POMEX GAZBETON YAPIŞTIRICISI",
-                        "img": null
+                        "img": "/assets/products/gazbetonyapistiricisi.png"
                     }
                 ]
             },
@@ -630,7 +630,7 @@
                     {
                         "key": "4-2-1",
                         "name": "eile EPX 927",
-                        "img": null
+                        "img": "/assets/products/epx_927.png"
                     }
                 ]
             }
@@ -647,22 +647,22 @@
                     {
                         "key": "5-1-1",
                         "name": "POMEX DERZ DOLGU",
-                        "img": null
+                        "img": "/assets/products/fuga1-6mm.png"
                     },
                     {
                         "key": "5-1-2",
                         "name": "POMEX FLEX FUGA",
-                        "img": null
+                        "img": "/assets/products/flexyapistirmaharci.png"
                     },
                     {
                         "key": "5-1-3",
                         "name": "POMEX HAVUZ FUGA",
-                        "img": null
+                        "img": "/assets/products/fuga1-6mm.png"
                     },
                     {
                         "key": "5-1-4",
                         "name": "POMEX RUSTİK FUGA",
-                        "img": null
+                        "img": "/assets/products/fuga1-6mm.png"
                     }
                 ]
             },
@@ -673,17 +673,17 @@
                     {
                         "key": "5-2-1",
                         "name": "eile EPX 630",
-                        "img": null
+                        "img": "/assets/products/epx_630.png"
                     },
                     {
                         "key": "5-2-2",
                         "name": "eile POLİÜRETAN MASTİK 100",
-                        "img": null
+                        "img": "/assets/products/poliuretan_mastik.png"
                     },
                     {
                         "key": "5-2-3",
-                        "name": "EİLE POLİÜERTAN MASTİK 125",
-                        "img": null
+                        "name": "EİLE POLİÜRETAN MASTİK 125",
+                        "img": "/assets/products/poliuretan_mastik.png"
                     }
                 ]
             }
@@ -696,37 +696,37 @@
             {
                 "key": "6-0-1",
                 "name": "THERMOMEX- D ŞAP",
-                "img": null
+                "img": "/assets/products/thermomex-D_sap.png"
             },
             {
                 "key": "6-0-2",
                 "name": "POMEX THERMOMEX SIVA",
-                "img": null
+                "img": "/assets/products/thermomex.png"
             },
             {
                 "key": "6-0-3",
                 "name": "POMEX THERMOMEX ŞAP",
-                "img": null
+                "img": "/assets/products/thermomex_sap.png"
             },
             {
                 "key": "6-0-4",
                 "name": "eile PLY 2100",
-                "img": null
+                "img": "/assets/products/pyl2100.png"
             },
             {
                 "key": "6-0-5",
                 "name": "eile PLS 2000",
-                "img": null
+                "img": "/assets/products/pls2000.png"
             },
             {
                 "key": "6-0-6",
                 "name": "POMEX ISI MANTOLAMA SIVASI",
-                "img": null
+                "img": "/assets/products/isimontalama_sivasi.png"
             },
             {
                 "key": "6-0-7",
                 "name": "POMEX ISI MANTOLAMA YAPIŞTIRICISI",
-                "img": null
+                "img": "/assets/products/isi_mantolama_yap_harc.png"
             }
         ]
     },
@@ -737,32 +737,32 @@
             {
                 "key": "7-0-1",
                 "name": "POMEX GBS 5000",
-                "img": null
+                "img": "/assets/products/gbs_5000.png"
             },
             {
                 "key": "7-0-2",
                 "name": "eile SON KAT ELYAFLI SIVA",
-                "img": null
+                "img": "/assets/products/sonkat_siva.png"
             },
             {
                 "key": "7-0-3",
                 "name": "eile MİNERAL SIVA – DS 40",
-                "img": null
+                "img": "/assets/products/ds40.png"
             },
             {
                 "key": "7-0-4",
                 "name": "POMEX İNCE SIVA",
-                "img": null
+                "img": "/assets/products/incesiva.png"
             },
             {
                 "key": "7-0-5",
                 "name": "POMEX KALIN SIVA",
-                "img": null
+                "img": "/assets/products/kalınsıva.png"
             },
             {
                 "key": "7-0-6",
                 "name": "POMEX MAKİNA SIVASI",
-                "img": null
+                "img": "/assets/products/eilegenel.png"
             }
         ]
     },
@@ -773,42 +773,42 @@
             {
                 "key": "8-0-1",
                 "name": "eile ASTAR E",
-                "img": null
+                "img": "/assets/products/eile_astar_e.png"
             },
             {
                 "key": "8-0-2",
                 "name": "eile TU-05",
-                "img": null
+                "img": "/assets/products/tu_05.png"
             },
             {
                 "key": "8-0-3",
                 "name": "eile TU 06",
-                "img": null
+                "img": "/assets/products/tu_06.png"
             },
             {
                 "key": "8-0-4",
                 "name": "eile LATEX",
-                "img": null
+                "img": "/assets/products/eile_latex.png"
             },
             {
                 "key": "8-0-5",
                 "name": "eile FİBER",
-                "img": null
+                "img": "/assets/products/gorsel_yok.png"
             },
             {
                 "key": "8-0-6",
                 "name": "eile KA 100",
-                "img": null
+                "img": "/assets/products/eile_ka100.png"
             },
             {
                 "key": "8-0-7",
                 "name": "eile KA 300",
-                "img": null
+                "img": "/assets/products/ka300.png"
             },
             {
                 "key": "8-0-8",
                 "name": "eile EPX 201",
-                "img": null
+                "img": "/assets/products/eile_genel_teneke.png"
             }
         ]
     }
