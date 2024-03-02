@@ -62,6 +62,9 @@ function Products() {
         const len = keyList.length;
         if (len == 1) {
             if (keyList[0] == 0) {
+                if (mobileView) {
+                    handleShowCategory();
+                }
                 setHeader("Products");
                 setProducts(productData);
             } else {
@@ -78,6 +81,9 @@ function Products() {
                         setProducts(items);
                     }
                 } else {
+                    if (mobileView) {
+                        handleShowCategory();
+                    }
                     setHeader(group.name);
                     setProducts(group.items);
                 }
@@ -118,6 +124,11 @@ function Products() {
     useEffect(() => {
         let categoryList = (
             <ul className="group">
+                <li key={"0"}>
+                    <span onClick={() => handleCategoryItemClick("0")}>
+                        Ana Gruplar
+                    </span>
+                </li>
                 {productData.map((group) => {
                     return (
                         <li key={group.key}>
@@ -216,13 +227,20 @@ function Products() {
                     <h3>{header}</h3>
                     {mobileView && <div className="filter-icon"></div>}
                 </div>
-                <div className="productList">
+                <div
+                    className={
+                        mobileView && header == "Products"
+                            ? "productRowList"
+                            : "productList"
+                    }
+                >
                     {products.map((item) => {
                         return (
                             <ProductCard
                                 key={item.key}
                                 image={item.img || pImg}
                                 text={item.name}
+                                rowList={mobileView && header == "Products"}
                                 onClick={() => handleProductClick(item.key)}
                             />
                         );
