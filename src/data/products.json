@@ -1428,81 +1428,163 @@
             "key": "3-1-1",
             "name": "eile Top 110 s",
             "img": "/assets/products/top110_S.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage": "/assets/appImage/top110.png",
+            "info": "Endüstriyel Zeminler İçin Kuvars Agregalı,Yüzey Sertleştirici",
+            "description": "Taze beton ve şap yüzeyine uygulanan, çimento esaslı, kuvars agregalı uygulandığı alanı darbe ve aşınmaya karşı koruyan; zemin yüzey sertleştiricisidir",
+            "areasOfUsage": [
+              "Dış ve iç mekanlarda,",
+              "Garaj ve Otopark gibi trafiğin fazla olduğu alanlarında,",
+              "Endüstriyel bina zeminleri, depolarda,",
+              "Endüstriyel bina zeminlerinde, tamirhane ve atölyeler gibi mekanik aşınma dayanımı aranan ve tozumayapmaması istenen taze beton yüzeylerine uygulanır."
+            ],
+            "featuresOfProduct": [
+              "Uygulama yapılan yüzey, darbe ve aşınmaya karşı dayanıklıdır.",
+              "Geçirimsizliği yüksektir.",
+              "Betonun tozumasını engeller.",
+              "Taşıyıcı betona kolay uygulanır.",
+              "üç farklı renk seçeneği mevcuttur.",
+              "Özel granülometrik dane boyutuna sahip kuvars agrega içerir."
+            ],
+            "beforeApplication": "Anolar hazırlandıktan sonra beton dökülür. Vibrasyonlu mastar ile beton sıkıştırılır. Tahta mala ile son bir düzeltme yapılabilir. TOP 110 S uygulanacak alanın taşıyıcı betonu en az C25 veya 350 doz sınıfında olmalıdır.",
+            "application": "Uygulama yapılacak beton yüzeyi çok ıslak veya çok kuru olmamalıdır Beton çok kuru olur ise yüzey sertleştirici beton ile birleşmeyerek, zeminden kabuk kabuk kalkacaktır. Uygulama beton çok ıslak iken yapılır ise, yüzey sertleştirici ayrışarak yüzeyde gerekli mukavemet ve dayanım sağlanmayacaktır.Uygulamaya; betonun üzerine çıkıldığında, 0,5-1,5 cmmderinliğinde ayak izi kalıyor ise başlanır. Zemin; yüzey sertleştiricinin ihtiyacı olan nemi alabilecek kadar ıslak olmalıdır. Uygulama alanına; tüketim miktarına göre TOP 110 S torbaları anoların etrafına dizilir.El veya mekanik serpme makinası ile yüzeye homojen olarak atılır. Serpilen malzemenin betonun suyunu çekerek renk değiştirmesi beklenir. Homojen şekilde serpilen ve suyu çekerek rengi değişen malzeme tepsi perdahı ile sıkıştırılır ve beton ile bütünleşmesi sağlanır. 5kg/m2 üzeri uygulamalarda malzemenin önce 2/3 ü serpilir. Disk işlemi yapıldıktan sonra geri kalan 1/3 miktardaki malzeme serpilir. Yeniden disk ile perdahlanma işlemi gerçekleştirilir. Kaba perdah işleminin ardından; son perdahlama ince bıçak ayarlamaları ile istenilen parlaklık sağlanana kadar yapılmalıdır. Uygulama sırasında yüzeye su serpilmemelidir.",
+            "mixing": "Kürleme : Malzemenin uygulaması bittikten sonra, hidratasyon suyunun hızlı buharlaşması ve rötre çatlaklarının engellenmesi, tozumazlığın sağlanması amacı ile yüzeye; kür malzemesi olan Parkür, Curing 105 veya Curing AST ürünleri uygulanmalıdır. Beton dökümünden max. 24 saat sonra en az 4 mm genişlikte kesilerek genleşme derzleri oluşturulmalıdır.Derzlerde, kırılma ve tozuma gibi olumsuz durumların oluşmaması için eile Poliüretan Mastik uygulanmalıdır. ",
+            "mixture": "  ",
+            "consumption": [
+              "Zemin yüzey sertleştiricileri uzman uygulayıcılar tarafından yapılmalıdır.",
+              "Uygulama +5°C - +35°C sıcaklık aralığında yapılmalıdır.",
+              "Donmuş, erimekte olan veya 24 saat içerisinde don tehlikesi olan yüzeylerde uygulanmamalıdır."
+            ],
+            "package": "25 kg’ lık kraft torba ",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır."
           },
           {
             "key": "3-1-2",
             "name": "eile KORUND 120 F",
             "img": "/assets/products/korund120f.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage": "/assets/appImage/korund_120F.png",
+            "info": "Endüstriyel Zeminler İçin Korund Agregalı,Yüzey Sertleştirici",
+            "description": "Zeminleri darbe ve aşınmalara karşı koruyan, taze beton ve şap yüzeyine uygulanan, çimento esaslı, korund agregalı yüzey sertleştiricisidir.",
+            "areasOfUsage": [
+              "Orta ve ağır trafiğin yoğun olduğu uygulamalarda,tersanelerde,",
+              "İç ve dış mekanlarda;depolarda,garaj ve otopark alanlarında,",
+              "Endüstriyel bina zeminlerinde, tamirhane ve atölyeler gibi mekanik aşınma dayanımı aranan ve tozuma yapmaması istenen taze beton yüzeylerine uygulanır."
+            ],
+            "featuresOfProduct": [
+              "Uygulama yapılmış yüzeyin, darbelere ve aşınmaya karşı dayanıklılığı; normal betona oranla 4-6 kat artar.",
+              "Geçirimsizliği yüksektir.",
+              "Betonun tozumasını engeller.",
+              "Taşıyıcı betona kolay uygulanır.",
+              "Üç farklı renk seçeneği mevcuttur.",
+              "Özel granülometrik tane boyutuna sahip korund agrega ihtiva eder."
+            ],
+            "beforeApplication": "Beton dökümü : Anolar hazırlandıktan sonra beton dökülür. Vibrasyonlu mastar ile beton sıkıştırılır. Tahta mala ile son bir düzeltme yapılabilir. KORUND 120 F uygulanacak alanın taşıyıcı betonu en az C25 veya 350 doz sınıfında olmalıdır.",
+            "mixing": " Kürleme : Malzemenin uygulaması bittikten sonra, hidratasyon suyunun hızlı buharlaşması ve rötre çatlaklarının engellenmesi, tozumazlığın sağlanması amacı ile yüzeye; kür malzemesi olan Parkür, Curing 105 veya Curing AST ürünleri uygulanmalıdır. Beton dökümünden max. 24 saat sonra en az 4 mm genişlikte kesilerek genleşme derzleri oluşturulmalıdır.Derzlerde, kırılma ve tozuma gibi olumsuz durumların oluşmaması için eile Poliüretan Mastik uygulanmalıdır.",
+            "mixture": "  ",
+            "application": "Uygulama yapılacak beton yüzeyi çok ıslak veya çok kuru olmamalıdır Beton çok kuru olur ise yüzey sertleştirici beton ile birleşmeyerek, zeminden kabuk kabuk kalkacaktır. Uygulama beton çok ıslak iken yapılır ise, yüzey sertleştirici ayrışarak yüzeyde gerekli mukavemet ve dayanım sağlanmayacaktır.Uygulamaya; betonun üzerine çıkıldığında, 0,5-1,5 cm derinliğinde ayak izi kalıyor ise başlanır. Zemin; yüzey sertleştiricinin ihtiyacı olan nemi alabilecek kadar ıslak olmalıdır.Uygulama alanına; tüketim miktarına göre KORUND 120 F torbaları anoların etrafına dizilir. El veya mekanik serpme makinası ile yüzeye homojen olarak atılır. Serpilen malzemenin betonun suyunu çekerek renk değiştirmesi beklenir. Homojen şekilde serpilen ve suyu çekerek rengi değişen malzeme tepsi perdahı ile sıkıştırılır ve beton ile bütünleşmesi sağlanır. 5kg/m2 üzeri uygulamalarda malzemenin önce 2/3 ü serpilir. Disk işlemi yapıldıktan sonra geri kalan 1/3 miktardaki malzeme serpilir. Yeniden disk ile perdahlanma işlemi gerçekleştirilir. Kaba perdah işleminin ardından; son perdahlama ince bıçak ayarlamaları ile istenilen parlaklık sağlanana kadar yapılmalıdır.Uygulama sırasında yüzeye su serpilmemelidir. ",
+            "consumption": [
+              "Zemin yüzey sertleştiricileri uzman uygulayıcılar tarafından yapılmalıdır.",
+              "Uygulama +5°C - +35°C sıcaklık aralığında yapılmalıdır.",
+              "Donmuş, erimekte olan veya 24 saat içerisinde don tehlikesi olan yüzeylerde uygulanmamalıdır."
+            ],
+            "package": "25 kg’ lık kraft torba ",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır. "
           },
           {
             "key": "3-1-3",
             "name": "POMEX YÜZEY SERTLEŞTİRİCİ",
             "img": "/assets/products/zeminyuzeysert.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage": "/assets/appImage/yuzeysert.png",
+            "info": "Endüstriyel Zeminler İçin Kuvars-Silis Agregalı,Yüzey Sertleştirici",
+            "description": "Zeminleri darbe ve aşınmaya karşı koruyan, taze beton ve şap yüzeyine uygulanan, çimento esaslı, özel gradasyona sahip kuvars –silis agregalı zemin yüzey sertleştiricisidir.",
+            "areasOfUsage": [
+              "Orta ve ağır trafiğin yoğun olduğu uygulamalarda,tersanelerde,",
+              "iç ve dış mekanlarda;depolarda,garaj ve otopark alanlarında,",
+              "Endüstriyel bina zeminlerinde, tamirhane ve atölyeler gibi mekanik aşınma dayanımı aranan ve tozuma yapmaması istenen taze beton yüzeylerine uygulanır."
+            ],
+            "featuresOfProduct": [
+              "POMEX YÜZEY SERTLEŞTİRİCİSİ uygulanmış yüzey, darbe ve aşınmalara son derece dayanıklıdır.",
+              "Geçirimsizliği yüksektir.",
+              "Betonun tozumasını önler.",
+              "Taşıyıcı betona kolay uygulanır.",
+              "Özel granülometrik dane boyutuna sahip kuvars agrega içerir."
+            ],
+            "beforeApplication": "Beton dökümü : Anolar hazırlandıktan sonra beton dökülür. Vibrasyonlu mastar ile beton sıkıştırılır. Tahta mala ile son bir düzeltme yapılabilir. Pomex zemin yüzey sertleştiricisi uygulanacak alanın taşıyıcı betonu en az C25 veya 350 doz sınıfında olmalıdır.",
+            "mixing": " Kürleme : Malzemenin uygulaması bittikten sonra, hidratasyon suyunun hızlı buharlaşması ve rötre çatlaklarının engellenmesi, tozumazlığın sağlanması amacı ile yüzeye; kür malzemesi olan Parkür, Curing 105 veya Curing AST ürünleri uygulanmalıdır. Beton dökümünden max. 24 saat sonra en az 4 mm genişlikte kesilerek genleşme derzleri oluşturulmalıdır.Derzlerde, kırılma ve tozuma gibi olumsuz durumların oluşmaması için eile Poliüretan Mastik uygulanmalıdır.",
+            "mixture": "  ",
+            "application": "Uygulama yapılacak beton yüzeyi çok ıslak veya çok kuru olmamalıdır. Beton çok kuru olur ise; yüzey sertleştirici ile beton birleşemeyecek ve zeminden kabuk kabuk kalkacaktır. Uygulama beton çok ıslak iken yapılır ise; yüzey sertleştirici ayrışacak, yüzeyde gerekli mukavemet ve dayanım sağlanmayacaktır.Uygulamaya; betonun üzerine çıkıldığında, 0,5-1,5 cm derinliğinde ayak izi kalıyor ise başlanır. Zemin; Yüzey sertleştiricinin ihtiyacı olan nemi alabilecek kadar ıslak olmalıdır.Uygulama alanına; tüketim miktarına göre POMEX YÜZEY SERTLEŞTİRİCİ torbaları anoların etrafına dizilir. El veya mekanik serpme makinası ile yüzeye homojen olarak atılır. Serpilen malzemenin betonun suyunu çekerek renk değiştirmesi beklenir. Homojen şekilde serpilen ve suyu çekerek rengi değişen POMEX Yüzey Sertleştiricisi, tepsi perdahı ile sıkıştırılarak beton ile bütünleşmesi sağlanır. 5kg/m2 üzeri uygulamalarda malzemenin önce 2/3 ü serpilip disk işlemi yapılır. Ardından geri kalan 1/3 miktardaki malzeme serpilir ve disk ile perdahlanır. Kaba perdah işleminin ardından; son perdahlama ince bıçak ayarlamaları ile istenilen parlaklık sağlanana kadar yapılmalıdır. Uygulama sırasında yüzeye su serpilmemesi gereklidir.",
+            "consumption": [
+              "Zemin yüzey sertleştiricileri uzman uygulayıcılar tarafından yapılmalıdır.",
+              "Uygulama +5°C - +35°C sıcaklık aralığında yapılmalıdır.",
+              "Donmuş, erimekte olan veya 24 saat içerisinde don tehlikesi olan yüzeylerde uygulanmamalıdır."
+            ],
+            "package": "25 kg’ lık kraft torba ",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır. "
           },
           {
             "key": "3-1-4",
             "name": "eile LEVEL",
             "img": "/assets/products/level_render.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage": "/assets/appImage/level.png",
+            "info": "Çimento Esaslı Kendiliğinden Yayılan Tesviye Şapı",
+            "description": "Düzgün olmayan beton zeminlerde düzeltme harcı olarak kullanılır. 1-10 mm. arası kalınlıkta uygulanabilen, polimer modifiyeli, çatlama ve büzülme yapmayan çimento esaslı zemin tesviye şapıdır.",
+            "areasOfUsage": [
+              "Orta ve yoğun yaya trafiğine maruz zeminlerde son kat kaplama öncesi,",
+              "İç mekanlarda seramik, mermer, parke, halı ve PVC kaplamaların yapıştırılmasından önce",
+              "Bozuk zeminlerin tesviyesi amacı ile,",
+              "Sağlık kuruluşlarında,alışveriş merkezlerinde,otellerde kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Hızlı ve uygulama kolaylığı.",
+              "Su ile karıştırılır.",
+              "Kendiliğinden yayılır, teraziye gelir."
+            ],
+            "beforeApplication": "Yüzey hazırlığı : Yüzeyin sağlam, taşıyıcı, tozsuz ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntıları temizlenmeli gevşek parça olmamalıdır. Yüzeyde bulunan bozukluklar tamir edilmelidir. Uygulama yapılacak alanda hava akımı önlenmelidir. Büyük alanlarda, kot farkı ‘nın ortaya çıkmaması için karolaj yapılmalı ve uygulama kotları belirlenmelidir. Astarlama : Eile LEVEL tesviye şapının işleme süresini uzatmak, uygulama zeminine yüksek aderans sağlamak; oluşması mümkün hava kabarcıklarını en az düzeye indirmek amacı ile yüzey eile ASTAR E ile astarlanmalıdır. Emiciliği yüksek yüzeylerde ikinci kat astar uygulaması yapılmalıdır. Astar uygulaması yapılacak katlar arasında en az iki saat beklenmelidir.Astar uygulamasından 24 saat sonra eile level uygulamasına geçilir. eile ASTAR E inceltilmeden uygulanmalıdır.",
+            "mixing": "Uygun miktarda su temiz bir karışım kovasına boşaltılır. Malzeme yavaşça karışım kovasına ilave edilerek düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika homojen karışım elde edilene kadar karıştırılır.Yaklaşık 4 dakika dinlendirildikten sonra 30 saniye kadar tekrar karıştırılarak kullanıma hazır hale getirilir.",
+            "mixture": " 25 kg’lık Torba İçin: 4, 5-5,25 litre su -- Karışım Yoğunluğu: 2 gr/ cm3",
+            "application": "Hazırlanan harç, kendiliğinden yayılır. Malzemenin kalınlığı dişli mala ile ayarlanır. Priz süresince su ilave edilmemeli, yüzeydeki hava kirpi rulo ile alınmalıdır.Uygulama ortamında oluşabilecek ani sıcaklık değişimleri engellenmelidir. Güneş ve rüzgar etkilerine açık olan alanlarda uygulama yapılmamalıdır.",
+            "consumption": [
+              "Eile LEVEL +5 °C ile +25 °C sıcaklık koşullarında uygulamaya uygundur. Ortam veya uygulama zemini sıcaklığı uygun sıcaklık koşulları aralığında değil ise; uygulama için uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
+              "Uygulanacak zemin ve ortam sıcaklığı, çimentonun hidratasyon reaksiyonunu etkileyeceği için, ortam ve zemin sıcaklığı izin verilen sıcaklık aralığında olmalıdır.",
+              "Malzeme uygulandıktan sonra hızlı kuruma engellenmelidir. Uygulanmış malzeme su temasından korunmalıdır.",
+              "Uygulamalar uzman uygulamacılar tarafından yapılmalıdır.",
+              "Malzeme uygulandıktan sonra, yapılabilecek yüzey kaplama uygulamaları için en az üç gün beklenmelidir.",
+              "Karışımın dinlendirilmesi ve uygulama öncesinde tekrar karıştırılması kesinlikle ihmal edilmemelidir."
+            ],
+            "package": "25 kg’lık kraft torba",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır."
           },
           {
             "key": "3-1-5",
             "name": "eile PERFLOOR",
             "img": "/assets/products/eilegenel.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "Çimento ve Akrilik Reçine Esaslı Çift Bileşenli, Kendiliğinden Yayılan,Endüstriyel Zemin Kaplaması ",
+            "description": "Çimento ve akrilik reçine esaslı, çift bileşenli, aşınma dayanımı yüksek, kendiliğinden yayılan lif takviyeli zemin kaplamasıdır.",
+            "areasOfUsage": [
+              "Balkon ve teraslarda.",
+              "Otopark ve garajlarda.",
+              "Aşınmış endüstriyel zeminlerde kaplama olarak kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Hızlı ve kolay uygulanır.",
+              "Aşınma ve darbelere dayanımı yüksektir.",
+              "Kendiliğinden yayılır, teraziye gelir.",
+              "Yüzeye tozumaz özellik kazandırır.",
+              "Aderansı güçlüdür."
+            ],
+            "beforeApplication": "Yüzey Hazırlığı : Yüzey sağlam, taşıyıcı, tozsuz ve temiz olmalıdır.Uygulama yapılacak çimento esaslı yüzey prizini almış olmalıdır. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntısı temizlenmelidir. Yüzeyde gevşek parça olmamalıdır. Uygulama yapılacak yüzeyde 1 mm'den geniş çatlaklaklılar ve 5 mm'den derin bozukluklar hangisi uygunsa, Eile TH 70, Eile TH 60, Eile Grout 50C veya Eile Grout 60C ile tamir edilmelidir. İnce rötre çatlaklarının tamiri göz ardı edilebilir.Derzler : Tamiri yapılan zeminde bulunan derzler işaretlenmeli uygulamadan sonra yeni yüzeye taşınmalıdır.Eile PERFLOOR başka kaplamaya bağlanacaksa en az 3 mm derinliğinde kanal açılarak kaplama kilitlenmelidir.Eile PERFLOOR bağlandığı kaplamaya hareket derzi oluşturulmalı bu derz eile Poliüretan Mastik ile doldurulmalıdır. Zeminin Suya Doyurulması : Yüksek sıcaklıklarda uygulama yüzeyinin hızlı su kaybını engellemek amacı ile yüzey 1 gün önceden suya doyurulmalıdır. Uygulamadan önce yüzeyde su birintisi bırakılmamalıdır.",
+            "mixing": "Eile PERFLOOR B bileşeni (sıvı) temiz karışım kovasına alınır. Üzerine A bileşeni (toz) azar azar ilave edilir. 3-4 dakika homojen görünüm sağlanana kadar düşük devirli karıştırıcı ile karıştırılır. Yaklaşık 3-5 dakika dinlendirilir. Ardından 30 saniye süre ile tekrar karıştırılır ve kullanıma hazır hale gelir.",
+            "mixture": " A Bileşeni 25 kg B bileşeni 8 litre olarak karıştırılır.",
+            "application": "Malzeme; astar uygulaması tam kurumadan zemine yayılarak uygulanır. eile PERFLOOR; ayarlı mala kullanılarak 3-5 mm kalınlığında uygulanmalıdır.Düzgün yüzeyli bir kaplama elde etmek için, ürün kesintisiz şekilde zemine dökülerek uygulanır. Bu sayede etkili yayılma sağlanır. Kirpi rulo ile hava kabarcıkları alındıktan sonra yüzey direncini arttırmak ve çatlamaları önlemek için 0,5-1,00 kg/m2 100-300 kuvars kumu serpilmelidir. Pürüzlü bir yüzey isteniyorsa 300-700 kuvars kumu serpilmelidir.Uygulama yapılan ortamda ani sıcaklık değişimi engellenmelidir.",
+            "consumption": [
+              "Eile PERFLOOR +5 °C ile +25 °C sıcaklık koşullarında uygulamaya uygundur. Uygulama zemini sıcaklığı belirlenen sıcaklık aralığında değil ise; uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
+              "Uygulanacak zemin ve ortam sıcaklığı, çimentonun hidratasyon reaksiyonunu etkiler. Bu nedenle ortam ve zemin sıcaklığı izin verilen değer aralığında olmalıdır.",
+              "Malzeme uygulandıktan sonra hızlı kuruma engellenmelidir. Uygulanmış malzeme su temasından korunmalıdır.",
+              "Uygulama yüzeyi 3 gün sonra trafiğe açılabilir. Ağır trafik koşullarında ise; uygulama yüzeyi 7 gün sonunda açılmalıdır.",
+              "Eile PERFLOOR endüztiyel bir kaplamadır.Uygulama yüzeyin yapısına bağlı olarak renk değişimleri gözlene bilir.",
+              "Uygulamalar uzman uygulamacılar tarafından yapılmalıdır."
+            ],
+            "package": " Set: 33 kg A Bileşen (toz): 25 kg ‘lık kraft torba B Bileşen (sıvı): 8 litre’lik plastik bidon",
+            "storage": "Açılmamış orijinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır."
           }
         ]
       },
@@ -1514,129 +1596,239 @@
             "key": "3-2-1",
             "name": "eile EPX 550",
             "img": "/assets/products/epx550.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage": "/assets/appImage/epx_550.png",
+            "info": "İki Bileşenli Solventsiz Self Leveling Epoksi,Kaplama Malzemesi",
+            "description": "Epoksi esaslı, solventsiz, self leveling, çift bileşenli zemin kaplama malzemesidir.",
+            "areasOfUsage": [
+              "Fabrika, depolar ve üretim alanları.",
+              "Uçak hangarları ve garajlarda.",
+              "Süt üretim tesisleri, mezbahalar, hastanelerde.",
+              "İlaç ve kimya endüstrisi."
+            ],
+            "featuresOfProduct": [
+              "Solvent içermez.",
+              "Self leveling özelliktedir.",
+              "Yapışma mukavemeti yüksektir."
+            ],
+            "beforeApplication": "Yüzeyler yeterli dayanıma sahip olmalıdır.Zemin betonu; en az 25 N/mm basınç ile en az 1,5-2 N/mm çekme dayanımına sahip olmalıdır. Uygulama yüzeyini sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntısı temizlenmeli; gevşek parça kalmamalıdır.Yağlı yüzeyler kimyasal temizlik malzemeleri ile temizlenmelidir. Zemin betonunun nem oranı % 5’i geçmemelidir. Nem oranı belirtilen değerin üzerinde ise; uygulama zemininde, nemli yüzey epoksi astar kullanılmalıdır. Uygulama zemini önceden uygun astarlar ( EPX 225, EPX 110 )ile astarlanmalıdır.",
+            "mixing": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır.İlk karıştırmanın ardından karışım mutlaka temiz bir kaba alınarak tekrar karıştırılmalıdır.Bu işlemden sonra malzeme kullanıma hazırdır.(Ürün ilk karıştırma kabından dökülerek uygulanır ise zeminde reaksiyona girmemiş olan serbest bileşenler katılaşmadan kalacaktır.) homojen karışım uygulama kalınlığını belirleyecek uygun dişli mala ile yüzeye uygulanır. ",
+            "mixture": "Ağırlıkça 5/1 ",
+            "application": "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır. Karışım oranlarına dikkat edilmelidir.Üst kat kaplamaya geçmeden önce epx 225 Astar kürünü tamamlamış olmalıdır. Katlar arasında minimum 12 saat beklenmelidir (20°C’de) 20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
+            "consumption": [
+              "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +10 °C‘ nin atında veya +30°C üzerinde ise uygulama yapılmamalıdır.",
+              "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
+              "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+              "Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır.",
+              "Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır. El ile uygulama yapılmamalıdır."
+            ],
+            "package": "Set: 25 kg -- A Bileşen 20 kg kova -- B Bileşen 5 kg kova",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-2-2",
             "name": "eile PUR 053",
             "img": "/assets/products/pur_053.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage": "/assets/appImage/pur_053.png",
+            "info": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
+            "description": "Poliüretan esaslı, self leveling son kat zemin kaplaması",
+            "areasOfUsage": [
+              "Hastanelerde, otopark ve depo alanlarında,",
+              "Gıda ve içecek sanayinde, otopark zeminlerde,",
+              "Büyük alışma ve üretim alanları,",
+              "Yükleme rampalarında"
+            ],
+            "featuresOfProduct": [
+              "Kolay Yayılma ve kullanım sağlar,",
+              "Esnek özelliktedir.",
+              "Çatlak köprüsü kurar,",
+              "Kimyasal ve mekanik dayanıma sahiptir.",
+              "Solvent içermez.",
+              "Estetik yüzey görünümü sağlar."
+            ],
+            "beforeApplication": "Yüzeyler yeterli dayanıma sahip olmalıdır. Zemin betonu; en az 25 N/mm2 basınç ile en az 1,5-2 N/mm2 çekme dayanımına sahip olmalıdır. Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntılar temizlenmelidir. Uygulama zemini önceden uygun astarlar (EPX 225, EPX 110) ile astarlanmalıdır.Uygulanacak yüzey nem oranı % 5 in üzerinde ise nemli yüzey astarı eile EPX 021 veya eile EPX 022 uygulanmalıdır.",
+            "mixing": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir.Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
+            "mixture": " 5/1 ( ağırlıkça )",
+            "application": "Eile PUR 053 uygulamasına geçmeden önce astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile PUR 053 zemine dökülerek ayarlı dişli mala ile uygulanır. ",
+            "consumption": [
+              "Aşırı sıcak, rüzgarlı ve yağışlı havalarda ;Ortam sıcaklığı +10 °C ile +30°C üzerinde ise uygulama yapılmamalıdır.",
+              "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
+              "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+              "Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır.",
+              "Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır. "
+            ],
+            "package": "Set: 24 kg -- A Bileşen: 20 kg teneke kova -- B Bileşen: 4 kg teneke kova",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır."
           },
           {
             "key": "3-2-3",
             "name": "eile EPX 400",
             "img": "/assets/products/teneke_bos.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "İki Bileşenli, Epoksi Esaslı, Tekstürlü Yüzey Kaplama",
+            "description": "İki bileşenli, epoksi esaslı, solventsiz, tekstürlü yüzeyli,kaymaz zemin kaplama malzemesidir",
+            "areasOfUsage": [
+              "Otopark, garaj, uçak hangarları, rampalarda",
+"Kayma riski yüksek alanlarda,",
+"Gıda, meşrubat, kimya, ilaç endüstrisinde,",
+"Üretim, ambalaj ve depolama alanlarında",
+"Otomotiv endüstrisinde"
+            ],
+            "featuresOfProduct": [
+              "Solvent içermez,",
+"Self leveling özelliktedir.",
+"Yapışma mukavemeti yüksektir."
+            ],
+            "beforeApplication": "Yüzeyler yeterli dayanıma sahip olmalıdır. Zemin betonu; en az 25 N/mm2 basınç ile en az 1,5-2 N/mm2 çekme dayanımına sahip olmalıdır. Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntılar temizlenmelidir. Uygulama zemini önceden uygun astarlar (EPX 225, EPX 110) ile astarlanmalıdır.Uygulanacak yüzey nem oranı % 5 in üzerinde ise nemli yüzey astarı eile EPX 021 veya eile EPX 022 uygulanmalıdır.",
+            "mixing": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir.Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
+            "mixture": "5/1 ( ağırlıkça )",
+            "application": "Eile EPX 400 uygulamasına geçmeden önce uygulanmış olan astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile EPX 400 zemine dökülerek ayarlı dişli mala yüzeye yayılması sağlanır. Bu işlemden sonra mercan rulo ile malzeme uygulaması yapılarak tekstürlü görünüm sağlanır.",
+            "consumption": [
+              "Aşırı sıcak, rüzgarlı ve yağışlı havalarda ;Ortam sıcaklığı +10 °C ile +30°C üzerinde ise uygulama yapılmamalıdır.",
+"Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
+"Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+"Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır."
+            ],
+            "package": "Set: 24 kg -- A Bileşen: 20 kg teneke kova -- B Bileşen: 4 kg teneke kova",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır."
           },
           {
             "key": "3-2-4",
             "name": "eile EPX 629",
             "img": "/assets/products/teneke_bos.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "İki Bileşenli, Epoksi Esaslı, Tekstürlü Yüzey Kaplama",
+            "description": "İki bileşenli, epoksi esaslı, solventli, tekstürlü yüzeyli, kaymaz zemin kaplama malzemesidir.",
+            "areasOfUsage": [
+              "Otopark, garaj, uçak hangarları, rampalarda",
+"Kayma riski yüksek alanlarda,",
+"Gıda, meşrubat, kimya, ilaç endüstrisinde,",
+"Üretim, ambalaj ve depolama alanlarında",
+"Otomotiv endüstrisinde"
+            ],
+            "featuresOfProduct": [
+              "Self leveling özelliktedir.",
+"Yapışma mukavemeti yüksektir."
+            ],
+            "beforeApplication": "Yüzeyler yeterli dayanıma sahip olmalıdır. Zemin betonu; en az 25 N/mm2 basınç ile en az 1,5-2 N/mm2 çekme dayanımına sahip olmalıdır. Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntılar temizlenmelidir. Uygulama zemini önceden uygun astarlar (EPX 225, EPX 110) ile astarlanmalıdır.Uygulanacak yüzey nem oranı % 5 in üzerinde ise nemli yüzey astarı eile EPX 021 veya eile EPX 022 uygulanmalıdır.",
+            "mixing": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir.Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
+            "mixture": "  9/1 (ağırlıkça)",
+            "application": "eile EPX 629 uygulamasına geçmeden önce uygulanmış olan astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile EPX 629 zemine dökülerek ayarlı dişli mala yüzeye yayılması sağlanır. Bu işlemden sonra mercan rulo ile malzeme uygulaması yapılarak tekstürlü görünüm sağlanır.",
+            "consumption": [
+              "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +10°C ile +30°C üzerinde ise uygulama yapılmamalıdır.",
+"Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.", 
+"Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+"Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır."
+            ],
+            "package": "Set: 20 kg --  A Bileşen: 18 kg teneke kova -- B Bileşen: 2 kg teneke kova ",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır."
           },
           {
             "key": "3-2-5",
             "name": "eile EAP 435",
             "img": "/assets/products/teneke_bos.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "Su Bazlı Epoksi Kaplama",
+            "description": "2 komponentli, solventsiz, su bazlı epoksi reçine esaslı kaplama malzemesidir.",
+            "areasOfUsage": [
+              "Üretim alanları, depolar,otoparklar, normal ve orta derecede mekanik yükleme alanları, betona, harçların üzerine rahatlıkla uygulanır."
+            ],
+            "featuresOfProduct": [
+              "Kimyasal dayanımlıdır.", 
+              "Mekanik mukavemeti yüksektir.", 
+              "Su buharını geçirir.", 
+              "Suyla incelir,kokusuzdur, kolay uygulanır."
+            ],
+            "beforeApplication": "Uygulanacak yüzeyler temiz olmalı, yağ, kir, oynak parçalar ve beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. eile EAP 4000 astar uygulaması yapılmalıdır.",
+            "mixing": " A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
+            "mixture": " Ağırlıkça 4/1",
+            "application": "Homojen karışım uygulama kalınlığını belirleyecek uygun dişli mala ile yüzeyeuygulanır.Yüzey temiz düzgün, kuru olmalıdır,10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de). 20°C de yaklaşık 20 saat sonra üzerinde yürünebilir. ",
+            "consumption": [
+              "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +10 °C‘ nin atında veya +30°C üzerinde ise uygulama yapılmamalıdır.", 
+ "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır." , 
+ "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+"Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır."
+            ],
+            "package": "A bileşen:20 kg -- B bileşen:5 kg -- Toplam :25 kg",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-2-6",
             "name": "eile EAP 4000",
             "img": "/assets/products/teneke_bos.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "Su Bazlı Epoksi Astar",
+            "description": "Solvent içermeyen, su bazlı epoksi reçine ile hazırlanmış iki bileşenli astardır. Su bazlı olduğu için kokusuzdur.",
+            "areasOfUsage": [
+              "Aderans artırıcı olarak,",  
+              "Beton yüzeyler,", 
+              "Poliüretan sıstemlerin, epoksi son kat ve ara katların ilk astarı olarak kullanılır.", 
+"Kolay ve hızlı olarak kullanılır, Çevre dostudur,", 
+"Çok emici olan yüzeyler için uygundur, bilhassa havalandırması olmayan yerlerde kullanılır."
+            ],
+            "featuresOfProduct": [  ],
+            "beforeApplication": " Uygulanacak yüzeyler temiz olmalı,yağ, kir ve oynak parçalar Beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan Parçalardan temizlenmelidir.",
+            "mixing": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
+            "mixture": " Ağırlıkça 3/1",
+            "application": " Hazırlanan homojen karışım fırça, rulo veya havasız tabanca ile yüzeye homojen dağılım olacak şekilde uygulanmalıdır.Yüzeyler yeterli dayanıma sahip olmalıdır. 0,7 N/mm² çekme dayanımına sahip olmalıdır.Yüzey temiz, düzgün, kuru olmalı. +10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Katlar arasında minimum 8 saat beklenmelidir (20°C’de).20°C de yaklaşık 8 saat sonra üzerinde yürünebilir.",
+            "consumption": [
+              "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +10°C‘ nin atında veya +30°C üzerinde ise uygulama yapılmamalıdır.", 
+              "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.", 
+"Uzman uygulayıcılar tarafından uygulama yapılmalıdır.", 
+"Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır.",
+"Astarlanan yüzey 24 saat su temasından korunmalıdır." 
+            ],
+            "package": "A bileşen: 15 kg -- B bileşen: 5 kg -- Toplam : 20 kg",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-2-7",
             "name": "eile EPX 830",
             "img": "/assets/products/teneke_bos.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "Solventli Epoksi Son Kat Boya",
+            "description": "İki bileşenli, epoksi reçine esaslı parlak son kat boyadır. Aşınma ve sürtünmeye karşı yüksek direnci, deniz suyu, mineral yağları ve birçok kimyasal maddeye karşı dayanıklı son kat parlak boyadır.",
+            "areasOfUsage": [
+              "Hastane odaları, bekleme salonları,",
+              "Gıda tesisleri, yemekhaneler, mutfaklar,",
+              "Soğuk hava depoları,",
+              "Çelik konstrüksiyon",
+              "Petro kimya tesislerinde kullanılır."
+            ],
+            "featuresOfProduct": [  ],
+            "beforeApplication": " Uygulanacak yüzeyler temiz olmalı,yağ, kir, oynak parçalar ve beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. Sac yüzeylere uygulanacaksa mutlaka sa2½ mertebesinde kum raspa ile temizlenmelidir. epoksi maxi filler astar üzerine uygulanmalıdır.",
+            "mixing": " A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
+            "mixture": "Ağırlıkça 4/1",
+            "application": "Hazırlanan homojen karışım fırça, rulo veya pistole ile uygulanır.10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de).20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
+            "consumption": [
+              "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.", 
+"Karışım oranlarına dikkat edilmelidir.",
+"Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
+"Uzman uygulayıcılar tarafından uygulama yapılmalıdır."
+            ],
+            "package": "Set: 25 kg -- A Bileşen 20 kg kova -- B Bileşen 5 kg kova",
+            "storage":"Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-2-8",
             "name": "eile EPX 730",
             "img": "/assets/products/teneke_bos.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "Solventli Yarı Mat Epoksi Boya",
+            "description": "İki bileşenli, epoksi reçine esaslı, aşınma ve sürtünmeye karşı yüksek dirence sahip, deniz suyu, mineral yağları ve birçok kimyasal maddeye karşı dayanıklı son kat boyadır.",
+            "areasOfUsage": [
+              "Hastane odaları, bekleme salonları,",
+              "Gıda tesisleri, yemekhaneler, mutfaklar,",
+              "Soğuk hava depoları,",
+              "Çelik konstrüksiyon",
+              "Petro kimya tesislerinde kullanılır."
+            ],
+            "featuresOfProduct": [  ],
+            "beforeApplication": "Uygulanacak yüzeyler temiz olmalı, yağ, kir, oynak parçalar, beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir.Yüzey temizliği işleminden sonra eile EPX 110, eile EPS 201 astarlarından biri uygulanmalıdır.",
+            "mixing": " A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
+            "mixture": " Ağırlıkça 5/1",
+            "application": "Hazırlanan homojen karışım fırça, rulo veya pistole ile uygulanır.10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de).20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
+            "consumption": [
+              "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.", 
+"Karışım oranlarına dikkat edilmelidir.",
+"Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
+"Uzman uygulayıcılar tarafından uygulama yapılmalıdır."
+            ],
+            "package": "Set: 25 kg -- A Bileşen 20 kg kova -- B Bileşen 5 kg kova",
+            "storage":"Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           }
         ]
       },
@@ -1648,81 +1840,157 @@
             "key": "3-3-1",
             "name": "eile EPX 021",
             "img": "/assets/products/epx_021.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "% 100 Nemli Yüzeyler için Epoksi Astar",
+            "description": "İki bileşenli, solventsiz epoksi reçine esaslı, % 100 nem ihtiva eden, ıslak beton yüzeylere kolayca yapışabilen elastik yüksek su resiztanslı, suda etkilenmeyen nem bariyeri oluşturan astardır.",
+            "areasOfUsage": [
+              "Binaların çatı ve temellerinde,", 
+              "Özellikle % 100 nemin oluştuğu, tamamen ıslak olan beton yüzeylere uygulanır."
+            ],
+            "featuresOfProduct": [
+              "Islak beton yüzeylere kolayca yapışır.",
+"Elastik özellikte olup yüksek su rezistansı sağlar.",
+"Tuzlu suya dayanıklıdır. Suyu geçirmez.",
+"Nem bariyeri oluşturur. Solvent içermez."
+            ],
+            "beforeApplication": "Yüzeyler temiz ve sağlam olmalı, aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntısından arındırılmalı ve gevsek parçalar hava veya mekanik yöntemlerle temizlenmelidir.",
+            "mixing": "B bileşeni A bileşen içerisine yavaşça eklenerek homojen bir karışım elde edilene kadar düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika karıştırılmalıdır. İlk karıştırmanın ardından karışım mutlaka temiz bir kaba alınarak tekrar karıştırılmalıdır. Bu işlemden sonra malzeme kullanıma hazırdır.",
+            "mixture": " A bileşen/ B bileşen: 1/1 (ağırlıkça) ",
+            "application": "Homojen karışım eile EPX 021 rulo veya uygun bir fırça ile yüzeye iyice yedirilmeli ve gözenekleri kapatacak şekilde uygulanmalıdır. İstenirse havasız tabanca ile uygulama yapılabilir. Yeni betonun yaşı en az 4 hafta olmalıdır.",
+            "consumption": [
+              "Ürün profesyonel kullanım içindir.",
+              "Kullanmadan önce ambalaj üzerindeki güvenlik uyarılarına dikkat ediniz.",
+              "Gerektiği durumda ürünün Malzeme Güvenlik Bilgi Fişi’ne bakınız.", 
+              "Solumayınız, deri ve gözle temasından kaçınınız, yutmayınız.", 
+             "Uygun iş güvenliği malzemesi kullanınız." 
+             ],
+            "package": "Set: 30 kg --  A bileşen: 15 kg lık teneke kovalarda --  B bileşen: 15 kg lık teneke kovalarda",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-3-2",
             "name": "eile EPX 260",
             "img": "/assets/products/teneke_bos.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage":"/assets/appImage/epx_260.png",
+            "info": "Çok Amaçlı Epoksı Astar",
+            "description": "İki bileşenli düşük vizkoziteli solventsiz epoksi astar malzemesidir.",
+            "areasOfUsage": [
+              "Beton, epoksi kaplamalar, epoksi esaslı harçlar üzerine,", 
+"Epoksi polıüretan üst kaplamaları uygulamasından önceki astar tabakası olarak,", 
+"Fabrika ve depo yükleme alanları, orta ve ağır yüke maruz endüstriyel zeminlerde, aşınma ve kayma dayanımlı epoksi harç uygulamasında kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Solvent içermez.",
+"Düşük viskozitelidir.",
+"Uygulaması kolaydır.",
+"Erken mukavemet sağlar.",
+"Rötre yapmaksızın sertleşir."],
+            "beforeApplication": "Uygulama yapılacak yüzey; temiz olmalı, yağ, kir ve gevşek parçalardan temizlenmelidir. Yüzeyler yeterli dayanıma sahip olmalıdır. Beton minimum 25 N/ mm² basınca dayanıklı ve en az 1,5 N/mm² çekme dayanıma sahip olmalıdır. Yüzey kuru olmalı ve % 5 nemi geçmemelidir. beton yüzeyindeki nem oranı % 5'in üzerinde ise eile EPX 021 veya eile EPX 022 kullanılmalıdır. Yüzeydeki serbest parçacıklar tamamen temizlenmeli ve mekanik olarak (blastrak veya freze ) yüzeyler pürüzlendirilmelidir.",
+            "mixing": "B bileşeni A bileşenine dökülmeli ve B bileşenin içinde malzeme kalmamalıdır.Karışım düşük devirli bir karıştırıcı ile 3- 4 dakika homojen kıvam elde edilene kadar karıştırılır ve kullanıma hazır duruma getirilir.",
+            "mixture": " Ağırlıkça A bileşen: B bileşen 5:3",
+            "application": "Eile EPX 110 uygulanmış yüzeye seviye dengeleme, tamir ve düzeltme harcı olarak eile epx 260 uygun dişli mala ile uygulanır. eile EPX 260 uygulanmış yüzey henüz yaş iken üzerine 0,1-0,3 mm veya 0,3-0,7 mm kuvartz agrega serpilir. 24 saat sonunda yüzeye tutunmamış agregalar süpürülür.",
+            "consumption": [
+              "Ürün profesyonel kullanım içindir.",
+"Kullanmadan önce ambalaj üzerindeki güvenlik uyarılarına dikkat ediniz, gerektiği durumda ürünün Malzeme Güvenlik Bilgi Fişi’ne bakınız.",
+"Solumayınız, deri ve gözle temasından kaçınınız,yutmayınız, uygun iş güvenliği malzemesi kullanınız.",
+"Yangın ve patlama tehlikesi yanında çevrenin kirlenmemesi için de gerekli tedbirleri alınız.",
+"İyi havalandırılmış ortamlarda uygulayınız."
+            ],
+            "package": "Set: 16 kg --  A Bileşen: 10 kg teneke -- B Bileşen: 6 kg teneke",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-3-3",
             "name": "eile EPX 225",
             "img": "/assets/products/epx_225.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "İki Bileşenli Düşük Vizkoziteli,Epoksi Astar Malzemesi",
+            "description": "İki Bileşenli Düşük Vizkoziteli Epoksi Astar Malzemesidir.",
+            "areasOfUsage": [
+              "Beton, çimentolu harçlar, epoksi esaslı harçlar üzerine,",
+"Epoksi poliüretan üst kaplamaları uygulamasından önceki astar tabakası olarak,",
+"Fabrika ve depo zeminleri çalışma alanları, yükleme bölgeleri,",
+"Orta ve ağır yüke maruz endüstriyel zeminlerde,",
+"5-8 mm arasında kalınlık elde edilebilen aşınma ve kayma dayanımı epoksi harç uygulamasında kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Mekanik yüke dayanımı yüksektir.",
+"Kimyasallara dayanıklıdır."
+            ],
+            "beforeApplication": "Yüzey temiz, taşıyıcı, sağlam, gevşek parçalardan arındırılmış olmalıdır. Nem oranı %5’i geçmemelidir.Beton minimum 25 N/mm² basınca dayanıklı ve en az 1,5 N/mm² çekme dayanıma sahip olmalıdır.",
+            "mixing": "A ve B bileşeni kendi içinde homojen oluncaya kadar 3 dakika düşük devirli karıştırıcı ile karıştırılır. Homojen karışım uygun taraklı mala ile yüzeye yayılır. Malzeme gözenekleri kapatacak şekilde uygulanır; gerekir ise havasız tabanca ile de uygulama gerçekleştirilir.",
+            "mixture": " Ağırlıkça 2/1",
+            "application": "Yüzeyler yeterli dayanıma sahip olmalıdır.Zemin betonu; en az 25 N/mm basınç ile en az 1,5-2 N/mm çekme dayanımına sahip olmalıdır.Zemin betonunun nem oranı % 5’i geçmemelidir. 10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır. Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir.20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
+            "consumption": [
+              "Aşırı sıcak, rüzgarlı ve yağışlı havalarda ;Ortam sıcaklığı +10 °C ile +30°C üzerinde ise uygulama yapılmamalıdır.", 
+"Aşırı soğuk havalarda yapıacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.", 
+"Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+"Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır.",
+"Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır.",
+"El ile uygulama yapılmamalıdır."
+            ],
+            "package": "Set: 18 kg -- A Bileşen: 12 kg teneke -- B Bileşen: 6 kg teneke",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-3-4",
             "name": "eile EPX 110",
             "img": "/assets/products/epx_110.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage":"/assets/appImage/epx_110.png",
+            "info": "Emici Yüzeyler İçin Emprenye Astar",
+            "description": "İki bileşenli epoksi esaslı, düşük viskoziteli emprenye özelliğine sahip astar malzemesidir.",
+            "areasOfUsage": [
+              "Beton ve çimentolu harçlar üzerine,", 
+              "Yoğun emici olmayan yüzeylere aderansı artırmak için kullanılır.",
+              "Yüke maruz olmayan yerlerde kaplama olarak, dış mekanlarda kullanılabilir."
+            ],
+            "featuresOfProduct": [
+              "Düşük vizkositelidir.",
+"Uygulaması kolaydır.",
+"Beton yüzeye emprenye olur."
+            ],
+            "beforeApplication": "Yüzeyler yeterli dayanıma sahip olmalıdır. Beton minimum 25 N/ mm² basınca dayanıklı ve en az 1,5 N/mm²çekme dayanıma sahip olmalıdır.Yüzey temiz düzgün, kuru olmalı % 5 nemi geçmemelidir, yüzeydeki serbest parçacıklar tamamen temizlenmeli ve mekanik olarak (blastrak veya freze) yüzeyler pürüzlendirilmelidir.",
+            "mixing": "  ",
+            "mixture": " Ağırlıkça 4/1",
+            "application": "A ve B bileşeni kendi içinde homojen oluncaya kadar 3 dakika düşük devirli karıştırıcı ile karıştırılmalıdır.Homojen karışım rulo veya uygun bir fırça ile yüzeye iyice yedirilmeli ve gözenekleri kapatacak şekilde uygulanır, istenirse havasız tabanca ile uygulama yapılabilir. Yeni betonun yaşı en az 4 hafta olmalıdır.Üst kat kaplamaya geçmeden önce eile EPX 110 kurunu tamamlamış olmalı, katlar arası bekleme süresine uyulmalıdır, 20°C de yaklaşık 24 saat sonra üzerinde yürünebilir eile EPX 110 astar uygulamasından sonra yüzeye kumlama yapılmamalıdır.",
+            "consumption": [
+              "Aşırı sıcak,rüzgarlı ve yağışlı havalarda ;Ortam sıcaklığı +10 °C ile +30°C üzerinde ise uygulama yapılmamalıdır.",
+"Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
+"Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+"Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır.",
+"Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır.",
+"El ile uygulama yapılmamalıdır."
+            ],
+            "package": "Set: 20 kg -- A Bileşen: 16 kg teneke -- B Bileşen: 4 kg teneke",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-3-5",
             "name": "eile EPS 201",
             "img": "/assets/products/eile_genel_teneke.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "info": "% 100 Nemli Yüzeyler için Epoksi Astar",
+            "description": "İki bileşenli, solventsiz epoksi reçine esaslı, % 100 nem ihtiva eden, ıslak beton yüzeylere kolayca yapışabilen elastik yüksek su resiztanslı, suda etkilenmeyen nem bariyeri oluşturan astardır.",
+            "areasOfUsage": [
+              "Binaların çatı ve temellerinde,", 
+              "Özellikle % 100 nemin oluştuğu, tamamen ıslak olan beton yüzeylere uygulanır."
+            ],
+            "featuresOfProduct": [
+              "Islak beton yüzeylere kolayca yapışır.",
+"Elastik özellikte olup yüksek su rezistansı sağlar.",
+"Tuzlu suya dayanıklıdır. Suyu geçirmez.",
+"Nem bariyeri oluşturur. Solvent içermez."
+            ],
+            "beforeApplication": "Yüzeyler temiz ve sağlam olmalı, aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntısından arındırılmalı ve gevsek parçalar hava veya mekanik yöntemlerle temizlenmelidir.",
+            "mixing": "B bileşeni A bileşen içerisine yavaşça eklenerek homojen bir karışım elde edilene kadar düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika karıştırılmalıdır. İlk karıştırmanın ardından karışım mutlaka temiz bir kaba alınarak tekrar karıştırılmalıdır. Bu işlemden sonra malzeme kullanıma hazırdır.",
+            "mixture": " A bileşen/ B bileşen: 1/1 (ağırlıkça) ",
+            "application": "Homojen karışım eile EPX 021 rulo veya uygun bir fırça ile yüzeye iyice yedirilmeli ve gözenekleri kapatacak şekilde uygulanmalıdır. İstenirse havasız tabanca ile uygulama yapılabilir. Yeni betonun yaşı en az 4 hafta olmalıdır.",
+            "consumption": [
+              "Ürün profesyonel kullanım içindir.",
+              "Kullanmadan önce ambalaj üzerindeki güvenlik uyarılarına dikkat ediniz.",
+              "Gerektiği durumda ürünün Malzeme Güvenlik Bilgi Fişi’ne bakınız.", 
+              "Solumayınız, deri ve gözle temasından kaçınınız, yutmayınız.", 
+             "Uygun iş güvenliği malzemesi kullanınız." 
+             ],
+            "package": "Set: 30 kg --  A bileşen: 15 kg lık teneke kovalarda --  B bileşen: 15 kg lık teneke kovalarda",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           }
         ]
       },
@@ -1734,49 +2002,113 @@
             "key": "3-4-1",
             "name": "eile CURING 105",
             "img": "/assets/products/eile_curing105.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage":"/assets/appImage/curing_105.png",
+            "info": "Beton Yüzeyler İçin Akrilik Emülsiyon Esaslı, Kür Malzemesi",
+            "description": "Taze dökülmüş beton yüzeyine betonun hızlı su  kaybını ve bu sebepten oluşabilecek rötre çatlaklarını önleyen akrilik emülsiyon esaslı beton kür  malzemesidir.",
+            "areasOfUsage": [
+              "Düşey ve yataydaki beton elemanlarının kürlenmesinde.",
+"Havaalanı ve saha betonlarında.",
+"Yüzey sertleştiricisi uygulamalarında.",
+"Sıcak havalarda beton dökümlerinde.",
+"Nem oranının düşük buharlaşmanın fazla olduğu yerlerdeki beton dökümlerinde kullanılır.",
+"Otopark ve depo zeminlerinde",
+"Endüstriyel zeminlerde"
+            ],
+            "featuresOfProduct": [
+              "Daha sert ve tozumaz bir yüzey sağlar.",
+"Uygulandığı beton yüzeyde oluşturduğu film tabakası, beton içindeki nemi koruyarak hızlı su kaybını önler.",
+"Beton sulama ihtiyacını ortadan kaldırır.",
+"Çimento hidratasyonuna yardımcı olur.",
+"Betonda kürlenme sırasında hızlı su kaybından kaynaklanan rötre çatlaklarını azaltır.",
+"Solvent içermez.",
+"Akrilik esaslı olduğundan üzerine yapılacak uygulamalara engel teşkil etmez."
+            ],
+            "beforeApplication": "  ",
+            "mixing": "  ",
+            "mixture": "  ",
+            "application": "Curing 105 taze dökülmüş beton üzerine homojen bir şekilde püskürtülerek ya da rulo ile uygulanır.Uygulama beton ve yüzey sertleştiricisi uygulamasının ardından; beton yüzeyi bozulmayacak kadar priz alınca veya kalıpların sökülmesinden sonra uygulanır.Püskürtme yoluyla uygulanacak ise ekipmanın düşük basınçlı olmasına dikkat edilmelidir.",
+            "consumption": [
+              "Kullanıma hazırdır, su ile seyreltilmemelidir.",
+"Kullanılmadan önce iyice çalkalanmalıdır.",
+"Yüzeye püskürtme yolu ile uygulanması önerilir.",
+"Eile Curing 105 uygulamasında kalınlık farklılıkları leke oluşumuna neden olabilir."
+            ],
+            "package": "30 kg’ lık plastik bidon,200 kg’lık varil",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-4-2",
             "name": "eile CURING AST",
             "img": "/assets/products/eile_curing_AST.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage":"/assets/appImage/curing_ast.png",
+            "info": "Beton Yüzeyler İçin Reçine Esaslı, Kür ve Cila Malzemesi",
+            "description": "Reçine esaslı, taze beton ve beton yüzey sertleştirici uygulamalarından sonra; betonun hızlı su kaybını, beton yüzeyinde oluşturduğu film tabakası ile önleyen kür malzemesidir.",
+            "areasOfUsage": [
+              "Otopark ve depo zeminlerinde,",
+"Havaalanı ve saha betonlarında,",
+"Yüzey sertleştiricisi uygulamalarında,",
+"Sıcak havalarda beton dökümlerinde,",
+"Endüstriyel zeminlerde kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Uygulandığı betonda, şeffaf ve koruyucu bir film tabakası oluşturarak, betonun tozumasını engeller.",
+"Daha sert bir yüzey sağlar.",
+"Betonu sulama ihtiyacını ortadan kaldırır.",
+"Uygulandığı beton yüzeyde oluşturduğu film tabakası,beton içindeki nemi koruyarak çimento hidratasyonuna yardımcı olur.",
+"Su itici özelliği vardır.",
+"Daha sonra uygulanacak kaplama malzemelerinin, beton yüzeye daha iyi yapışmasını sağlar.",
+"Betonda kürlenme sırasında hızlı su kaybından kaynaklanan rötre çatlaklarını azaltır."
+            ],
+            "beforeApplication": "  ",
+            "mixing": "  ",
+            "mixture": "  ",
+            "application": "Eile CURING AST taze dökülmüş beton üzerine homojen bir şekilde püskürtülerek ya da rulo ile uygulanır. Uygulama beton ve yüzey sertleştiricisi uygulamasından sonra, beton yüzeyi bozulmayacak kadar priz alınca veya kalıpların sökülmesinden sonra uygulanır. Püskürtme yolu ile uygulanacak ise ekipmanın düşük basınçlı olmasına dikkat edilmelidir.",
+            "consumption": [
+              "Eile CURING AST’ nin; yüzeye, püskürtme yolu ile uygulanması önerilir.",
+"Uygulama sırasındaki kalınlık farklılıkları renk farklılığına neden olabilir. Bu nedenle homojen uygulanmalıdır.",
+"Solvent içerdiğinden, depo ve uygulama alanlarında kesinlikle sigara içilmemeli, herhangi bir ateş kaynağından uzak tutulmalıdır. Depo ve uygulama alanları havalandırılmalıdır.",
+"Kapalı alan uygulamalarında, uygulamacının belli aralıklar ile açık alanda dinlenmesi gerekir."
+            ],
+            "package": "30 lt’ lik teneke kova",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           },
           {
             "key": "3-4-3",
             "name": "eile PARKÜR",
             "img": "/assets/products/eile_parkur.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
+            "appImage":"/assets/appImage/parkur.png",
+            "info": "Beton Yüzeyler İçin Parafin Emülsiyon Esaslı, Kür Malzemesi ",
+            "description": "Parafin emülsiyon esaslı taze dökülmüş beton yüzeyine uygulanan, uygulandığı yüzeyde oluşturduğu film tabakası ile betonun hızlı su kaybını ve bu sebepten oluşabilecek rötreyi azaltan beton kür malzemesidir.",
+            "areasOfUsage": [
+              "Düşey ve yataydaki beton elemanlarının kürlenmesinde,",
+"Beton yol uygulamalarında, hava alanı ve saha betonlarında,",
+"Yüzey sertleştiricisi uygulamalarında,",
+"Sıcak havalarda beton dökümlerinde,",
+"Nemin düşük, buharlaşmanın fazlaolduğu yerlerdeki beton dökümlerinde kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Betonun sulama ihtiyacını ortadan kaldırır.",
+"Beton yüzeyinde oluşturduğu film tabakası, suyun beton bünyesinde kalmasını, bu sebeple; çimentonun daha iyi hidrate olmasını ve optimum dayanım gelişimini sağlar.",
+"Beton yüzeyinde hızlı su kaybının neden olduğu rötre çatlaklarını azaltır.",
+"Solvent içermediğinden kapalı alanlarda kullanılmaya uygundur.",
+"Tozumaz bir yüzey sağlar.",
+"Betonda kürlenme sırasında hızlı su kaybından kaynaklanan rötre çatlaklarını azaltır.",
+"Eile PARKÜR solvent içermez"
+            ],
+            "beforeApplication": "  ",
+            "mixing": " ",
+            "mixture": " ",
+            "application": "Eile PARKÜR; taze dökülmüş beton üzerine homojen bir şekilde püskürtülerek ya da rulo ile uygulanır. Uygulama beton ve yüzey sertleştiricisi uygulamasından sonra, beton yüzeyi bozulmayacak kadar priz alınca veya kalıpların sökülmesinden sonra uygulanır. Püskürtme yoluyla uygulanacak ise ekipmanın düşük basınçlı olmasına dikkat edilmelidir. Sarfiyat:eile PARKÜR; ortalama sarfiyatı; 0,150-0,250 kg/m2 dir. Açık alanda, rüzgarlı ve sıcak ortamda yapılan uygulamada etkin kürlenme için; PARKUR sarfiyatı 0,300 kg/m2'ye çıkartılmalıdır",
+            "consumption": [
+              "Kullanıma hazırdır. Herhangi bir yabancı malzeme ilave edilmemelidir.",
+            "Kullanılmadan önce iyice çalkalanmalıdır.",
+            "Eile PARKÜR’ ün; yüzeye püskürtme yolu ile uygulanması önerilir.",
+            "Malzeme yüzeye homojen bir şekilde dağıtılmalıdır.Göllenme oluşumuna izin verilmemelidir. Homojen olmayan uygulamalar, leke oluşumuna neden olabilir.Uygulamayı takip eden günler içinde bölgesel renk farklılıkları azalacaktır.",
+            "Kürünü tamamlamış beton üzerine daha sonra yapılacak uygulamalarda beton yüzeyi kür maddesinden arındırılmalıdır. Malzeme üzerine sıcak su dökülüp fırçalanarak temizlenebilir.",
+            "Ürünün etkinlik süresi; uygulama kalınlığına, güneş ışınına maruz derecesine, hava koşullarına ve beton yüzeyinin durumuna bağlı olarak değişir."
+          ],
+            "package": "30 kg’ lık plastik bidon, 200 kg lık varil",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
           }
         ]
       }
