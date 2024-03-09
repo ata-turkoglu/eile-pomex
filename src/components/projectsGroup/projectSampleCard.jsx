@@ -1,7 +1,7 @@
 import React from "react";
-import "./productGroupSection.scss";
+import "./ProjectSamplesSection.scss";
 
-function ProductGroupCard({ image, text, icon }) {
+function ProjectSampleCard({ image, text, icon }) {
     return (
         <div className="groupCard">
             {/*<div className="groupIcon">
@@ -17,4 +17,4 @@ function ProductGroupCard({ image, text, icon }) {
     );
 }
 
-export default ProductGroupCard;
+export default ProjectSampleCard;
