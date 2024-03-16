@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectSamplesSection.scss";
+import "./projectSamplesSection.scss";
 
 function ProjectSampleCard({ image, text, icon }) {
     return (
