@@ -8,7 +8,6 @@ import productsJSON from "../data/products.json";
 import {
     Instagram,
     Facebook,
-    Twitter,
     Linkedin,
     Phone,
     MapPin,
@@ -194,11 +193,6 @@ function Header() {
                             }}
                             size={18}
                         />
-                        <Twitter
-                            color="rgb(1,90,170)"
-                            style={{ cursor: "pointer", marginRight: "10px" }}
-                            size={18}
-                        />
                         <Instagram
                             color="rgb(1,90,170)"
                             style={{ cursor: "pointer", marginRight: "10px" }}
@@ -319,11 +313,6 @@ function Header() {
                         marginRight: "10px",
                         marginLeft: "2rem",
                     }}
-                    size={18}
-                />
-                <Twitter
-                    color="rgb(1,90,170)"
-                    style={{ cursor: "pointer", marginRight: "10px" }}
                     size={18}
                 />
                 <Instagram

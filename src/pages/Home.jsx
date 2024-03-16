@@ -4,7 +4,7 @@ import Metrics from "../components/metrics";
 import Info from "../components/info";
 import Banner from "../components/banner";
 import Brands from "../components/brands";
-import ProductGroupSection from "../components/productGroups/productGroupSection";
+import ProjectSamplesSection from "../components/projectsGroup/projectSamplesSection";
 import infoImage1 from "../assets/introCarousel/siva.jpg";
 import thermomexImg from "/assets/products/thermomex.png";
 import bannerImage from "../assets/sustainability.jpg";
@@ -24,7 +24,7 @@ function Home() {
             {/*<div className="spacerH50"></div>*/}
             <Banner image={bannerImage} />
             {/*<div className="spacerH50"></div>*/}
-            <ProductGroupSection />
+            <ProjectSamplesSection />
             <Brands />
             <div className="spacerH50"></div>
         </div>
