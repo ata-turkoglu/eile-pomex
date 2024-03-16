@@ -1,10 +1,10 @@
 import React from "react";
 import "./info.scss";
 
-function Info({ image, text, to }) {
+function Info({ image, header, text, to }) {
     return (
         <div className="infoContainer">
-            <h2>Yalıtımda Doğal Çözümler</h2>
+            <h2>{header}</h2>
             <div className="content">
                 <div className="imgContainer">
                     <img src={image} />
