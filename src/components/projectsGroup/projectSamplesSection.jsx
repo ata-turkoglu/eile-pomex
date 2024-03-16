@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./projectSamplesSection.scss";
-import ProjectSampleCard from "./ProjectSampleCard.jsx";
+import ProjectSampleCard from "./projectSampleCard.jsx";
 import Swiper from "../swiper/swiper";
 
 function ProjectSamplesSection() {
