@@ -16,54 +16,66 @@ function ProjectSamplesSection() {
             {mobileView ? (
                 <Swiper>
                     <ProjectSampleCard
-                        image="assets/projects/project1.jpg"
+                        image1="assets/projects/project1.jpg"
+                        image2="assets/products/th70.png"
                         text="İstanbul Boğaz köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project2.jpg"
+                        image1="assets/projects/project2.jpg"
+                        image2="assets/products/epx_630.png"
                         text="Vestel Manisa Fabrika Binası İnşaatında"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project3.jpg"
+                        image1="assets/projects/project3.jpg"
+                        image2="assets/products/power_wt1.png"
                         text=" Antalya Havaalanı Deprem İzolatörü Montajında"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project4.jpg"
+                        image1="assets/projects/project4.jpg"
+                        image2="assets/products/likit_akrilik.png"
                         text="Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatında"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project5.jpg"
+                        image1="assets/projects/project5.jpg"
+                        image2="assets/products/epx_50.png"
                         text="Tüpraş Dolum iskelesi Onarım İşlerinde"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project6.jpg"
+                        image1="assets/projects/project6.jpg"
+                        image2="assets/products/a-seal.png"
                         text="İzsu İshale Hatlarında"
                     />
                 </Swiper>
             ) : (
                 <div className="content">
                     <ProjectSampleCard
-                        image="assets/projects/project1.jpg"
+                        image1="assets/projects/project1.jpg"
+                        image2="assets/products/th70.png"
                         text="İstanbul Boğaz köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project2.jpg"
+                        image1="assets/projects/project2.jpg"
+                        image2="assets/products/epx_630.png"
                         text="Vestel Manisa Fabrika Binası İnşaatında"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project3.jpg"
+                        image1="assets/projects/project3.jpg"
+                        image2="assets/products/power_wt1.png"
                         text=" Antalya Havaalanı Deprem İzolatörü Montajında"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project4.jpg"
+                        image1="assets/projects/project4.jpg"
+                        image2="assets/products/likit_akrilik.png"
                         text="Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatında"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project5.jpg"
+                        image1="assets/projects/project5.jpg"
+                        image2="assets/products/epx_50.png"
                         text="Tüpraş Dolum iskelesi Onarım İşlerinde"
                     />
                     <ProjectSampleCard
-                        image="assets/projects/project6.jpg"
+                        image1="assets/projects/project6.jpg"
+                        image2="assets/products/a-seal.png"
                         text="İzsu İshale Hatlarında"
                     />
                 </div>
