@@ -1,5 +1,7 @@
 import React, { useLayoutEffect } from "react";
 import "./css/projectsPage.scss";
+import projects from "../data/projects.json";
+import ProjectCard from "../components/projectsGroup/projectCard.jsx";
 
 function Projects() {
     useLayoutEffect(() => {
@@ -7,7 +9,11 @@ function Projects() {
     }, []);
     return (
         <div className="projects">
-            <h1>Projects Page</h1>
+            <div className="projectsContainer">
+                {projects.map((item, index) => {
+                    return <ProjectCard key={index} project={item} />;
+                })}
+            </div>
         </div>
     );
 }

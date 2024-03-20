@@ -18,7 +18,7 @@ function ProjectSamplesSection() {
                     <ProjectSampleCard
                         image1="assets/projects/project1.jpg"
                         image2="assets/products/th70.png"
-                        text="İstanbul Boğaz köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde"
+                        text="İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde"
                     />
                     <ProjectSampleCard
                         image1="assets/projects/project2.jpg"
@@ -38,7 +38,7 @@ function ProjectSamplesSection() {
                     <ProjectSampleCard
                         image1="assets/projects/project5.jpg"
                         image2="assets/products/epx_50.png"
-                        text="Tüpraş Dolum iskelesi Onarım İşlerinde"
+                        text="Tüpraş Dolum İskelesi Onarım İşlerinde"
                     />
                     <ProjectSampleCard
                         image1="assets/projects/project6.jpg"
@@ -51,7 +51,7 @@ function ProjectSamplesSection() {
                     <ProjectSampleCard
                         image1="assets/projects/project1.jpg"
                         image2="assets/products/th70.png"
-                        text="İstanbul Boğaz köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde"
+                        text="İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde"
                     />
                     <ProjectSampleCard
                         image1="assets/projects/project2.jpg"
@@ -61,7 +61,7 @@ function ProjectSamplesSection() {
                     <ProjectSampleCard
                         image1="assets/projects/project3.jpg"
                         image2="assets/products/power_wt1.png"
-                        text=" Antalya Havaalanı Deprem İzolatörü Montajında"
+                        text="Antalya Havaalanı Deprem İzolatörü Montajında"
                     />
                     <ProjectSampleCard
                         image1="assets/projects/project4.jpg"
@@ -71,7 +71,7 @@ function ProjectSamplesSection() {
                     <ProjectSampleCard
                         image1="assets/projects/project5.jpg"
                         image2="assets/products/epx_50.png"
-                        text="Tüpraş Dolum iskelesi Onarım İşlerinde"
+                        text="Tüpraş Dolum İskelesi Onarım İşlerinde"
                     />
                     <ProjectSampleCard
                         image1="assets/projects/project6.jpg"
