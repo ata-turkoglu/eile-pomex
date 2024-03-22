@@ -228,6 +228,18 @@ function Header() {
                         </Link>
                         <Link
                             className="nav-item"
+                            to="/projects"
+                            style={{
+                                paddingBlock: narrowHeader ? "0" : "1rem",
+                                alignItems: narrowHeader
+                                    ? "center"
+                                    : "flex-end",
+                            }}
+                        >
+                            <span>Projeler</span>
+                        </Link>
+                        <Link
+                            className="nav-item"
                             to="/about"
                             style={{
                                 paddingBlock: narrowHeader ? "0" : "1rem",
@@ -349,6 +361,13 @@ function Header() {
                     onClick={() => menuClose()}
                 >
                     <span>Ürünler</span>
+                </Link>
+                <Link
+                    className="nav-item"
+                    to="/projects"
+                    onClick={() => menuClose()}
+                >
+                    <span>Projeler</span>
                 </Link>
                 <Link
                     className="nav-item"

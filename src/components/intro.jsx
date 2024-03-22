@@ -7,6 +7,7 @@ import img2 from "../assets/introCarousel/waterproofing.jpeg";
 import img3 from "../assets/introCarousel/s2.jpg";
 import img4 from "../assets/introCarousel/tile-adhesive.jpeg";
 import img5 from "../assets/introCarousel/joint-grout.jpeg";
+import img6 from "../assets/introCarousel/bims.jpg";
 
 function Intro() {
     const [index, setIndex] = useState(0);
@@ -58,6 +59,12 @@ function Intro() {
                 <Carousel.Item>
                     <div className="imgContainer">
                         <img className="d-block w-100" src={img2} />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="imgContainer">
+                        <img className="d-block w-100" src={img6} />
+                        <span className="detailButton">Detaylı Bilgi</span>
                     </div>
                 </Carousel.Item>
             </Carousel>

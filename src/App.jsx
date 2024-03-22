@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Products from "./pages/Products.jsx";
+import Projects from "./pages/Projects.jsx";
 import ProductDetails from "./pages/ProductDetails.jsx";
 import References from "./pages/References.jsx";
 import Docs from "./pages/Docs.jsx";
@@ -31,6 +32,7 @@ function App(navigation) {
                         path="/products/:productKey"
                         element={<Products />}
                     ></Route>
+                    <Route path="/projects" element={<Projects />}></Route>
                     <Route
                         path="/product-details/:productKey"
                         element={<ProductDetails />}

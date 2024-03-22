@@ -1,14 +1,15 @@
 import React from "react";
-import "./ProjectSamplesSection.scss";
+import "./projectSamplesSection.scss";
 
-function ProjectSampleCard({ image, text, icon }) {
+function ProjectSampleCard({ image1, image2, text, icon }) {
     return (
         <div className="groupCard">
             {/*<div className="groupIcon">
                 <img src={icon} />
             </div>*/}
             <div className="imgContainer">
-                <img src={image} />
+                <img className="img1" src={image1} />
+                <img className="img2" src={image2} />
             </div>
             <div className="textContainer">
                 <p>{text}</p>
