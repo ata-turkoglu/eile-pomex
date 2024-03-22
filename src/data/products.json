@@ -120,24 +120,24 @@
             "storage": " Açılmamış orjinal ambalajında, +5 °C - + 30 °C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından ve dondan korunmalıdır."
           },
           {
-            "key":"1-1-4",
-            "name":"POMEX 2K ELASTİK",
-            "img":"/assets/products/2k_elastik.png",
-            "appImage":"/assets/appImage/2k_elastik_app.png",
+            "key": "1-1-4",
+            "name": "POMEX 2K ELASTİK",
+            "img": "/assets/products/2k_elastik.png",
+            "appImage": "/assets/appImage/2k_elastik_app.png",
             "info": "İki Bileşenli Tam Elastik, Su Harcı",
-            "description":"Çimento ve sıvı polimer esaslı, iki bileşenli, tam elastik su yalıtım harcıdır.",
-            "areasOfUsage":[
+            "description": "Çimento ve sıvı polimer esaslı, iki bileşenli, tam elastik su yalıtım harcıdır.",
+            "areasOfUsage": [
               "Islak hacimlerde seramik altı izolasyonda",
               "Teraslarda (üstü kaplanmak önkoşulu ile)",
               "Yüzme havuzlarında ve su depolarında",
               "İç ve dış mekanlarda, yatay ve düşey uygulamalarda suyun geldiği yönden uygulanır."
             ],
-            "featuresOfProduct":[ ],
-            "beforeApplication":"Uygulama yüzeyinin sağlam,taşıyıcı ve temiz olmasına dikkat edilmelidir.Aderansı zayıflatacak yağ,pres,pas,boya,parafin ve kür kalıntısı temizlenmelidir.Su kaçağı olan bölümler WATERBOND ile doldurulmalıdır.Köşe ve kenarlara eile TH 70 ürünü ile pah yapılmalıdır.Uygulama öncesinde yüzey suya doyurulmalıdır.Uygulamaya başlamadan önce zeminde serbest su kalmamasına dikkat edilmelidir. ",
-            "mixing":"10 kg'lık B bileşen (sıvı) temiz karışım kovasına alınarak, üzerine 20 kg'lık A bileşen (toz) azar azar ilave edilir.4-5 dakika homojen görünüm sağlanana kadar düşük devirli bir karıştırıcı ile karıştırılır. Karışım 3-5 dakika dinlendirilir ardından 30 saniye süre ile tekrar karıştırılır.Uygulama hazır kıvama gelir.",
+            "featuresOfProduct": [],
+            "beforeApplication": "Uygulama yüzeyinin sağlam,taşıyıcı ve temiz olmasına dikkat edilmelidir.Aderansı zayıflatacak yağ,pres,pas,boya,parafin ve kür kalıntısı temizlenmelidir.Su kaçağı olan bölümler WATERBOND ile doldurulmalıdır.Köşe ve kenarlara eile TH 70 ürünü ile pah yapılmalıdır.Uygulama öncesinde yüzey suya doyurulmalıdır.Uygulamaya başlamadan önce zeminde serbest su kalmamasına dikkat edilmelidir. ",
+            "mixing": "10 kg'lık B bileşen (sıvı) temiz karışım kovasına alınarak, üzerine 20 kg'lık A bileşen (toz) azar azar ilave edilir.4-5 dakika homojen görünüm sağlanana kadar düşük devirli bir karıştırıcı ile karıştırılır. Karışım 3-5 dakika dinlendirilir ardından 30 saniye süre ile tekrar karıştırılır.Uygulama hazır kıvama gelir.",
             "mixture": "A bileşen / B bileşen : 2/1",
-            "application":"Fırça ile uygulanır. Uygulama 2 veya 3 kat halinde yapılmalıdır. Her kattaki fırça uygulama yönü bir önceki uygulamaya dik doğrultuda olmalıdır.",
-            "consumption":[
+            "application": "Fırça ile uygulanır. Uygulama 2 veya 3 kat halinde yapılmalıdır. Her kattaki fırça uygulama yönü bir önceki uygulamaya dik doğrultuda olmalıdır.",
+            "consumption": [
               "Donmuş, erimekte olan veya don tehlikesi olan yüzeylere uygulanmaz.",
               "Uygulama yapılan yüzey 3 gün süre ile don olayına ve aşırı rüzgara karşı korunmalı.",
               "Yabancı malzeme kesinlikle ilave edilmemelidir.",
@@ -147,17 +147,17 @@
               "Karışım 90 dakika içinde tüketilmelidir.",
               "Ahşap, OSB, PVC, bitüm yüzeylere, boyalı ve metal yüzeylere uygulanmaz."
             ],
-            "package":" A bileşen: 20 kg'lık kraft torba -- B bileşen: 10 kg'lık plastik bidon",
-            "storage":" Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunmalıdır."
+            "package": " A bileşen: 20 kg'lık kraft torba -- B bileşen: 10 kg'lık plastik bidon",
+            "storage": " Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunmalıdır."
           },
           {
-            "key":"1-1-5",
-            "name":"POMEX 2K",
-            "img":"/assets/products/pomex_2k.png",
-            "appImage":"/assets/appImage/pomex_2k_app.png",
-            "info":"İki Bileşenli Yarı Elastik, Su Yalıtım Harcı", 
-            "description":"Çimento ve sıvı polimer esaslı, iki bileşenli, yarı elastik su yalıtım harcıdır.",
-            "areasOfUsage":[
+            "key": "1-1-5",
+            "name": "POMEX 2K",
+            "img": "/assets/products/pomex_2k.png",
+            "appImage": "/assets/appImage/pomex_2k_app.png",
+            "info": "İki Bileşenli Yarı Elastik, Su Yalıtım Harcı",
+            "description": "Çimento ve sıvı polimer esaslı, iki bileşenli, yarı elastik su yalıtım harcıdır.",
+            "areasOfUsage": [
               "İç ve dış mekanlarda düşey ve yatay uygulamalarda suyun geldiği yönden,",
               "Teras ve balkonlarda ( üzeri kaplanmak şartı ile) ",
               "Bodrum duvarları, beton borular. ",
@@ -165,7 +165,7 @@
               "Şap ve seramik altında",
               "Islak hacimlerde seramik altı su yalıtım malzemesi olarak"
             ],
-            "featuresOfProduct":[
+            "featuresOfProduct": [
               "Yarı esnek geçirimsiz bir yüzey oluşturur, aderansı mükemmeldir.",
               "Yatayda ve düşeyde uygulanabilir.",
               "Uygulandığı yapının dış etkenlere karşı dayanıklılığını artırır.",
@@ -173,11 +173,11 @@
               "Nemli yüzeylere uygulanır. ",
               "Su buharı geçirimlidir."
             ],
-            "beforeApplication":"Uygulanacak zemin; aderansı azaltacak toz, yağ ve gevşek parçalardan arındırılmalıdır. Yüzeydeki bozukluklar, eile TH 60 veya eile TH 70 ile onarılmalıdır. Kenar ve köşeler eile TH 70 ile pahlanmalıdır. Uygulama öncesinde yüzey temiz su ile ıslatılmalı, yüzeyde su tabakası kalmayana kadar beklenmelidir.", 
-            "mixing":" 5 kg’lık B bileşeni (sıvı) temiz bir uygulama kovasına boşaltılır. 20 kg’lık A bileşeni ( toz ) yavaş şekilde ilave edilir. Düşük devirli mikser ile homojen ve topaksız kıvama gelene kadar karıştırılır. 5 dakika dinlendirilir; ardından 30 saniye kadar tekrar karıştırılarak uygulamaya hazır duruma getirilir.", 
-            "mixture":" A bileşen / B bileşen: 4/1 ( ağırlıkça )", 
-            "application":"Uygulama fırça ile 2-3 kat olarak yapılmalıdır. Her katın uygulaması bir öncekine dik doğrultuda olmalıdır.Katlar arası uygulamada en az 6 saat beklenmelidir.",
-            "consumption":[
+            "beforeApplication": "Uygulanacak zemin; aderansı azaltacak toz, yağ ve gevşek parçalardan arındırılmalıdır. Yüzeydeki bozukluklar, eile TH 60 veya eile TH 70 ile onarılmalıdır. Kenar ve köşeler eile TH 70 ile pahlanmalıdır. Uygulama öncesinde yüzey temiz su ile ıslatılmalı, yüzeyde su tabakası kalmayana kadar beklenmelidir.",
+            "mixing": " 5 kg’lık B bileşeni (sıvı) temiz bir uygulama kovasına boşaltılır. 20 kg’lık A bileşeni ( toz ) yavaş şekilde ilave edilir. Düşük devirli mikser ile homojen ve topaksız kıvama gelene kadar karıştırılır. 5 dakika dinlendirilir; ardından 30 saniye kadar tekrar karıştırılarak uygulamaya hazır duruma getirilir.",
+            "mixture": " A bileşen / B bileşen: 4/1 ( ağırlıkça )",
+            "application": "Uygulama fırça ile 2-3 kat olarak yapılmalıdır. Her katın uygulaması bir öncekine dik doğrultuda olmalıdır.Katlar arası uygulamada en az 6 saat beklenmelidir.",
+            "consumption": [
               "Negatif su basıncına karşı uygulanmaz. ",
               "Üzerine seramik uygulaması için en az 3 gün beklenmelidir. ",
               "Su depolarının su ile doldurulması için en az 7 gün beklenmelidir.",
@@ -185,33 +185,33 @@
               "Direkt güneş ışığına maruz kalan uygulamalarda üzeri örtülmelidir.",
               "Ahşap, OSB, PVC, bitüm yüzeylere, boyalı ve metal yüzeylere uygulanmaz."
             ],
-            "package":" 20 kg'lık kraft torba - 5 kg'lık plastik bidon", 
-            "storage":"Açılmamış orijinal ambalajında ​​+5 °C - +30 °C sıcaklık aralığında depolanmalıdır.Ürün direkt güneş ışığından ve dondan korunmalıdır."
+            "package": " 20 kg'lık kraft torba - 5 kg'lık plastik bidon",
+            "storage": "Açılmamış orijinal ambalajında ​​+5 °C - +30 °C sıcaklık aralığında depolanmalıdır.Ürün direkt güneş ışığından ve dondan korunmalıdır."
           },
           {
-            "key":"1-1-6",
-            "name":"eile KAPİLER 2K",
-            "img":"/assets/products/kapiler_2k.png",
-            "appImage":"/assets/appImage/kapiler_2k_app.png",
-            "info":"İki Bileşenli Kristalize, Su Yalıtım Malzemesi", 
-            "description":"İki bileşenli, çimento ve polimer emülsiyon esaslı, negatif ve pozitif yönden uygulanabilen su yalıtım malzemesidir.",
-            "areasOfUsage":[
-                "Yapıların iç dış mekanlarda düşey ve yatay uygulamalarda,",
+            "key": "1-1-6",
+            "name": "eile KAPİLER 2K",
+            "img": "/assets/products/kapiler_2k.png",
+            "appImage": "/assets/appImage/kapiler_2k_app.png",
+            "info": "İki Bileşenli Kristalize, Su Yalıtım Malzemesi",
+            "description": "İki bileşenli, çimento ve polimer emülsiyon esaslı, negatif ve pozitif yönden uygulanabilen su yalıtım malzemesidir.",
+            "areasOfUsage": [
+              "Yapıların iç dış mekanlarda düşey ve yatay uygulamalarda,",
               "Su depolarında,",
               "Temel,perde ve bodrum duvarlarında",
               "Yüzme havuzlarında,",
               "Banyo,tuvalet gibi ıslak hacimlerde beton,şap vb. yüzeylere uygulanır."
             ],
-            "featuresOfProduct":[
+            "featuresOfProduct": [
               "Hem negatif hem de pozitif su basıncına dayanıklıdır.",
               "Uygulaması kolay ve rahattır.",
               "Yüksek yapışma mukavemetine sahiptir."
             ],
-            "beforeApplication":"Uygulama yüzeyinin sağlam,taşıyıcı ve temiz olmasına dikkat edilmelidir.Aderansı zayıflatacak yağ,pres,pas,boya,parafin ve kür kalıntısı temizlenmelidir.Su kaçağı olan bölümler WATERBOND ile doldurulmalıdır. Köşe ve kenarlara eile TH 70 ürünü ile pah yapılmalıdır. Uygulama öncesinde yüzey suya doyurulmalıdır. Uygulamaya başlamadan önce zeminde serbest su kalmamasına dikkat edilmelidir. ", 
-            "mixing":" 3 kg’lık B bileşeni (sıvı) temiz karışım kovasına alınarak, üzerine 5-6 L su ilave edilir. 25 kg'lık A bileşen (toz) temiz bir kova içerisinde bulunan B bileşen ve karışım suyu üzerine azar azar ilave edilerek 3-4 dakika homojen görünüm sağlanana kadar düşük devirli bir karıştırıcı ile karıştırılır. Karışım 3-5 dakika dinlendirilir ardından 30 saniye süre ile tekrar karıştırılır.", 
-            "mixture":" A bileşen: 25 kg - B bileşen: 3 kg", 
-            "application":"Hazırlanmış karışım; uygulanacak tüm yüzeye fırça ile uygulanır. Uygulama en az 2 kat halinde yapılmalıdır. Her katın uygulaması bir önceki uygulamaya dik açı oluşturacak şekilde yapılmalıdır. Katlar arasında 6-12 saat beklenmelidir. ",
-            "consumption":[
+            "beforeApplication": "Uygulama yüzeyinin sağlam,taşıyıcı ve temiz olmasına dikkat edilmelidir.Aderansı zayıflatacak yağ,pres,pas,boya,parafin ve kür kalıntısı temizlenmelidir.Su kaçağı olan bölümler WATERBOND ile doldurulmalıdır. Köşe ve kenarlara eile TH 70 ürünü ile pah yapılmalıdır. Uygulama öncesinde yüzey suya doyurulmalıdır. Uygulamaya başlamadan önce zeminde serbest su kalmamasına dikkat edilmelidir. ",
+            "mixing": " 3 kg’lık B bileşeni (sıvı) temiz karışım kovasına alınarak, üzerine 5-6 L su ilave edilir. 25 kg'lık A bileşen (toz) temiz bir kova içerisinde bulunan B bileşen ve karışım suyu üzerine azar azar ilave edilerek 3-4 dakika homojen görünüm sağlanana kadar düşük devirli bir karıştırıcı ile karıştırılır. Karışım 3-5 dakika dinlendirilir ardından 30 saniye süre ile tekrar karıştırılır.",
+            "mixture": " A bileşen: 25 kg - B bileşen: 3 kg",
+            "application": "Hazırlanmış karışım; uygulanacak tüm yüzeye fırça ile uygulanır. Uygulama en az 2 kat halinde yapılmalıdır. Her katın uygulaması bir önceki uygulamaya dik açı oluşturacak şekilde yapılmalıdır. Katlar arasında 6-12 saat beklenmelidir. ",
+            "consumption": [
               "Donmuş, erimekte olan veya don tehlikesi olan yüzeylere uygulanmaz.",
               "Uygulama yapılan yüzey 3 gün süre ile don olayına, aşırı rüzgara karşı korunmalı ve yüzey nemli tutulmalıdır.",
               "Yabancı malzeme kesinlikle ilave edilmemelidir.",
@@ -219,8 +219,8 @@
               "Uygulama yapılacak zemin ve ortam sıcaklığı +5 °C ile +25 °C aralığında olmalıdır.",
               "Su depolarında yapılan uygulamadan en az 7 gün sonra depo su ile doldurulmalıdır."
             ],
-            "package":" A bileşen: 20 kg'lık kraft torba -- B bileşen: 3 kg'lık plastik bidon", 
-            "storage":"Açılmamış orijinal ambalajında, serin ve kuru ortamda, +5 °C'nin üstünde depolanmalıdır. B bileşen (sıvı) dondan korunmalıdır."
+            "package": " A bileşen: 20 kg'lık kraft torba -- B bileşen: 3 kg'lık plastik bidon",
+            "storage": "Açılmamış orijinal ambalajında, serin ve kuru ortamda, +5 °C'nin üstünde depolanmalıdır. B bileşen (sıvı) dondan korunmalıdır."
           },
           {
             "key": "1-1-7",
@@ -259,37 +259,37 @@
             "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalı. "
           },
           {
-            "key":"1-1-8",
-            "name":"POMEX T SEAL",
-            "img":"/assets/products/eilegenel.png",
-            "appImage":"/assets/appImage/t_seal.png",
-            "info":"Tek Bileşenli Su Yalıtım Harcı",
-            "description":"Çimento esaslı, tek bileşenli, su itici polimerler içeren su yalıtım harcıdır.",
-            "areasOfUsage":[
+            "key": "1-1-8",
+            "name": "POMEX T SEAL",
+            "img": "/assets/products/eilegenel.png",
+            "appImage": "/assets/appImage/t_seal.png",
+            "info": "Tek Bileşenli Su Yalıtım Harcı",
+            "description": "Çimento esaslı, tek bileşenli, su itici polimerler içeren su yalıtım harcıdır.",
+            "areasOfUsage": [
               "İç ve dış mekanlarda düşey ve yatay uygulamalarda suyun geldiği yönden,",
               "Küçük ölçekli teras, balkon, su deposu ve süs havuzlarında",
               "Yapının ıslak hacimlerinde",
               "Çimento esaslı mineral yüzeyler üzerine uygulanır."
             ],
-            "featuresOfProduct":[
+            "featuresOfProduct": [
               "Aderansı yüksektir.",
               "Fırça,mala ile uygulanabilir.",
               "Su buharı geçirimlidir.",
               "Yatay ve düşey yüzeylerde uygulanabilir."
             ],
             "beforeApplication": "Uygulanacak zemin, aderansı azaltacak toz, yağ ve gevşek parçalardan arındırılmalıdır. Yüzeydeki bozukluklar, Eile TH 60 veya Eile TH 70 ile onarılmalıdır. Kenar ve köşeler Eile TH 70 ile pah yapılmalı ya da kenar ve köşelerde; astar uygulamasından sonra eile PB 12 kullanımı tercih edilmelidir.Uygulama öncesinde yüzey emiciliğe bağlı olarak eile ASTAR E ürünü ile astarlanmalıdır.",
-            "mixing":"25 kg'lık ambalaj 7-8 L temiz su üzerine yavaşça ilave edilerek homojen hale gelinceye dek düşür devirli karıştırıcı ile karıştırılır. Mala ile uygulama yapılacak ise su oranı 5-6 L'ye düşürülmelidir. Hazırlanmış olan homojen karışım 4-5 dakika dinlendirildikten sonra uygulamaya başlamadan 1-2 dakika daha karıştırılarak uygulamaya geçilir.",
+            "mixing": "25 kg'lık ambalaj 7-8 L temiz su üzerine yavaşça ilave edilerek homojen hale gelinceye dek düşür devirli karıştırıcı ile karıştırılır. Mala ile uygulama yapılacak ise su oranı 5-6 L'ye düşürülmelidir. Hazırlanmış olan homojen karışım 4-5 dakika dinlendirildikten sonra uygulamaya başlamadan 1-2 dakika daha karıştırılarak uygulamaya geçilir.",
             "mixture": " 25 kg lık Torba İçin: 6-7 lt su ",
-            "application":"Fırça ile uygulama 2 kat halinde yapılmalıdır. Bu katlar birbirine dik açı oluşturmalıdır. 3 mm'lik toplam uygulama kalınlığı sağlanmalıdır. Mala uygulamalarında bu kalınlık tek seferde sağlanabilir.",
-            "consumption":[
+            "application": "Fırça ile uygulama 2 kat halinde yapılmalıdır. Bu katlar birbirine dik açı oluşturmalıdır. 3 mm'lik toplam uygulama kalınlığı sağlanmalıdır. Mala uygulamalarında bu kalınlık tek seferde sağlanabilir.",
+            "consumption": [
               "Uygulama için hazırlanan harç sıcaklığa bağlı olarak 30 dakika ile 60 dakika içerisinde tüketilmelidir.",
               "Üzerine seramik uygulaması için en az 7 gün beklenmelidir. ",
               "POMEX T SEAL uygulanmış yüzeyler; seramik,şap gibi koruyucu bir kaplama malzemesi ile kapatılmalıdır.",
               "Uygulama yapılacak beton zemin en az 28 günlük olmalıdır.",
               "Direkt güneş ışığına maruz kalan uygulamalarda üzeri örtülmelidir."
             ],
-            "package":"25 kg’lık kraft torba",
-            "storage":"Açılmamış orijinal ambalajında ​​+5 °C - +30 °C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından ve dondan korunmalıdır."
+            "package": "25 kg’lık kraft torba",
+            "storage": "Açılmamış orijinal ambalajında ​​+5 °C - +30 °C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından ve dondan korunmalıdır."
           },
           {
             "key": "1-1-9",
@@ -574,6 +574,111 @@
             ],
             "package": "30 kg'lık kova içerisinde A bileşen: 8 kg (toz) - B bileşen: 22 kg (sıvı)",
             "storage": "Açılmamış orjinal ambalajında, + 5 °C - +30 °C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından korunmalıdır."
+          },
+          {
+            "key": "1-3-4",
+            "name": "POMEX Bitülast",
+            "img": "/assets/products/bitülast.png",
+            "appImage": "/assets/appImage/bitülast_app.png",
+            "info": "Tek Bileşenli Su Yalıtım Malzemesi",
+            "description": "POMEX BİTÜLAST, tek bileşenli, solvent içermeyen, elastik, bitüm esaslı su yalıtım malzemesidir.",
+            "areasOfUsage": [
+              "Binaların temel ve bodrum perdelerinde, su geçirmezlik malzemesi olarak.",
+              "Yağmur ve yeraltı sularına karşı pozitif su yalıtımında.",
+              "İstinat duvarlarının toprak İle temasta olan yüzeylerinde.",
+              "Bitümlü kaplamalar altına astar olarak kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Uygulamaya hazırdır.",
+              "Elastik özelliktedir.",
+              "Fırça ile uygulanır.",
+              "Solvent içermez.",
+              "Topraktaki kimyasallara dayanıklıdır."
+            ],
+            "beforeApplication": "Uygulanacak zemin, aderansı azaltacak toz, yağ ve gevşek parçalardan arındırılmalıdır. Yüzeydeki bozukluklar, Eile TH 60 veya Eile TH 70 ile onarılmalıdır. Kenar ve köşeler Eile TH 70 ile pahlanmalıdır. Uygulama öncesinde yüzey temiz su ile ıslatılmalı, zeminde su tabakası kalmayana dek beklenmelidir. Olumsuz hava koşulları için gerekli önlem alınmalıdır.",
+            "mixing": "  ",
+            "mixture": " ",
+            "application": "Astarlama: POMEX BİTÜLAST ağırlıkça 1:1 oranında su ile inceltilerek astar olarak yüzeye uygulanır. Astar, homojen dağılım sağlanmak üzere beton yüzeye fırça ile uygulanır. İlk kat uygulama için astarın kuruması beklenir. Fırça ile uygulama: Malzeme fırça ile 0,090 kg/m² olacak şekilde yüzeye yayılır.",
+            "consumption": [
+              "POMEX BİTÜLAST uygulanacak yüzey ve ortam sıcaklığı +5 °C'nin altında veya +30 °C'nin üstünde ise uygulama için uygun sıcaklıklar beklenmelidir.",
+              "POMEX BİTÜLAST uygulanmış yüzeyler ilk 24 saat güneş, kar, dolu ve yağmurdan korunmalıdır.",
+              "Donmuş, erimekte olan veya don tehlikesi olan yüzeylerde uygulanmamalıdır.",
+              "Uygulanacak beton yüzeyin 28 günlük olması gerekmektedir.",
+              "Yapının veya yapı elemanlarının suyla temasta olan yüzeylerine uygulanmalıdır. "
+            ],
+            "package": " 20 kg'lık plastik kova",
+            "storage": "Açılmamış orijinal ambalajında, direkt güneş ışığından ve dondan korunarak depolanmalıdır."
+          },
+          {
+            "key": "1-3-5",
+            "name": "eile PUR 1KB",
+            "img": "/assets/products/pur_1kb.png",
+            "appImage": "/assets/appImage/pur_1kb_app.png",
+            "info": "Bitüm-Poliüretan Esaslı, Likit Su Yalıtım ve, Koruma Malzemesi",
+            "description": "Tek bileşenli, bitüm modifiyeli poliüretan esaslı likit su yalıtım ve koruma malzemesi.",
+            "areasOfUsage": [
+              "Temellerde,",
+              "Çatılar, verandalar ve balkonlarda (üstü kapatılmak şartıyla)",
+              "Islak zeminlerde",
+              "Yalıtım malzemesinin yüksek çatlak köprüleme özelliği göstermesi gereken yapı birimlerinde yatay ve düşey olarak kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Havadaki nem ile kürlenir.",
+              "Yüksek gerilme, yırtılma ve aşınma direnci sağlar.",
+              "Mükemmel mekanik ve kimysal özellikler gösterir.",
+              "Farklı yüzeylerde mükemmel şekilde yapışarak oldukça elastik ve dayanıklı bir film oluşturur.",
+              "Su buharı iletiminde etkindir.",
+              "Film nefes alır ve nemin alt katmanda birikmesini engeller.",
+              "Elastik yapısı ile rötre çatlaklarında köprüleme özelliğine sahiptir."
+            ],
+            "beforeApplication": "Uygulama yapılacak yüzey kuru ve temiz olmalıdır. Beton ve kalıp artıkları mekanik olarak yağ, gres, yakıt ve parafin atıkları ise kimyasal çözücüler kullanılarak temizlenmelidir. Hasarlı kaplamalar, sağlam olmayan yüzeyler ve çatlaklar uygun ürünler ile onarılmalıdır. Uygulama yapılacak beton yüzeyler en az şu standartlara sahip olmalıdır: -Sertlik: R28= 15 Mpa -Nem: W <10% -Sıcaklık: 5-35 °C -Bağıl Nem: <85%",
+            "mixing": "   ",
+            "mixture": "       ",
+            "application": "Astarlama: Onarım sonrasında yüzey durumuna bağlı olarak epoksi ya da poliüretan bazlı uygun bir astar ile astarlama yapılması sonrasında eile PUR 1KB uygulamasına geçilmelidir. Püskürtme: Püskürtme yöntemi ya da fırça veya rulo ile 2 kat halinde toplam 2kg/m² sarfiyatla uygulanır. Püskürtme yöntemiyle uygulama yapılması düşünülüyorsa malzeme Poliüretan Tİner ile inceltildikten sonra uygulamaya geçilmelidir.",
+            "consumption": [],
+            "package": "20 kg teneke kova",
+            "storage": "Açılmamış orijinal kovalarında, 5°C ile 25°C arasında, kuru ortamlarda depolanmalıdır. Açılan kovalardaki malzeme derhal kullanılmalıdır. "
+          },
+          {
+            "key": "1-3-6",
+            "name": "eile PUR 2KB",
+            "img": "/assets/products/pur_2kb.png",
+            "appImage": "/assets/appImage/pur_2kb_app.png",
+            "info": "İki Bileşenli Poliüretan-Bitüm Modifiyeli, Su Yalıtım ve Koruma Malzemesi",
+            "description": "İki bileşenli, poliüretan-bitüm modifiyeli, hızlı kürlenen ve değişik yüzeylere mükemmel şekilde yapışan, elastik yapıda su yalıtım malzemesidir.",
+            "areasOfUsage": [
+              "Çatı, teras alanlarında, otopaarklarda",
+              "Yüzme, süs havuzlarında seramik uygulaması öncesi",
+              "Uçak hangarları ve tünellerde.",
+              "Asfalt ve EPDM membranların üzerlerinde",
+              "Bitki tarhları ve yeşil çatı sistemlerinde",
+              "Metal ya da lifli çimentodan yapılma çatıların yalıtımında",
+              "Kullanma suyu tanklarında",
+              "İnşaatların temel ve perde betonlarının yalıtımında",
+              "Sulama kanallarında kullanılır."
+            ],
+            "featuresOfProduct": [
+              "İnceltme gerekmez.",
+              "Mükemmel mekanik özellik, yüksek gerilme, esneme, yırtılma ve aşınma direnci sağlar.",
+              "Su buharı iletiminde etkindir.Film nefes alır ve bu sayede nemin kat altında birikmesini engeller.",
+              "Yüksek çatlak köprüleme özelliğine sahiptir.",
+              "Mükemmel örtücü olup yüzeye çok iyi yapışır."
+            ],
+            "beforeApplication": "Uygulama yapılacak yüzey kuru ve temiz olmalıdır. Beton ve kalıp artıkları mekanik olarak yağ, gres, yakıt ve parafin atıkları ise kimyasal çözücüler kullanılarak temizlenmelidir. Hasarlı kaplamalar, sağlam olmayan yüzeyler eile TH60 veya eile TH 70 tamir ürünleriyle onarılmalıdır. Alt zeminin üst yüzey tutuculuğu ortalama 1,5 N/mm² olmalıdır. Alt zeminin beton nem oranı %4'ü geçmemelidir. Alt zemin eğer gerekiyorsa uygun önlemler ile örneğin taşlama makineleri veya elmas uçlu makinelerle elden geçirilmelidir. Tüm yüzeyler vakum aletleri ile tozdan arındırılmalıdır.Yüzey uygun bir astar ile astarlandıktan sonra zemin uygulamaya hazır hale getirilir.",
+            "mixing": "eile PUR 2KB bileşeni A bileşeninin içerisine tamamıyla boşaltılır ve mikser ile 300 devir/dakika hızla karıştırılır. Malzeme karıştırıldıktan sonra derhal kullanılmalıdır.",
+            "mixture": " A bileşen / B bileşen : Ağırlıkça 1/1",
+            "application": "Ürünün kap ömrü 20 °C'de 20-25 dakikadır. Hazırlanmış karışım, rulo, fırça veya spatula ile önceden hazırlanmış yüzeye uygulanır. Uygulama sırasında zemin sıcaklığının 10°C'nin üzerinde olmasına dikkat edilmelidir. Uygulanmış yüzeylerin korunmasında (su ile direkt temas) en az 24 saat dikkat edilmelidir. Minimum tüketim uygulama zeminine bağlı olarak 1,0 ile 1,6 kg/m² arasındadır.",
+            "consumption": [
+              "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.",
+              "Karışım oranlarına dikkat edilmelidir.",
+              "Katlar arasında minimum 12 saat beklenmelidir.(20°C'de)",
+              "Uygulama en az 2 kat olmalıdır.",
+              "Aşırı soğuk havalarda yapıacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
+              "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+              "Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır."
+            ],
+            "package": "A bileşen: 20 kg kova -- B bileşen: 20 kg kova -- Toplam: 40 kg",
+            "storage": "Açılmamış orijinal ambalajında, serin ve kuru ortamda +5 °C - +25 °C sıcaklık aralığında direkt güneş ışığından uzak yerlerde ve paletler üst üste konulmadan depolanmalıdır."
           }
         ]
       },
@@ -583,84 +688,6 @@
         "items": [
           {
             "key": "1-4-1",
-            "name": "eile EPX 018",
-            "img": "/assets/products/teneke_epx_018.png",
-            "appImage": null,
-            "info": null,
-            "description": "İki bileşenli, epoksi esaslı beton ve çeliği korumak için tasarlanmış kaplama malzemesidir.",
-            "areasOfUsage": [
-              "İç - dış mekanlarda, düşey ve yatay uygulamalarda,",
-              "Metal veya beton tanklarda",
-              "Duvarlarda kimyasal maddelere dayanıklı gaz ve buhar kesici kaplama olarak,",
-              "Yağ ve yakıt depolarında,",
-              "Enerji istasyonları, şeker fabrikaları, hangarlar ve sıvı depolama alanlarında,",
-              "İçme suyu depolarında",
-              "Petrol rafinerileri ve kağt fabrikalarında*,",
-              "Bira, şarap ve kuru üzüm endüstrisinde*",
-              "Meşrubat ve meyve suyu endüstrisinde*,",
-              "Süt, peynir ve yoğurt endüstrisinde*,",
-              "Salça ve konserve endüstrisinde*,",
-              "Et ve balık endüstrisinde*, ilaç, boya, kağıt, akü, gübre endüstrisinde*,",
-              "Matbaalar, otel mutfak ve çamaşırhanelerde*,",
-              "Matbaalar, otel mutfak ve çamaşırhanelerde*,",
-              "  ( *  sadece duvarlarda uygulanabileceğini ifade eder.)"
-            ],
-            "featuresOfProduct": [
-              "Parlak yüzeylidir.",
-              "Antibakteriyel özelliğe sahiptir. solvent içermez.",
-              "Hijyenik ortamlar yaratmak için kolay temizlenir.",
-              "Yüksek mekanik dayanımlara sahiptir.",
-              "Metal yüzeylerdeki hareketleri absorbe edebilecek elastikiyete sahiptir.",
-              "Standart epoksi kaplamalara göre kimyasal dayanımları yüksektir.",
-              "Fırça, rulo veya püskürtme yöntemi ile kolay uygulanır.",
-              "Su geçirimsizdir. içme suyu depolarında güvenle kullanılır."
-            ],
-            "beforeApplication": "Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Yüzey; aderansı zayıflatacak pas, gres, yağ, boya, kür vb. kalıntılarından temizlenmelidir. Yüzeyde gevşek parça bulunmamalıdır. Beton yüzeylere yapılacak uygulamalarda; aktif su kaçakları varsa, POMEX WATERBOND ile kapatılmalıdır. Köşe ve kenarlara en az 4 cm yarıçapında Eile TH 70 ürünü ile pah yapılmalıdır. Çelik yüzeylere yapılacak uygulamalarda; aderansı zayıflatacak pas, gres, yağ, boya vb. kalıntılarından temizlenmeli ve kumlama yapılarak uygun yüzey elde edilmelidir. Kumlama ile çalışılması mümkün olmayan hallerde, havalı raspa tabancası veya çanak tel fırça ile temizlik yapılmalıdır.",
-            "mixing": "Eile EPX 018 B bileşeni, A bileşen ambalajı içerisine yavaş yavaş eklenerek 400-600 devir/dk'lık bir karıştırıcı ile homojen bir karışım elde edilinceye kadar karıştırılır.",
-            "mixture": " A bileşen: 4,5 birim - B bileşen: 1 birim",
-            "application": "Eile EPX 018 rulo veya özel püskürtme makinası ile uygulanabilir. Eile EPX 018 in iki kat uygulanması tavsiye edilir. ",
-            "consumption": [
-              "Uygulanacak zemin ve ortam sıcaklığı +5 °C nin altında veya +30 °C nin üstündeyse, uygun sıcaklıklar beklenmelidir.",
-              "Dış yüzey uygulamalarında, yüzeyin ilk 24 saat güneşten, rüzgardan, don veya yağmurdan korunması gerekir.",
-              "Epoksi esaslı sistemlerin reaksiyon süreleri, ortam ve uygulama zemin sıcaklığından etkilenir. Düşük sıcaklıklar reaksiyon süresini ve çalışma süresini uzatır. Yüksek sıcaklıklar ise reaksiyon süresini ve çalışma süresini kısaltır. Bu nedenle belirtilen sıcaklık koşullarında uygulama yapılmalıdır.",
-              "Dış yüzey uygulamalarında, uygulama sonrasın yüzey ilk 24 saat güneşten, yağmurdan, rüzgardan ve don olayından korunmalıdır."
-            ],
-            "package": " Set: 5,5 kg ---  A bileşen: 4,5 kg'lık teneke kovalarda -  B bileşen: 1 kg'lık teneke kovalarda",
-            "storage": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunarak depolanmalıdır."
-          },
-          {
-            "key": "1-4-2",
-            "name": "eile POLİJET 120",
-            "img": "/assets/products/polijet_120.png",
-            "appImage": "/assets/appImage/polijet_120.png",
-            "info": "Poliüretan Enjeksiyon Reçinesi ve Hızlandırıcısı",
-            "description": "Poliüretan Enjeksiyon Reçinesi ve Hızlandırıcısı",
-            "areasOfUsage": [
-              "Su kaçaklarının negatif yönde durdurulmasında",
-              "Çatlaklı kayaç ve kumlu zeminlerin stabilizasyonunda",
-              "Basınçlı, basınçsız her türlü boru ve kanal bağlantıları montaj ve yalıtımında",
-              "Tank, depo benzeri yapılarda oluşan ani su kaçaklarının ortadan kaldırılmasında",
-              "Diyafram duvarlarda, tünel kaplama betonlarında su kaçaklarının önlenmesinde kullanılır. "
-            ],
-            "featuresOfProduct": [
-              "Su ile reaksiyona girerek esnek, kapalı gözenekli bir köpük oluşturur.",
-              "Islak yüzeylere mükemmel tutunma sağlar.",
-              "Solvent içermez.",
-              "Çevre ile dosttur.",
-              "Enjeksiyon uygulaması yüksek basınç üretebilen pompa yardımı ile yapılır."
-            ],
-            "beforeApplication": "     ",
-            "mixing": "Tercih edilen reaksiyon süresine göre %1 ve % 4 oranında hızlandırıcı,Polijet 120 ile homojen karışım elde edilene dek karıştırılır.",
-            "mixture": "        ",
-            "application": " Elde edilen karışım pakerlerden, tek bileşenli bir pompa yardımı ile suyun durdurulması gereken bölgeye enjekte edilir. Karışım, ortamdaki su ile reaksiyona girer ve köpürerek durmasını sağlar. Kuru Ortamlarda:  Önceden suyun geldiği tespit edilen bölgelere yerleştirilen pakerlerden, Polijet 120 ve hızlandırıcı karışımının reaksiyonu için gerekli miktarda su enjekte edilir. Tercih edilen reaksiyon süresine göre %1 ve %5 oranında hızlandırıcı, Polijet 120 ile homojen karışım elde edilene dek karıştırılır.Bu karışım pakerlerden tek bileşenli bir pompa yardımı ile suyun durdurulması gereken bölgeye enjekte edilir.",
-            "consumption": [
-              "Ortam ve suyun sıcaklığı,nem oranı hızlandırıcı kullanım oranını etkileyen parametrelerdir.Hızlandırıcı kullanım oranını bu parametreler belirler."
-            ],
-            "package": " Polijet 120 : 25 kg / teneke kova  Polijet 120 K : 1 kg / plastik şişe",
-            "storage": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından korunmalıdır."
-          },
-          {
-            "key": "1-4-3",
             "name": "eile PUR 012",
             "img": "/assets/products/teneke_pur_012.png",
             "appImage": "/assets/appImage/pur_012.png",
@@ -697,7 +724,170 @@
             "storage": "Malzeme nem ve güneş ışığından korunmalıdır.Saklama sıcaklığı: 5°C ile 30°C arasında olmalıdır. "
           },
           {
+            "key": "1-4-2",
+            "name": "eile PUR 022",
+            "img": "/assets/products/pur_022.png",
+            "appImage": "/assets/appImage/pur_022_app.png",
+            "info": "Poliüretan Esaslı Çift Bileşenli Su Yalıtım Malzemesi",
+            "description": "İki bileşenli, epoksi esaslı, solventsiz, çatlak köprüsü kurabilen, poliüretan esaslı su yalıtım malzemesidir.",
+            "areasOfUsage": [
+              "Su depolarında ",
+              "Kanallarda",
+              "Seramik altı veya üzeri açık bırakılacak ıslak hacimlerde",
+              "Havuz ve teraslarda"
+            ],
+            "featuresOfProduct": [
+              "Solvent içermediğinden kapalı alanlarda kullanılmaya uygundur.",
+              "Her türlü yüzeye mükemmel şekilde yapışma gösterir.",
+              "Uygun kıvamından dolayı zor detaylarda dahi kolayca uygulanabilir."
+            ],
+            "beforeApplication": "Yüzeyde yapışma kuvvetlerini zayıflatacak yağ, vaks, gres, su iticiler, tutunmamış kolayca kalkabilen serbest parçalar ve toz zemin freze makinesi ile temizlenerek uzaklaştırılmalıdır. Yeni beton en az 28 günlük olmalıdır. Uygulama öncesi yüzey astarlanmalıdır. Uygulama yapılacak beton yüzeyler en az şu standartlara sahip olmalıdır: Sertlik: R28 = 15 Mpa -- Sıcaklık: 5-35°C -- Bağıl Nem: <85%",
+            "mixing": "A bileşen kendi içinde mekanik bir karıştırıcı ile karıştırılmalı, karışım oranına dikkat edilerek, sertleştirici (B bileşeni) ilave edilmelidir. A ve B bileşenleri homojen oluncaya kadar, en az 3 dk mekanik bir karıştırıcı ile karıştırılmalı ve 3 dk dinlendirilmelidir. Hazırlanan karışımın karışım ömrü süresinde tüketilmesine dikkat edilmelidir.",
+            "mixture": " ",
+            "application": "Beton, çimento, şap veya ahşap gibi çok emici yüzeyler; önceden eile PUR 710 ile doyurulduktan sonra astar uygulamasına geçilebilir. Nem ihtiva etmeyen yüzeyler, eile PUR 710 veya eile EPX 260, nemli yüzeyler ise EPX 021 ürünü ile astarlanmalıdır. Uygulamaya hazır hale getirilen karışım, taraklı mala, airless spray ya da rulo ile sarfiyatı en az 1,5 kg/m² olacak şekilde uygulanır.",
+            "consumption": [
+              "Kat üstü yeni kat uygulama süresi olarak en az 12 saat (20°C), en çok 24 saattir.",
+              "24 saati geçen sürelerin sonunda uygulama öncesi yüzey muhakkak zımparalanmalıdır.",
+              "İkinci katın yukarıda belirtilen yeni kat uygulama süresi içinde uygulanması çok önemlidir.",
+              "Yüzeye tamamen yayılan taraklı mala ile yapılan uygulamada taze kaplamanın kirpi rulo ile hava kabarcıkları alınmalıdır.",
+              "Tam bir mekanik ve kimyasal dayanıma yaklaşık 7 günde sağlanır.",
+              "Havanın bağıl nemi en çok %80, uygulama sıcaklığı (çevre ve yüzey) +10°C ile +30°C arasında olmalıdır."
+            ],
+            "package": " A bileşen: 20 kg -- B bileşen: 5 kg",
+            "storage": "Açılmamış orijinal ambalajında, kuru koşullarda ​​+5 °C - +30 °C arasında depolanmalıdır."
+          },
+          {
+            "key": "1-4-3",
+            "name": "eile PUR 042",
+            "img": "/assets/products/pur_042.png",
+            "appImage": "/assets/appImage/pur_042_app.png",
+            "info": "Tek Bileşenli Poliüretan Esaslı, Su Yalıtım Malzemesi",
+            "description": "Tek bileşenli, poliüretan esaslı, elastik, hava ile kürlenen su yalıtım malzemesidir. UV, kimyasal, mekanik dirençli ve termal açıdan malzemeye mükemmel direnç gücü veren saf elastomerik hidrofobik poliüretan reçine içermektedir.",
+            "areasOfUsage": [
+              "Alçı ve çimento paneller",
+              "Karo/fayans (kaplama altı)",
+              "Banyolar",
+              "Çatılar",
+              "Metal veya lifli çimentodan yapılma hafif çatılar",
+              "Asfalt membranlar",
+              "Otoparkların su yalıtım sistemlerinde ana su yalıtım membranı olarak kullanılabilir."
+            ],
+            "featuresOfProduct": [
+              "Uygulandıgında, herhangi bir birleşme noktasına veya sızıntı ihtimaline yer vermeyen tek parça halinde bir membran oluşturur.",
+              "Kürlendikten sonra toksik madde içermez.",
+              "Herhangi bir ilave birleştirme işlemine gerek duyulmadan yüzeye tam olarak yapışır.",
+              "Su buharı geçiriminde etkindir: Film nefes aldığından kat altında nem birikimi oluşmaz"
+            ],
+            "beforeApplication": "Uygulama yapılacak alan sağlam olmalıdır. Yüzey basınç dayanımı 25N/mm² ve adezyon testi için en az 1,5N/mm² dayanımına sahip olmaldıır. Yüzeydeki gevşek, sökülmüş veya oynayan beton parçacıkları yağ ve boya artıkları, çimento şerbeti kalıntıları gibi adezyon performansını etkileyecek etkenlerden arındırılmalıdır. Ayrıca uygulama yapılacak yüzeyler uygun alet ve makineler ile pürüzlendirilmeli ve silinmelidir. Silim yapılan yüzeyler sanayi tipi makineler ile tamamen tozdan arındırılmalıdır. Yüzey gözeneklerinde kalan tozlar ürün performansını ve kaplamada delikler kalmasına neden olabilir.",
+            "mixing": " ",
+            "mixture": " ",
+            "application": "Uygulama yapılacak yüzey; yüzey durumuna göre eile PUR 710, eile EPX 260, eile EPX 021 veya eile PUR 712 K ile astarlanmalıdır. Kullanılmadan önce iyice karıştırılmalı, astarlanan yüzeye dökülmeli ve tüm yüzey kaplanana kadar rulo ya da fırça yardımı ile yayılmalıdır. 6-24 saat sonra bir kat daha eile PUR 042 uygulanmalıdır. Arzu edildiği takdirde üçüncü bir kat daha eile PUR 042 uygulanabilir. Uygulama, rulo ve havasız spreyle uygun koşullar altında, düz bir yüzeye yapılmalıdır.",
+            "consumption": [],
+            "package": "25 kg teneke kovada",
+            "storage": "Malzeme nem ve güneş ışığından korunmalıdır.Saklama sıcaklığı: 5°C ile 30°C arasında olmalıdır. "
+          },
+          {
             "key": "1-4-4",
+            "name": "eile Poliürea HP",
+            "img": "/assets/products/poliürea_hp.png",
+            "appImage": "/assets/appImage/poliürea_hp_app.png",
+            "info": "Hibrit Poliürea Esaslı, İki Bileşenli Sıcak Kürlenen, Su Yalıtım Malzemesi",
+            "description": "İki bileşenli, solvent ve plastifiyan içermeyen, %100 katı maddelerden oluşan hibrit poliüre sistemdir.",
+            "areasOfUsage": [
+              "Yüzme havuzları, su tankları",
+              "Arıtma tesisleri",
+              "Yeraltı yapılarında",
+              "Çatı, balkon, teraslarda",
+              "Endüstriyel zemin kaplamalarında"
+            ],
+            "featuresOfProduct": [
+              "Yüksek mekanik ve kimyasal dayanıma sahip elastik bir su yalıtım ürünüdür.",
+              "Beton, metal ve mineral yüzeylere çok iyi yapışır.",
+              "Hızlı kurur, servis süresi kısadır.",
+              "Uygun hazırlanmış ve astarlanmış zeminlerde hava kabarcığı oluşturmaz."
+            ],
+            "beforeApplication": "Uygulama yapılacak yüzey kuru ve temiz olmalıdır. Beton ve kalıp artıkları mekanik olarak yağ, gres, yakıt ve parafin atıkları ise kimyasal çözücüler kullanılarak temizlenmelidir. Uygulanacak olan yüzeylerde, pürüzler, çukur ve çatlaklar olmamalıdır. Gerekiyorsa zemin taşlama makineleri veya elmas uçlu makinelerle elden geçirilmelidir. Bu işlemlerden sonra yüzey endüstriyel vakum aletleri ile tozdan arındırılmalıdır. Hazırlanan yüzey uygun bir astar ile astarlanmalıdır. Çok emici beton yüzeylerde 2 kat astar uygulaması gerekli olabilir. Alt zeminin üst yüzey tutuculuğu ortalama 1,5 N/mm2, basınç dayanımı ise minimum 25 N/mm2'yi karşılamalıdır. Uygulama sırasında zemin sıcaklığının min. + C üzerinde olmasına dikkat edilmelidir. Uygulama kalınlığı minimum 1,5 mm olmalıdır. Tüm uygulanmış alanda malzemenin her tarafa eşit miktarlarda atıldığı ve belirli aralıklarda kalınlık ölçümü yapılarak en ideal uygulamayı sağladığını kontrol etmek önem kazanmaktadır. Zayıf noktalar tekrar gözden geçirilip ince uygulamalar ve onarımlar gibi tüm işlemler 4 saat içinde tamamlanmalıdır.Uygulanmış yüzeylerin korunmasına [su, çiğ, toz gibi) en az 24 saat dikkat edilmelidir. UV'ye devamlı açık kalacak yerlerde üzerini tek katlı alifatik esaslı poliüretan son kat ile kaplamak mükemmel sonuç verir.",
+            "mixing": " ",
+            "mixture": " Hacimce : A Bileşeni : 100 --  B Bileşeni : 100 ",
+            "application": "Özel uygulama makinaları ile yukarıdaki tabloda belirtilen değerler ile püskürtülerek uygulanır. ",
+            "consumption": [
+              "eile POLİÜREA 500 ürününe başka malzeme kesinlikle ilave edilmemelidir.",
+              "Açılmış ambalajlar, tamamen bitirilmeli ve yarım bırakılmamalıdır.",
+              "Herhangi bir inceltici ile inceltmeyiniz.",
+              "UV' ye devamlı açık kalacak yerlerde üzeri, alifatik esaslı poliüretan son kat ile kaplanmalıdır."
+            ],
+            "package": "A bileşeni [reçine) ve B bileşeni (sertleştirici) oranlanmış olarak 425 kg'lık setler",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5 ° C -+25° C aralığında direkt güneş ışığından uzak yerlerde depolanmalıdır."
+          },
+          {
+            "key": "1-4-5",
+            "name": "eile Poliürea 500",
+            "img": "/assets/products/poliürea_hp.png",
+            "appImage": "/assets/appImage/poliürea_500_app.png",
+            "info": " Saf Poliürea Esaslı, İki Bileşenli Sıcak Kürlenen, Su Yalıtım Malzemesi",
+            "description": "İki bileşenli, solvent ve plastifiyan içermeyen, % 100 katı maddelerden oluşan saf poliürea sistemidir. ",
+            "areasOfUsage": [
+              "Yüzme havuzları, su tankları,",
+              "Arıtma tesisleri,",
+              "Yeraltı yapılarında,",
+              "Çatı, balkon, teraslarda,",
+              "Endüstriyel zemin kaplamalarında,",
+              "Otopark çatılarında kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Yüksek mekanik ve kimyasal dayanıma sahiptir.",
+              "Elastik bir su yalıtım ürünüdür.",
+              "Beton, metal ve mineral yüzeylere çok iyi yapışır.",
+              "Hızlı kurur, servis süresi kısadır.",
+              "Uygun hazırlanmış ve astarlanmış zeminlerde hava kabarcığı oluşturmaz."
+            ],
+            "beforeApplication": "Uygulama yapılacak yüzeyler kuru ve temiz olmalıdır. Beton ve kalıp artıkları mekanik olarak; yağ, gres, yakıt ve parafin atıkları ise kimyasal çözücüler kullanılarak temizlenmelidir. Uygulanacak olan yüzeylerde, pürüzler, çukur ve çatlaklar olmamalıdır. Bu tip hasarlı ve sağlam olmayan yüzeyler uygun ürünler kullanılarak tamir edilmeli ve düzeltilmelidir. Gerekiyorsa zemin taşlama makineleri veya elmas uçlu makinelerle elden geçirilmelidir. Bu işlemlerden sonra yüzey endüstriyel vakum aletleri ile tozdan arındırılmalıdır. Hazırlanan yüzey uygun bir astar ile astarlanmalıdır. Çok emici beton yüzeylerde 2 kat astar uygulaması gerekli olabilir. Alt zeminin üst yüzey tutuculuğu ortalama 1,5 N/mm2, basınç dayanımı ise minimum 25 N/mm2'yi karşılamalıdır. Uygulama sırasında zemin sıcaklığının min. + C üzerinde olmasına dikkat edilmelidir. Uygulama kalınlığı minimum 1,5 mm olmalıdır. Tüm uygulanmış alanda malzemenin her tarafa eşit miktarlarda atıldığı ve belirli aralıklarda kalınlık ölçümü yapılarak en ideal uygulamayı sağladığını kontrol etmek önem kazanmaktadır. Zayıf noktalar tekrar gözden geçirilip ince uygulamalar ve onarımlar gibi tüm işlemler 4 saat içinde tamamlanmalıdır.Uygulanmış yüzeylerin korunmasına [su, çiğ, toz gibi) en az 24 saat dikkat edilmelidir. UV'ye devamlı açık kalacak yerlerde üzerini tek katlı alifatik esaslı poliüretan son kat ile kaplamak mükemmel sonuç verir. ",
+            "mixing": " ",
+            "mixture": " Hacimce : A Bileşeni : 100 --  B Bileşeni : 100",
+            "application": "Özel uygulama makinaları ile yukarıdaki tabloda belirtilen değerler ile püskürtülerek uygulanır.",
+            "consumption": [
+              "eile POLİÜREA 500 ürününe başka malzeme kesinlikle ilave edilmemelidir.",
+              "Açılmış ambalajlar, tamamen bitirilmeli ve yarım bırakılmamalıdır.",
+              "Herhangi bir inceltici ile inceltmeyiniz.",
+              "UV' ye devamlı açık kalacak yerlerde üzeri, alifatik esaslı poliüretan son kat ile kaplanmalıdır."
+            ],
+            "package": "A bileşeni [reçine) ve B bileşeni (sertleştirici) oranlanmış olarak 425 kg'lık setler ",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5 ° C -+25° C aralığında direkt güneş ışığından uzak yerlerde depolanmalıdır. "
+          },
+          {
+            "key": "1-4-6",
+            "name": "eile POLİJET 120 - eile POLİJET 120 K",
+            "img": "/assets/products/polijet_120.png",
+            "appImage": "/assets/appImage/polijet_120.png",
+            "info": "Poliüretan Enjeksiyon Reçinesi ve Hızlandırıcısı",
+            "description": "Poliüretan Enjeksiyon Reçinesi ve Hızlandırıcısı",
+            "areasOfUsage": [
+              "Su kaçaklarının negatif yönde durdurulmasında",
+              "Çatlaklı kayaç ve kumlu zeminlerin stabilizasyonunda",
+              "Basınçlı, basınçsız her türlü boru ve kanal bağlantıları montaj ve yalıtımında",
+              "Tank, depo benzeri yapılarda oluşan ani su kaçaklarının ortadan kaldırılmasında",
+              "Diyafram duvarlarda, tünel kaplama betonlarında su kaçaklarının önlenmesinde kullanılır. "
+            ],
+            "featuresOfProduct": [
+              "Su ile reaksiyona girerek esnek, kapalı gözenekli bir köpük oluşturur.",
+              "Islak yüzeylere mükemmel tutunma sağlar.",
+              "Solvent içermez.",
+              "Çevre ile dosttur.",
+              "Enjeksiyon uygulaması yüksek basınç üretebilen pompa yardımı ile yapılır."
+            ],
+            "beforeApplication": "     ",
+            "mixing": "Tercih edilen reaksiyon süresine göre %1 ve % 4 oranında hızlandırıcı,Polijet 120 ile homojen karışım elde edilene dek karıştırılır.",
+            "mixture": "        ",
+            "application": " Elde edilen karışım pakerlerden, tek bileşenli bir pompa yardımı ile suyun durdurulması gereken bölgeye enjekte edilir. Karışım, ortamdaki su ile reaksiyona girer ve köpürerek durmasını sağlar. Kuru Ortamlarda:  Önceden suyun geldiği tespit edilen bölgelere yerleştirilen pakerlerden, Polijet 120 ve hızlandırıcı karışımının reaksiyonu için gerekli miktarda su enjekte edilir. Tercih edilen reaksiyon süresine göre %1 ve %5 oranında hızlandırıcı, Polijet 120 ile homojen karışım elde edilene dek karıştırılır.Bu karışım pakerlerden tek bileşenli bir pompa yardımı ile suyun durdurulması gereken bölgeye enjekte edilir.",
+            "consumption": [
+              "Ortam ve suyun sıcaklığı,nem oranı hızlandırıcı kullanım oranını etkileyen parametrelerdir.Hızlandırıcı kullanım oranını bu parametreler belirler."
+            ],
+            "package": " Polijet 120 : 25 kg / teneke kova  Polijet 120 K : 1 kg / plastik şişe",
+            "storage": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından korunmalıdır."
+          },
+
+          {
+            "key": "1-4-7",
             "name": "eile PUR 710",
             "img": "/assets/products/teneke_pur_710.png",
             "info": "Tek Bileşenli Poliüretan Astar Malzemesi",
@@ -729,50 +919,13 @@
           }
         ]
       },
+
       {
         "key": "1-5",
-        "name": "Epoksi Katran Esaslı Su Yalıtım",
-        "items": [
-          {
-            "key": "1-5-1",
-            "name": "eile EPX 2222",
-            "img": "/assets/products/eile_genel_teneke.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
-          },
-          {
-            "key": "1-5-2",
-            "name": "eile EPS 876",
-            "img": "/assets/products/eile_genel_teneke.png",
-            "info": null,
-            "description": null,
-            "areasOfUsage": [],
-            "featuresOfProduct": [],
-            "beforeApplication": "",
-            "mixing": "",
-            "mixture": "",
-            "application": "",
-            "consumption": [],
-            "package": "",
-            "storage": ""
-          }
-        ]
-      },
-      {
-        "key": "1-6",
         "name": "Dilatasyon Bandı",
         "items": [
           {
-            "key": "1-6-1",
+            "key": "1-5-1",
             "name": "FC 805 System",
             "img": "/assets/products/dilatasyon.png",
             "appImage": "/assets/appImage/dilatasyon.png",
@@ -800,6 +953,60 @@
             "consumption": [],
             "package": "25 m.lik rulolar halinde üretilmektedir.",
             "storage": "Eile FC 805 bant için raf ömrü sınırsızdır."
+          },
+          {
+            "key": "1-5-2",
+            "name": "eile PB 12",
+            "img": "/assets/products/pb_12.png",
+            "appImage": "/assets/appImage/pb_12_app.png",
+            "info": "Yüksek Elastikiyete Sahip Pah Bandı ",
+            "description": "Pahların yalıtımında kullanılan, elastomerik yapıda ve yüksek elastikiyet özelliğine sahip pah bandıdır.",
+            "areasOfUsage": [
+              "Taban ve duvar birleşim yerlerindeki köşelerde kullanılır.",
+              "Prekast veya betonarme çatı derelerinin ek yerlerinin yalıtımında kullanılır.",
+              "lslak hacimlerin yalıtımında çift bileşenli çimento esaslı ve elostomerik reçine esaslı su yalıtım malzemeleri ile beraber uygulanır.",
+              "Döşemelerde ve perdelerde oluşan soğuk derzlerde kullanılır."
+            ],
+            "featuresOfProduct": [
+              "Elastikiyet özelliğine sahiptir.",
+              "Olumsuz hava koşulları ve suya dayanıklıdır.",
+              "Uygulama kolaylığı ve ekonomi sağlar.",
+              "Keçeli ve fileli olarak 2 tipte üretilmektedir."
+            ],
+            "beforeApplication": "Uygulama yapılacak yüzeyler kuru olmalıdır. Yüzeyler temiz, sağlam, taşıyıcı ve serbest parçacıklardan arındırılmış olmalıdır. Yağ, gres, kir, boya, çimento şerbeti, pas, kalıp yağı, tuz kusması gibi aderansı azaltacak kalıntılar uygulama öncesi temizlenmelidir.",
+            "mixing": " ",
+            "mixture": " ",
+            "application": "eile PB 1 DO pah bandı uygulama yapılacak köşeye veya çatlağa çift bileşenli çimento esaslı ve elostomerik reçine esaslı su yalıtım malzemeleri ile monte edilir. ",
+            "consumption": [],
+            "package": "50 m.lik rulolar halinde üretilmektedir. ",
+            "storage": "Oda sıcaklığında ve kuru ortamda depolanmalıdır. "
+          },
+          {
+            "key": "1-5-3",
+            "name": "eile Swell",
+            "img": "/assets/products/swell.png",
+            "appImage": "/assets/appImage/swell_app.png",
+            "info": "Hidrofilik Genleşebilen Derz Bandı ",
+            "description": "eile Swell, su ile temas ettiğinde şişen hidrofilik derz bandıdır.",
+            "areasOfUsage": [
+              "Her türlü inşaat derzlerinde,",
+              "Tünel segmentlerindeki derzlerde,",
+              "Prefabrik yapılardaki derzlerde,",
+              "Boru ve çelik yapı elemanlarının geçislerinde,",
+              "Kablo kanallarındaki geçis derzlerinde kullanılır."
+            ],
+            "featuresOfProduct": [
+              "eile Swell su ile temas ettiğinde kendi hacminden 4 kat fazlasına kadar şişme kapasitesine sahiptir.",
+              "Çeşitli kimyasallara ve mikroorganizmalara dayanıklıdır. ",
+              "Bozuk yüzeylerde bile yüzeyi çevreleyerek çok iyi yalıtım sağlar."
+            ],
+            "beforeApplication": "Yüzey sağlam, temiz, kuru ve her türlü kirden arındırılmış olmalıdır. Bütün gevşek parçalar, kalıp yağları, zayıf çimento şerbeti, boya, pas ve diğer yapışması zayıf parçalar mekanik yöntemlerle uzaklaştırılmalıdır. ",
+            "mixing": " ",
+            "mixture": " ",
+            "application": "eile Swell, uygulanacak derz bölgesinin ortasına yerleştirilmelidir. eile Swell uygulamasından önce yapıştırıcı olarak MS polimer bazlı bir yapıştırıcı kullanılmalıdır. Ek yerleri min. 1 O cm yan yana bindirilmelidir. ",
+            "consumption": [],
+            "package": "(2Dx 5) 12 m rulo kolide 72 m tul -- (20 x1 Dl 1 O m rulo kolide 80 m tul ",
+            "storage": "Dondan uzak, kapalı ortamda 36 ay "
           }
         ]
       }
@@ -1204,27 +1411,27 @@
             "storage": " Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır."
           },
           {
-            "key":"2-3-3",
-            "name":"eile GROUT 100 C",
-            "img":"/assets/products/grout_100.png",
-            "appImage":"/assets/appImage/grout100.png",
-            "info":"Yüksek Mukavemete Sahip Grout Harcı",
-            "description":"Çimento esaslı, tek bileşenli, büzülme yapmayan, akıcı ve pompalanabilir, ilk ve son mukavemeti yüksek grout harcıdır.",
-            "areasOfUsage":[
+            "key": "2-3-3",
+            "name": "eile GROUT 100 C",
+            "img": "/assets/products/grout_100.png",
+            "appImage": "/assets/appImage/grout100.png",
+            "info": "Yüksek Mukavemete Sahip Grout Harcı",
+            "description": "Çimento esaslı, tek bileşenli, büzülme yapmayan, akıcı ve pompalanabilir, ilk ve son mukavemeti yüksek grout harcıdır.",
+            "areasOfUsage": [
               "Dinamik yüke maruz kalan rüzgar türbini kulelerini beton temellere sağlam bir şekilde bağlamak için kullanılır."
             ],
-            "featuresOfProduct":[
+            "featuresOfProduct": [
               "Pompalanabilir.",
               "Hızlı mukavemet kazanır.",
               "Yüksek akıcı özelliğe sahiptir.",
               "Beton ve donatıya güçlü aderans sağlar.",
               "Büzülme yapmaz."
             ],
-            "beforeApplication":"Çimento esaslı yüzeylerin sağlam, tozsuz, taşıyıcı ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres ve parafin gibi kalıntılar temizlenmelidir. Cıvata delikleri her türlü kir veya döküntüden temizlenmiş olmalıdır. Yüzey suya doyurulmalı ve uygulama sırasında serbest su kalmamalıdır.Kalıp sızdırmaz olmalıdır.",
-            "mixing":"En iyi sonucu almak için, mekanik olarak çalışan bir harç mikseri kullanılmalıdır.Karışım oranında belirtilen su miktarını miksere yerleştirin ve eile GROUT 100 C'yi yavaşça ekleyin.3-4 dakika boyunca homojen kıvam elde edilene kadar sürekli karıştırın.",
-            "mixture":" 25 kg'lık torba için: 3,375-3,625 lt su -- 1 kg toz ürün için: 0,135-0,145 lt su -- Karışım yoğunluğu: 2,0-2,2 gr/cm³",
-            "application":"Kullanıma hazır malzeme yüzeye, kalınlığı 150 mm'ye kadar dökülebilir.Hava cephelerini ortadan kaldırmak için tek taraftan dökmek yeterlidir.",
-            "consumption":[
+            "beforeApplication": "Çimento esaslı yüzeylerin sağlam, tozsuz, taşıyıcı ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres ve parafin gibi kalıntılar temizlenmelidir. Cıvata delikleri her türlü kir veya döküntüden temizlenmiş olmalıdır. Yüzey suya doyurulmalı ve uygulama sırasında serbest su kalmamalıdır.Kalıp sızdırmaz olmalıdır.",
+            "mixing": "En iyi sonucu almak için, mekanik olarak çalışan bir harç mikseri kullanılmalıdır.Karışım oranında belirtilen su miktarını miksere yerleştirin ve eile GROUT 100 C'yi yavaşça ekleyin.3-4 dakika boyunca homojen kıvam elde edilene kadar sürekli karıştırın.",
+            "mixture": " 25 kg'lık torba için: 3,375-3,625 lt su -- 1 kg toz ürün için: 0,135-0,145 lt su -- Karışım yoğunluğu: 2,0-2,2 gr/cm³",
+            "application": "Kullanıma hazır malzeme yüzeye, kalınlığı 150 mm'ye kadar dökülebilir.Hava cephelerini ortadan kaldırmak için tek taraftan dökmek yeterlidir.",
+            "consumption": [
               "Atmosfere açık alanlarda özellikle; sıcak, kuru veya rüzgarlı ortamlarda, 24-48 saat süre ile özel kür malzemeleri ile hızlı buharlaşmaya karşı korunmalıdır.",
               "Uygulanacak zemin ve ortam sıcaklığı, çimentonun hidratasyon reaksiyonunu etkileyeceğinden, ortam ve zemin sıcaklığı izin verilen sıcaklık aralığında olmalıdır.",
               "Hazırlanan karışıma yabancı bir malzeme ilave edilmemelidir.",
@@ -1232,7 +1439,7 @@
               "Uygulama minimum 10 mm maksimum 150 mm kalınlığında yapılmalıdır. Daha kalın uygulamalarda grout harcına temiz agrega ilavesi yapılarak tek kat uygulanmalıdır."
             ],
             "package": "25 kg’lık kraft torba",
-            "storage":"Açılmamış orijinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır."
+            "storage": "Açılmamış orijinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır."
           },
           {
             "key": "2-3-4",
@@ -1467,6 +1674,32 @@
           },
           {
             "key": "2-4-3",
+            "name": "eile Carbon Mesh 170",
+            "img": "/assets/products/mesh_170.png",
+            "appImage": "/assets/appImage/mesh_170_app.png",
+            "info": "Karbon Fiber Mesh ",
+            "description": "Yapısal güçlendirmeler için geliştirilmiş yüksek alkali dayanımlı ve yüksek mukavemete sahip çift yönlü karbon fiber mesh.",
+            "areasOfUsage": [
+              "Tarihi bölge zeminlerinin sağlamlaştırılması ve korunması",
+              "Tuğla ve taş duvarların güçlendirilmesi"
+            ],
+            "featuresOfProduct": [
+              "Çok hafiftir ve elle kullanımı kolaydır.",
+              "Paslanma, korozyon problemi yoktur.",
+              "Yüksek alkali dayanımlıdır.",
+              "Çatlak oluşumunu minimize eder.",
+              "Yüksek mekanik mukavemet ve elastisite modülüne sahiptir."
+            ],
+            "beforeApplication": " ",
+            "mixing": "  ",
+            "mixture": "  ",
+            "application": " ",
+            "consumption": [],
+            "package": "Talep doğrultusunda farklı m2 ağırlıklarında da üretimi sağlanmaktadır.",
+            "storage": " "
+          },
+          {
+            "key": "2-4-4",
             "name": "eile EPX 33",
             "img": "/assets/products/teneke_epx_33.png",
             "appImage": "/assets/appImage/epx33.png",
@@ -1564,7 +1797,7 @@
             "key": "2-5-3",
             "name": "eile HRS 10",
             "img": "/assets/products/hrs10.png",
-            "appImage":"/assets/appImage/hrs10app.png",
+            "appImage": "/assets/appImage/hrs10app.png",
             "info": "Tarihi Yapılar İçin Hidrolik Kireç",
             "description": "Tarihi yapılarda horasan harcı ve yapısal güçlendirme enjeksiyonu imalatında kullanılan puzolanik etkisi yüksek hidrolik kireçtir.",
             "areasOfUsage": [
@@ -1591,35 +1824,35 @@
             "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda depolanmalıdır."
           },
           {
-            "key":"2-5-4",
+            "key": "2-5-4",
             "name": "eile Seal SB",
-            "img":"/assets/products/seal_sb.png",
-            "appImage":"/assets/appImage/seal_sb_app.png",
-            "info":"Dispersiyon Esaslı Sıvı Halde Uygulanan, Su Geçirimsizlik Ürünü",
-            "description":"Tek bileşenli, su bazlı, Silan/Siloksan esaslı, su itici özellikli emülsiyondur.",
-            "areasOfUsage":[
+            "img": "/assets/products/seal_sb.png",
+            "appImage": "/assets/appImage/seal_sb_app.png",
+            "info": "Dispersiyon Esaslı Sıvı Halde Uygulanan, Su Geçirimsizlik Ürünü",
+            "description": "Tek bileşenli, su bazlı, Silan/Siloksan esaslı, su itici özellikli emülsiyondur.",
+            "areasOfUsage": [
               "Beton, çimento, mineral kaplamalar, doğal taş, kireçli sıva vb. yüzeylerde, yüzey koruyucu ve su itici olarak kullanılır."
             ],
-            "featuresOfProduct":[
+            "featuresOfProduct": [
               "Uygulamaya hazırdır.",
               "Su buharı geçirgenliğine sahiptir.",
               "Alkaliye dayanıklıdır.",
               "Su itici özelliğe sahiptir.",
               "Solvent içermez."
             ],
-            "beforeApplication":"Uygulanacak zemin, aderansı azaltacak toz, yağ ve gevşek parçalardan arındırılmalıdır. Yüzeydeki bozukluklar,kireç esaslı yüzeylerde eile HORASAN HARCI ile çimeto esaslı yüzeylerde ise eile TH 60 veya eile TH 70 ile onarılmalıdır.",
-            "mixing":"  ",
-            "mixture":"  ",
+            "beforeApplication": "Uygulanacak zemin, aderansı azaltacak toz, yağ ve gevşek parçalardan arındırılmalıdır. Yüzeydeki bozukluklar,kireç esaslı yüzeylerde eile HORASAN HARCI ile çimeto esaslı yüzeylerde ise eile TH 60 veya eile TH 70 ile onarılmalıdır.",
+            "mixing": "  ",
+            "mixture": "  ",
             "application": "Yüzey doygun hale gelinceye dek fırça, rulo ya da püskürtme tabancası ile uygulanmalıdır. Malzemenin yüzeyden akmamasına dikkat edilmelidir. Çok emici yüzeylerde ilk katın kuruması beklendikten sonra ikinci kat uygulanabilir.",
-            "consumption":[
+            "consumption": [
               "Donmuş, erimekte olan veya 24 saat içerisinde don tehlikesi olan yüzeylerde uygulanmamalıdır.",
               "Uygulanan malzeme ilk 24 saat yağmur çeşitleri ve don olaylarından korunmalıdır.",
               "İlk kat uygulama yapıldıktan sonra o katın tam kuruduğundan emin olmadan 2.kat uygulanmamalıdır.",
               "eile SEAL SB uygulanacak yüzey ve ortam sıcaklığı +5 °C 'nin altında veya +30 °C 'nin üstünde ise uygulama için ; uygun sıcaklıklar beklenmelidir.",
               "eile SEAL SB ıslak yüzeylere uygulanmaz."
             ],
-            "package":"30 lt'lik plastik bidon",
-            "storage":"Açılmamış orjinal ambalajında +5 °C - +30 °C sıcaklık aralığında, dondan ve direkt güneş ışığından korunarak depolanmalıdır."
+            "package": "30 lt'lik plastik bidon",
+            "storage": "Açılmamış orjinal ambalajında +5 °C - +30 °C sıcaklık aralığında, dondan ve direkt güneş ışığından korunarak depolanmalıdır."
           }
         ]
       }
@@ -1669,6 +1902,38 @@
           },
           {
             "key": "3-1-2",
+            "name": "eile 125 KK",
+            "img": "/assets/products/125_kk.png",
+            "appImage": "/assets/appImage/125_kk_app.png",
+            "info": "Endüstriyel Zeminler için Korund ve Mineral Agrega İçeren Yüzey Sertleştirici ",
+            "description": "Taze beton ve şap yüzeyine uygulanan, çimento esaslı, korund ve mineral agrega içeren, uygulandığı alanı darbe ve aşınmaya karşı koruyan; zemin yüzey sertleştiricisidir.",
+            "areasOfUsage": [
+              "Orta ve ağır trafiğin yoğun olduğu uygulamalarda,tersanelerde,",
+              "İç ve dış mekanlarda;depolarda,garaj ve otopark alanlarında,",
+              "Endüstriyel bina zeminlerinde, tamirhane ve atölyeler gibi mekanik aşınma dayanımı aranan ve tozuma yapmaması istenen taze beton yüzeylerine uygulanır."
+            ],
+            "featuresOfProduct": [
+              "Uygulama yapılan yüzey, darbe ve aşınmaya karşı dayanıklıdır.",
+              "Geçirimsizliği yüksektir.",
+              "Betonun tozumasını engeller.",
+              "Taşıyıcı betona kolay uygulanır.",
+              "üç farklı renk seçeneği mevcuttur.",
+              "Özel granülometrik tane boyutuna sahip korund agrega içerir."
+            ],
+            "beforeApplication": "Analar azırlandıktan sonra beton dökülür. Vibrasyonlu mastar ile beton sıkıştırılır. Tahta mala ile son bir düzeltme yapılabilir. POMEX 125 KK uygulanacak alanın taşıyıcı betonu en az C25 veya 350 doz sınıfında olmalıdır.",
+            "mixing": "Malzemenin uygulaması bittikten sonra, hidratasyon suyunun hızlı buharlaşması ve rötre çatlaklarının engellenmesi, tozumazlığın sağlanması amacı ile yüzeye; kür malzemesi olan eile Curing 105 veya eile Curing AST ürünleri uygulanmalıdır. Beton dökümünden max. 24 saat sonra en az 4 mm genişlikte ve beton kalınlığının 1/3 derinliğinde kesilerek genleşme derzleri oluşturulmalıdır. Derzlerde, kırılma ve tozuma gibi olumsuz durumların oluşmaması için eile Poliüretan Mastik uygulanmalıdır.",
+            "mixture": " ",
+            "application": "Uygulama yapılacak beton yüzeyi çok ıslak veya çok kuru olmamalıdır Beton çok kuru olur ise yüzey sertleştirici beton ile birleşmeyerek, zeminden kabuk kabuk kalkacaktır. Uygulama beton çok ıslak iken yapılır ise, yüzey sertleştirici ayrışarak yüzeyde gerekli mukavemet ve dayanım sağlanmayacaktır. Uygulamaya; betonun üzerine çıkıldığında, 0,5-1,5 cm derinliğinde ayak izi kalıyor ise başlanır. Zemin; yüzey sertleştiricinin ihtiyacı olan nemi alabilecek kadar ıslak olmalıdır. Uygulama alanına; tüketim miktarına göre POMEX 125 KK torbaları anaların etrafına dizilir. El veya mekanik serpme maki nası ile yüzeye homojen olarak atılır. Serpilen malzemenin betonun suyunu çekerek renk değiştirmesi beklenir. Homojen şekilde serpilen ve suyu çekerek rengi değişen malzeme tepsi perdahı ile sıkıştırılır ve beton ile bütünleşmesi sağlanır. 5kg/m2 üzeri uygulamalarda malzemenin önce 2/3 ü serpilir. Disk işlemi yapıldıktan sonra geri kalan 1/3 miktardaki malzeme serpilir. Yeniden disk ile perdahlanma işlemi gerçekleştirilir. Kaba perdah işleminin ardından; son perdahlama ince bıçak ayarlamaları ile istenilen parlaklık sağlanana kadar yapılmalıdır. Uygulama sırasında yüzeye su serpilmemelidir. ",
+            "consumption": [
+              "Zemin yüzey sertleştiricileri uzman uygulayıcılar tarafından yapılmalıdır.",
+              "Uygulama +5° C - +35° C sıcaklık aralığında yapılmalıdır.",
+              "Donmuş, erimekte olan veya 24 saat içerisinde don tehlikesi olan yüzeylerde uygulanmamalıdır. "
+            ],
+            "package": "25 kg'lık kraft torba ",
+            "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır. "
+          },
+          {
+            "key": "3-1-3",
             "name": "eile KORUND 120 F",
             "img": "/assets/products/korund120f.png",
             "appImage": "/assets/appImage/korund_120F.png",
@@ -1700,7 +1965,7 @@
             "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır. "
           },
           {
-            "key": "3-1-3",
+            "key": "3-1-4",
             "name": "POMEX YÜZEY SERTLEŞTİRİCİ",
             "img": "/assets/products/zeminyuzeysert.png",
             "appImage": "/assets/appImage/yuzeysert.png",
@@ -1731,7 +1996,7 @@
             "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır. "
           },
           {
-            "key": "3-1-4",
+            "key": "3-1-5",
             "name": "eile LEVEL",
             "img": "/assets/products/level_render.png",
             "appImage": "/assets/appImage/level.png",
@@ -1764,7 +2029,7 @@
             "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır."
           },
           {
-            "key": "3-1-5",
+            "key": "3-1-6",
             "name": "eile PERFLOOR",
             "img": "/assets/products/eilegenel.png",
             "info": "Çimento ve Akrilik Reçine Esaslı Çift Bileşenli, Kendiliğinden Yayılan,Endüstriyel Zemin Kaplaması ",
@@ -2685,18 +2950,18 @@
             "key": "5-1-1",
             "name": "POMEX DERZ DOLGU",
             "img": "/assets/products/fuga1-6mm.png",
-            "appImage":"/assets/appImage/fuga.png",
+            "appImage": "/assets/appImage/fuga.png",
             "info": "Çimento Esaslı Derz Dolgu Malzemesi (1-6 mm)",
             "description": "Çimento esaslı, ince derzler için, standart performanslı derz dolgu malzemesi",
             "areasOfUsage": [
               "Seramik, fayans ve benzeri kaplama malzemelerinin 6 mm. genişliğe kadar olan derz uygulamalarında,",
-"Dış mekan zemin,",
-"İç mekan duvar ve zeminde kullanılır."
+              "Dış mekan zemin,",
+              "İç mekan duvar ve zeminde kullanılır."
             ],
             "featuresOfProduct": [
               "1-6 mm yüzeyler için uygundur.",
-"Çatlamadan mükemmel yapışma sağlar.",
-"İşlenebilme süresi uzundur."
+              "Çatlamadan mükemmel yapışma sağlar.",
+              "İşlenebilme süresi uzundur."
             ],
             "beforeApplication": "Derz uygulamasından önce, derz boşlukları arasında bulunabilecek toz, talaş, inşaat çimento artıkları gibi maddeler seramiğe zarar vermeyecek şekilde temizlenmelidir.Özellikle duvarlarda, uygulama öncesinde derz boşlukları nemlendirilmelidir.Derz dolgu uygulaması öncesinde yapıştırıcı kürlenmiş olmalıdır.",
             "mixing": "Uygun su miktarı, bir ölçek yardımı ile temiz karıştırma kabına boşaltılır. eile POMEX DERZ DOLGU yavaş şekilde ilave edilir. Düşük devirli karıştırıcı ile 3 - 5 dakika, homojen bir karışım elde edilinceye kadar karıştırılır. 5-10 dakika dinlendirilen malzeme, tekrar 20-30 saniye karıştırıldıktan sonra kullanıma hazır hale gelir.",
@@ -2704,8 +2969,8 @@
             "application": "Uygulamaya hazır kıvama gelmiş derz dolgu harcı; yüzeye yayılarak, çapraz hareketlerle derz boşluklarının iyice dolması sağlanır.Yüzeydeki fazlalıklar; nemlendirilmiş sünger veya yumuşak uçlu bir spatula yardımı ile sıyrılmalıdır. Derz boşluklarına doldurulan POMEX DERZ DOLGU yüzeyi kuruduğunda, yüzey; nemli sünger yardımı ile dairesel hareketlerle temizlenmelidir. Bu işlem için, genellikle beklenen süre 15-30 dakika kadardır. Emiciliği yüksek kaplama malzemesi kullanıldığında veya sıcak ve rüzgarlı ortamlardaki uygulamalarda bu süre kısalır.Silme işlemi zamanından önce veya çok ıslak sünger ile yapılırsa POMEX DERZ DOLGU renginde dalgalanma problemleri ile karşılaşılabilinir. Silme işleminde kullanılan süngerin temizliğine dikkat edilmelidir.",
             "consumption": [
               "Ortam ve yüzey sıcaklığı +5°C'nin altında ya da +35°C’ nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır. Pomex derz dolgu kullanılacak derz genişliği 6 mm'yi geçmemelidir.",
-"Su emmesi yüksek olan seramikler, uygulama öncesinde suya doyurulmalıdır.",
-"Kurumaya başlamış karışıma kesinlikle su ve yeni malzeme ilave edilmemelidir. Derz dolgu ürünü uygulamadan önce, yapıştırıcı ürününün kürlenmeyi tamamlamış olması gereklidir. "
+              "Su emmesi yüksek olan seramikler, uygulama öncesinde suya doyurulmalıdır.",
+              "Kurumaya başlamış karışıma kesinlikle su ve yeni malzeme ilave edilmemelidir. Derz dolgu ürünü uygulamadan önce, yapıştırıcı ürününün kürlenmeyi tamamlamış olması gereklidir. "
             ],
             "package": "20-10 kg’ lık kraft torba ",
             "storage": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır."
@@ -2832,15 +3097,15 @@
         ],
         "featuresOfProduct": [
           "Yapıların zeminlerinde ısı ve ses yalıtımı sağlar.",
-"Isıtma –soğutma giderlerinde bütçeye katkı sağlar.",
-"Hafif olması nedeniyle yapıya fazladan yük bindirmez.",
-"Tek katmanlı uygulandığından ekstra işçilik gerektirmez.",
-"Ara katmanlar oluşturmadığından ısı köprüsü oluşumuna izin vermez.",
-"İnorganik esaslı malzeme olduğu için, çevre ve insan sağlığına zararlı kimyasallar içermez.",
-"Yangın bariyeri oluşturur.",
-"Nefes alır.",
-"Yapıların değerini arttırır.",
-"Binalarda, katlar arasında ses yalıtımı sağlar."
+          "Isıtma –soğutma giderlerinde bütçeye katkı sağlar.",
+          "Hafif olması nedeniyle yapıya fazladan yük bindirmez.",
+          "Tek katmanlı uygulandığından ekstra işçilik gerektirmez.",
+          "Ara katmanlar oluşturmadığından ısı köprüsü oluşumuna izin vermez.",
+          "İnorganik esaslı malzeme olduğu için, çevre ve insan sağlığına zararlı kimyasallar içermez.",
+          "Yangın bariyeri oluşturur.",
+          "Nefes alır.",
+          "Yapıların değerini arttırır.",
+          "Binalarda, katlar arasında ses yalıtımı sağlar."
         ],
         "beforeApplication": "Uygulama yapılacak yüzeydeki toz, yağ, boya ve kirlilikler yüzeyden arındırılmalıdır. Gevşek parçalar mekanik yöntemlerle sağlam zemine ulaşıncaya kadar temizlenmelidir. Çok gözenekli zeminlerde, sıcak veya rüzgarlı ortamlarda uygulama zemini suya doyurulmalıdır. Uygulama öncesinde yüzeyde serbest su bulunmamalıdır.",
         "mixing": "Şap makinesinin karışım haznesine önce 1 torba A bileşenden (agrega) sonra üzerine 18-20 lt su konur. 1 torba B bileşenden ( bağlayıcı ) sonra 1 torba daha A Bileşene (Agrega) 10-20 lt su eklenerek makinada bir dakika karıştırılarak homojen bir karışım elde edilir.",
@@ -2848,8 +3113,8 @@
         "application": "Hazırlanmış olan POMEX THERMOMEX-D harcı köşelere gereken kotta ano yükseltileri yapılır. Mastar ile araları doldurulur. İstenirse çelik mala veya makine (helikopter) ile yüzey düzeltilir.",
         "consumption": [
           "Ortam sıcaklığı +5°C'nin altında ya da +30°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Ayrıca aşırı sıcak, yağışlı veya rüzgarlı havalarda da uygulama yapılmamalıdır.",
-"POMEX THERMOMEX-D üzerine yapılacak uygulamalar için en az üç gün beklenmelidir.",
-"POMEX THERMOMEX-D üzerine yapılacak tesviye şapı, seramik vb. uygulamalar öncesinde; eile ASTAR E ürünü kullanılarak yüzeyin su emiciliği azaltılır.Gerekirse, eile ASTAR E ürünü iki kat uygulanmalıdır."
+          "POMEX THERMOMEX-D üzerine yapılacak uygulamalar için en az üç gün beklenmelidir.",
+          "POMEX THERMOMEX-D üzerine yapılacak tesviye şapı, seramik vb. uygulamalar öncesinde; eile ASTAR E ürünü kullanılarak yüzeyin su emiciliği azaltılır.Gerekirse, eile ASTAR E ürünü iki kat uygulanmalıdır."
         ],
         "package": "A Bileşeni(Agrega) :100 dm³'lük PP torba -- B Bileşeni(Bağlayıcı) :20 kg'lık kraft torba",
         "storage": "A bileşen ( agrega ): Ömrü sonsuzdur. Şantiyede ıslanmasının önemi yoktur.B bileşen ( bağlayıcı ): Kuru ve serin ortamda en fazla 10 kat istifle depolanmalıdır. Uygun depolama koşullarında raf ömrü, üretim tarihinden itibaren 12 aydır. "
@@ -2858,7 +3123,7 @@
         "key": "6-0-2",
         "name": "POMEX THERMOMEX SIVA",
         "img": "/assets/products/thermomex.png",
-        "appImage":"/assets/appImage/siva.jpg",
+        "appImage": "/assets/appImage/siva.jpg",
         "info": "Isı Ses ve Yangın Yalıtım Sıvası",
         "description": "Çimento esaslı, karışımında bulunan gözenekli yapıya sahip doğal hafif agregalar sayesinde uygulandığı yüzeyde nefes alan ısı-ses ve yangın yalıtımı sağlayan, sıva formunda çok amaçlı yalıtım malzemesidir.",
         "areasOfUsage": [
@@ -2866,15 +3131,15 @@
         ],
         "featuresOfProduct": [
           "Isı-ses ve yangın yalıtımını tek ürünle yapar.",
-"Isıtma –soğutma giderlerinde bütçeye katkı sağlar.",
-"Hafif olması nedeni ile yapıya fazladan yük bindirmez.",
-"Tek katmanlı uygulandığından ekstra işçilik gerektirmez.",
-"Ara katmanlar oluşturmadığından ısı köprüsü oluşumuna izin vermez.",
-"İnorganik esaslı malzeme olduğu için, çevre ve insan sağlığına zararlı kimyasallar içermez (kanserojen malzeme içermez).",
-"Yangın bariyeri oluşturur.",
-"Nefes alır.",
-"Yapıların değerini arttırır.",
-"Boşluklu yapısı nedeniyle ses yalıtımı sağlar."
+          "Isıtma –soğutma giderlerinde bütçeye katkı sağlar.",
+          "Hafif olması nedeni ile yapıya fazladan yük bindirmez.",
+          "Tek katmanlı uygulandığından ekstra işçilik gerektirmez.",
+          "Ara katmanlar oluşturmadığından ısı köprüsü oluşumuna izin vermez.",
+          "İnorganik esaslı malzeme olduğu için, çevre ve insan sağlığına zararlı kimyasallar içermez (kanserojen malzeme içermez).",
+          "Yangın bariyeri oluşturur.",
+          "Nefes alır.",
+          "Yapıların değerini arttırır.",
+          "Boşluklu yapısı nedeniyle ses yalıtımı sağlar."
         ],
         "beforeApplication": "Uygulama yapılacak yüzeydeki toz, yağ, boya ve kirlilikler yüzeyden arındırılmalıdır. Gevşek parçalar mekanik yöntemlerle sağlam zemine ulaşıncaya kadar temizlenir. Eski binalarda mevcut sıva çentme yöntemiyle pürüzlendirildikten sonra eile TU-05 veya eile TU-06 ile astarlanmalıdır. Yeni binalarda emici, kaygan ve beton yüzeyler yüzey eile TU-05 veya eile TU-06 ile astarlanmalıdır. Uygulanacak POMEX THERMOMEX SIVA kalınlığını belirleyecek çıtalar, uygun aralıklarla çakılarak anolar oluşturulur.",
         "mixing": "POMEX THERMOMEX SIVA’nın homojen karışımı ve ürün performansının sağlanması için ambalajın tamamı tek seferde kullanılır. POMEX THERMOMEX SIVA’nın tamamı yaklaşık 1:1 oranında olacak şekilde su üzerine yavaşça eklenerek düşük devirli karıştırıcı ile 4-5 dakika homojen karışım elde edilene kadar karıştırılır. Yaklaşık 5 dakika dinlendirildikten sonra, 30 saniye kadar tekrar karıştırılarak malzeme uygulamaya hazır kıvama getirilir.",
@@ -2882,12 +3147,12 @@
         "application": "Homojen karışım, çıtalar arasına çelik mala veya sıva pompası ile max 3-3,5 cm kalınlıkta uygulanır ve mastarlanır. Anolar; malzemenin ön çekmesi tamamlandıktan sonra çıkarılır ve boşluklar POMEX THERMOMEX SIVA ile doldurulur. Uygulama sırasında gecikmeden dolayı ürün priz almaya başlarsa birkaç dakika karıştırılarak uygulamaya hazır kıvama getirilmeli su eklenmemelidir.",
         "consumption": [
           "POMEX THERMOMEX SIVA uygulamasında, ortam sıcaklığı +5 °C’nin altında ya da +30°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
-"Kurumaya başlamış karışıma kesinlikle su ve yenimmalzeme ilave edilmemedir.",
-"Uygulama kalınlığı 3-3,5 cm’i geçmemelidir. Daha kalın uygulamalarda sıva filesi kullanılması tavsiye edilir.",
-"POMEX THERMOMEX SIVA üzerine yapılacak uygulamalar için en az 24 saat beklenmelidir.",
-" Sıcak havalarda POMEX THERMOMEX SIVA yüzeyi, 24 saat ara ile sulanmalı.",
-"Brüt beton yüzeye uygulamalarda uygulama zemini; TU-05 veya TU-06 ürünleri ie astarlanarak, sıva harcının yüzeye aderansı arttırılmalıdır.",
-"Çok gözenekli yüzeylere; eile TU-05 veya eile TU06 ile astarlanmalıdır. uygulaması yapıldıktan sonra,POMEX THERMOMEX SIVA uygulamasına geçilmelidir."
+          "Kurumaya başlamış karışıma kesinlikle su ve yenimmalzeme ilave edilmemedir.",
+          "Uygulama kalınlığı 3-3,5 cm’i geçmemelidir. Daha kalın uygulamalarda sıva filesi kullanılması tavsiye edilir.",
+          "POMEX THERMOMEX SIVA üzerine yapılacak uygulamalar için en az 24 saat beklenmelidir.",
+          " Sıcak havalarda POMEX THERMOMEX SIVA yüzeyi, 24 saat ara ile sulanmalı.",
+          "Brüt beton yüzeye uygulamalarda uygulama zemini; TU-05 veya TU-06 ürünleri ie astarlanarak, sıva harcının yüzeye aderansı arttırılmalıdır.",
+          "Çok gözenekli yüzeylere; eile TU-05 veya eile TU06 ile astarlanmalıdır. uygulaması yapıldıktan sonra,POMEX THERMOMEX SIVA uygulamasına geçilmelidir."
         ],
         "package": "16 kg’ lık kraft torba ",
         "storage": ""
