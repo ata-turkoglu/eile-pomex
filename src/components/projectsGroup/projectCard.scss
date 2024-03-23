@@ -12,6 +12,12 @@
     margin-bottom: 2rem;
     padding-bottom: 1rem;
 
+    @media screen and (max-width:768px) {
+        width: 100%;
+        margin-inline: 0;
+        margin-bottom: 2.5rem;
+    }
+
     .imgContainer{
         position: relative;
         width: 100%;
