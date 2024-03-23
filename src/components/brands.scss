@@ -37,13 +37,19 @@
             align-items: flex-end;
             justify-content: space-around;
             .imgContainer{
-                width: 140px;
-                height: auto;
-    
+                width: auto;
+                max-width: 150px;
+                height: 100px;
+
+                @media screen and (max-width:768px){
+                    height: auto;
+                    max-width: 80px;
+                }
+                
                 img{
                     width: 100%;
                     height: 100%;
-                    object-fit: cover;
+                    object-fit: contain;
                 }
             }
         }
