@@ -149,6 +149,7 @@ function Header() {
                 borderWidth: narrowHeader ? 3 : "",
             }}
         >
+            {/* logo container */}
             <Link
                 className={
                     narrowHeader ? "logo-container-narrow" : "logo-container"
@@ -165,6 +166,7 @@ function Header() {
                     alignItems: narrowHeader ? "center" : "flex-end",
                 }}
             >
+                {/* address bar */}
                 {!narrowHeader && (
                     <div className="nav-container-top">
                         <div className="address-bar">
@@ -205,12 +207,14 @@ function Header() {
                         />
                     </div>
                 )}
+                {/* nav links bar */}
                 <div
                     className="nav-container-bottom"
                     style={{
                         height: narrowHeader ? "100%" : "70%",
                     }}
                 >
+                    {/* web view navigation */}
                     <div className="nav-container-links">
                         <Link
                             className="nav-item"
@@ -338,9 +342,14 @@ function Header() {
                     size={18}
                 />
             </div>
+
+            {/* mobile view hamburger menu */}
             <div id="menu-btn" onClick={menuChange}>
                 <div className="menu-btn-burger"></div>
             </div>
+
+            {/* product categories */}
+
             {hoverProducts && (
                 <div
                     className="headerBelowPart"
@@ -350,6 +359,8 @@ function Header() {
                     {products}
                 </div>
             )}
+
+            {/* mobile view navigation */}
             <div
                 id="mobileNavigation"
                 className="mobileNavigation"
