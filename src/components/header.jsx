@@ -186,30 +186,48 @@ function Header() {
                                 0 232 360 16 16
                             </span>
                         </div>
-                        <a href="https://tr.linkedin.com/company/eile-pomex-yap%C4%B1-kimyasallar%C4%B1" target="_blank">
-                        <Linkedin
-                            color="rgb(1,90,170)"
-                            style={{
-                                cursor: "pointer",
-                                marginRight: "10px",
-                                marginLeft: "2rem",
-                            }}
-                            size={18}
-                        /></a>
+                        <a
+                            href="https://tr.linkedin.com/company/eile-pomex-yap%C4%B1-kimyasallar%C4%B1"
+                            target="_blank"
+                        >
+                            <Linkedin
+                                color="rgb(1,90,170)"
+                                style={{
+                                    cursor: "pointer",
+                                    marginRight: "10px",
+                                    marginLeft: "2rem",
+                                }}
+                                size={18}
+                            />
+                        </a>
 
-                        <a href="https://www.instagram.com/eilepomex/" target="_blank" >
-                        <Instagram
-                            color="rgb(1,90,170)"
-                            style={{ cursor: "pointer", marginRight: "10px" }}
-                            size={18}
-                        /></a>
+                        <a
+                            href="https://www.instagram.com/eilepomex/"
+                            target="_blank"
+                        >
+                            <Instagram
+                                color="rgb(1,90,170)"
+                                style={{
+                                    cursor: "pointer",
+                                    marginRight: "10px",
+                                }}
+                                size={18}
+                            />
+                        </a>
 
-                        <a href="https://www.facebook.com/eilepomex" target="_blank" >
-                        <Facebook
-                            color="rgb(1,90,170)"
-                            style={{ cursor: "pointer", marginRight: "10px" }}
-                            size={18}
-                        /></a>
+                        <a
+                            href="https://www.facebook.com/eilepomex"
+                            target="_blank"
+                        >
+                            <Facebook
+                                color="rgb(1,90,170)"
+                                style={{
+                                    cursor: "pointer",
+                                    marginRight: "10px",
+                                }}
+                                size={18}
+                            />
+                        </a>
                     </div>
                 )}
                 {/* nav links bar */}
@@ -327,25 +345,34 @@ function Header() {
                 id="toSocial"
                 style={mobileNav ? { display: "flex" } : { display: "none" }}
             >
-                <Linkedin
-                    color="rgb(1,90,170)"
-                    style={{
-                        cursor: "pointer",
-                        marginRight: "10px",
-                        marginLeft: "2rem",
-                    }}
-                    size={18}
-                />
-                <Instagram
-                    color="rgb(1,90,170)"
-                    style={{ cursor: "pointer", marginRight: "10px" }}
-                    size={18}
-                />
-                <Facebook
-                    color="rgb(1,90,170)"
-                    style={{ cursor: "pointer", marginRight: "10px" }}
-                    size={18}
-                />
+                <a
+                    href="https://tr.linkedin.com/company/eile-pomex-yap%C4%B1-kimyasallar%C4%B1"
+                    target="_blank"
+                >
+                    <Linkedin
+                        color="rgb(1,90,170)"
+                        style={{
+                            cursor: "pointer",
+                            marginRight: "10px",
+                            marginLeft: "2rem",
+                        }}
+                        size={18}
+                    />
+                </a>
+                <a href="https://www.instagram.com/eilepomex/" target="_blank">
+                    <Instagram
+                        color="rgb(1,90,170)"
+                        style={{ cursor: "pointer", marginRight: "10px" }}
+                        size={18}
+                    />
+                </a>
+                <a href="https://www.facebook.com/eilepomex" target="_blank">
+                    <Facebook
+                        color="rgb(1,90,170)"
+                        style={{ cursor: "pointer", marginRight: "10px" }}
+                        size={18}
+                    />
+                </a>
             </div>
 
             {/* mobile view hamburger menu */}
