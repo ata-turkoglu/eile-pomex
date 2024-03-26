@@ -88,9 +88,7 @@ function Footer() {
                         </p>
                     </div>
                     <div className="sb__footer-below-links">
-                        <a href="/KKVK">
-                            <div> <p>Kişisel Verilerin Korunması</p></div>
-                        </a>
+                             <a href="src\assets\KVKK.pdf" target="_blank"> <p>Kişisel Verilerin Korunması</p> </a>
                     </div>
                 </div>
 
