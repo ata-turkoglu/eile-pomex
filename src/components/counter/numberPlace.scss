@@ -6,9 +6,9 @@
     align-items: center;
     justify-content: flex-start;
     height: 100%;
-    overflow: hidden;
     scroll-behavior: smooth;
-
+    transition: all .2s ease;
+    
     .placeNumber{
         font-size: 2rem;
         font-weight: 600;

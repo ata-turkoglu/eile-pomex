@@ -1,13 +1,26 @@
 import { useLayoutEffect, useState } from "react";
 import "./numberPlace.scss";
 
-function numberPlace({ number, index }) {
+function numberPlace({ number, index, timeout, intvlValue }) {
     useLayoutEffect(() => {
         const el = document.getElementById(`placeContainer-${index}`);
         let placeHeight =
             document.getElementsByClassName("placeNumber")[0].clientHeight;
-        el.scrollBy(0, number * placeHeight);
+        setTimeout(() => {
+            countNumber(el, number, placeHeight);
+        }, timeout);
     }, []);
+
+    const countNumber = (el, number, placeHeight) => {
+        let count = 0;
+        const intrvl = setInterval(() => {
+            el.style.transform = `translateY(-${++count * placeHeight}px)`;
+            if (count >= number) {
+                clearInterval(intrvl);
+            }
+        }, intvlValue);
+    };
+
     return (
         <div id={`placeContainer-${index}`} className="placeContainer">
             <span className="placeNumber">0</span>
