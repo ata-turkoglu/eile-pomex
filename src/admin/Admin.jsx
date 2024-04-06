@@ -1,21 +1,32 @@
 import React from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
-import Admin_Home from "./pages/Admin_Home";
-import Admin_Projects from "./pages/Admin_Projects";
+import { Outlet } from "react-router-dom";
+import Tab from "react-bootstrap/Tab";
+import Tabs from "react-bootstrap/Tabs";
 
 function Admin(navigation) {
-    const route = useLocation();
     return (
         <div className="admin">
-            <div className="pageContainer">
-                <Routes>
-                    <Route path="/" element={<Admin_Home />}></Route>
-                    <Route
-                        path="/projects"
-                        element={<Admin_Projects />}
-                    ></Route>
-                </Routes>
-            </div>
+            <Tabs defaultActiveKey="products" id="admin-tabs" className="m-3">
+                <Tab eventKey="products" title="Products">
+                    Products
+                </Tab>
+                <Tab eventKey="projects" title="Projects">
+                    Projects
+                </Tab>
+                <Tab eventKey="about" title="About">
+                    About
+                </Tab>
+                <Tab eventKey="docs" title="Documents">
+                    Documents
+                </Tab>
+                <Tab eventKey="refs" title="References">
+                    References
+                </Tab>
+                <Tab eventKey="contact" title="Contact">
+                    Contact
+                </Tab>
+            </Tabs>
+            <Outlet />
         </div>
     );
 }
