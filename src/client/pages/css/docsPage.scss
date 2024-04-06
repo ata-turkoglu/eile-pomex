@@ -1,0 +1,9 @@
+@import "../../../variables.scss";
+
+.docs{
+    padding-top: 100px;
+    
+    @media screen and (max-width:768px) {
+        padding-top: $mobile-padding-top;
+    }
+}
