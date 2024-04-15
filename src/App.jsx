@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 
 import Admin from "./admin/Admin.jsx";
-import Admin_Home from "./admin/pages/Admin_Home.jsx";
-import Admin_Projects from "./admin/pages/Admin_Projects.jsx";
+import Admin_Home from "./admin/tabs/Admin_Home.jsx";
+import Admin_Projects from "./admin/tabs/Admin_Projects.jsx";
 import Client from "./client/Client.jsx";
 import Home from "./client/pages/Home.jsx";
 import About from "./client/pages/About.jsx";
