@@ -27,8 +27,10 @@
 
     .logo-container{
         height: 100%;
-        width: auto;
+        width: 255px;
+        max-width: 255px;
         min-width: 255px;
+        cursor: pointer;
         img{
             width: 100%;
             height: 100%;
@@ -106,7 +108,7 @@
                     text-transform: capitalize;
                     text-transform: uppercase;
                     span{
-                        filter: drop-shadow(0 0 2px darken($main-grey,10%));
+                        filter: drop-shadow(0 0 1px darken($main-grey,10%));
                     }
                 }
 
@@ -256,6 +258,7 @@
             }
             
             .productSubGroups{
+                width: max-content;
                 display: none;
                 transition: all ease .3s;
                 transform-origin: top;
@@ -332,6 +335,7 @@
             
             .productSubGroups1{
                 position: absolute;
+                width: max-content;
                 left: 100%;
                 top: 0;
                 display: none;
