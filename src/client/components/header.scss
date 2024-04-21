@@ -38,7 +38,8 @@
         }
         @media screen and (max-width:768px) {
             height: 101%;
-            width: auto;
+            width: 193px;
+            max-width: 255px;
             min-width: unset;
         }
     }
