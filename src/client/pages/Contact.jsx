@@ -1,16 +1,24 @@
-import React, { useState, useLayoutEffect } from "react";
+import React, { useState, useLayoutEffect, useCallback, useRef } from "react";
 import "./css/contactPage.scss";
 import { MapPinned, Phone, Printer } from "lucide-react";
 import swal from "sweetalert";
+import ReCAPTCHA from "react-google-recaptcha";
 
 function Contact() {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
+    const recaptchaRef = useRef();
+
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const [token, setToken] = useState(null);
+
+    const onVerify = useCallback((token) => {
+        setToken(token);
+    });
 
     function Send() {
         var body =
@@ -44,6 +52,8 @@ function Contact() {
                     "error"
                 );
             }
+            setToken(null);
+            recaptchaRef.current.reset();
         });
     }
 
@@ -72,7 +82,8 @@ function Contact() {
                             <div className="text">
                                 <h3>Adres</h3>
                                 <p>
-                                    Yeniköy Mah. Menderes-Orhanlı Yolu Sk. <br />
+                                    Yeniköy Mah. Menderes-Orhanlı Yolu Sk.{" "}
+                                    <br />
                                     No: 179/26 Menderes/İzmir
                                 </p>
                             </div>
@@ -141,10 +152,20 @@ function Contact() {
                                     }}
                                 />
                             </div>
+                            <div id="ata">
+                                <ReCAPTCHA
+                                    ref={recaptchaRef}
+                                    sitekey="6Lf-S8UpAAAAAL58_LEdcdltYiANv69K7ei0K9wP"
+                                    onChange={onVerify}
+                                    size="normal"
+                                />
+                            </div>
                             <div className="inputBox">
                                 <input
+                                    style={{ background: !token ? "grey" : "" }}
                                     type="button"
                                     value="Gönder"
+                                    disabled={!token}
                                     onClick={Send}
                                 />
                             </div>
