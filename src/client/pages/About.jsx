@@ -1,7 +1,5 @@
 import React, { useLayoutEffect } from "react";
 import "../pages/css/aboutPage.scss";
-import { Container } from "react-bootstrap";
-import img from "../../assets/about/concept.jpg";
 
 function About() {
     useLayoutEffect(() => {
@@ -54,7 +52,7 @@ function About() {
             <div className="info-container">
                 <div className="content">
                     <div className="imgContainer">
-                        <img src={img} />
+                        <img src="/assets/pages/concept.jpg" />
                     </div>
                     <div className="textContainer">
                         <h2>
