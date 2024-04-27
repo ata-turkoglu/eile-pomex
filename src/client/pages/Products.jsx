@@ -34,6 +34,7 @@ function Products() {
         initiated.current = true;
     }, [productKey]);
 
+    // Category List Collapsing
     const handleGroupClick = (key) => {
         let list = JSON.parse(JSON.stringify(selectedGroups));
         const index = list.indexOf(key);
@@ -57,16 +58,19 @@ function Products() {
         setSelectedGroups(list);
     };
 
+    // Category List Clicking
     const handleCategoryItemClick = (key, fromCategory = true) => {
         const keyList = key.split("-");
         const len = keyList.length;
         if (len == 1) {
+            // Ana Gruplar
             if (keyList[0] == 0) {
                 if (mobileView) {
                     handleShowCategory();
                 }
                 setHeader("Products");
                 setProducts(productData);
+                navigate("/products/" + key);
             } else {
                 const group = productData.find((group) => group.key == key);
                 if (group.subGroups) {
@@ -79,6 +83,7 @@ function Products() {
                         }, []);
                         setHeader(group.name);
                         setProducts(items);
+                        navigate("/products/" + key);
                     }
                 } else {
                     if (mobileView) {
@@ -86,6 +91,7 @@ function Products() {
                     }
                     setHeader(group.name);
                     setProducts(group.items);
+                    navigate("/products/" + key);
                 }
             }
         } else if (len == 2) {
@@ -104,10 +110,12 @@ function Products() {
                 }, []);
                 setHeader(group.name);
                 setProducts(items);
+                navigate("/products/" + key);
             } else {
                 const subGroup = group.subGroups.find((sub) => sub.key == key);
                 setHeader(subGroup.name);
                 setProducts(subGroup.items);
+                navigate("/products/" + key);
             }
         }
     };
@@ -117,10 +125,11 @@ function Products() {
             navigate("/product-details/" + key);
         } else {
             handleCategoryItemClick(key, false);
+            navigate("/products/" + key);
         }
     };
 
-    //setCategoryList(leftSideBar)
+    // setCategoryList(leftSideBar)
     useEffect(() => {
         let categoryList = (
             <ul className="group">
@@ -191,6 +200,7 @@ function Products() {
         setProductCategories(categoryList);
     }, [selectedGroups]);
 
+    // Mobile View
     const handleShowCategory = () => {
         const el = document.getElementById("product-categories");
         if (
