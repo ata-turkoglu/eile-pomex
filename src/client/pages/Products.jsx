@@ -68,7 +68,7 @@ function Products() {
                 if (mobileView) {
                     handleShowCategory();
                 }
-                setHeader("Products");
+                setHeader("Ürünler");
                 setProducts(productData);
                 navigate("/products/" + key);
             } else {
@@ -239,7 +239,7 @@ function Products() {
                 </div>
                 <div
                     className={
-                        mobileView && header == "Products"
+                        mobileView && header == "Ürünler"
                             ? "productRowList"
                             : "productList"
                     }
@@ -250,7 +250,7 @@ function Products() {
                                 key={item.key}
                                 image={item.img || pImg}
                                 text={item.name}
-                                rowList={mobileView && header == "Products"}
+                                rowList={mobileView && header == "Ürünler"}
                                 onClick={() => handleProductClick(item.key)}
                             />
                         );

@@ -4,6 +4,7 @@
         "name": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesi",
         "image1": "assets/projects/project1.jpg",
         "image2": "assets/products/eile_TH_70.png",
+        "product": "2-3-5",
         "text": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
@@ -12,6 +13,7 @@
         "name": "Vestel Manisa Fabrika Binası İnşaatı",
         "image1": "assets/projects/project2.jpg",
         "image2": "assets/products/epx_630.png",
+        "product": "5-2-1",
         "text": "Vestel Manisa Fabrika Binası İnşaatında",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
@@ -20,6 +22,7 @@
         "name": "Antalya Havaalanı Deprem İzolatörü Montajı",
         "image1": "assets/projects/project3.jpg",
         "image2": "assets/products/power_wt1.png",
+        "product": "2-1-1",
         "text": "Antalya Havaalanı Deprem İzolatörü Montajında",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
@@ -28,6 +31,7 @@
         "name": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatı",
         "image1": "assets/projects/project4.jpg",
         "image2": "assets/products/likit_akrilik.png",
+        "product": "1-2-1",
         "text": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatında",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
@@ -36,6 +40,7 @@
         "name": "Tüpraş Dolum İskelesi Onarım İşleri",
         "image1": "assets/projects/project5.jpg",
         "image2": "assets/products/epx_50.png",
+        "product": "2-2-1",
         "text": "Tüpraş Dolum İskelesi Onarım İşlerinde",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
@@ -44,6 +49,7 @@
         "name": "İzsu İshale Hatları",
         "image1": "assets/projects/project6.jpg",
         "image2": "assets/products/eile_ASEAL.png",
+        "product": "1-1-1",
         "text": "İzsu İshale Hatlarında",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
