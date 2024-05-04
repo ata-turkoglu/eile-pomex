@@ -11,7 +11,7 @@
           {
             "key": "1-1-1",
             "name": "eile A SEAL",
-            "img": "/assets/products/a-seal.png",
+            "img": "/assets/products/eile_ASEAL.png",
             "appImage": "/assets/appImage/a-seal.jpg",
             "info": "Çimento ve Akrilik Reçine Esaslı İki Bileşenli, Mükemmel Esnekliğe Sahip, Su Yalıtım Malzemesi",
             "description": "Çimento ve akrilik reçine esaslı, çift bileşenli, su geçirimsizlik katkıları içeren, tam elastik özellikte su yalıtım malzemesi",
@@ -42,7 +42,7 @@
           {
             "key": "1-1-2",
             "name": "eile MAX SEAL ELASTİK",
-            "img": "/assets/products/max-seal-elastic.png",
+            "img": "/assets/products/eile_max_seal_elastic.png",
             "appImage": "/assets/appImage/max-seal-elastic.png",
             "info": "Çimento ve Akrilik Esaslı Çift Bileşenli, Elastik Su Yalıtım Malzemesi ",
             "description": "Çimento - akrilik esaslı çift bileşenli, akrilik dispersiyon ve su geçirimsizlik katkıları içeren beyaz renkli elastik su yalıtım malzemesidir.",
@@ -82,7 +82,7 @@
           {
             "key": "1-1-3",
             "name": "eile MAX SEAL",
-            "img": "/assets/products/max_seal.png",
+            "img": "/assets/products/eile_max_seal.png",
             "appImage": "/assets/appImage/max-seal.png",
             "info": "Çimento ve Akrilik Esaslı Çift Bileşenli, Yarı Elastik Su Yalıtım Malzemesi",
             "description": "Çimento-akrilik esaslı; çift bileşenli, su geçirimsizlik katkıları içeren yarı elastik su yalıtım malzemesidir.",
@@ -122,7 +122,7 @@
           {
             "key": "1-1-4",
             "name": "POMEX 2K ELASTİK",
-            "img": "/assets/products/2k_elastik.png",
+            "img": "/assets/products/pomex_2K_elastik.png",
             "appImage": "/assets/appImage/2k_elastik_app.png",
             "info": "İki Bileşenli Tam Elastik, Su Harcı",
             "description": "Çimento ve sıvı polimer esaslı, iki bileşenli, tam elastik su yalıtım harcıdır.",
@@ -153,7 +153,7 @@
           {
             "key": "1-1-5",
             "name": "POMEX 2K",
-            "img": "/assets/products/pomex_2k.png",
+            "img": "/assets/products/pomex_2K.png",
             "appImage": "/assets/appImage/pomex_2k_app.png",
             "info": "İki Bileşenli Yarı Elastik, Su Yalıtım Harcı",
             "description": "Çimento ve sıvı polimer esaslı, iki bileşenli, yarı elastik su yalıtım harcıdır.",
@@ -225,7 +225,7 @@
           {
             "key": "1-1-7",
             "name": "eile KAPİLER",
-            "img": "/assets/products/kapiler_render.png",
+            "img": "/assets/products/eile_kapiler.png",
             "appImage": "/assets/appImage/kapiler.png",
             "info": "Çimento Esaslı Kapiler Etkili Kristalize,Su Yalıtım Malzemesi ",
             "description": "Çimento esaslı, tek bileşenli,kapiler etkili, negatif ve pozitif su basıncına dayanıklı, kristalize su yalıtım harcı.",
@@ -1344,7 +1344,7 @@
           {
             "key": "2-3-1",
             "name": "eile GROUT 50 C",
-            "img": "/assets/products/grout50c.png",
+            "img": "/assets/products/eile_GROUT_50C.png",
             "appImage": "/assets/appImage/50C.png",
             "info": "Çimento Esaslı Grout Harcı",
             "description": "Çimento esaslı, polimer takviyeli, yüksek akıcılık özelliğine sahip, büzülme yapmayan, yüksek mukavemetli, kendiliğinden yerleşen grout harcıdır.",
@@ -1380,7 +1380,7 @@
           {
             "key": "2-3-2",
             "name": "eile GROUT 60 C",
-            "img": "/assets/products/grout60c.png",
+            "img": "/assets/products/eile_GROUT_60C.png",
             "info": "Erken Yüksek Mukavemete Sahip Grout Harcı",
             "description": "Çimento esaslı, tek bileşenli, polimer takviyeli kendiliğinden yerleşen, hızlı priz alan grout harcıdır.",
             "areasOfUsage": [
@@ -1412,8 +1412,8 @@
           },
           {
             "key": "2-3-3",
-            "name": "eile GROUT 100 C",
-            "img": "/assets/products/grout_100.png",
+            "name": "eile GROUT 1000",
+            "img": "/assets/products/eile_grout_1000.png",
             "appImage": "/assets/appImage/grout100.png",
             "info": "Yüksek Mukavemete Sahip Grout Harcı",
             "description": "Çimento esaslı, tek bileşenli, büzülme yapmayan, akıcı ve pompalanabilir, ilk ve son mukavemeti yüksek grout harcıdır.",
@@ -1444,7 +1444,7 @@
           {
             "key": "2-3-4",
             "name": "eile TH 60",
-            "img": "/assets/products/th60.png",
+            "img": "/assets/products/eile_TH_60_ince_tamir_harcı.png",
             "appImage": "/assets/appImage/th60.png",
             "info": "Çimento Esaslı Yüzey Düzeltme Ve Tamir Harcı",
             "description": "Çimento esaslı, elyaf katkılı, tiksotropik özellikte, sülfata dayanıklı yüksek mukavemetli, beton yüzeylerde düzgün bitirme sağlayan tamir harcıdır.",
@@ -1479,7 +1479,7 @@
           {
             "key": "2-3-5",
             "name": "eile TH 70",
-            "img": "/assets/products/th70.png",
+            "img": "/assets/products/eile_TH_70.png",
             "appImage": "/assets/appImage/th70.png",
             "info": "Çimento Esaslı Elyaf Donatılı Tiksotropik Yapısal Tamir Harcı",
             "description": "Çimento esaslı, polimer ve elyaf donatılı, tiksotropik, yüksek mukavemetli yapısal tamir harcıdır.",
@@ -1511,7 +1511,7 @@
           {
             "key": "2-3-6",
             "name": "eile SNS 804",
-            "img": "/assets/products/sns804.png",
+            "img": "/assets/products/eile_SNS_804.png",
             "appImage": "/assets/appImage/sns804.png",
             "info": "Aderans Arttırıcı ve Korozyon Önleyici Harç",
             "description": "Çimento esaslı, polimer modifiyeli, silis dumanı içeren,tek bileşenli, eski ve yeni beton arasındaki yapışmayı sağlayan, demir donatının korozyona uğramasını önleyen harç.",
@@ -1540,7 +1540,7 @@
           {
             "key": "2-3-7",
             "name": "eile A-K8",
-            "img": "/assets/products/a-k8.png",
+            "img": "/assets/products/eile_AK8.png",
             "appImage": "/assets/appImage/ak8.png",
             "info": "Yüzeysel Onarımlar için Beton Tamir Harcı",
             "description": "Çimento esaslı, tiksotropik özellikte, yüksek mukavemetli, ince ve kalın agregalı olarak iki tip üretilen, brüt beton yüzeylerde kullanılan tamir harcıdır.",
@@ -1574,7 +1574,7 @@
           {
             "key": "2-3-8",
             "name": "POMEX BRÜT BETON TAMİR HARCI",
-            "img": "/assets/products/gorsel_yok.png",
+            "img": "/assets/products/pomex_bürüt_beton_sıvası.png",
             "info": "Çimento Esaslı Brüt Beton Yüzeyler İçin İnce Tamir Harcı",
             "description": "Çimento esaslı, tek bileşenli, polimer modifiyeli, yüksek performanslı, brüt betonlar için tasarlanmış ince tamir ve tesviye harcıdır.",
             "areasOfUsage": [
@@ -1738,7 +1738,7 @@
           {
             "key": "2-5-1",
             "name": "eile HORASAN HARCI",
-            "img": "/assets/products/horasan_harci.png",
+            "img": "/assets/products/eile_horasan_harcı.png",
             "appImage": "/assets/appImage/horasan.png",
             "info": "Tarihi Yapılar İçin Hidrolik Kireç Esaslı,Tamir Ve Sıva Malzemesi",
             "description": " Tarihi yapılar için hidrolik kireç esaslı, mineral lif ve doğal agrega içeren, çimento içermeyen mala kıvamında sıva malzemesidir.",
@@ -1796,7 +1796,7 @@
           {
             "key": "2-5-3",
             "name": "eile HRS 10",
-            "img": "/assets/products/hrs10.png",
+            "img": "/assets/products/eile_HRS_10.png",
             "appImage": "/assets/appImage/hrs10app.png",
             "info": "Tarihi Yapılar İçin Hidrolik Kireç",
             "description": "Tarihi yapılarda horasan harcı ve yapısal güçlendirme enjeksiyonu imalatında kullanılan puzolanik etkisi yüksek hidrolik kireçtir.",
@@ -1870,7 +1870,7 @@
           {
             "key": "3-1-1",
             "name": "eile Top 110 s",
-            "img": "/assets/products/top110_S.png",
+            "img": "/assets/products/eile_TOP_110S.png",
             "appImage": "/assets/appImage/top110.png",
             "info": "Endüstriyel Zeminler İçin Kuvars Agregalı,Yüzey Sertleştirici",
             "description": "Taze beton ve şap yüzeyine uygulanan, çimento esaslı, kuvars agregalı uygulandığı alanı darbe ve aşınmaya karşı koruyan; zemin yüzey sertleştiricisidir",
@@ -1903,7 +1903,7 @@
           {
             "key": "3-1-2",
             "name": "eile 125 KK",
-            "img": "/assets/products/125_kk.png",
+            "img": "/assets/products/pomex_125_KK.png",
             "appImage": "/assets/appImage/125_kk_app.png",
             "info": "Endüstriyel Zeminler için Korund ve Mineral Agrega İçeren Yüzey Sertleştirici ",
             "description": "Taze beton ve şap yüzeyine uygulanan, çimento esaslı, korund ve mineral agrega içeren, uygulandığı alanı darbe ve aşınmaya karşı koruyan; zemin yüzey sertleştiricisidir.",
@@ -1935,7 +1935,7 @@
           {
             "key": "3-1-3",
             "name": "eile KORUND 120 F",
-            "img": "/assets/products/korund120f.png",
+            "img": "/assets/products/eile_korunt_120F.png",
             "appImage": "/assets/appImage/korund_120F.png",
             "info": "Endüstriyel Zeminler İçin Korund Agregalı,Yüzey Sertleştirici",
             "description": "Zeminleri darbe ve aşınmalara karşı koruyan, taze beton ve şap yüzeyine uygulanan, çimento esaslı, korund agregalı yüzey sertleştiricisidir.",
@@ -1967,7 +1967,7 @@
           {
             "key": "3-1-4",
             "name": "POMEX YÜZEY SERTLEŞTİRİCİ",
-            "img": "/assets/products/zeminyuzeysert.png",
+            "img": "/assets/products/pomex_yüzey_sertleştirici.png",
             "appImage": "/assets/appImage/yuzeysert.png",
             "info": "Endüstriyel Zeminler İçin Kuvars-Silis Agregalı,Yüzey Sertleştirici",
             "description": "Zeminleri darbe ve aşınmaya karşı koruyan, taze beton ve şap yüzeyine uygulanan, çimento esaslı, özel gradasyona sahip kuvars –silis agregalı zemin yüzey sertleştiricisidir.",
@@ -1998,7 +1998,7 @@
           {
             "key": "3-1-5",
             "name": "eile LEVEL",
-            "img": "/assets/products/level_render.png",
+            "img": "/assets/products/eile_level.png",
             "appImage": "/assets/appImage/level.png",
             "info": "Çimento Esaslı Kendiliğinden Yayılan Tesviye Şapı",
             "description": "Düzgün olmayan beton zeminlerde düzeltme harcı olarak kullanılır. 1-10 mm. arası kalınlıkta uygulanabilen, polimer modifiyeli, çatlama ve büzülme yapmayan çimento esaslı zemin tesviye şapıdır.",
@@ -2602,7 +2602,7 @@
           {
             "key": "4-1-1",
             "name": "eile SYP 1000",
-            "img": "/assets/products/syp1000.png",
+            "img": "/assets/products/eile_SYP_1000.png",
             "appImage": "/assets/appImage/syp_1000.png",
             "info": "Çimento Esaslı Seramik Ve Fayans Yapıştırıcısı",
             "description": "Çimento esaslı, kayma özelliği azaltılmış, açık bekletme süresi uzatılmış, polimer modifiyeli, yüksek yapışma özelliği ve stabiliteye sahip seramik yapıştırma harcıdır.",
@@ -2640,7 +2640,7 @@
           {
             "key": "4-1-2",
             "name": "eile FLEX YAPIŞTIRICI",
-            "img": "/assets/products/flexyapistirmaharci.png",
+            "img": "/assets/products/pomex_flex_yapıştırıcı.png",
             "appImage": "/assets/appImage/flex.png",
             "info": "Çimento Esaslı Yüksek Performanslı, Esnek Yapıştırma Harcı",
             "description": "Çimento esaslı, kayma özelliği azaltılmış, açık bekletme süresi uzatılmış ve elastik özellikte; granit,seramik, cotto , doğal taş gibi kaplama malzemelerinin yapıştırılması için hazırlanmış yüksek performanslı yapıştırma harcıdır.",
@@ -2683,7 +2683,7 @@
           {
             "key": "4-1-3",
             "name": "POMEX SERAMİK YAPIŞTIRMA HARCI",
-            "img": "/assets/products/seramikyapistirmaharci.png",
+            "img": "/assets/products/pomex_seramik.png",
             "appImage": "/assets/appImage/seramik.png",
             "info": "Çimento Esaslı Seramik Ve Fayans Yapıştırıcısı",
             "description": "Çimento esaslı, polimer takviyeli, fayans ve seramik kaplama malzemelerinin yapıştırılmasında kullanılan yüksek stabiliteye sahip yapıştırma harcıdır.",
@@ -2799,8 +2799,8 @@
           },
           {
             "key": "4-1-6",
-            "name": "POMEX HIZLI DONAN SERAMİK YAPIŞTIRICISI",
-            "img": "/assets/products/eilegenel.png",
+            "name": "SERABELL SERAMİK YAPIŞTIRMA HARCI",
+            "img": "/assets/products/serabell_seramik_yapıştırma_harcı.png",
             "appImage": "/assets/appImage/hızlı_donan.png",
             "info": "Çimento Esaslı Polimer Takviyeli, Yüksek Performanslı, Hızlı Sertleşen Yapıştırma Harcı",
             "description": "Çimento esaslı, polimer takviyeli, yüksek performanslı,hızlı sertleşen yapıştırma harcıdır.",
@@ -2832,7 +2832,7 @@
           {
             "key": "4-1-7",
             "name": "POMEX GRANİT YAPIŞTIRICISI",
-            "img": "/assets/products/granityapharci.png",
+            "img": "/assets/products/pomex_granit_yapıştırma_harcı.png",
             "appImage": "/assets/appImage/granit.png",
             "info": "Çimento Esaslı Tek Bileşenli, Granit Ve Mermer Yapıştırma Harcı",
             "description": "POMEX Granit Yapıştırma Harcı çimento esaslı, özel dane boyutunda dolgu, ürün performansını ve işlenebilirliği artırıcı kimyasal katkılar içeren tek bileşenli yüksek performanslı yapıştırma harcıdır.",
@@ -2868,8 +2868,8 @@
           },
           {
             "key": "4-1-8",
-            "name": "POMEX GAZBETON YAPIŞTIRICISI",
-            "img": "/assets/products/gazbetonyapistiricisi.png",
+            "name": "POMEX GAZBETON YAPIŞTIRMA HARCI",
+            "img": "/assets/products/pomex_gazbeton_yapıştırma_harcı.png",
             "appImage": "/assets/appImage/gaz.png",
             "info": "Çimento esaslı Tek Bileşenli,Pratik Gazbeton Örgü Harcı",
             "description": "Çimento esaslı, özel dane boyutunda dolgu, ürün işlenebilirliğini artırıcı kimyasal katkılar içeren tek bileşenli pratik gazbeton örgü harcı.",
@@ -2978,7 +2978,7 @@
           {
             "key": "5-1-2",
             "name": "POMEX FLEX FUGA",
-            "img": "/assets/products/flexyapistirmaharci.png",
+            "img": "/assets/products/pomex_fuga.png",
             "appImage": "/assets/appImage/flex_fuga.png",
             "info": "Çimento Esaslı Esnek Derz Dolgu Malzemesi, (1-6 mm) ",
             "description": "Çimento esaslı, işlenebilirliğini, çatlama direncini, su geçirimsizliğini ve renk kalıcılığını artırıcı kimyasal katkılar içeren tek bileşenli ve pürüzsüz yüzey sağlayan esnek derz dolgu malzemesidir. ",
@@ -3212,7 +3212,7 @@
       {
         "key": "6-0-2",
         "name": "POMEX THERMOMEX SIVA",
-        "img": "/assets/products/thermomex.png",
+        "img": "/assets/products/thermomex_ısı_ve_yalıtım_sıvası.png",
         "appImage": "/assets/appImage/siva.png",
         "info": "Isı Ses ve Yangın Yalıtım Sıvası",
         "description": "Çimento esaslı, karışımında bulunan gözenekli yapıya sahip doğal hafif agregalar sayesinde uygulandığı yüzeyde nefes alan ısı-ses ve yangın yalıtımı sağlayan, sıva formunda çok amaçlı yalıtım malzemesidir.",
@@ -3250,7 +3250,7 @@
       {
         "key": "6-0-3",
         "name": "POMEX THERMOMEX ŞAP",
-        "img": "/assets/products/thermomex_sap.png",
+        "img": "/assets/products/thermomex_şap.png",
         "appImage": "/assets/appImage/sap.png",
         "info": "Isı Ses ve Yangın Yalıtımlı Şap ",
         "description": "Çimento esaslı, karışımında bulunan gözenekli yapıya sahip doğal hafif agregalar sayesinde uygulandığı yüzeyde nefes alan, ısı-ses ve yangın yalıtımı sağlayan şap malzemesidir.",
@@ -3286,7 +3286,7 @@
       {
         "key": "6-0-4",
         "name": "eile PLY 2100",
-        "img": "/assets/products/pyl2100.png",
+        "img": "/assets/products/eile_PLY_2100.png",
         "info": null,
         "description": null,
         "areasOfUsage": [],
@@ -3302,7 +3302,7 @@
       {
         "key": "6-0-5",
         "name": "eile PLS 2000",
-        "img": "/assets/products/pls2000.png",
+        "img": "/assets/products/eile_PLS_2000.png",
         "info": null,
         "description": null,
         "areasOfUsage": [],
@@ -3317,8 +3317,8 @@
       },
       {
         "key": "6-0-6",
-        "name": "POMEX ISI MANTOLAMA SIVASI",
-        "img": "/assets/products/isimontalama_sivasi.png",
+        "name": "POMEX ISI MANTOLAMA LEVHA SIVASI",
+        "img": "/assets/products/pomex_ısı_mantolama_levha_sıvası.png",
         "appImage": "/assets/appImage/montaloma_sivasi.png",
         "info": "Isı Yalıtım Levhaları için Sıva Harcı ",
         "description": "Çimento esaslı, polimer katkılı ısı yalıtım levhalarının sıvanmasında kullanılan sıva malzemesidir.",
@@ -3348,8 +3348,8 @@
       },
       {
         "key": "6-0-7",
-        "name": "POMEX ISI MANTOLAMA YAPIŞTIRICISI",
-        "img": "/assets/products/isi_mantolama_yap_harc.png",
+        "name": "POMEX ISI MANTOLAMA LEVHA YAPIŞTIRICISI",
+        "img": "/assets/products/pomex_ısı_mantolama_levha_yapıştırıcısı.png",
         "appImage": "/assets/appImage/yapistirma_harci.png",
         "info": "Isı Yalıtım Levhaları için Yapıştırma Harcı ",
         "description": "Çimento esaslı, polimer katkılı ısı yalıtım levhalarının yapıştırılmasında kullanılan yapıştırma harcıdır.",
@@ -3385,7 +3385,7 @@
       {
         "key": "7-0-1",
         "name": "POMEX GBS 5000",
-        "img": "/assets/products/gbs_5000.png",
+        "img": "/assets/products/eile_GBS_5000.png",
         "appImage": "/assets/appImage/gbs_5000.png",
         "info": "Lif Takviyeli Çatlamayan ince Sıva ",
         "description": "Çimento esaslı, polimer katkılı lif takviyeli ince sıvadır.",
@@ -3415,7 +3415,7 @@
       {
         "key": "7-0-2",
         "name": "eile SON KAT ELYAFLI SIVA",
-        "img": "/assets/products/sonkat_siva.png",
+        "img": "/assets/products/eile_son_kat_elyaflı_sıva.png",
         "appImage": "/assets/appImage/elyaflı.png",
         "info": "Lif ve Polimer Katkılı Sıva Harcı ",
         "description": "Çimento esaslı, elyaf ve polimer takviyeli beyaz renkli sıva harcıdır. ",
@@ -3446,8 +3446,8 @@
       },
       {
         "key": "7-0-3",
-        "name": "eile MİNERAL SIVA – DS 40",
-        "img": "/assets/products/ds40.png",
+        "name": "eile DS 40",
+        "img": "/assets/products/eile_DS_40.png",
         "appImage": "/assets/appImage/ds_40_app.png",
         "info": "Çimento Esaslı Dekoratif (Mineral) Sıva ",
         "description": "Çimento esaslı, kimyasal katkılarla yapısı güçlendirilerek çatlama, büzülme ve gerilmeye karşı direnç kazandırılmış, ince ve kalın agregalı olarak iki tip üretimi yapılan kullanıma hazır dekoratif (mineral) sıva harcıdır. ",
@@ -3477,7 +3477,7 @@
       {
         "key": "7-0-4",
         "name": "POMEX İNCE SIVA",
-        "img": "/assets/products/incesiva.png",
+        "img": "/assets/products/pomex_ince_sıva.png",
         "appImage": "/assets/appImage/ince_siva.png",
         "info": "Polimer Takviyeli Çimento Esaslı ince Sıva ",
         "description": "Çimento esaslı, polimer ve elyaf katkılı ekonomik ince sıva harcıdır.",
@@ -3507,7 +3507,7 @@
       {
         "key": "7-0-5",
         "name": "POMEX KALIN SIVA",
-        "img": "/assets/products/kalınsıva.png",
+        "img": "/assets/products/pomex_kalın_sıva.png",
         "appImage": "/assets/appImage/kalın_siva.png",
         "info": "Çimento Esaslı Polimer Katkılı Ekonomik Kalın Sıva",
         "description": "Çimento esaslı, tek bileşenli, polimer ve elyaf katkılı kalın sıva harcıdır.",
@@ -3542,7 +3542,7 @@
       {
         "key": "7-0-6",
         "name": "POMEX MAKİNA SIVASI",
-        "img": "/assets/products/eilegenel.png",
+        "img": "/assets/products/pomex_makina_sıvası.png",
         "appImage": "/assets/appImage/makine.png",
         "info": " Çimento Esaslı Polimer Katkılı, Ekonomik Makine Kalın Sıva ",
         "description": "Çimento esaslı, tek bileşenli, polimer ve elyaf katkılı, sıva makinesi ile uygulanan sıva harcıdır. ",

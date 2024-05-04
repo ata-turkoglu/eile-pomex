@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
 import "./css/productsPage.scss";
 import productData from "../../data/products.json";
 import ProductCard from "../components/productCard";
-import pImg from "/assets/products/grout50c.png";
+import pImg from "/assets/products/eile_GROUT_50C.png";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ListFilter } from "lucide-react";
