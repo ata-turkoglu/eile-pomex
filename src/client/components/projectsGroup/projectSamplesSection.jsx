@@ -17,7 +17,7 @@ function ProjectSamplesSection() {
                 <Swiper>
                     <ProjectSampleCard
                         image1="assets/projects/project1.jpg"
-                        image2="assets/products/th70.png"
+                        image2="assets/products/eile_TH_70.png"
                         text="İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde"
                     />
                     <ProjectSampleCard
@@ -42,7 +42,7 @@ function ProjectSamplesSection() {
                     />
                     <ProjectSampleCard
                         image1="assets/projects/project6.jpg"
-                        image2="assets/products/a-seal.png"
+                        image2="assets/products/eile_ASEAL.png"
                         text="İzsu İshale Hatlarında"
                     />
                 </Swiper>
@@ -50,7 +50,7 @@ function ProjectSamplesSection() {
                 <div className="content">
                     <ProjectSampleCard
                         image1="assets/projects/project1.jpg"
-                        image2="assets/products/th70.png"
+                        image2="assets/products/eile_TH_70.png"
                         text="İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde"
                     />
                     <ProjectSampleCard
@@ -75,7 +75,7 @@ function ProjectSamplesSection() {
                     />
                     <ProjectSampleCard
                         image1="assets/projects/project6.jpg"
-                        image2="assets/products/a-seal.png"
+                        image2="assets/products/eile_ASEAL.png"
                         text="İzsu İshale Hatlarında"
                     />
                 </div>
