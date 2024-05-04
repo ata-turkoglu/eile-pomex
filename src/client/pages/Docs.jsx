@@ -451,7 +451,7 @@ function Docs() {
                                             href="/assets/docs/TSE_THERMOMEX-KALIN SIVA-İNCE SIVA.pdf"
                                             onClick={handleClick}
                                         >
-                                            TSE
+                                            UTO
                                         </a>
                                     </div>
                                 </div>

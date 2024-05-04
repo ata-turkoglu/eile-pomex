@@ -47,23 +47,46 @@
 
       .accordion-body {
         .container_body {
+          @media screen and (max-width: 768px) {
+            width: 100%;
+            padding-inline: 0.5rem;
+          }
           display: flex;
           flex-direction: column;
           width: 100%;
           padding: 1rem;
 
           .content {
+            @media screen and (max-width: 768px) {
+              width: 100%;
+              padding-block: 3px;
+            }
             display: flex;
             width: 100%;
             justify-content: space-between;
             align-items: center;
+            
+            h4 {
+              @media screen and (max-width: 768px ){
+                font-size: 1rem;
+                padding: 0;
+                margin: 0;
+                margin-right: 10px;
+              }
+            }
 
             .buttons .button {
+              @media screen and (max-width: 768px) {
+                padding: 10px 25px;
+                font-size: 0.8rem;
+                margin-inline: 5px;
+              }
               position: relative;
               display: inline-block;
-              color: #fff;
-              padding: 10px 40px;
-              background: linear-gradient(90deg, #6616d0, #ac34e7);
+              color: black;
+              padding: 10px 30px;
+              background-color: rgba($logo-green, 0.25);
+              //background: linear-gradient(90deg, #6616d0, #ac34e7);
               border-radius: 45px;
               margin: 0 15px;
               font-size: 18px;
@@ -75,21 +98,49 @@
             }
 
             .buttons .button.two {
-              background: linear-gradient(90deg, #025ce3, #4e94fd);
+              @media screen and (max-width: 768px) {
+                padding: 10px 25px;
+                font-size: 0.8rem;
+                margin-inline: 5px;
+              }
+              background-color: rgba($logo-blue, 0.8);
+              padding: 10px 40px;
+              margin: 0 15px;
+              font-size: 18px;
+              border-top: 1px solid rgba(0, 0, 0, 0.1);
+              overflow: hidden;
             }
 
             .buttons .button.three {
-              background: linear-gradient(234, 244, 44, 0.8);
+              @media screen and (max-width: 768px) {
+                padding: 10px 25px;
+                font-size: 0.8rem;
+                margin-inline: 5px;
+              }
+              background-color: rgba($logo-blue, 0.5);
+              padding: 10px 30px;
+              margin: 0 15px;
+              font-size: 18px;
+              border-top: 1px solid rgba(0, 0, 0, 0.1);
+              overflow: hidden;
             }
           }
 
           .buttons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 5px;
+
+            @media screen and (max-width: 768px) {
+              display: flex;
+              align-items: center;
+            }
             .button,
             .button.two,
             .button.three {
               .overlay {
                 position: absolute;
-                background: #fff;
+                background: #e0d0d0;
                 top: 0;
                 left: 0;
                 transform: translate(-50%, -50%);
