@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 
 import Admin from "./admin/Admin.jsx";
@@ -16,13 +16,21 @@ import Contact from "./client/pages/Contact.jsx";
 import Pomex_Blok_Page from "./client/pages/PomexBlok.jsx";
 
 import { Route, Routes, useLocation } from "react-router-dom";
+import { changeLang } from "./store/reducers/language.js";
+import { useDispatch } from "react-redux";
 
 function App(navigation) {
     const route = useLocation();
+    const dispatch = useDispatch();
 
     const checkProductDetails = (route) => {
         return route.pathname.includes("product-details");
     };
+
+    useEffect(() => {
+        const lang = window.localStorage.getItem("lang");
+        dispatch(changeLang(lang));
+    }, []);
 
     return (
         <div className="app">

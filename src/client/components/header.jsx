@@ -14,6 +14,9 @@ import {
     Search,
 } from "lucide-react";
 import Form from "react-bootstrap/Form";
+import Dropdown from "react-bootstrap/Dropdown";
+import { useSelector, useDispatch } from "react-redux";
+import { changeLang, translateText as t } from "../../store/reducers/language";
 
 function Header() {
     const [narrowHeader, setNarrowHeader] = useState(false);
@@ -21,6 +24,10 @@ function Header() {
     const [hoverProducts, setHoverProducts] = useState(false);
     const [collapse, setCollapse] = useState(false);
     const [mobileNav, setMobileNav] = useState(false);
+    const [langState, setLangState] = useState("");
+
+    const lang = useSelector((state) => state.language.lang);
+    const dispatch = useDispatch();
 
     useEffect(() => {
         function setHeaderHeight() {
@@ -137,6 +144,12 @@ function Header() {
         }, 390);
     };
 
+    const changeLanguage = (language) => {
+        dispatch(changeLang(language));
+        setLangState(language);
+        window.location.replace("/");
+    };
+
     return (
         <div
             className="header"
@@ -251,7 +264,7 @@ function Header() {
                             onMouseOver={() => setHoverProducts(true)}
                             onMouseLeave={() => setHoverProducts(false)}
                         >
-                            <span>Ürünler</span>
+                            <span>{t("products")}</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -263,7 +276,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            <span>Projeler</span>
+                            <span>{t("projects")}</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -275,7 +288,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            <span>Hakkımızda</span>
+                            <span>{t("aboutus")}</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -287,7 +300,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            <span>BELGELERİMİZ</span>
+                            <span>{t("certificates")}</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -299,7 +312,7 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            <span>Referanslar</span>
+                            <span>{t("references")}</span>
                         </Link>
                         <Link
                             className="nav-item"
@@ -311,8 +324,9 @@ function Header() {
                                     : "flex-end",
                             }}
                         >
-                            <span>İLETİŞİM</span>
+                            <span>{t("contact")}</span>
                         </Link>
+                        {langState}
                     </div>
                     <div
                         className="searchContainer"
@@ -338,6 +352,28 @@ function Header() {
                             style={{ cursor: "pointer", marginRight: "10px" }}
                             size={24}
                         />
+                        <Dropdown className="langText">
+                            <Dropdown.Toggle
+                                size="sm"
+                                as="span"
+                                className="langToggle"
+                            >
+                                {lang}
+                            </Dropdown.Toggle>
+
+                            <Dropdown.Menu>
+                                <Dropdown.Item
+                                    onClick={() => changeLanguage("tr")}
+                                >
+                                    tr
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                    onClick={() => changeLanguage("en")}
+                                >
+                                    en
+                                </Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
                     </div>
                 </div>
             </div>
@@ -440,6 +476,27 @@ function Header() {
                 >
                     <span>İletişim</span>
                 </Link>
+                <hr />
+                <Dropdown className="langText">
+                    <Dropdown.Toggle size="lg" as="span" className="langToggle">
+                        {lang}
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>
+                        <Dropdown.Item
+                            className="langItem"
+                            onClick={() => changeLanguage("tr")}
+                        >
+                            tr
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                            className="langItem"
+                            onClick={() => changeLanguage("en")}
+                        >
+                            en
+                        </Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
             </div>
         </div>
     );
