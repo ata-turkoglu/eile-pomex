@@ -439,42 +439,42 @@ function Header() {
                     to="/products/0"
                     onClick={() => menuClose()}
                 >
-                    <span>Ürünler</span>
+                    <span>{t("products")}</span>
                 </Link>
                 <Link
                     className="nav-item"
                     to="/projects"
                     onClick={() => menuClose()}
                 >
-                    <span>Projeler</span>
+                    <span>{t("projects")}</span>
                 </Link>
                 <Link
                     className="nav-item"
                     to="/about"
                     onClick={() => menuClose()}
                 >
-                    <span>Hakkımızda</span>
+                    <span>{t("aboutus")}</span>
                 </Link>
                 <Link
                     className="nav-item"
                     to="/docs"
                     onClick={() => menuClose()}
                 >
-                    <span>Belgelerimiz</span>
+                    <span>{t("certificates")}</span>
                 </Link>
                 <Link
                     className="nav-item"
                     to="/references"
                     onClick={() => menuClose()}
                 >
-                    <span>Referanslar</span>
+                    <span>{t("references")}</span>
                 </Link>
                 <Link
                     className="nav-item"
                     to="/contact"
                     onClick={() => menuClose()}
                 >
-                    <span>İletişim</span>
+                    <span>{t("contact")}</span>
                 </Link>
                 <hr />
                 <Dropdown className="langText">

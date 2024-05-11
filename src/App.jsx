@@ -29,7 +29,12 @@ function App(navigation) {
 
     useEffect(() => {
         const lang = window.localStorage.getItem("lang");
-        dispatch(changeLang(lang));
+        if (lang) {
+            dispatch(changeLang(lang));
+        } else {
+            const browserLang = window.navigator.language.slice(0, 2);
+            dispatch(changeLang(browserLang));
+        }
     }, []);
 
     return (

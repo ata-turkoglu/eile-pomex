@@ -30,10 +30,6 @@ export const languageSlice = createSlice({
     },
 });
 
-const clone = (val) => {
-    return JSON.parse(JSON.stringify(val));
-};
-
 export const translateText = (text) => {
     const { lang } = languageSlice.getInitialState();
     return langTexts[lang][text] || text;
