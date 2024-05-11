@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./banner.scss";
+import { translateText as t } from "../../store/reducers/language";
 
 function Banner({ image }) {
     const [mobileView, setMobileView] = useState(false);
@@ -33,11 +34,12 @@ function Banner({ image }) {
             {showText || mobileView ? (
                 <div className="banner-content slide-right">
                     <h3 className={mobileView ? "mb-3" : "mb-4"}>
-                        Yaşadığımız Çevreyi ve Sizi Önemsiyoruz!
+                        {t("weCareAboutTheEnviromentWeLiveInAndYou")}
                     </h3>
                     <p>
-                        Doğanın içinde sürdürülebilir üretim anlayışı ile sıfır
-                        atık ile çalışmalarımıza devam ediyoruz
+                        {t(
+                            "weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature"
+                        )}
                     </p>
                 </div>
             ) : (

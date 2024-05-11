@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./metrics.scss";
 import MetricCounter from "./counter/metricCounter";
-
+import { translateText as t } from "../../store/reducers/language";
 import { BrickWall, PackageSearch, MapPinned, Settings } from "lucide-react";
 
 function Metrics() {
@@ -20,7 +20,7 @@ function Metrics() {
                     className="metricIcon"
                 />
                 <MetricCounter index={0} number={2834} />
-                <p>Proje Tamamlandı</p>
+                <p>{t("projectsCompleted")}</p>
             </div>
             <div className="metricContainer">
                 <PackageSearch
@@ -29,7 +29,7 @@ function Metrics() {
                     className="metricIcon"
                 />
                 <MetricCounter index={1} number={239} />
-                <p>Ürün Çeşidi</p>
+                <p>{t("productVariety")}</p>
             </div>
             <div className="metricContainer">
                 <MapPinned
@@ -38,7 +38,7 @@ function Metrics() {
                     className="metricIcon"
                 />
                 <MetricCounter index={2} number={43} />
-                <p>Bayilik</p>
+                <p>{t("dealership")}</p>
             </div>
             <div className="metricContainer">
                 <Settings
@@ -47,7 +47,7 @@ function Metrics() {
                     className="metricIcon"
                 />
                 <MetricCounter index={3} number={36} />
-                <p>Hammadde Üretimi</p>
+                <p>{t("rawMaterialProduction")}</p>
             </div>
         </div>
     );

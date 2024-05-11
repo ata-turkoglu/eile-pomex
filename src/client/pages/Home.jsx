@@ -7,6 +7,7 @@ import Brands from "../components/brands";
 import ProjectSamplesSection from "../components/projectsGroup/projectSamplesSection";
 import thermomexImg from "/assets/products/thermomex_ısı_ve_yalıtım_sıvası.png";
 import bannerImage from "../../assets/sustainability.jpg";
+import { translateText as t } from "../../store/reducers/language";
 function Home() {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
@@ -18,7 +19,7 @@ function Home() {
             <Metrics />
             <Info
                 image={thermomexImg}
-                header="Yalıtımda Doğal Çözümler"
+                header={t("naturalSolutionsInInsulation")}
                 text="Çimento esaslı, karışımında bulunan gözenekli yapıya sahip doğal hafif agregalar sayesinde uygulandığı yüzeyde nefes alan ısı-ses ve yangın yalıtımı sağlayan, sıva formunda çok amaçlı yalıtım malzemesidir. Yapıların dış ve iç cephelerinde tuğla-gaz beton-bims blok gibi yüzeyler üzerine kaba sıva yerine uygulanır."
             />
             <Banner image={bannerImage} />

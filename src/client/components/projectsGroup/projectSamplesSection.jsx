@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./projectSamplesSection.scss";
 import ProjectSampleCard from "./projectSampleCard.jsx";
 import Swiper from "../swiper/swiper";
+import { translateText as t } from "../../../store/reducers/language.js";
 
 function ProjectSamplesSection() {
     const [mobileView, setMobileView] = useState(false);
@@ -12,7 +13,7 @@ function ProjectSamplesSection() {
     });
     return (
         <div className="productGroupSection">
-            <h2>Ürünlerimizin Kullanıldığı Projeler</h2>
+            <h2>{t("projectsWhereOurProductsAreUsed")}</h2>
             {mobileView ? (
                 <Swiper>
                     <ProjectSampleCard

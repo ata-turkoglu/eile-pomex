@@ -1,12 +1,13 @@
 import React from "react";
 import "./brands.scss";
+import { translateText as t } from "../../store/reducers/language";
 
 function Brands() {
     return (
         <div className="brands">
             <div className="content">
                 <div className="headerContainer">
-                    <h1 color="white">Grup Şirketlerimiz</h1>
+                    <h1 color="white">{t("ourGroupCompanies")}</h1>
                 </div>
                 <div className="images">
                     <div className="imgContainer">

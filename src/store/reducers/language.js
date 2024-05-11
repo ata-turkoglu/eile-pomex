@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import langTexts from "../data/langTexts";
+import langTexts from "../../data/langTexts";
 
 const initialState = {
     lang: localStorage.getItem("lang") || "tr",
