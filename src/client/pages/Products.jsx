@@ -6,6 +6,8 @@ import pImg from "/assets/products/eile_GROUT_50C.png";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ListFilter } from "lucide-react";
+import { useSelector } from "react-redux";
+import { translateText as t } from "../../store/reducers/language";
 
 function Products() {
     const [productCategories, setProductCategories] = useState([]);
@@ -15,6 +17,7 @@ function Products() {
     const [selectedSubGroup, setSelectedSubGroup] = useState(null);
     const [header, setHeader] = useState(null);
     const [mobileView, setMobileView] = useState(false);
+    const lang = useSelector((state) => state.language.lang);
 
     const navigate = useNavigate();
     let { productKey } = useParams();
@@ -68,7 +71,7 @@ function Products() {
                 if (mobileView) {
                     handleShowCategory();
                 }
-                setHeader("Ürünler");
+                setHeader(t("products"));
                 setProducts(productData);
                 navigate("/products/" + key);
             } else {
@@ -81,7 +84,7 @@ function Products() {
                             acc.push(...curr.items);
                             return acc;
                         }, []);
-                        setHeader(group.name);
+                        setHeader(group.name[lang]);
                         setProducts(items);
                         navigate("/products/" + key);
                     }
@@ -89,7 +92,7 @@ function Products() {
                     if (mobileView) {
                         handleShowCategory();
                     }
-                    setHeader(group.name);
+                    setHeader(group.name[lang]);
                     setProducts(group.items);
                     navigate("/products/" + key);
                 }
@@ -108,12 +111,12 @@ function Products() {
                     acc.push(...curr.items);
                     return acc;
                 }, []);
-                setHeader(group.name);
+                setHeader(group.name[lang]);
                 setProducts(items);
                 navigate("/products/" + key);
             } else {
                 const subGroup = group.subGroups.find((sub) => sub.key == key);
-                setHeader(subGroup.name);
+                setHeader(subGroup.name[lang]);
                 setProducts(subGroup.items);
                 navigate("/products/" + key);
             }
@@ -135,7 +138,7 @@ function Products() {
             <ul className="group">
                 <li key={"0"}>
                     <span onClick={() => handleCategoryItemClick("0")}>
-                        Ana Gruplar
+                        {t("mainTitles")}
                     </span>
                 </li>
                 {productData.map((group) => {
@@ -149,7 +152,7 @@ function Products() {
                                     selectedGroup == group.key && "bg-slide"
                                 } */
                             >
-                                {group.name}{" "}
+                                {group.name[lang]}{" "}
                                 {group.subGroups &&
                                     (selectedGroups.includes(group.key) ? (
                                         <ChevronDown size={14} />
@@ -186,7 +189,7 @@ function Products() {
                                                     )
                                                 }
                                             >
-                                                {sub.name}
+                                                {sub.name[lang]}
                                             </li>
                                         );
                                     })}
@@ -239,7 +242,8 @@ function Products() {
                 </div>
                 <div
                     className={
-                        mobileView && header == "Ürünler"
+                        mobileView &&
+                        (header == "ürünler" || header == "products")
                             ? "productRowList"
                             : "productList"
                     }
@@ -249,8 +253,12 @@ function Products() {
                             <ProductCard
                                 key={item.key}
                                 image={item.img || pImg}
-                                text={item.name}
-                                rowList={mobileView && header == "Ürünler"}
+                                text={item.name[lang] || item.name}
+                                rowList={
+                                    mobileView &&
+                                    (header == "ürünler" ||
+                                        header == "products")
+                                }
                                 onClick={() => handleProductClick(item.key)}
                             />
                         );

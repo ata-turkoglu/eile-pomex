@@ -63,7 +63,7 @@ function Header() {
                                 onClick={handleListItemClick}
                                 to={"/products/" + item.key}
                             >
-                                <p>{item.name}</p>
+                                <p>{item.name[lang]}</p>
                             </Link>
                             {item.subGroups && (
                                 <div
@@ -81,7 +81,7 @@ function Header() {
                                                 onClick={handleListItemClick}
                                                 to={"/products/" + subGroup.key}
                                             >
-                                                {subGroup.name}
+                                                {subGroup.name[lang]}
                                             </Link>
                                         );
                                     })}

@@ -17,6 +17,18 @@ export default {
             "yaşadığımız çevreyi ve sizi önemsiyoruz!",
         weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature:
             "Doğanın içinde sürdürülebilir üretim anlayışı ile sıfır atık çalışmalarımıza devam ediyoruz.",
+        mainTitles: "ana gruplar",
+        contactUs: "bize ulaşın",
+        reachUs:
+            "ilgili numaramızı arayarak ya da iletişim formunu doldurarak bize ulaşabilirsiniz.",
+        address: "adres",
+        telephone: "telefon",
+        fax: "faks",
+        contactForm: "iletişim formu",
+        send: "gönder",
+        email: "e-posta",
+        yourMessage: "Mesajınız",
+        nameSurname: "isim soyisim",
     },
     en: {
         products: "products",
@@ -36,5 +48,17 @@ export default {
             "we care about the enviroment we live in and you!",
         weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature:
             "we continue our zero waste principle with the understanding of sustainable production in nature.",
+        mainTitles: "main titles",
+        contactUs: "contact us",
+        reachUs:
+            "you can reach us by calling our relavant number or filling out the contact form.",
+        address: "address",
+        telephone: "telephone",
+        fax: "fax",
+        contactForm: "contact form",
+        send: "send",
+        email: "e-mail",
+        yourMessage: "your message",
+        nameSurname: "name surname",
     },
 };

@@ -3,6 +3,7 @@ import "./css/contactPage.scss";
 import { MapPinned, Phone, Printer } from "lucide-react";
 import swal from "sweetalert";
 import ReCAPTCHA from "react-google-recaptcha";
+import { translateText as t } from "../../store/reducers/language";
 
 function Contact() {
     useLayoutEffect(() => {
@@ -60,16 +61,13 @@ function Contact() {
     return (
         <div className="contact">
             <div className="banner-area">
-                <h2>İLETİŞİM</h2>
+                <h2>{t("contact")}</h2>
             </div>
 
             <div className="content-area">
                 <div className="wrapper">
-                    <h2>Bize Ulaşın </h2>
-                    <p>
-                        İlgili numaramızı arayarak ya da iletişim formunu
-                        doldurarak bize ulaşabilirsiniz.
-                    </p>
+                    <h2>{t("contactUs")}</h2>
+                    <p>{t("reachUs")}</p>
                 </div>
 
                 <div className="content">
@@ -80,7 +78,7 @@ function Contact() {
                             </div>
 
                             <div className="text">
-                                <h3>Adres</h3>
+                                <h3>{t("address")}</h3>
                                 <p>
                                     Yeniköy Mah. Menderes-Orhanlı Yolu Sk.{" "}
                                     <br />
@@ -95,7 +93,7 @@ function Contact() {
                             </div>
 
                             <div className="text">
-                                <h3>Telefon</h3>
+                                <h3>{t("telephone")}</h3>
                                 <p>0232 360 16 16</p>
                             </div>
                         </div>
@@ -105,7 +103,7 @@ function Contact() {
                                 <Printer size={25} />
                             </div>
                             <div className="text">
-                                <h3>Fax</h3>
+                                <h3>{t("fax")}</h3>
                                 <p>0232 360 17 77</p>
                             </div>
                         </div>
@@ -113,7 +111,7 @@ function Contact() {
 
                     <div className="contactForm">
                         <form>
-                            <h2>İletişim Formu</h2>
+                            <h2>{t("contactForm")}</h2>
                             <div className="inputBox">
                                 <input
                                     value={name}
@@ -121,7 +119,7 @@ function Contact() {
                                     required
                                     id="name"
                                     className="input"
-                                    placeholder="İsim-Soyisim.."
+                                    placeholder={t("nameSurname") + "..."}
                                     onInput={(e) => {
                                         setName(e.target.value);
                                     }}
@@ -134,7 +132,7 @@ function Contact() {
                                     required
                                     id="email"
                                     className="input"
-                                    placeholder="Email..."
+                                    placeholder={t("email") + "..."}
                                     onInput={(e) => {
                                         setEmail(e.target.value);
                                     }}
@@ -146,7 +144,7 @@ function Contact() {
                                     id="message"
                                     required
                                     className="input"
-                                    placeholder="Mesajınız.."
+                                    placeholder={t("yourMessage") + "..."}
                                     onInput={(e) => {
                                         setMessage(e.target.value);
                                     }}
@@ -162,9 +160,12 @@ function Contact() {
                             </div>
                             <div className="inputBox">
                                 <input
-                                    style={{ background: !token ? "grey" : "" }}
+                                    style={{
+                                        background: !token ? "grey" : "",
+                                        textTransform: "capitalize",
+                                    }}
                                     type="button"
-                                    value="Gönder"
+                                    value={t("send")}
                                     disabled={!token}
                                     onClick={Send}
                                 />
