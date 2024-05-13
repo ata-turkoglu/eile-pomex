@@ -73,6 +73,7 @@
     font-weight: bold;
     line-height: 17px;
     margin-bottom: 0.9rem;
+    text-transform: uppercase;
 }
 
 .sb__footer-links-div p {
@@ -83,6 +84,7 @@
     color: rgb(29, 29, 32);
     text-decoration: none;
     transition: all .3s ease-in-out;
+    text-transform: capitalize;
 }
 
 .sb__footer-links-div p:hover {
@@ -149,6 +151,10 @@
     text-decoration: underline;
 }
 
+.sb__footer-below-links p {
+    text-transform: capitalize;
+}
+
 
 hr {
     color: rgb(29, 29, 32) !important;
@@ -160,6 +166,10 @@ hr {
     line-height: 15px;
     color: rgb(16, 16, 89);
     font-weight: 500;
+}
+
+.sb__footer-copyright p {
+    text-transform: capitalize;
 }
 
 .sb__footer-map-section {

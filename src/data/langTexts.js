@@ -29,6 +29,12 @@ export default {
         email: "e-posta",
         yourMessage: "Mesajınız",
         nameSurname: "isim soyisim",
+        ourQualityPolicy: "kalite politikamız",
+        missionVision: "misyonumuz-vizyonumuz",
+        companyCertificates: "şirket belgeleri",
+        productCertificates: "ürün belgeleri",
+        copyright: "eile pomex tüm hakları saklıdır.",
+        kvkk: " kişisel verilerin korunması"
     },
     en: {
         products: "products",
@@ -60,5 +66,11 @@ export default {
         email: "e-mail",
         yourMessage: "your message",
         nameSurname: "name surname",
+        ourQualityPolicy: "quality policy",
+        missionVision: "mission vision",
+        companyCertificates: "company certificates",
+        productCertificates: "product certificates",
+        copyright: "eile pomex all rights reserved.",
+        kvkk: " data protection regulation"
     },
 };
