@@ -67,6 +67,7 @@
             align-items: center;
             
             h4 {
+              font-size: 1rem;
               @media screen and (max-width: 768px ){
                 font-size: 1rem;
                 padding: 0;
@@ -84,12 +85,12 @@
               position: relative;
               display: inline-block;
               color: black;
-              padding: 10px 30px;
+              padding: 10px 25px;
               background-color: rgba($logo-green, 0.25);
               //background: linear-gradient(90deg, #6616d0, #ac34e7);
               border-radius: 45px;
-              margin: 0 15px;
-              font-size: 18px;
+              margin: 0 5px;
+              font-size: .9rem;
               font-weight: bold;
               text-decoration: none;
               /* box-shadow: 3px 5px rgba(0, 0, 0, 0.1); */
@@ -104,9 +105,9 @@
                 margin-inline: 5px;
               }
               background-color: rgba($logo-blue, 0.8);
-              padding: 10px 40px;
-              margin: 0 15px;
-              font-size: 18px;
+              padding: 10px 25px;
+              margin: 0 5px;
+              font-size: 0.9rem;
               border-top: 1px solid rgba(0, 0, 0, 0.1);
               overflow: hidden;
             }
@@ -118,9 +119,9 @@
                 margin-inline: 5px;
               }
               background-color: rgba($logo-blue, 0.5);
-              padding: 10px 30px;
-              margin: 0 15px;
-              font-size: 18px;
+              padding: 10px 25px;
+              margin: 0 5px;
+              font-size: 0.9rem;
               border-top: 1px solid rgba(0, 0, 0, 0.1);
               overflow: hidden;
             }

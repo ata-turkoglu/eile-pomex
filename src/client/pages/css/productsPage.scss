@@ -105,6 +105,7 @@
                         color: $main-blue;
                         text-wrap: nowrap;
                         /* filter: drop-shadow(0 0 5px $main-grey); */
+                        text-transform: capitalize;
                         &:hover {
                             transform: translateX(8px);
                             transition: transform ease 0.2s;

@@ -34,7 +34,9 @@ export default {
         companyCertificates: "şirket belgeleri",
         productCertificates: "ürün belgeleri",
         copyright: "eile pomex tüm hakları saklıdır.",
-        kvkk: " kişisel verilerin korunması"
+        kvkk: " kişisel verilerin korunması",
+        all: "tümü",
+        whoWeAre: "biz kimiz",
     },
     en: {
         products: "products",
@@ -71,6 +73,8 @@ export default {
         companyCertificates: "company certificates",
         productCertificates: "product certificates",
         copyright: "eile pomex all rights reserved.",
-        kvkk: " data protection regulation"
+        kvkk: " data protection regulation",
+        all: "all",
+        whoWeAre: "who we are",
     },
 };

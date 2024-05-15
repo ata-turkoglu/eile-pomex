@@ -177,7 +177,7 @@ function Products() {
                                             )
                                         }
                                     >
-                                        Tümü
+                                        {t("all")}
                                     </li>
                                     {group.subGroups.map((sub) => {
                                         return (
