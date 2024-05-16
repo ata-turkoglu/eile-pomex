@@ -6,6 +6,7 @@ import img from "../../../public/assets/products/eile_genel_teneke.png";
 import { Accordion } from "react-bootstrap";
 import appImg from "../../../public/assets/products/grout60c_app.png";
 import { ChevronLeft } from "lucide-react";
+import { translateText as t } from "../../store/reducers/language";
 
 function ProductDetails() {
     const { productKey } = useParams();
@@ -114,11 +115,11 @@ function ProductDetails() {
                                         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
                                 </div>
                                 <div className="areasOfUsage">
-                                    <h4>Kullanım Alanları</h4>
+                                    <h4>{t("areasOfUsage")}</h4>
                                     {renderAreasofUsage(product.areasOfUsage)}
                                 </div>
                                 <div className="featuresOfProduct">
-                                    <h4>Ürün Özellikleri</h4>
+                                    <h4>{t("featuresOfProduct")}</h4>
                                     {renderFeatures(product.featuresOfProduct)}
                                 </div>
                                 <div className="imgContainer">
@@ -127,7 +128,7 @@ function ProductDetails() {
                                 <Accordion>
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>
-                                            <h5>Yüzey Hazırlığı</h5>
+                                            <h5>{t("surfacePreparation")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
@@ -138,7 +139,7 @@ function ProductDetails() {
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="1">
                                         <Accordion.Header>
-                                            <h5>Karıştırma</h5>
+                                            <h5>{t("mixing")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
@@ -154,7 +155,7 @@ function ProductDetails() {
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="2">
                                         <Accordion.Header>
-                                            <h5>Uygulama</h5>
+                                            <h5>{t("application")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
@@ -166,7 +167,9 @@ function ProductDetails() {
                                     <Accordion.Item eventKey="3">
                                         <Accordion.Header>
                                             <h5>
-                                                Dikkat Edilmesi Gereken Noktalar
+                                                {t(
+                                                    "pointsToTakeIntoConsideration"
+                                                )}
                                             </h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -179,7 +182,7 @@ function ProductDetails() {
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="4">
                                         <Accordion.Header>
-                                            <h5>Ambalaj</h5>
+                                            <h5>{t("package")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
@@ -190,7 +193,7 @@ function ProductDetails() {
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="5">
                                         <Accordion.Header>
-                                            <h5>Depolama</h5>
+                                            <h5>{t("storage")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>

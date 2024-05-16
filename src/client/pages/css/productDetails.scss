@@ -184,6 +184,7 @@
                     text-align: left;
                     padding: 1rem;
                     h4{
+                        text-transform: capitalize;
                         padding-bottom: .5rem;
                     }
                     /* background-color: lighten($main-grey, 10%) ; */
@@ -197,6 +198,7 @@
                     padding: 1rem;
                     padding-block: 2rem;
                     h4{
+                        text-transform: capitalize;
                         padding-bottom: .5rem;
                     }
                 }
@@ -250,6 +252,7 @@
         .accordion-header{
             h5{
                 margin-bottom: 0;
+                text-transform: capitalize;
             }
         }
         .accordion-body{

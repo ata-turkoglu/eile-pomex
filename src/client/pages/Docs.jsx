@@ -2,6 +2,7 @@ import React, { useLayoutEffect } from "react";
 import { Accordion } from "react-bootstrap";
 import "./css/docsPage.scss";
 // import Button from "../components/button/button"
+import { translateText as t } from "../../store/reducers/language";
 
 function Docs() {
     useLayoutEffect(() => {
@@ -34,7 +35,7 @@ function Docs() {
                 <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>
-                            <h5>Firma Belgeleri</h5>
+                            <h5>{t("companyCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -57,7 +58,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="1">
                         <Accordion.Header>
-                            <h5>Kimyasal Dübel Belgelerimiz</h5>
+                            <h5>{t("chemicalAnchorCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -79,9 +80,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>
-                            <h5>
-                                Çimento Esaslı Onarım Güçlendirme Belgelerimiz
-                            </h5>
+                            <h5>{t("cementBasedReinforcementCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -179,9 +178,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="3">
                         <Accordion.Header>
-                            <h5>
-                                Epoksi Esaslı Onarım Güçlendirme Belgelerimiz
-                            </h5>
+                            <h5>{t("epoxyBasedReinforcementCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -216,7 +213,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="4">
                         <Accordion.Header>
-                            <h5>Çimento Esaslı Su Yalıtım Belgelerimiz</h5>
+                            <h5>{t("cementBasedWaterproofingCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -290,7 +287,9 @@ function Docs() {
 
                     <Accordion.Item eventKey="5">
                         <Accordion.Header>
-                            <h5>Akrilik Esaslı Su Yalıtımı Belgelerimiz</h5>
+                            <h5>
+                                {t("acrylicBasedWaterproofingCertificates")}
+                            </h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -312,7 +311,9 @@ function Docs() {
 
                     <Accordion.Item eventKey="6">
                         <Accordion.Header>
-                            <h5>Bitum Esaslı Su Yalıtımı Belgelerimiz</h5>
+                            <h5>
+                                {t("bitumenBasedWaterproofingCertificates")}
+                            </h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -334,9 +335,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="7">
                         <Accordion.Header>
-                            <h5>
-                                Çimento Esaslı Zemin Sistemleri Belgelerimiz
-                            </h5>
+                            <h5>{t("surfaceHardeners")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -425,7 +424,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="8">
                         <Accordion.Header>
-                            <h5>Isı Yalıtım Belgelerimiz</h5>
+                            <h5>{t("thermalInsulationSystemCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -500,7 +499,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="9">
                         <Accordion.Header>
-                            <h5>Sıva Belgelerimiz</h5>
+                            <h5>{t("plasterCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -601,7 +600,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="10">
                         <Accordion.Header>
-                            <h5>Çimento Esaslı Yapıştırıcı Belgelerimiz</h5>
+                            <h5>{t("cementBasedAdhesiveCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">
@@ -663,7 +662,7 @@ function Docs() {
 
                     <Accordion.Item eventKey="11">
                         <Accordion.Header>
-                            <h5>Çimento Esaslı Derz Dolgu Belgelerimiz</h5>
+                            <h5>{t("cementBasedGroutingsCertificates")}</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div className="container_body">

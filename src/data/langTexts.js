@@ -37,6 +37,33 @@ export default {
         kvkk: " kişisel verilerin korunması",
         all: "tümü",
         whoWeAre: "biz kimiz",
+        chemicalAnchorCertificates: "Kimyasal Dübel Belgelerimiz",
+        cementBasedReinforcementCertificates:
+            "Çimento Esaslı Onarım Güçlendirme Belgelerimiz",
+        epoxyBasedReinforcementCertificates:
+            "Epoksi Esaslı Onarım Güçlendirme Belgelerimiz",
+        cementBasedWaterproofingCertificates:
+            "Çimento Esaslı Su Yalıtım Belgelerimiz",
+        acrylicBasedWaterproofingCertificates:
+            "Akrilik Esaslı Su Yalıtım Belgelerimiz",
+        bitumenBasedWaterproofingCertificates:
+            "Bitum Esaslı Su Yalıtımı Belgelerimiz",
+        surfaceHardeners: "Çimento Esaslı Zemin Sistemleri Belgelerimiz",
+        thermalInsulationSystemCertificates: "Isı Yalıtım Belgelerimiz",
+        plasterCertificates: "Sıva Belgelerimiz",
+        cementBasedAdhesiveCertificates:
+            "Çimento Esaslı Yapıştırıcı Belgelerimiz",
+        cementBasedGroutingsCertificates:
+            "Çimento Esaslı Derz Dolgu Belgelerimiz",
+        areasOfUsage: "kullanım alanları",
+        featuresOfProduct: "ürün özellikleri",
+        surfacePreparation: "Yüzey Hazırlığı",
+        mixing: "karıştırma",
+        application: "uygulama",
+        package: "Ambalaj",
+        storage: "Depolama",
+        pointsToTakeIntoConsideration: "dikkat edilmesi gereken noktalar",
+        details: "detaylı bilgi",
     },
     en: {
         products: "products",
@@ -76,5 +103,31 @@ export default {
         kvkk: " data protection regulation",
         all: "all",
         whoWeAre: "who we are",
+        chemicalAnchorCertificates: "Chemical Anchor Certificates",
+        cementBasedReinforcementCertificates:
+            "Cement Based Reinforcement Certificates",
+        epoxyBasedReinforcementCertificates:
+            "Epoxy Based Reinforcement Certificates",
+        cementBasedWaterproofingCertificates:
+            "Cement Based Waterproofing Certificates",
+        acrylicBasedWaterproofingCertificates:
+            "Acrylic Based Waterproofing Certificates",
+        bitumenBasedWaterproofingCertificates:
+            "Bitumen Based Waterproofing Certificates",
+        surfaceHardeners: "Surface Hardeners Certificates",
+        thermalInsulationSystemCertificates:
+            "Thermal Insulation System Certificates",
+        plasterCertificates: "Plaster Certificates",
+        cementBasedAdhesiveCertificates: "Cement Based Adhesive Certificates",
+        cementBasedGroutingsCertificates: "Cement Based Groutings Certificates",
+        areasOfUsage: "areas of usage",
+        featuresOfProduct: "features of product",
+        surfacePreparation: "surface preparation",
+        mixing: "mixing",
+        application: "application",
+        package: "package",
+        storage: "storage",
+        pointsToTakeIntoConsideration: "points to take into consideration",
+        details: "details",
     },
 };

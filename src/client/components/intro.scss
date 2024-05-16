@@ -45,6 +45,7 @@
             z-index: 3;
             cursor: pointer;
             transition: all .25s ease;
+            text-transform: capitalize;
 
             @media screen and (max-width:768px) {
                 width: 100px;

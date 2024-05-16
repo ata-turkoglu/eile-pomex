@@ -2,6 +2,8 @@ import React from "react";
 import "./intro.scss";
 import { useState } from "react";
 import { Carousel } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+import { translateText as t } from "../../store/reducers/language";
 import img1 from "../../assets/introCarousel/thermal-plaster.jpeg";
 import img2 from "../../assets/introCarousel/waterproofing.jpeg";
 import img3 from "../../assets/introCarousel/s2.jpg";
@@ -11,6 +13,8 @@ import img6 from "../../assets/introCarousel/bims.jpg";
 
 function Intro() {
     const [index, setIndex] = useState(0);
+
+    const navigate = useNavigate();
 
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
@@ -64,7 +68,12 @@ function Intro() {
                 <Carousel.Item>
                     <div className="imgContainer">
                         <img className="d-block w-100" src={img6} />
-                        <span className="detailButton">Detaylı Bilgi</span>
+                        <span
+                            className="detailButton"
+                            onClick={() => navigate("/pomexblok")}
+                        >
+                            {t("details")}
+                        </span>
                     </div>
                 </Carousel.Item>
             </Carousel>
