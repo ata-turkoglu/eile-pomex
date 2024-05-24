@@ -84,7 +84,7 @@ function Footer() {
             <p>@{new Date().getFullYear()} {t("copyright")}</p>
           </div>
           <div className="sb__footer-below-links">
-            <a href="/KKVK">
+            <a href="public\assets\docs\kvkk.pdf" target="_blank">
               <div>
                 {" "}
                 <p>{t("kvkk")}</p>
