@@ -7,8 +7,11 @@ import { Accordion } from "react-bootstrap";
 import appImg from "../../../public/assets/products/grout60c_app.png";
 import { ChevronLeft } from "lucide-react";
 import { translateText as t } from "../../store/reducers/language";
+import { useSelector } from "react-redux";
 
 function ProductDetails() {
+    const lang = useSelector((state) => state.language.lang);
+    
     const { productKey } = useParams();
     const [product, setProduct] = useState(null);
     const [mobileView, setMobileView] = useState(false);
@@ -105,22 +108,22 @@ function ProductDetails() {
                                 <img src={product.img || img} />
                             </div>
                             <div className="tags">
-                                {renderInfo(product.info)}
+                                {renderInfo(product.info[lang])}
                             </div>
                         </div>
                         <div className="informationPart">
                             <div className="centerPart">
                                 <div className="description">
-                                    {product.description ||
+                                    {product.description[lang] ||
                                         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
                                 </div>
                                 <div className="areasOfUsage">
                                     <h4>{t("areasOfUsage")}</h4>
-                                    {renderAreasofUsage(product.areasOfUsage)}
+                                    {renderAreasofUsage(product.areasOfUsage[lang])}
                                 </div>
                                 <div className="featuresOfProduct">
                                     <h4>{t("featuresOfProduct")}</h4>
-                                    {renderFeatures(product.featuresOfProduct)}
+                                    {renderFeatures(product.featuresOfProduct[lang])}
                                 </div>
                                 <div className="imgContainer">
                                     <img src={product.appImage || appImg} />
@@ -132,7 +135,7 @@ function ProductDetails() {
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
-                                                {product.beforeApplication ||
+                                                {product.beforeApplication[lang] ||
                                                     "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
                                             </p>
                                         </Accordion.Body>
@@ -143,12 +146,12 @@ function ProductDetails() {
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
-                                                {product.mixing ||
+                                                {product.mixing[lang] ||
                                                     "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
                                             </p>
                                             <p>
                                                 <strong>Karışım Oranı:</strong>
-                                                {product.mixture ||
+                                                {product.mixture[lang] ||
                                                     "by weight 3:1"}
                                             </p>
                                         </Accordion.Body>
@@ -159,7 +162,7 @@ function ProductDetails() {
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
-                                                {product.application ||
+                                                {product.application[lang] ||
                                                     "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
                                             </p>
                                         </Accordion.Body>
@@ -175,7 +178,7 @@ function ProductDetails() {
                                         <Accordion.Body>
                                             <p>
                                                 {renderConsumption(
-                                                    product.consumption
+                                                    product.consumption[lang]
                                                 )}
                                             </p>
                                         </Accordion.Body>
@@ -186,7 +189,7 @@ function ProductDetails() {
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
-                                                {product.package ||
+                                                {product.package[lang] ||
                                                     "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
                                             </p>
                                         </Accordion.Body>
@@ -197,7 +200,7 @@ function ProductDetails() {
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
-                                                {product.storage ||
+                                                {product.storage[lang] ||
                                                     "It should be stored in unopened original package between +5 °C and +35 °C. It should be protected from direct sunlight and frost. And opened product should be stored in original package by closing its cover."}
                                             </p>
                                         </Accordion.Body>
