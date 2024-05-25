@@ -64,6 +64,16 @@ export default {
         storage: "Depolama",
         pointsToTakeIntoConsideration: "dikkat edilmesi gereken noktalar",
         details: "detaylı bilgi",
+        about1: "Pomza Export A.Ş., madencilik sektöründe tamamen yerli sermaye kurulmuş, köklü bir şirket olarak 50 yıldan fazla süredir faaliyet göstermektedir. Sürdürülebilirlik ilkesiyle hareket eden firmamız, 2007 yılında Türkiye'ye daha fazla katma değer sağlamak amacıyla, 'sıfır-deşarj' üretim modelini benimseyerek eile Pomex Yapı Kimyasalları şirketini kurmuştur. Bu sayede, kendi madenlerinde üretilen perlit, kuvars, korund gibi agregaları yapı ürünlerinde kullanarak kaliteli, sürdürülebilir ve yenilikçi çözümleri pazara sunmuştur.",
+        about2: "Müşteri memnuniyetini en üst düzeyde tutarak, ulusal ve uluslararası kalite standartlarına uygun şekilde hareket etmek temel önceliğimizdir. Tüm çalışanlarımızın sürekli mesleki alanda bilgilendirilmesi ve gelişimlerinin desteklenmesi, iş sağlığı ve iş güvenliği bilincinin en üst seviyede olması için en yüksek profesyonel standartlara uygun eğitimler verilmektedir. Bu şekilde, çalışanlarımızın iş güvenliği konusundaki bilincini artırarak daha güvenli bir çalışma ortamı sağlamayı hedefliyoruz.",
+        about3: "Ayrıca, hataları önceden önlemek ve tekrarlanmasını engellemek için doğaya ve insana saygı çerçevesinde sürekli iyileştirmeler yaparak yönetim sistemimizi geliştirmekteyiz.",
+        about4: "Tüm yasa ve mevzuatlara uygun olarak faaliyet göstermek ve en doğru şekilde çalışmak da işimizin ayrılmaz bir parçasıdır. Müşteri memnuniyeti, sürdürülebilirlik, kalite, güvenlik ve yasal uyumluluk alanlarında en üst düzeyde performans sergileyerek çalışanlarımıza, müşterilerimize ve topluma karşı sorumluluklarımızı yerine getiriyoruz.",
+        ourMission: "Misyonumuz",
+        ourMission1:
+            "Genç, dinamik mühendis kadromuzla müşteri ihtiyaç ve beklentilerini en iyi şekilde anlayarak, iş etiği ve ahlak kurallarına uygun, sürdürülebilir ve kaliteli üretim sağlamaktır.",
+        ourVision: "Vizyonumuz",
+        ourVision1:
+            "Sektörde yılların güvenini kazanmış bir firma olarak, kendimizi sürekli geliştirip firmamızın ulusal ve uluslararası pazardaki etkinliğini ve verimliliğini artırmak; Türkiye'nin inovasyon ve çevrecilik prensipleriyle hareket eden saygın bir kuruluşu olmaktır.",
     },
     en: {
         products: "products",
@@ -129,5 +139,15 @@ export default {
         storage: "storage",
         pointsToTakeIntoConsideration: "points to take into consideration",
         details: "details",
+        about1: "Pomza Export is one of the leading companies shaping Turkey's mining sector since 1961. Operating with the principle of sustainability, our company established eile Pomex Construction Chemicals in 2007 to produce value-added building products by adopting the 'zero-discharge' business model. By using aggregates such as perlite, quartz, and corundum produced in our own mines in these construction products, we have introduced quality, sustainability, and innovation to the market",
+        about2: "Ensuring customer satisfaction at the highest level and acting in accordance with national and international quality standards are our main priorities. All our employees receive continuous training and support for their development, and training is provided at the highest professional standards to ensure the highest level of occupational health and safety awareness. In this way, we aim to increase awareness of occupational safety among our employees and create a safer working environment.",
+        about3: "Additionally, we continuously improve our management system within the framework of respect for nature and humanity to prevent errors and avoid their repetition.",
+        about4: "Operating in compliance with all laws and regulations is an integral part of our business. By demonstrating top-level performance in customer satisfaction, sustainability, quality, safety, and legal compliance, we fulfil our responsibilities to both our customers and the society.",
+        ourMission: "mission",
+        ourMission1:
+            "To provide sustainable, value-added production in accordance with business ethics by understanding market needs and expectations and form long-term partnerships with our national and international customers.",
+        ourVision: "vision",
+        ourVision1:
+            "As a company that has earned the trust of the industry over the years, our vision is to continuously improve ourselves and increase the effectiveness and efficiency of our company in both national and international markets, aiming to become a respected organization that operates with principles of innovation and environmentalism.",
     },
 };

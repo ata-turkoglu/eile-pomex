@@ -14,63 +14,20 @@ function About() {
             </div>
 
             <div className="wrapper">
-                <h2>Hakkımızda</h2>
+                <h2>{t("about")}</h2>
 
-                <p>
-                    Pomza Export A.Ş., madencilik sektöründe tamamen yerli
-                    sermaye kurulmuş, köklü bir şirket olarak 50 yıldan fazla
-                    süredir faaliyet göstermektedir. Sürdürülebilirlik ilkesiyle
-                    hareket eden firmamız, 2007 yılında Türkiye'ye daha fazla
-                    katma değer sağlamak amacıyla, "sıfır-deşarj" üretim
-                    modelini benimseyerek eile Pomex Yapı Kimyasalları şirketini
-                    kurmuştur. Bu sayede, kendi madenlerinde üretilen perlit,
-                    kuvars, korund gibi agregaları yapı ürünlerinde kullanarak
-                    kaliteli, sürdürülebilir ve yenilikçi çözümleri pazara
-                    sunmuştur.
-                </p>
-                <p>
-                    Müşteri memnuniyetini en üst düzeyde tutarak, ulusal ve
-                    uluslararası kalite standartlarına uygun şekilde hareket
-                    etmek temel önceliğimizdir. Tüm çalışanlarımızın sürekli
-                    mesleki alanda bilgilendirilmesi ve gelişimlerinin
-                    desteklenmesi, iş sağlığı ve iş güvenliği bilincinin en üst
-                    seviyede olması için en yüksek profesyonel standartlara
-                    uygun eğitimler verilmektedir. Bu şekilde, çalışanlarımızın
-                    iş güvenliği konusundaki bilincini artırarak daha güvenli
-                    bir çalışma ortamı sağlamayı hedefliyoruz.
-                </p>
-                <p>
-                    Ayrıca, hataları önceden önlemek ve tekrarlanmasını
-                    engellemek için doğaya ve insana saygı çerçevesinde sürekli
-                    iyileştirmeler yaparak yönetim sistemimizi geliştirmekteyiz.
-                </p>
-                <p>
-                    Tüm yasa ve mevzuatlara uygun olarak faaliyet göstermek ve
-                    en doğru şekilde çalışmak da işimizin ayrılmaz bir
-                    parçasıdır. Müşteri memnuniyeti, sürdürülebilirlik, kalite,
-                    güvenlik ve yasal uyumluluk alanlarında en üst düzeyde
-                    performans sergileyerek çalışanlarımıza, müşterilerimize ve
-                    topluma karşı sorumluluklarımızı yerine getiriyoruz.
-                </p>
+                <p>{t("about1")}</p>
+                <p>{t("about2")}</p>
+                <p>{t("about3")}</p>
+                <p>{t("about4")}</p>
 
-                <h2>Misyonumuz</h2>
+                <h2>{t("ourMission")}</h2>
 
-                <p>
-                    Genç, dinamik mühendis kadromuzla müşteri ihtiyaç ve
-                    beklentilerini en iyi şekilde anlayarak, iş etiği ve ahlak
-                    kurallarına uygun, sürdürülebilir ve kaliteli üretim
-                    sağlamaktır.
-                </p>
+                <p>{t("ourMission1")}</p>
 
-                <h2>Vizyonumuz</h2>
+                <h2>{t("ourVision")}</h2>
 
-                <p>
-                    Sektörde yılların güvenini kazanmış bir firma olarak,
-                    kendimizi sürekli geliştirip firmamızın ulusal ve
-                    uluslararası pazardaki etkinliğini ve verimliliğini
-                    artırmak; Türkiye'nin inovasyon ve çevrecilik prensipleriyle
-                    hareket eden saygın bir kuruluşu olmaktır.
-                </p>
+                <p>{t("ourVision1")}</p>
             </div>
 
             {/*<div className="info-container">
