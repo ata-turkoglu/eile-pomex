@@ -1,9 +1,10 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./header.scss";
-import logo from "../../assets/eile-logo.png";
-import roundLogo from "../../assets/eile-round.png";
-import { Link } from "react-router-dom";
+import logo_tr from "../../assets/eile-logo-tr.png";
+import logo_en from "../../assets/eile-logo-en.png";
+import roundLogo from "../../assets/eilepomex-round.png";
+import { Link, useLocation } from "react-router-dom";
 import productsJSON from "../../data/products.json";
 import {
     Instagram,
@@ -13,7 +14,6 @@ import {
     MapPin,
     Search,
 } from "lucide-react";
-import Form from "react-bootstrap/Form";
 import Dropdown from "react-bootstrap/Dropdown";
 import { useSelector, useDispatch } from "react-redux";
 import { changeLang, translateText as t } from "../../store/reducers/language";
@@ -25,9 +25,23 @@ function Header() {
     const [collapse, setCollapse] = useState(false);
     const [mobileNav, setMobileNav] = useState(false);
     const [langState, setLangState] = useState("");
+    const [activeTab, setActiveTab] = useState("");
 
     const lang = useSelector((state) => state.language.lang);
     const dispatch = useDispatch();
+    const route = useLocation();
+
+    const getLogo = (lng) => {
+        if (lng == "en") {
+            return logo_en;
+        } else if (lng == "tr") {
+            return logo_tr;
+        }
+    };
+
+    useEffect(() => {
+        setActiveTab(route.pathname.split("/")[1]);
+    }, [route]);
 
     useEffect(() => {
         function setHeaderHeight() {
@@ -171,7 +185,7 @@ function Header() {
                 /* style={{ paddingBlock: narrowHeader ? "0" : "1rem" }} */
                 onClick={menuClose}
             >
-                <img src={narrowHeader ? roundLogo : logo} />
+                <img src={narrowHeader ? roundLogo : getLogo(lang)} />
             </Link>
             <div
                 className="nav-container"
@@ -253,7 +267,9 @@ function Header() {
                     {/* web view navigation */}
                     <div className="nav-container-links">
                         <Link
-                            className="nav-item"
+                            className={`nav-item ${
+                                activeTab == "products" && "active-nav"
+                            }`}
                             to="/products/0"
                             style={{
                                 paddingBlock: narrowHeader ? "0" : "1rem",
@@ -267,7 +283,9 @@ function Header() {
                             <span>{t("products")}</span>
                         </Link>
                         <Link
-                            className="nav-item"
+                            className={`nav-item ${
+                                activeTab == "projects" && "active-nav"
+                            }`}
                             to="/projects"
                             style={{
                                 paddingBlock: narrowHeader ? "0" : "1rem",
@@ -279,7 +297,9 @@ function Header() {
                             <span>{t("projects")}</span>
                         </Link>
                         <Link
-                            className="nav-item"
+                            className={`nav-item ${
+                                activeTab == "about" && "active-nav"
+                            }`}
                             to="/about"
                             style={{
                                 paddingBlock: narrowHeader ? "0" : "1rem",
@@ -291,7 +311,9 @@ function Header() {
                             <span>{t("aboutus")}</span>
                         </Link>
                         <Link
-                            className="nav-item"
+                            className={`nav-item ${
+                                activeTab == "docs" && "active-nav"
+                            }`}
                             to="/docs"
                             style={{
                                 paddingBlock: narrowHeader ? "0" : "1rem",
@@ -303,7 +325,9 @@ function Header() {
                             <span>{t("certificates")}</span>
                         </Link>
                         <Link
-                            className="nav-item"
+                            className={`nav-item ${
+                                activeTab == "references" && "active-nav"
+                            }`}
                             to="/references"
                             style={{
                                 paddingBlock: narrowHeader ? "0" : "1rem",
@@ -315,7 +339,9 @@ function Header() {
                             <span>{t("references")}</span>
                         </Link>
                         <Link
-                            className="nav-item"
+                            className={`nav-item ${
+                                activeTab == "contact" && "active-nav"
+                            }`}
                             to="/contact"
                             style={{
                                 paddingBlock: narrowHeader ? "0" : "1rem",

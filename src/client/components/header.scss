@@ -45,9 +45,10 @@
     }
 
     .logo-container-narrow {
+        height: 100%;
         img {
-            height: 50px;
-            width: 50px;
+            height: 100%;
+            width: auto;
         }
     }
 
@@ -103,13 +104,13 @@
                     font-weight: 400;
                     text-decoration: none;
                     color: $text-black;
-                    font-size: 1rem;
-                    font-weight: 600;
+                    font-size: 1.1rem;
+                    font-weight: bold;
                     padding-inline: 1.5rem;
                     text-transform: capitalize;
                     text-transform: uppercase;
                     span {
-                        filter: drop-shadow(0 0 1px darken($main-grey, 10%));
+                        /* filter: drop-shadow(0 0 1px darken($main-grey, 10%)); */
                     }
                 }
 
@@ -120,6 +121,9 @@
                 .nav-item:hover {
                     background-color: rgb(245, 245, 245);
                     /* border-bottom: 4px solid rgb(0,91,168); */
+                }
+                .active-nav{
+                    color: darken($logo-green, 5%);
                 }
             }
             .searchContainer {
