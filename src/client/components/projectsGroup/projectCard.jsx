@@ -1,9 +1,11 @@
 import React from "react";
 import "./projectCard.scss";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 function ProjectCard({ project }) {
     const navigate = useNavigate();
+    const lang = useSelector((state) => state.language.lang);
     return (
         <div className="projectCard">
             <div className="imgContainer">
@@ -17,7 +19,7 @@ function ProjectCard({ project }) {
                 />
             </div>
             <div className="textContainer">
-                <h5>{project.name}</h5>
+                <h5>{project.name[lang]}</h5>
                 <p>{project.description}</p>
             </div>
         </div>

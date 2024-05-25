@@ -27,13 +27,8 @@ function Intro() {
                         <img className="d-block w-100" src={img4} />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
-                        <h4>Çimento Esaslı Yapıştırıcılar</h4>
-                        <p>
-                            Tamamıyla AR-GE bölümümüz tarafından geliştirilen ve
-                            üretilen ürünlerimiz yüksek teknolojiye sahip
-                            labaratuvarlarımızdan onay almadan satışa
-                            çıkmamaktadır.
-                        </p>
+                        <h4>{t("cementBasedAdhesives")}</h4>
+                        <p>{t("rdInfo")}</p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -41,13 +36,8 @@ function Intro() {
                         <img className="d-block w-100" src={img3} />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
-                        <h4>Yüksek Kalite Standartlarımız</h4>
-                        <p>
-                            Tamamıyla AR-GE bölümümüz tarafından geliştirilen ve
-                            üretilen ürünlerimiz yüksek teknolojiye sahip
-                            labaratuvarlarımızdan onay almadan satışa
-                            çıkmamaktadır.
-                        </p>
+                        <h4>{t("ourHighQualityStandards")}</h4>
+                        <p>{t("rdInfo")}</p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>

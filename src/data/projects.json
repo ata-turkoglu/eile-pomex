@@ -1,56 +1,92 @@
 [
     {
         "id": 1,
-        "name": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesi",
+        "name": {
+            "tr": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesi",
+            "en": "Istanbul Bosphorus Bridge Ortaköy Approach Viaduct Reinforcement"
+        },
         "image1": "assets/projects/project1.jpg",
         "image2": "assets/products/eile_TH_70.png",
         "product": "2-3-5",
-        "text": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde",
+        "text": {
+            "tr": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde",
+            "en": "Istanbul Bosphorus Bridge Ortaköy Approach Viaduct Reinforcement"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 2,
-        "name": "Vestel Manisa Fabrika Binası İnşaatı",
+        "name": {
+            "tr": "Vestel Manisa Fabrika Binası İnşaatı",
+            "en": "Vestel Manisa Factory Building Construction"
+        },
         "image1": "assets/projects/project2.jpg",
         "image2": "assets/products/epx_630.png",
         "product": "5-2-1",
-        "text": "Vestel Manisa Fabrika Binası İnşaatında",
+        "text": {
+            "tr": "Vestel Manisa Fabrika Binası İnşaatında",
+            "en": "Vestel Manisa Factory Building Construction"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 3,
-        "name": "Antalya Havaalanı Deprem İzolatörü Montajı",
+        "name": {
+            "tr": "Antalya Havaalanı Deprem İzolatörü Montajı",
+            "en": "Antalya Airport Earthquake Isolator Installation"
+        },
         "image1": "assets/projects/project3.jpg",
         "image2": "assets/products/power_wt1.png",
         "product": "2-1-1",
-        "text": "Antalya Havaalanı Deprem İzolatörü Montajında",
+        "text": {
+            "tr": "Antalya Havaalanı Deprem İzolatörü Montajında",
+            "en": "Antalya Airport Earthquake Isolator Installation"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 4,
-        "name": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatı",
+        "name": {
+            "tr": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatı",
+            "en": "Yeda İnşaat in İzmir Atatürk Swimming Pool Renovation"
+        },
         "image1": "assets/projects/project4.jpg",
         "image2": "assets/products/likit_akrilik.png",
         "product": "1-2-1",
-        "text": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatında",
+        "text": {
+            "tr": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatında",
+            "en": "Yeda İnşaat in İzmir Atatürk Swimming Pool Renovation"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 5,
-        "name": "Tüpraş Dolum İskelesi Onarım İşleri",
+        "name": {
+            "tr": "Tüpraş Dolum İskelesi Onarım İşleri",
+            "en": "Tüpraş Filling Pier Repair Works"
+        },
         "image1": "assets/projects/project5.jpg",
         "image2": "assets/products/epx_50.png",
         "product": "2-2-1",
-        "text": "Tüpraş Dolum İskelesi Onarım İşlerinde",
+        "text": {
+            "tr": "Tüpraş Dolum İskelesi Onarım İşlerinde",
+            "en": "Tüpraş Filling Pier Repair Works"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 6,
-        "name": "İzsu İshale Hatları",
+        "name": {
+            "tr": "İzsu İshale Hatları",
+            "en": "Izsu Transmission Lines"
+        },
         "image1": "assets/projects/project6.jpg",
         "image2": "assets/products/eile_ASEAL.png",
         "product": "1-1-1",
-        "text": "İzsu İshale Hatlarında",
+        "text": {
+            "tr": "İzsu İshale Hatlarında",
+            "en": "In Izsu Transmission Lines"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
 ]
