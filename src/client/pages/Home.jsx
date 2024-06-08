@@ -22,6 +22,7 @@ function Home() {
                 header={t("naturalSolutionsInInsulation")}
                 text={t("infoThermomex")}
                 to="/product-details/6-0-2"
+                textColor="black"
             />
             <Banner image={bannerImage} />
             <Info
@@ -29,6 +30,9 @@ function Home() {
                 header="Pomex Blok"
                 text={t("infoPomexBlok")}
                 to="/pomexblok"
+                bg="/assets/pomexblok/cure-room.jpg"
+                textColor="white"
+                headerInside="true"
             />
             <ProjectSamplesSection />
             <Brands />
