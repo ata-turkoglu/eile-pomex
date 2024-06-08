@@ -1,9 +1,9 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./header.scss";
-import logo_tr from "../../assets/eile-logo-tr.png";
-import logo_en from "../../assets/eile-logo-en.png";
-import roundLogo from "../../assets/eilepomex-round.png";
+import logo_tr from "/assets/logos/eile-logo-tr.png";
+import logo_en from "/assets/logos/eile-logo-en.png";
+import roundLogo from "/assets/logos/eilepomex-round.png";
 import { Link, useLocation } from "react-router-dom";
 import productsJSON from "../../data/products.json";
 import {

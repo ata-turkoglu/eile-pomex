@@ -4,12 +4,6 @@ import { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { translateText as t } from "../../store/reducers/language";
-import img1 from "../../assets/introCarousel/thermal-plaster.jpeg";
-import img2 from "../../assets/introCarousel/waterproofing.jpeg";
-import img3 from "../../assets/introCarousel/s2.jpg";
-import img4 from "../../assets/introCarousel/tile-adhesive.jpeg";
-import img5 from "../../assets/introCarousel/joint-grout.jpeg";
-import img6 from "../../assets/introCarousel/bims.jpg";
 
 function Intro() {
     const [index, setIndex] = useState(0);
@@ -24,7 +18,10 @@ function Intro() {
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <div className="imgContainer">
-                        <img className="d-block w-100" src={img4} />
+                        <img
+                            className="d-block w-100"
+                            src="/assets/introCarousel/tile-adhesive.jpeg"
+                        />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
                         <h4>{t("cementBasedAdhesives")}</h4>
@@ -33,7 +30,10 @@ function Intro() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <div className="imgContainer">
-                        <img className="d-block w-100" src={img3} />
+                        <img
+                            className="d-block w-100"
+                            src="/assets/introCarousel/s2.jpg"
+                        />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
                         <h4>{t("ourHighQualityStandards")}</h4>
@@ -42,22 +42,34 @@ function Intro() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <div className="imgContainer">
-                        <img className="d-block w-100" src={img5} />
+                        <img
+                            className="d-block w-100"
+                            src="/assets/introCarousel/joint-grout.jpeg"
+                        />
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
                     <div className="imgContainer">
-                        <img className="d-block w-100" src={img1} />
+                        <img
+                            className="d-block w-100"
+                            src="/assets/introCarousel/thermal-plaster.jpeg"
+                        />
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
                     <div className="imgContainer">
-                        <img className="d-block w-100" src={img2} />
+                        <img
+                            className="d-block w-100"
+                            src="/assets/introCarousel/waterproofing.jpeg"
+                        />
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
                     <div className="imgContainer">
-                        <img className="d-block w-100" src={img6} />
+                        <img
+                            className="d-block w-100"
+                            src="/assets/introCarousel/bims.jpg"
+                        />
                         <span
                             className="detailButton"
                             onClick={() => navigate("/pomexblok")}

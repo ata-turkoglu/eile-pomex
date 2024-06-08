@@ -6,7 +6,7 @@ import Banner from "../components/banner";
 import Brands from "../components/brands";
 import ProjectSamplesSection from "../components/projectsGroup/projectSamplesSection";
 import thermomexImg from "/assets/products/thermomex_ısı_ve_yalıtım_sıvası.png";
-import bannerImage from "../../assets/sustainability.jpg";
+import bannerImage from "/assets/info/sustainability.jpg";
 import { translateText as t } from "../../store/reducers/language";
 function Home() {
     useLayoutEffect(() => {
@@ -25,7 +25,7 @@ function Home() {
             />
             <Banner image={bannerImage} />
             <Info
-                image={"/assets/bims-blok.png"}
+                image={"/assets/pomexblok/bims-blok.png"}
                 header="Pomex Blok"
                 text={t("infoPomexBlok")}
                 to="/pomexblok"
