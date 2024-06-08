@@ -104,6 +104,9 @@ function Header() {
                         </div>
                     );
                 })}
+                <Link className="pomexblok-link" to="/pomexblok">
+                    <img src="/assets/logos/pomexblok-logo.png"></img>
+                </Link>
             </div>
         );
         setProducts(res);

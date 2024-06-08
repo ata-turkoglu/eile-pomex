@@ -394,6 +394,24 @@
             border-bottom: 1px solid rgb(220, 220, 220);
             padding-left: 0.5rem;
         }
+
+        .pomexblok-link{
+            height: 25px;
+            width: fit-content;
+            display: flex;
+            cursor: pointer;
+            margin-top: 1rem;
+            img{
+                width: fit-content;
+                height: 100%;
+                object-fit: contain;
+                transition: .2s ease;
+            }
+
+            img:hover{
+                padding-left: .5rem;
+            }
+        }
     }
 }
 .form-check-input:checked {
