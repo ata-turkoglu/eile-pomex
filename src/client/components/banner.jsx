@@ -41,6 +41,7 @@ function Banner({ image }) {
                             "weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature"
                         )}
                     </p>
+                    <p>{t("weUseRenewableEnergySources")}</p>
                 </div>
             ) : (
                 ""

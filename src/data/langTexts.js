@@ -17,6 +17,8 @@ export default {
             "yaşadığımız çevreyi ve sizi önemsiyoruz!",
         weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature:
             "Doğanın içinde sürdürülebilir üretim anlayışı ile sıfır atık çalışmalarımıza devam ediyoruz.",
+        weUseRenewableEnergySources:
+            "Yenilenebilir enerji kaynaklarını kullanıyoruz.",
         mainTitles: "ana gruplar",
         contactUs: "bize ulaşın",
         reachUs:
@@ -100,6 +102,7 @@ export default {
             "we care about the enviroment we live in and you!",
         weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature:
             "we continue our zero waste principle with the understanding of sustainable production in nature.",
+        weUseRenewableEnergySources: "we use renewable energy sources.",
         mainTitles: "main titles",
         contactUs: "contact us",
         reachUs:

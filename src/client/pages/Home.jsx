@@ -6,7 +6,7 @@ import Banner from "../components/banner";
 import Brands from "../components/brands";
 import ProjectSamplesSection from "../components/projectsGroup/projectSamplesSection";
 import thermomexImg from "/assets/products/thermomex_ısı_ve_yalıtım_sıvası.png";
-import bannerImage from "/assets/info/sustainability.jpg";
+import bannerImage from "/assets/info/etiperview.jpg";
 import { translateText as t } from "../../store/reducers/language";
 function Home() {
     useLayoutEffect(() => {
