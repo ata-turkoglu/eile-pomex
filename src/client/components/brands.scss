@@ -1,5 +1,6 @@
 .brands{
     position: relative;
+    display: flex;
     width: 100%;
     height: 400px;
     background-image: url("/assets/info/brands-background.jpg");
@@ -8,10 +9,15 @@
     background-position-y: 70%;
     /* filter: brightness(45%); */
     z-index: 0;
+
+    @media screen and (max-width:768px) {
+        flex-direction: column;
+    }
+
     .content{
-        position: absolute;
+        /* position: absolute;
         left: 0;
-        top: 0;
+        top: 0; */
         width: 100%;
         height: 100%;
         z-index: 1;
@@ -62,10 +68,22 @@
         }
 
         @media screen and (max-width:768px) {
-            .imgContainer:nth-child(odd){
+            /* .imgContainer:nth-child(odd){
                 align-self: center;
-            }   
+            }  */  
+              padding: 1rem;
         }
 
+    }
+
+    .content-border{
+        width: 1px;
+        height: 100%;
+        border: 1px solid white;
+
+        @media screen and (max-width:768px) {
+            width: 100%;
+            height: 1px;
+        }
     }
 }
