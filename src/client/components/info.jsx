@@ -18,10 +18,15 @@ function Info({
         window.innerWidth < 768 ? setMobile(true) : setMobile(false);
     }, []);
     return (
-        <div className="infoContainer">
+        <div
+            className="infoContainer"
+            style={mobile && bg ? { marginTop: "4rem", paddingBlock: "0" } : {}}
+        >
             {(!headerInside || !mobile) && <h2>{header}</h2>}
             <div className="content" style={{ color: textColor }}>
-                {headerInside && mobile && <h2>{header}</h2>}
+                {headerInside && mobile && (
+                    <h2 style={{ marginTop: "2rem" }}>{header}</h2>
+                )}
                 <div className="imgContainer">
                     <img src={image} onClick={() => navigate(to)} />
                 </div>
