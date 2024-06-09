@@ -13,6 +13,7 @@ export default {
         naturalSolutionsInInsulation: "yalıtımda doğal çözümler",
         projectsWhereOurProductsAreUsed: "ürünlerimizin kullanıldığı projeler",
         ourGroupCompanies: "Grup Şirketlerimiz",
+        ourBrands: "markalarımız",
         weCareAboutTheEnviromentWeLiveInAndYou:
             "yaşadığımız çevreyi ve sizi önemsiyoruz!",
         weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature:
@@ -98,6 +99,7 @@ export default {
         naturalSolutionsInInsulation: "natural solutions in insulation",
         projectsWhereOurProductsAreUsed: "projects where our products are used",
         ourGroupCompanies: "our group companies",
+        ourBrands: "our brands",
         weCareAboutTheEnviromentWeLiveInAndYou:
             "we care about the enviroment we live in and you!",
         weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature:
