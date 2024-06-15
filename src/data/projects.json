@@ -12,7 +12,7 @@
             "tr": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde",
             "en": "Istanbul Bosphorus Bridge Ortaköy Approach Viaduct Reinforcement"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": ""
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
             "tr": "Vestel Manisa Fabrika Binası İnşaatında",
             "en": "Vestel Manisa Factory Building Construction"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": ""
     },
     {
         "id": 3,
@@ -42,7 +42,7 @@
             "tr": "Antalya Havaalanı Deprem İzolatörü Montajında",
             "en": "Antalya Airport Earthquake Isolator Installation"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": ""
     },
     {
         "id": 4,
@@ -57,7 +57,7 @@
             "tr": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatında",
             "en": "Yeda İnşaat in İzmir Atatürk Swimming Pool Renovation"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": ""
     },
     {
         "id": 5,
@@ -72,7 +72,7 @@
             "tr": "Tüpraş Dolum İskelesi Onarım İşlerinde",
             "en": "Tüpraş Filling Pier Repair Works"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": ""
     },
     {
         "id": 6,
@@ -87,6 +87,6 @@
             "tr": "İzsu İshale Hatlarında",
             "en": "In Izsu Transmission Lines"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": ""
     }
 ]

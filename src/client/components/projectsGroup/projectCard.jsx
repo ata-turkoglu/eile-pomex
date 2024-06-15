@@ -20,7 +20,7 @@ function ProjectCard({ project }) {
             </div>
             <div className="textContainer">
                 <h5>{project.name[lang]}</h5>
-                <p>{project.description}</p>
+                {/* <p>{project.description}</p> */}
             </div>
         </div>
     );
