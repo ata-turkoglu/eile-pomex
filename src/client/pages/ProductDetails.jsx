@@ -11,7 +11,7 @@ import { useSelector } from "react-redux";
 
 function ProductDetails() {
     const lang = useSelector((state) => state.language.lang);
-    
+
     const { productKey } = useParams();
     const [product, setProduct] = useState(null);
     const [mobileView, setMobileView] = useState(false);
@@ -43,43 +43,74 @@ function ProductDetails() {
     }, [productKey]);
 
     const renderInfo = (text) => {
-        text ??=
-            "Two-Component, Adherence Augmenter and Corrosion Preventing Epoxy Resin Based Mortar";
+        /* text ??=
+        "Two-Component, Adherence Augmenter and Corrosion Preventing Epoxy Resin Based Mortar"; */
+        if (text == "") return "";
         const list = text.split(",");
         return list.map((item, index) => <span key={index}>{item}</span>);
     };
 
     const renderAreasofUsage = (
         list = [
-            "Woodwork lover, lamp, pipe, satellite dish mounting",
+            /* "Woodwork lover, lamp, pipe, satellite dish mounting",
             "Water closet, bathroom armateurs",
             "Reinforcement anchorage, ironstone planting",
-            "Advertising sign, road sign, doors, guardrails, hand rails, tent mounting",
+            "Advertising sign, road sign, doors, guardrails, hand rails, tent mounting", */
         ]
     ) => {
+        if (list.length <= 0) return null;
         return list.map((item, index) => <li key={index}>{item}</li>);
     };
 
     const renderFeatures = (
         list = [
-            "It is rapid curing",
+            /* "It is rapid curing",
             "It can be used with standard guns",
             "It can be used at low temperatures",
-            "Its load carrying capacity is high and consumption is low",
+            "Its load carrying capacity is high and consumption is low", */
         ]
     ) => {
+        if (list.length <= 0) return null;
         return list.map((item, index) => <li key={index}>{item.trim()}</li>);
     };
 
     const renderConsumption = (
         list = [
-            "It is rapid curing",
+            /*  "It is rapid curing",
             "It can be used with standard guns",
             "It can be used at low temperatures",
-            "Its load carrying capacity is high and consumption is low",
+            "Its load carrying capacity is high and consumption is low", */
         ]
     ) => {
+        if (list.length <= 0) return null;
         return list.map((item, index) => <li key={index}>{item.trim()}</li>);
+    };
+
+    const renderDocuments = (docs) => {
+        const keys = Object.keys(docs);
+        if (keys.length > 0) {
+            let list = [];
+            keys.forEach((key, index) => {
+                list.push(
+                    <a
+                        key={index}
+                        href={docs[key]}
+                        target="_blank"
+                        style={{
+                            marginRight: "20px",
+                            textTransform: "uppercase",
+                            color: "black",
+                        }}
+                    >
+                        {key}
+                    </a>
+                );
+            });
+
+            return list;
+        } else {
+            return null;
+        }
     };
 
     const handleBack = () => {
@@ -114,16 +145,19 @@ function ProductDetails() {
                         <div className="informationPart">
                             <div className="centerPart">
                                 <div className="description">
-                                    {product.description[lang] ||
-                                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+                                    {product.description[lang]}
                                 </div>
                                 <div className="areasOfUsage">
                                     <h4>{t("areasOfUsage")}</h4>
-                                    {renderAreasofUsage(product.areasOfUsage[lang])}
+                                    {renderAreasofUsage(
+                                        product.areasOfUsage[lang]
+                                    )}
                                 </div>
                                 <div className="featuresOfProduct">
                                     <h4>{t("featuresOfProduct")}</h4>
-                                    {renderFeatures(product.featuresOfProduct[lang])}
+                                    {renderFeatures(
+                                        product.featuresOfProduct[lang]
+                                    )}
                                 </div>
                                 <div className="imgContainer">
                                     <img src={product.appImage || appImg} />
@@ -135,8 +169,11 @@ function ProductDetails() {
                                         </Accordion.Header>
                                         <Accordion.Body>
                                             <p>
-                                                {product.beforeApplication[lang] ||
-                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
+                                                {
+                                                    product.beforeApplication[
+                                                        lang
+                                                    ]
+                                                }
                                             </p>
                                         </Accordion.Body>
                                     </Accordion.Item>
@@ -145,14 +182,10 @@ function ProductDetails() {
                                             <h5>{t("mixing")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
-                                            <p>
-                                                {product.mixing[lang] ||
-                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
-                                            </p>
+                                            <p>{product.mixing[lang]}</p>
                                             <p>
                                                 <strong>Karışım Oranı:</strong>
-                                                {product.mixture[lang] ||
-                                                    "by weight 3:1"}
+                                                {product.mixture[lang]}
                                             </p>
                                         </Accordion.Body>
                                     </Accordion.Item>
@@ -161,10 +194,7 @@ function ProductDetails() {
                                             <h5>{t("application")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
-                                            <p>
-                                                {product.application[lang] ||
-                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
-                                            </p>
+                                            <p>{product.application[lang]}</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="3">
@@ -188,10 +218,7 @@ function ProductDetails() {
                                             <h5>{t("package")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
-                                            <p>
-                                                {product.package[lang] ||
-                                                    "The application surface should have sufficient resistance. The concrete should have 25N/mm2 pressure resistence minimum and 1.5-2 N/mm2 tensile strength. The surface should be smooth, clean, dry and moisture raet should not exceed 5%. It should avoid aaplying in very humid ambient and under 10C temperatures. Anchor holes should be clean."}
-                                            </p>
+                                            <p>{product.package[lang]}</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="5">
@@ -199,12 +226,23 @@ function ProductDetails() {
                                             <h5>{t("storage")}</h5>
                                         </Accordion.Header>
                                         <Accordion.Body>
-                                            <p>
-                                                {product.storage[lang] ||
-                                                    "It should be stored in unopened original package between +5 °C and +35 °C. It should be protected from direct sunlight and frost. And opened product should be stored in original package by closing its cover."}
-                                            </p>
+                                            <p>{product.storage[lang]}</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
+                                    {product.docs && (
+                                        <Accordion.Item eventKey="6">
+                                            <Accordion.Header>
+                                                <h5>{t("documents")}</h5>
+                                            </Accordion.Header>
+                                            <Accordion.Body>
+                                                <p>
+                                                    {renderDocuments(
+                                                        product.docs
+                                                    )}
+                                                </p>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+                                    )}
                                 </Accordion>
                             </div>
                         </div>

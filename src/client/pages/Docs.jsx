@@ -44,7 +44,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="assets/docs/firma belgesi.pdf"
+                                            href="assets/docs/firma_belgesi.pdf"
                                             target="_blank"
                                             onClick={handleClick}
                                         >
@@ -56,7 +56,7 @@ function Docs() {
                         </Accordion.Body>
                     </Accordion.Item>
 
-                    <Accordion.Item eventKey="1">
+                    {/* <Accordion.Item eventKey="1">
                         <Accordion.Header>
                             <h5>{t("chemicalAnchorCertificates")}</h5>
                         </Accordion.Header>
@@ -76,7 +76,7 @@ function Docs() {
                                 </div>
                             </div>
                         </Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item> */}
 
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>
@@ -112,7 +112,7 @@ function Docs() {
                                     </div>
                                 </div>
 
-                                <div className="content">
+                                {/* <div className="content">
                                     <h4>eile GROUT TH60</h4>
 
                                     <div className="buttons">
@@ -124,7 +124,7 @@ function Docs() {
                                             CE
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="content">
                                     <h4>eile GROUT TH70</h4>
@@ -132,7 +132,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/EİLE TH 70 TSE.pdf"
+                                            href="/assets/docs/TSE_EİLE_TH_70.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -147,7 +147,7 @@ function Docs() {
                                     </div>
                                 </div>
 
-                                <div className="content">
+                                {/* <div className="content">
                                     <h4>eile AK 8</h4>
                                     <div className="buttons">
                                         <a
@@ -158,14 +158,14 @@ function Docs() {
                                             CE
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="content">
                                     <h4>Pomex Brüt Beton Tamir Harcı</h4>
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/eile brüt beton sıva.pdf"
+                                            href="/assets/docs/eile_brüt_beton_sıva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -269,7 +269,7 @@ function Docs() {
                                     </div>
                                 </div>
 
-                                <div className="content">
+                                {/* <div className="content">
                                     <h4>Water Bond</h4>
                                     <div className="buttons">
                                         <a
@@ -280,7 +280,7 @@ function Docs() {
                                             CE
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -298,7 +298,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE EİLE LİKİT AKRİLİK.pdf"
+                                            href="/assets/docs/TSE_EİLE_LİKİT_AKRİLİK.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -344,14 +344,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE TOP 110 S-EİLE KROUND 120 F.pdf"
+                                            href="/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_eile top 110 s.pdf"
+                                            href="/assets/docs/ce_eile_top_110_s.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -364,14 +364,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE TOP 110 S-EİLE KROUND 120 F.pdf"
+                                            href="/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_eile korund 120 f.pdf"
+                                            href="/assets/docs/ce_eile_korund_120_f.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -384,14 +384,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_POMEX ZEMİN YÜZEY SERTLEŞTİRİCİSİ.pdf"
+                                            href="/assets/docs/TSE_POMEX_ZEMİN_YÜZEY_SERTLEŞTİRİCİSİ.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex zemin yüzey sertleştiricisi.pdf"
+                                            href="/assets/docs/ce_pomex_zemin_yüzey_sertleştiricisi.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -404,7 +404,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE LEVEL.pdf"
+                                            href="/assets/docs/TSE_EİLE_LEVEL.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -433,21 +433,21 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button three"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN SIVA-İNCE SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             UTO
                                         </a>
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN SIVA-İNCE SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex thermomex.pdf"
+                                            href="/assets/docs/ce_pomex_thermomex.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -460,7 +460,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex thermomex.pdf"
+                                            href="/assets/docs/ce_pomex_thermomex.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -473,7 +473,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE PLY 2100.pdf"
+                                            href="/assets/docs/TSE_EİLE_PLY_2100.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -486,7 +486,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN SIVA-İNCE SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -508,7 +508,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/CE_eile gbs 5000.pdf"
+                                            href="/assets/docs/CE_eile_gbs_5000.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -521,7 +521,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex ds 40.pdf"
+                                            href="/assets/docs/ce_pomex_ds_40.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -534,7 +534,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_eile son kat elyaflı sıva.pdf"
+                                            href="/assets/docs/ce_eile_son_kat_elyaflı_sıva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -547,14 +547,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN SIVA-İNCE SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex ince sıva.pdf"
+                                            href="/assets/docs/ce_pomex_ince_sıva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -567,14 +567,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN SIVA-İNCE SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex kalın sıva.pdf"
+                                            href="/assets/docs/ce_pomex_kalın_sıva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -587,7 +587,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex saten sıva.pdf"
+                                            href="/assets/docs/ce_pomex_saten_sıva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -609,14 +609,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE SYP 1000.pdf"
+                                            href="/assets/docs/TSE_EİLE_SYP_1000.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_SYP 1000 BELGESİ.pdf"
+                                            href="/assets/docs/ce_SYP_1000_BELGESİ.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -629,14 +629,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_POMEX SERAMİK YAPIŞTIRICISI.pdf"
+                                            href="/assets/docs/TSE_POMEX_SERAMİK_YAPIŞTIRICISI.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_POMEX SERAMİK BELGESİ111.pdf"
+                                            href="/assets/docs/ce_pomex_seramik_belgesi.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -649,7 +649,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_POMEX GRANİT YAPIŞTIRICISI.pdf"
+                                            href="/assets/docs/TSE_POMEX_GRANİT_YAPIŞTIRICISI.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -671,7 +671,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_POMEX DERZ DOLGU.pdf"
+                                            href="/assets/docs/TSE_POMEX_DERZ_DOLGU.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE

@@ -10,8 +10,8 @@
             {
                 "key": "1-1",
                 "name": {
-                    "tr": "Çimento - Akrilik Esaslı Su Yalıtım",
-                    "en": "Cement - Acrylic Based Waterproofing"
+                    "tr": "Çimento Esaslı Su Yalıtım",
+                    "en": "Cement Based Waterproofing"
                 },
                 "items": [
                     {
@@ -89,9 +89,6 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5 °C 'in üstünde depolanmalıdır. B bileşeni (sıvı) dondan korunmalıdır.",
                             "en": "it should be stored in cool and dry placed in its original unopened package and above + 5 °C. The component B [liquid) should be protected from frost."
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf"
                         }
                     },
 
@@ -188,9 +185,6 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, +5°C - +30°C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından korunmalıdır.",
                             "en": "it should be stored in its original unopened package and between + 5°C - +30°C temperatures. The product should be protected from direct sunlight."
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf"
                         }
                     },
 
@@ -288,9 +282,6 @@
                         "storage": {
                             "tr": " Açılmamış orjinal ambalajında, +5 °C - + 30 °C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından ve dondan korunmalıdır.",
                             "en": " it should be stored in its original unopened package and between + 5 °C- + 30 0C temperatures. The product should be protected from direct sunlight and frost."
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf"
                         }
                     },
 
@@ -549,18 +540,10 @@
                             "tr": "Açılmamış orijinal ambalajında, serin ve kuru ortamda, +5 °C'nin üstünde depolanmalıdır. B bileşen (sıvı) dondan korunmalıdır.",
                             "en": "It should be stored in its unopened original packaging, in a cool and dry environment, above +5 ° C. Component B (liquid) should be protected from freezing."
                         }
-                    }
-                ]
-            },
-            {
-                "key": "1-2",
-                "name": {
-                    "tr": "Çimento Esaslı Su Yalıtım",
-                    "en": "Cement Based Waterproofing"
-                },
-                "items": [
+                    },
+
                     {
-                        "key": "1-2-1",
+                        "key": "1-1-7",
                         "name": "eile KAPİLER",
                         "img": "/assets/products/eile_kapiler.png",
                         "appImage": "/assets/appImage/kapiler.png",
@@ -646,14 +629,11 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalı. ",
                             "en": "Store in cool and dry place in its unopened original package with a maximum 10-fald stacking. "
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf"
                         }
                     },
 
                     {
-                        "key": "1-2-2",
+                        "key": "1-1-8",
                         "name": "POMEX T SEAL",
                         "img": "/assets/products/eilegenel.png",
                         "appImage": "/assets/appImage/t_seal.png",
@@ -736,7 +716,7 @@
                     },
 
                     {
-                        "key": "1-2-3",
+                        "key": "1-1-9",
                         "name": "POMEX WATER BOND",
                         "img": "/assets/products/water_bond_render.png",
                         "appImage": "/assets/appImage/waterbond.png",
@@ -769,11 +749,11 @@
                                 "Yüksek dayanım ve stabiliteye sahiptir."
                             ],
                             "en": [
-                                "It sets rapidly without shrinking.",
-                                "Its structure does not conta in chloride.",
-                                "It is one-component, just add water.",
-                                "It creates waterproof plug by expanding.",
-                                "It has high resistance and stability."
+                                "it sets rapidly without shrinking.",
+                                "lts structure does not conta in chloride.",
+                                "it is one-component, just add water.",
+                                "it creates waterproof plug by expanding.",
+                                "it has high resistance and stability."
                             ]
                         },
                         "beforeApplication": {
@@ -823,14 +803,14 @@
             },
 
             {
-                "key": "1-3",
+                "key": "1-2",
                 "name": {
                     "tr": "Akrilik Esaslı Su Yalıtım",
                     "en": "Acrylic Based Waterproofing"
                 },
                 "items": [
                     {
-                        "key": "1-3-1",
+                        "key": "1-2-1",
                         "name": "eile LİKİT AKRİLİK",
                         "img": "/assets/products/likit_akrilik.png",
                         "appImage": "/assets/appImage/likit.png",
@@ -923,14 +903,10 @@
                         "storage": {
                             "tr": "Açılmamış orijinal ambalajında ​​+5 °C - +30 °C arasında saklayınız. Direkt güneş ışığından uzak tutunuz.",
                             "en": "Store in its original unopened package between temperatures ​​+5 °C - +30 °C. Keep away from direct sunlight. "
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/TSE_EİLE_LİKİT_AKRİLİK.pdf"
                         }
                     },
-
                     {
-                        "key": "1-3-2",
+                        "key": "1-2-2",
                         "name": "eile ELASTOMER",
                         "img": "/assets/products/elastomer_render.png",
                         "appImage": "/assets/appImage/elastomer.png",
@@ -1013,9 +989,8 @@
                             "en": "Store in its original unopened package between temperatures ​​+5 °C - +30 °C. Keep away from direct sunlight. "
                         }
                     },
-
                     {
-                        "key": "1-3-3",
+                        "key": "1-2-3",
                         "name": "eile ELASTOMER TEXTURE",
                         "img": "/assets/products/elastomer_texture.png",
                         "appImage": "/assets/appImage/elastomer_texture.png",
@@ -1100,14 +1075,14 @@
             },
 
             {
-                "key": "1-4",
+                "key": "1-3",
                 "name": {
                     "tr": "Bitüm Esaslı Su Yalıtım",
                     "en": "Bitumen Based Waterproofing"
                 },
                 "items": [
                     {
-                        "key": "1-4-1",
+                        "key": "1-3-1",
                         "name": "eile MET ZZK-40",
                         "img": "/assets/products/met_zzk_40.png",
                         "appImage": "/assets/appImage/met_zzk40.png",
@@ -1203,9 +1178,8 @@
                             "en": "Store in its original unopened package between temperatures ​​+5 °C - +30 °C. Keep away from direct sunlight. "
                         }
                     },
-
                     {
-                        "key": "1-4-2",
+                        "key": "1-3-2",
                         "name": "eile BİTÜ-ÇİM ELASTİK",
                         "img": "/assets/products/bitu_cim_elas.png",
                         "appImage": "/assets/appImage/bitu_cim_elastic.png",
@@ -1308,14 +1282,10 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, + 5 °C - +30 °C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından korunmalıdır.",
                             "en": "it should be stored in its original unopened package between + 5 °C -+30 °C temperature. Protect the product from direct sunlight."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/ce_bitucim_per_bey_rap.pdf"
                         }
                     },
-
                     {
-                        "key": "1-4-3",
+                        "key": "1-3-3",
                         "name": "eile BİTÜ-ÇİM",
                         "img": "/assets/products/bitu_cim.png",
                         "appImage": "/assets/appImage/bitu_cim.png",
@@ -1419,9 +1389,8 @@
                             "en": "it should be stored in its original unopened package between + 5 °C -+30 °C temperature. Protect the product from direct sunlight. "
                         }
                     },
-
                     {
-                        "key": "1-4-4",
+                        "key": "1-3-4",
                         "name": "POMEX Bitülast",
                         "img": "/assets/products/bitülast.png",
                         "appImage": "/assets/appImage/bitülast_app.png",
@@ -1503,19 +1472,9 @@
                             "tr": "Açılmamış orijinal ambalajında, direkt güneş ışığından ve dondan korunarak depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging, protected from direct sunlight and frost."
                         }
-                    }
-                ]
-            },
-
-            {
-                "key": "1-5",
-                "name": {
-                    "tr": "Epoksi Poliüretan Esaslı Su Yalıtım",
-                    "en": "Epoxy Polyurethane Based Waterproofing"
-                },
-                "items": [
+                    },
                     {
-                        "key": "1-5-1",
+                        "key": "1-3-5",
                         "name": "eile PUR 1KB",
                         "img": "/assets/products/pur_1kb.png",
                         "appImage": "/assets/appImage/pur_1kb_app.png",
@@ -1590,9 +1549,8 @@
                             "en": "It should be stored in its original unopened buckets, in dry environments between 5°C and 25°C. Material in opened buckets should be used immediately."
                         }
                     },
-
                     {
-                        "key": "1-5-2",
+                        "key": "1-3-6",
                         "name": "eile PUR 2KB",
                         "img": "/assets/products/pur_2kb.png",
                         "appImage": "/assets/appImage/pur_2kb_app.png",
@@ -1688,10 +1646,19 @@
                             "tr": "Açılmamış orijinal ambalajında, serin ve kuru ortamda +5 °C - +25 °C sıcaklık aralığında direkt güneş ışığından uzak yerlerde ve paletler üst üste konulmadan depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging, in a cool and dry environment at a temperature between +5 °C - +25 °C, away from direct sunlight and without stacking pallets."
                         }
-                    },
+                    }
+                ]
+            },
 
+            {
+                "key": "1-4",
+                "name": {
+                    "tr": "Epoksi Poliüretan Esaslı Su Yalıtım",
+                    "en": "Epoxy Polyurethane Based Waterproofing"
+                },
+                "items": [
                     {
-                        "key": "1-5-3",
+                        "key": "1-4-1",
                         "name": "eile PUR 012",
                         "img": "/assets/products/teneke_pur_012.png",
                         "appImage": "/assets/appImage/pur_012.png",
@@ -1777,9 +1744,8 @@
                             "en": "The material should be kept away from humidity and sunlight. Storage temperature should be between 5° C and 30° C."
                         }
                     },
-
                     {
-                        "key": "1-5-4",
+                        "key": "1-4-2",
                         "name": "eile PUR 022",
                         "img": "/assets/products/pur_022.png",
                         "appImage": "/assets/appImage/pur_022_app.png",
@@ -1860,9 +1826,8 @@
                             "en": "It should be stored in its unopened original packaging, in dry conditions between +5 °C and +30 °C."
                         }
                     },
-
                     {
-                        "key": "1-5-5",
+                        "key": "1-4-3",
                         "name": "eile PUR 042",
                         "img": "/assets/products/pur_042.png",
                         "appImage": "/assets/appImage/pur_042_app.png",
@@ -1937,9 +1902,8 @@
                             "en": "The material should be protected from moisture and sunlight. Storage temperature should be between 5°C and 30°C."
                         }
                     },
-
                     {
-                        "key": "1-5-6",
+                        "key": "1-4-4",
                         "name": "eile Poliürea HP",
                         "img": "/assets/products/poliürea_hp.png",
                         "appImage": "/assets/appImage/poliürea_hp_app.png",
@@ -2020,9 +1984,8 @@
                             "en": "It should be stored in its unopened original packaging, in a cool and dry environment between + 5 ° C - + 25 ° C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "1-5-7",
+                        "key": "1-4-5",
                         "name": "eile Poliürea 500",
                         "img": "/assets/products/poliürea_hp.png",
                         "appImage": "/assets/appImage/poliürea_500_app.png",
@@ -2107,9 +2070,8 @@
                             "en": "It should be stored in its unopened original packaging, in a cool and dry environment between + 5 ° C - + 25 ° C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "1-5-8",
+                        "key": "1-4-6",
                         "name": "eile POLİJET 120 - eile POLİJET 120 K",
                         "img": "/assets/products/polijet_120.png",
                         "appImage": "/assets/appImage/polijet_120.png",
@@ -2188,7 +2150,7 @@
                     },
 
                     {
-                        "key": "1-5-9",
+                        "key": "1-4-7",
                         "name": "eile PUR 710",
                         "img": "/assets/products/teneke_pur_710.png",
                         "info": {
@@ -2270,14 +2232,14 @@
             },
 
             {
-                "key": "1-6",
+                "key": "1-5",
                 "name": {
-                    "tr": "Destek Ürünleri",
-                    "en": "Waterproofing Tapes and Subsidiary Products"
+                    "tr": "Dilatasyon Bandı",
+                    "en": "Flexible Grout Type"
                 },
                 "items": [
                     {
-                        "key": "1-6-1",
+                        "key": "1-5-1",
                         "name": "FC 805 System",
                         "img": "/assets/products/dilatasyon.png",
                         "appImage": "/assets/appImage/dilatasyon.png",
@@ -2352,9 +2314,8 @@
                             "en": "Far the band eile FC 805, the shelf life is unlimited. "
                         }
                     },
-
                     {
-                        "key": "1-6-2",
+                        "key": "1-5-2",
                         "name": "eile PB 12",
                         "img": "/assets/products/pb_12.png",
                         "appImage": "/assets/appImage/pb_12_app.png",
@@ -2423,9 +2384,8 @@
                             "en": "It should be stored at room temperature and in a dry environment."
                         }
                     },
-
                     {
-                        "key": "1-6-3",
+                        "key": "1-5-3",
                         "name": "eile Swell",
                         "img": "/assets/products/swell.png",
                         "appImage": "/assets/appImage/swell_app.png",
@@ -2498,7 +2458,6 @@
             }
         ]
     },
-
     {
         "key": "2",
         "name": {
@@ -2513,6 +2472,92 @@
                 "items": [
                     {
                         "key": "2-1-1",
+                        "name": "eile POWER WT 1",
+                        "img": "/assets/products/power_wt1.png",
+                        "info": {
+                            "tr": "Vinil Ester Esaslı Tiksotropik, Montaj ve Ankraj Malzemesi (Kimyasal Dübel)",
+                            "en": "Vinyl Ester Based Thixotropic, Mounting and Anchoring Material (Chemical Anchor)"
+                        },
+                        "description": {
+                            "tr": "Çift bileşenli, yüksek performanslı hızla sertleşen, yüksek mukavemetli, vinil ester esaslı, akmaz, ankraj montaj malzemesidir.",
+                            "en": "It is a two-component, high-performance, fast-hardening, high-strength, vinyl ester-based, non-flowing, anchor assembly material."
+                        },
+                        "areasOfUsage": {
+                            "tr": [
+                                "Doğrama ve panjur montajı",
+                                "Lamba, uydu anteni ve boru montajı",
+                                "Klozet ve banyo armatürleri",
+                                "Donatı ankrajında ve demir filizi ekilmesinde",
+                                "Reklam panoları ve yol tabelası, kapı, trabzan,parmaklık, tente, ızgara montajı"
+                            ],
+                            "en": [
+                                "Joinery and shutter installation",
+                                "Lamp, satellite dish and pipe installation",
+                                "Toilet and bathroom fixtures",
+                                "In reinforcement anchoring and planting iron sprouts",
+                                "Installation of billboards and road signs, doors, handrails, railings, awnings, grills"
+                            ]
+                        },
+                        "featuresOfProduct": {
+                            "tr": [
+                                "Hızlı kür alır.",
+                                "Standart tabancalar ile kullanılabilinir.",
+                                "Düşük sıcaklıklarda kullanılabilinir.",
+                                "Yük taşıma kapasitesi yüksektir.",
+                                "Sarfiyatı azdır."
+                            ],
+                            "en": [
+                                "It cures quickly.",
+                                "Can be used with standard guns.",
+                                "Can be used at low temperatures.",
+                                "Load carrying capacity is high.",
+                                "Consumption is low."
+                            ]
+                        },
+                        "beforeApplication": {
+                            "tr": "Uygulama yapılacak yüzey temiz olmalıdır. Yağ ve kirden arındırılmalı, aderansı azaltacak tüm gevşek maddeler yok edilmelidir. Ankraj yapılacak deliği matkapla deliniz. Açılan deliği tel fırça ve basınçlı hava ile temizleyiniz. Uygulama yüzeyi yeterli dayanıma sahip olmalıdır. Beton minimum 25 N/ mm² basınca ve en az 1,5-2 N/mm² çekme dayanımına sahip olmalıdır.Yüzey nem oranı % 5 i geçmemelidir.",
+                            "en": "The application surface must be clean. It should be cleaned of oil and dirt, and all loose substances that would reduce adherence should be eliminated. Drill the hole to be anchored with a drill. Clean the opened hole with a wire brush and compressed air. The application surface must have sufficient strength. Concrete must have a minimum pressure of 25 N/mm² and a tensile strength of at least 1.5-2 N/mm². Surface humidity should not exceed 5%."
+                        },
+                        "mixing": {
+                            "tr": [],
+                            "en": []
+                        },
+                        "mixture": {
+                            "tr": " Hacimce A:B 10:1",
+                            "en": "A:B 10:1 by volume"
+                        },
+                        "application": {
+                            "tr": "Kartuşun ucuna karıştırıcı uç takınız. Özel tabancası ile homojen renk alıncaya kadar sıkınız. Karıştırıcıdan çıkan ilk ürünü kullanmayınız Deliğin dip kısmından başlayarak doldurmaya başlayınız. Bağlantı elemanını döndürerek deliğe yerleştiriniz. Taşan malzemeyi donmadan önce yüzeyden uzaklaştırınız. Tam sertleşme gerçekleşmeden bağlantı elemanına dokunmayınız.10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır. Karışım oranlarına dikkat edilmelidir.",
+                            "en": "Attach a mixing tip to the end of the cartridge. Squeeze with a special gun until you get a homogeneous color. Do not use the first product that comes out of the mixer. Start filling from the bottom of the hole. Rotate the fastener and place it in the hole. Remove the overflowing material from the surface before it freezes. Do not touch the fastener before full hardening. Application should be avoided below 10°C and in very humid environments. Mixing proportions should be taken into consideration."
+                        },
+                        "consumption": {
+                            "tr": [
+                                "Ürün profesyonel kullanım içindir.",
+                                "Kullanmadan önce ambalaj üzerindeki güvenlik uyarılarına dikkat ediniz, gerektiği durumda ürünün Malzeme Güvenlik Bilgi Fişi’ne bakınız.",
+                                "Solumayınız, deri ve gözle temasından kaçınınız, yutmayınız, uygun iş güvenliği malzemesi kullanınız.",
+                                "Yangın tehlikesi yanında çevrenin kirlenmemesi için de gerekli tedbirleri alınız.",
+                                "İyi havalandırılmış ortamlarda uygulayınız."
+                            ],
+                            "en": [
+                                "The product is for professional use.",
+                                "Before use, pay attention to the safety warnings on the packaging, if necessary, refer to the Material Safety Data Sheet of the product.",
+                                "Do not inhale, avoid contact with skin and eyes, do not swallow, use appropriate occupational safety equipment.",
+                                "Take the necessary precautions to prevent environmental pollution as well as fire hazard.",
+                                "Apply in well-ventilated environments."
+                            ]
+                        },
+                        "package": {
+                            "tr": "345 ml standart kartuş 1 kolide 24 kartuş",
+                            "en": "345 ml standard cartridge 24 cartridges in 1 box"
+                        },
+                        "storage": {
+                            "tr": " Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunmalıdır.",
+                            "en": "It should be stored in its unopened original packaging at temperatures between +5°C and +35°C. The product should be protected from direct sunlight and frost."
+                        }
+                    },
+
+                    {
+                        "key": "2-1-2",
                         "name": "eile EPOX",
                         "img": "/assets/products/epox.png",
                         "appImage": "/assets/appImage/epox.png",
@@ -2535,9 +2580,9 @@
                             ],
                             "en": [
                                 "Woodwork, louver, lamp, pipe, satellite dish mounting,",
-                                "Water closet, bathroom armatures,",
+                                "Water closet, bathroom armatures, ",
                                 "Reinforcement anchorage, ironstone planting",
-                                "Advertising sign, road signs, doors, guardrails, hand rails, tent mounting."
+                                " Advertising sign, road signs, doors, guardrails, hand rails, tent mounting."
                             ]
                         },
                         "featuresOfProduct": {
@@ -2552,8 +2597,8 @@
                                 "it is rapid curing.",
                                 "it can be used with standard guns.",
                                 "it can be used at low temperatures.",
-                                "Its load carrying capacity is high.",
-                                "Its consumption is low."
+                                "lts load carrying capacity is high.",
+                                "lts consumption is low."
                             ]
                         },
                         "beforeApplication": {
@@ -2595,24 +2640,21 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunmalıdır.",
                             "en": "it should be stored in unopened original package in a cool and dry place and over + C and under +35° C. The product should be protected from direct sunlight. "
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf"
                         }
                     },
 
                     {
-                        "key": "2-1-2",
+                        "key": "2-1-3",
                         "name": "eile ROTFIX",
                         "img": "/assets/products/rotfix.png",
                         "appImage": "/assets/appImage/rotfix.png",
                         "info": {
                             "tr": "Polyester Esaslı Tiksotropik Montaj Malzemesi (Kimyasal Dübel)",
-                            "en": "Polyester Based Thixotropic Mounting Material"
+                            "en": ""
                         },
                         "description": {
                             "tr": "Çift bileşenli, yüksek performanslı hızla sertleşen akmaz, poliester esaslı ankraj, montaj malzemesidir.",
-                            "en": "It's a two-component, high performance, rapid hardening, non-dripping, polyester based anchorage material."
+                            "en": ""
                         },
                         "areasOfUsage": {
                             "tr": [
@@ -2622,12 +2664,7 @@
                                 "Reklam panoları ve yol tabelası, Kapı, trabzan",
                                 "Parmaklık, tente, ızgara montajı."
                             ],
-                            "en": [
-                                "Woodwork and louver mounting",
-                                "Lamp, satellite dish and pipe mounting",
-                                "Water closet and bathroom armatures,",
-                                "Advertising signs and road signs, doors, guardrails, hand rails, tent and grate mounting"
-                            ]
+                            "en": []
                         },
                         "featuresOfProduct": {
                             "tr": [
@@ -2638,17 +2675,11 @@
                                 "Sarfiyatı azdır.",
                                 "Nemli ve sulu ortamlarda kürlenebildiği için kullanımı uygundur."
                             ],
-                            "en": [
-                                "Its a rapid curing",
-                                "It can be used with standard guns.",
-                                "It can be used at low temperatures.",
-                                "Its load carrying capacity is high.",
-                                "Its consumption is low."
-                            ]
+                            "en": []
                         },
                         "beforeApplication": {
                             "tr": "Uygulama yapılacak yüzey temiz olmalıdır. Yağ ve kirden arındırılmalı, aderansı azaltacak tüm gevşek maddeler yok edilmelidir. Montaj yapılacak deliği matkapla deliniz. Açılan deliği tel fırça ve basınçlı hava ile temizleyiniz. Uygulama yüzeyi yeterli dayanıma sahip olmalıdır. Beton minimum 25 N/ mm² basınca ve en az 1,5-2 N/mm² çekme dayanımına sahip olmalıdır.Yüzey nem oranı % 5'i geçmemelidir.",
-                            "en": "The application surface must be clean. Oil and dirt should be cleaned and all loose materails which may reduce adherence should be removed. Drill anchorage hole with a driller. Clean hole with a wire brush. Clean hole with compressed air. The application surface should have sufficent resistance. The concrete should have 25N/mm2 pressure resistanec minimum and 1.5-2 N/mm2 tensile strength. The moisture rate of the surface should not exceed 5%."
+                            "en": ""
                         },
                         "mixing": {
                             "tr": "",
@@ -2656,11 +2687,11 @@
                         },
                         "mixture": {
                             "tr": " Hacimce A:B 10:1",
-                            "en": "By volume A:B 10:1"
+                            "en": ""
                         },
                         "application": {
                             "tr": "Kartuşun ucuna karıştırıcı uç takınız. Özel tabancası ile homojen renk alıncaya kadar sıkınız. Karıştırıcıdan çıkan ilk ürünü kullanmayınız.Deliğin dip kısmından başlayarak doldurmaya başlayınız. Bağlantı elemanını döndürerek deliğe yerleştiriniz. Taşan malzemeyi donmadan önce yüzeyden uzaklaştırınız. Tam sertleşme gerçekleşmeden bağlantı elemanına dokunmayınız.5°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir",
-                            "en": "Attach a mixer nozzle to the tip of the cartridge. Press it with its special gun until it gets a homogeneous color. Do not use the first product coming out of the mixer. Fill it by starting from the bottom. Fill half of it. Insert junction piece into the hole by rotating it. Remove overflow material before it gets hardened. Do not touch the junctio piece before it gets hardened fully. It should avoid applying in very humid ambient and under 10 °C temperatures. Pay attention to mixture rates."
+                            "en": ""
                         },
                         "consumption": {
                             "tr": [
@@ -2671,20 +2702,20 @@
                                 "İyi havalandırılmış ortamlarda uygulayınız."
                             ],
                             "en": [
-                                "This product is for professional use.",
-                                "Read carefully security warnings on the package before use, see Material Security lnformation Document if necessary.",
-                                "Do not inhale, avoid contacting with skin and eyes, do not swallow, use appropriate work safety materials.",
-                                "Take precautions for environment not to be polluted and fire danger.",
-                                "Apply it in well ventilated environments."
+                                "Ürün profesyonel kullanım içindir.",
+                                "Kullanmadan önce ambalaj üzerindeki güvenlik uyarılarına dikkat ediniz, gerektiği durumda ürünün Malzeme Güvenlik Bilgi Fişi’ne bakınız.",
+                                "Solumayınız, deri ve gözle temasından kaçınınız, yutmayınız, uygun iş güvenliği malzemesi kullanınız.",
+                                "Yangın tehlikesi yanında çevrenin kirlenmemesi için de gerekli tedbirleri alınız.",
+                                "İyi havalandırılmış ortamlarda uygulayınız."
                             ]
                         },
                         "package": {
-                            "tr": "345 ml standart kartuş, 1 kolide 12 kartuş.",
-                            "en": "Package 345 ml standard cartridge, 24 cartridges in 1 box."
+                            "tr": "345 ml standart kartuş, 1 kolide 12 kartuş",
+                            "en": ""
                         },
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunmalıdır.",
-                            "en": "it should be stored in unopened original package in a cool and dry place and over +5°C and under +35°C. The product should be protected from direct sunlight."
+                            "en": ""
                         }
                     }
                 ]
@@ -2781,7 +2812,6 @@
                             "en": "It should be stored in its unopened original packaging at temperatures between +5 °C and +35 °C. It should be protected from direct sunlight and frost. It must be preserved. Opened product should be stored in its own packaging with the lid tightly closed."
                         }
                     },
-
                     {
                         "key": "2-2-2",
                         "name": "eile EPX 100",
@@ -2878,12 +2908,8 @@
                         "storage": {
                             "tr": " Ürün 5-35°C arasında muhafaza edilmelidir. Ürün direkt güneş ışığına maruz kalmamalıdır ve dondan korunmalıdır.Açılmış ürünü kendi ambalajında, kapağı iyice kapanarak muhafaza edilmelidir.",
                             "en": "The product should be stored between 5-35°C. The product should not be exposed to direct sunlight and should be protected from frost. The opened product should be stored in its own packaging with the lid tightly closed."
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf"
                         }
                     },
-
                     {
                         "key": "2-2-3",
                         "name": "eile EPX 120",
@@ -2956,7 +2982,6 @@
                             "en": "It should be stored in its unopened original packaging at temperatures between +5°C and +35°C. The product should be protected from direct sunlight and frost."
                         }
                     },
-
                     {
                         "key": "2-2-4",
                         "name": "eile EPX 240 G",
@@ -3043,12 +3068,8 @@
                         "storage": {
                             "tr": " Ürün 5-35°C arasında muhafaza edilmelidir.Ürün direkt güneş ışığına maruz kalmamalıdır ve dondan korunmalıdır.Açılmış ürünü kendi ambalajında, kapağı iyice kapanarak muhafaza edilmelidir.",
                             "en": "The product should be stored between 5-35°C. The product should not be exposed to direct sunlight and should be protected from frost. The opened product should be stored in its own packaging with the lid tightly closed."
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf"
                         }
                     },
-
                     {
                         "key": "2-2-5",
                         "name": "eile EPX 300",
@@ -3110,7 +3131,7 @@
                         },
                         "consumption": {
                             "tr": [
-                                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortamsıcaklığı +10°C‘ nin atında veya +35°C üzerinde ise uygulama yapılmamalıdır.",
+                                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortamsıcaklığı +10 °C‘ nin atında veya +35°C üzerinde ise uygulama yapılmamalıdır.",
                                 "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
                                 "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
                                 "Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır."
@@ -3129,6 +3150,83 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C sıcaklık aralığında direkt güneş ışığından ve dondan korunarak depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment at a temperature between +5°C - +35°C, protected from direct sunlight and frost."
+                        }
+                    },
+                    {
+                        "key": "2-2-6",
+                        "name": "eile WT 78",
+                        "img": "/assets/products/eile_genel_teneke.png",
+                        "info": {
+                            "tr": "İki Bileşenli, Epoksi Esaslı Yapıştırma Ve Tamir Harcı",
+                            "en": "Two Component, Epoxy Based Adhesive and Repair Mortar"
+                        },
+                        "description": {
+                            "tr": "İki bileşenli, epoksi esaslı, solventsiz, yapıştırma ve tamir harcıdır.",
+                            "en": "It is a two-component, epoxy-based, solvent-free, adhesion and repair mortar."
+                        },
+                        "areasOfUsage": {
+                            "tr": [
+                                "Beton boruların birbirine yapıştırılmasında",
+                                "Çatlakların onarılmasında",
+                                "Filiz ekilmesinde kullanılır."
+                            ],
+                            "en": [
+                                "Gluing concrete pipes together",
+                                "In repairing cracks",
+                                "It is used for planting sprouts."
+                            ]
+                        },
+                        "featuresOfProduct": {
+                            "tr": [
+                                "Kolay uygulanır.",
+                                "Tiksotropik özelliktedir.",
+                                "Su geçirimsizdir.",
+                                "Yüksek basınç dayanımına sahiptir.",
+                                "kimyasal dayanıma sahiptir."
+                            ],
+                            "en": [
+                                "Easy to apply.",
+                                "It has thixotropic properties.",
+                                "It is waterproof.",
+                                "It has high pressure resistance.",
+                                "It has chemical resistance."
+                            ]
+                        },
+                        "beforeApplication": {
+                            "tr": "Yüzeyin; temiz, kuru ve sağlam olması, izolasyon malzemesinin yapışkanlığını olumsuz yönde etkileyebilecek her türlü kirden arındırılmış olması gerekmektedir. Maksimum nem içeriği %5’i geçmemelidir. Yeni binalar en az 28 gün boyunca kurumaya bırakılmalıdır. Her türlü gevşek yüzey parçası ve toz iyice temizlenmelidir",
+                            "en": "of the surface; It must be clean, dry and sound, and free from any dirt that may adversely affect the adhesion of the insulation material. Maximum moisture content should not exceed 5%. New buildings should be allowed to dry for at least 28 days. Any loose surface particles and dust should be thoroughly removed."
+                        },
+                        "mixing": {
+                            "tr": "B bileşeni A bileşen ambalajı içerisine dökülerek düşük devirli bir karıştırıcı ile homojen görünüm sağlanana kadar yaklaşık 3-4 dakika karıştırılır.",
+                            "en": "Component B is poured into the component A package and mixed with a low-speed mixer for approximately 3-4 minutes until a homogeneous appearance is achieved."
+                        },
+                        "mixture": {
+                            "tr": "",
+                            "en": ""
+                        },
+                        "application": {
+                            "tr": "Homojen karışımı sağlanmış malzeme spatula veya mala ile yüzeye uygulanır. Beton boruların yapıştırılmasında; Borular birleştirilmeden önce malzeme sürülür. Daha sonra boruların uçları birleştirilir. Birleşmeden sonra taşan malzeme bir bez ile temizlenir. Rot ve filiz ekiminde: Rot ankrajında ve filiz ekiminde hazırlanan karışım dolgu tabancası ile deliklerin içine sıkılır. Filiz veya rot deliklere döndürülerek yerleştirilir.",
+                            "en": "The homogeneously mixed material is applied to the surface with a spatula or trowel. In bonding concrete pipes; The material is applied before the pipes are joined. Then the ends of the pipes are joined. After joining, the overflowing material is cleaned with a cloth. In rod and shoot planting: The mixture prepared for rod anchorage and shoot planting is squeezed into the holes with a filling gun. The sprout or rod is placed into the holes by turning them."
+                        },
+                        "consumption": {
+                            "tr": [
+                                "Eile WT 78 ile yapılacak uygulamada zemin ve ortam sıcaklığı +5°C ile +35°C aralığında olmalıdır.",
+                                "Uygulanacak zemin nem içeriği max. % 5 olmalıdır.",
+                                "Uygulama esnasında, iş ve işçi sağlığı kurallarına uygun iş elbisesi, koruyucu eldiven, gözlük ve maske kullanılmalıdır."
+                            ],
+                            "en": [
+                                "In the application with Eile WT 78, the ground and ambient temperature should be between +5°C and +35°C.",
+                                "The moisture content of the ground to be applied should be maximum 5%.",
+                                "During the application, work clothes, protective gloves, glasses and masks in accordance with occupational and worker health rules should be used."
+                            ]
+                        },
+                        "package": {
+                            "tr": "Set: 1,5 kg -- A bileşen: 1,125 kg lık teneke kovalarda -- B bileşen: 0,375 kg lık teneke kavalarda",
+                            "en": "Set: 1.5 kg -- component A: in 1.125 kg tin pails -- component B: in 0.375 kg tin pails"
+                        },
+                        "storage": {
+                            "tr": "Orijinal kendi ambalajında, +5°C ile +35°C aralığında, güneş ışığından ve dondan korunarak depolanmalıdır. ",
+                            "en": "It should be stored in its original packaging, between +5°C and +35°C, protected from sunlight and frost."
                         }
                     }
                 ]
@@ -3227,12 +3325,8 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf"
                         }
                     },
-
                     {
                         "key": "2-3-2",
                         "name": "eile GROUT 60 C",
@@ -3314,12 +3408,8 @@
                         "storage": {
                             "tr": " Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf"
                         }
                     },
-
                     {
                         "key": "2-3-3",
                         "name": "eile GROUT 1000",
@@ -3398,7 +3488,6 @@
                             "en": "It should be stored in its unopened original packaging, in a cool and dry environment, stacked in maximum 10 layers."
                         }
                     },
-
                     {
                         "key": "2-3-4",
                         "name": "eile TH 60",
@@ -3485,7 +3574,6 @@
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
                         }
                     },
-
                     {
                         "key": "2-3-5",
                         "name": "eile TH 70",
@@ -3564,13 +3652,8 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/TSE_EİLE_TH_70.pdf",
-                            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf"
                         }
                     },
-
                     {
                         "key": "2-3-6",
                         "name": "eile SNS 804",
@@ -3645,7 +3728,6 @@
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
                         }
                     },
-
                     {
                         "key": "2-3-7",
                         "name": "eile A-K8",
@@ -3730,7 +3812,6 @@
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
                         }
                     },
-
                     {
                         "key": "2-3-8",
                         "name": "POMEX BRÜT BETON TAMİR HARCI",
@@ -3806,9 +3887,6 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "ce": "/assets/docs/eile_brüt_beton_sıva.pdf"
                         }
                     }
                 ]
@@ -4443,7 +4521,6 @@
             }
         ]
     },
-
     {
         "key": "3",
         "name": { "tr": "Zemin Sistemleri", "en": "Ground Systems" },
@@ -4452,13 +4529,13 @@
             {
                 "key": "3-1",
                 "name": {
-                    "tr": "Yüzey Sertleştiriciler",
+                    "tr": "Çimento Esaslı Zemin Sistemleri",
                     "en": "Surface Hardeners"
                 },
                 "items": [
                     {
                         "key": "3-1-1",
-                        "name": "eile Top 110 S",
+                        "name": "eile Top 110 s",
                         "img": "/assets/products/eile_TOP_110S.png",
                         "appImage": "/assets/appImage/top110.png",
                         "info": {
@@ -4536,12 +4613,8 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf"
                         }
                     },
-
                     {
                         "key": "3-1-2",
                         "name": "eile 125 KK",
@@ -4620,13 +4693,8 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf",
-                            "ce": "/assets/docs/ce_eile_top_110_s.pdf"
                         }
                     },
-
                     {
                         "key": "3-1-3",
                         "name": "eile KORUND 120 F",
@@ -4705,13 +4773,8 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf",
-                            "ce": "/assets/docs/ce_eile_korund_120_f.pdf"
                         }
                     },
-
                     {
                         "key": "3-1-4",
                         "name": "POMEX YÜZEY SERTLEŞTİRİCİ",
@@ -4788,24 +4851,10 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/TSE_POMEX_ZEMİN_YÜZEY_SERTLEŞTİRİCİSİ.pdf",
-                            "ce": "/assets/docs/ce_pomex_zemin_yüzey_sertleştiricisi.pdf"
                         }
-                    }
-                ]
-            },
-
-            {
-                "key": "3-2",
-                "name": {
-                    "tr": "Tasviye Şapları",
-                    "en": "Level Screeds"
-                },
-                "items": [
+                    },
                     {
-                        "key": "3-2-1",
+                        "key": "3-1-5",
                         "name": "eile LEVEL",
                         "img": "/assets/products/eile_level.png",
                         "appImage": "/assets/appImage/level.png",
@@ -4884,190 +4933,102 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/TSE_EİLE_LEVEL.pdf",
-                            "ce": "/assets/docs/ce_level.pdf"
                         }
                     },
-
                     {
-                        "key": "3-2-2",
-                        "name": "eile LEVEL 10",
-                        "img": "/assets/products/eile_level.png",
-                        "appImage": "/assets/appImage/level.png",
+                        "key": "3-1-6",
+                        "name": "eile PERFLOOR",
+                        "img": "/assets/products/eilegenel.png",
                         "info": {
-                            "tr": "Çimento Esaslı Kendiliğinden Yayılan Tesviye Şapı",
-                            "en": "Cement Based Self Leveling Leveling Screed"
+                            "tr": "Çimento ve Akrilik Reçine Esaslı Çift Bileşenli, Kendiliğinden Yayılan,Endüstriyel Zemin Kaplaması ",
+                            "en": "Cement and Acrylic Resin Based, Two Component, Self-leveling, Industrial Floor Coating"
                         },
                         "description": {
-                            "tr": "Düzgün olmayan beton zeminlerde düzeltme harcı olarak kullanılır. 1-10 mm. arası kalınlıkta uygulanabilen, polimer modifiyeli, çatlama ve büzülme yapmayan çimento esaslı zemin tesviye şapıdır.",
-                            "en": "It is used as a correction mortar on uneven concrete floors. 1-10mm. It is a polymer-modified, cement-based floor leveling screed that can be applied in thicknesses between 10 and 100 mm and does not cause cracking or shrinkage."
+                            "tr": "Çimento ve akrilik reçine esaslı, çift bileşenli, aşınma dayanımı yüksek, kendiliğinden yayılan lif takviyeli zemin kaplamasıdır.",
+                            "en": "It is a cement and acrylic resin based, two-component, high abrasion resistant, self-leveling fiber reinforced floor covering."
                         },
                         "areasOfUsage": {
                             "tr": [
-                                "Orta ve yoğun yaya trafiğine maruz zeminlerde son kat kaplama öncesi,",
-                                "İç mekanlarda seramik, mermer, parke, halı ve PVC kaplamaların yapıştırılmasından önce",
-                                "Bozuk zeminlerin tesviyesi amacı ile,",
-                                "Sağlık kuruluşlarında,alışveriş merkezlerinde,otellerde kullanılır."
+                                "Balkon ve teraslarda.",
+                                "Otopark ve garajlarda.",
+                                "Aşınmış endüstriyel zeminlerde kaplama olarak kullanılır."
                             ],
                             "en": [
-                                "Before final coat coating on floors exposed to medium and heavy pedestrian traffic,",
-                                "Before gluing ceramics, marble, parquet, carpets and PVC coatings indoors",
-                                "For the purpose of leveling damaged ground,",
-                                "It is used in healthcare institutions, shopping malls and hotels."
+                                "On balconies and terraces.",
+                                "In parking lots and garages.",
+                                "Used as a coating on worn industrial floors."
                             ]
                         },
                         "featuresOfProduct": {
                             "tr": [
-                                "Hızlı ve uygulama kolaylığı.",
-                                "Su ile karıştırılır.",
-                                "Kendiliğinden yayılır, teraziye gelir."
+                                "Hızlı ve kolay uygulanır.",
+                                "Aşınma ve darbelere dayanımı yüksektir.",
+                                "Kendiliğinden yayılır, teraziye gelir.",
+                                "Yüzeye tozumaz özellik kazandırır.",
+                                "Aderansı güçlüdür."
                             ],
                             "en": [
-                                "Fast and easy to apply.",
-                                "Mixed with water.",
-                                "It spreads on its own, reaches the scale."
+                                "Quick and easy to apply.",
+                                "It has high resistance to abrasion and impacts.",
+                                "It spreads on its own and reaches the scale.",
+                                "It gives the surface a dust-proof feature.",
+                                "It has strong adherence."
                             ]
                         },
                         "beforeApplication": {
-                            "tr": "Yüzey hazırlığı : Yüzeyin sağlam, taşıyıcı, tozsuz ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntıları temizlenmeli gevşek parça olmamalıdır. Yüzeyde bulunan bozukluklar tamir edilmelidir. Uygulama yapılacak alanda hava akımı önlenmelidir. Büyük alanlarda, kot farkı ‘nın ortaya çıkmaması için karolaj yapılmalı ve uygulama kotları belirlenmelidir. Astarlama : Eile LEVEL tesviye şapının işleme süresini uzatmak, uygulama zeminine yüksek aderans sağlamak; oluşması mümkün hava kabarcıklarını en az düzeye indirmek amacı ile yüzey eile ASTAR E ile astarlanmalıdır. Emiciliği yüksek yüzeylerde ikinci kat astar uygulaması yapılmalıdır. Astar uygulaması yapılacak katlar arasında en az iki saat beklenmelidir.Astar uygulamasından 24 saat sonra eile level uygulamasına geçilir. eile ASTAR E inceltilmeden uygulanmalıdır.",
-                            "en": "Surface preparation: Care should be taken to ensure that the surface is solid, load-bearing, dust-free and clean. Any oil, grease, rust and paraffin residues that may weaken adherence should be cleaned and there should be no loose parts. Defects on the surface must be repaired. Air flow should be prevented in the application area. In large areas, tiling should be done and application levels should be determined to prevent elevation differences. Priming: To extend the processing time of Eile LEVEL leveling screed and to ensure high adherence to the application surface; The surface should be primed with eile PRIMER E in order to minimize possible air bubbles. A second layer of primer should be applied on highly absorbent surfaces. At least two hours should be waited between coats of primer application. Eile level application can be started 24 hours after the primer application. eile ASTAR E should be applied without dilution."
+                            "tr": "Yüzey Hazırlığı : Yüzey sağlam, taşıyıcı, tozsuz ve temiz olmalıdır.Uygulama yapılacak çimento esaslı yüzey prizini almış olmalıdır. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntısı temizlenmelidir. Yüzeyde gevşek parça olmamalıdır. Uygulama yapılacak yüzeyde 1 mm'den geniş çatlaklaklılar ve 5 mm'den derin bozukluklar hangisi uygunsa, Eile TH 70, Eile TH 60, Eile Grout 50C veya Eile Grout 60C ile tamir edilmelidir. İnce rötre çatlaklarının tamiri göz ardı edilebilir.Derzler : Tamiri yapılan zeminde bulunan derzler işaretlenmeli uygulamadan sonra yeni yüzeye taşınmalıdır.Eile PERFLOOR başka kaplamaya bağlanacaksa en az 3 mm derinliğinde kanal açılarak kaplama kilitlenmelidir.Eile PERFLOOR bağlandığı kaplamaya hareket derzi oluşturulmalı bu derz eile Poliüretan Mastik ile doldurulmalıdır. Zeminin Suya Doyurulması : Yüksek sıcaklıklarda uygulama yüzeyinin hızlı su kaybını engellemek amacı ile yüzey 1 gün önceden suya doyurulmalıdır. Uygulamadan önce yüzeyde su birintisi bırakılmamalıdır.",
+                            "en": "Surface Preparation: The surface must be solid, load-bearing, dust-free and clean. The cement-based surface on which the application will be applied must have set. Any oil, grease, rust and paraffin residue that may weaken adherence must be removed. There should be no loose parts on the surface. Cracks wider than 1 mm and defects deeper than 5 mm on the application surface should be repaired with Eile TH 70, Eile TH 60, Eile Grout 50C or Eile Grout 60C, whichever is appropriate. Repair of thin shrinkage cracks can be ignored. Joints: Joints on the repaired floor should be marked and moved to the new surface after application. If Eile PERFLOOR will be connected to another coating, a channel of at least 3 mm depth should be opened and the coating should be locked. A movement joint should be created on the coating to which Eile PERFLOOR is connected. This joint should be coated with Eile Polyurethane Sealant. must be filled. Saturating the Ground with Water: In order to prevent rapid water loss of the application surface at high temperatures, the surface should be saturated with water 1 day in advance. No puddles should be left on the surface before application."
                         },
                         "mixing": {
-                            "tr": "Uygun miktarda su temiz bir karışım kovasına boşaltılır. Malzeme yavaşça karışım kovasına ilave edilerek düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika homojen karışım elde edilene kadar karıştırılır.Yaklaşık 4 dakika dinlendirildikten sonra 30 saniye kadar tekrar karıştırılarak kullanıma hazır hale getirilir.",
-                            "en": "An appropriate amount of water is poured into a clean mixing bucket. The material is slowly added to the mixing bucket and mixed with a low-speed mixer for approximately 3-4 minutes until a homogeneous mixture is obtained. After resting for approximately 4 minutes, it is mixed again for 30 seconds and made ready for use."
+                            "tr": "Eile PERFLOOR B bileşeni (sıvı) temiz karışım kovasına alınır. Üzerine A bileşeni (toz) azar azar ilave edilir. 3-4 dakika homojen görünüm sağlanana kadar düşük devirli karıştırıcı ile karıştırılır. Yaklaşık 3-5 dakika dinlendirilir. Ardından 30 saniye süre ile tekrar karıştırılır ve kullanıma hazır hale gelir.",
+                            "en": "Eile PERFLOOR B component (liquid) is placed in the clean mixture bucket. Component A (powder) is added little by little. It is mixed with a low speed mixer for 3-4 minutes until a homogeneous appearance is achieved. Let it rest for about 3-5 minutes. It is then mixed again for 30 seconds and is ready for use."
                         },
                         "mixture": {
-                            "tr": " 25 kg’lık Torba İçin: 4, 5-5,25 litre su -- Karışım Yoğunluğu: 2 gr/ cm3",
-                            "en": "For 25 kg Bag: 4.5-5.25 liters of water -- Mixture Density: 2 gr/ cm3"
+                            "tr": " A Bileşeni 25 kg B bileşeni 8 litre olarak karıştırılır.",
+                            "en": "Component A is mixed as 25 kg and component B as 8 liters."
                         },
                         "application": {
-                            "tr": "Hazırlanan harç, kendiliğinden yayılır. Malzemenin kalınlığı dişli mala ile ayarlanır. Priz süresince su ilave edilmemeli, yüzeydeki hava kirpi rulo ile alınmalıdır.Uygulama ortamında oluşabilecek ani sıcaklık değişimleri engellenmelidir. Güneş ve rüzgar etkilerine açık olan alanlarda uygulama yapılmamalıdır.",
-                            "en": "The prepared mortar spreads on its own. The thickness of the material is adjusted with a notched trowel. Water should not be added during the setting period, air on the surface should be removed with a hedgehog roller. Sudden temperature changes that may occur in the application environment should be prevented. Application should not be made in areas exposed to the effects of sun and wind."
+                            "tr": "Malzeme; astar uygulaması tam kurumadan zemine yayılarak uygulanır. eile PERFLOOR; ayarlı mala kullanılarak 3-5 mm kalınlığında uygulanmalıdır.Düzgün yüzeyli bir kaplama elde etmek için, ürün kesintisiz şekilde zemine dökülerek uygulanır. Bu sayede etkili yayılma sağlanır. Kirpi rulo ile hava kabarcıkları alındıktan sonra yüzey direncini arttırmak ve çatlamaları önlemek için 0,5-1,00 kg/m2 100-300 kuvars kumu serpilmelidir. Pürüzlü bir yüzey isteniyorsa 300-700 kuvars kumu serpilmelidir.Uygulama yapılan ortamda ani sıcaklık değişimi engellenmelidir.",
+                            "en": "Material; Primer application is applied by spreading it on the floor before it dries completely. eile PERFLOOR; It should be applied in a thickness of 3-5 mm using an adjustable trowel. To obtain a smooth surface coating, the product is applied by pouring it onto the ground without interruption. In this way, effective dissemination is ensured. After removing air bubbles with a hedgehog roller, 0.5-1.00 kg/m2 100-300 quartz sand should be sprinkled to increase surface resistance and prevent cracking. If a rough surface is desired, 300-700 quartz sand should be sprinkled. Sudden temperature changes in the application environment should be prevented."
                         },
                         "consumption": {
                             "tr": [
-                                "Eile LEVEL +5 °C ile +25 °C sıcaklık koşullarında uygulamaya uygundur. Ortam veya uygulama zemini sıcaklığı uygun sıcaklık koşulları aralığında değil ise; uygulama için uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
-                                "Uygulanacak zemin ve ortam sıcaklığı, çimentonun hidratasyon reaksiyonunu etkileyeceği için, ortam ve zemin sıcaklığı izin verilen sıcaklık aralığında olmalıdır.",
+                                "Eile PERFLOOR +5 °C ile +25 °C sıcaklık koşullarında uygulamaya uygundur. Uygulama zemini sıcaklığı belirlenen sıcaklık aralığında değil ise; uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
+                                "Uygulanacak zemin ve ortam sıcaklığı, çimentonun hidratasyon reaksiyonunu etkiler. Bu nedenle ortam ve zemin sıcaklığı izin verilen değer aralığında olmalıdır.",
                                 "Malzeme uygulandıktan sonra hızlı kuruma engellenmelidir. Uygulanmış malzeme su temasından korunmalıdır.",
-                                "Uygulamalar uzman uygulamacılar tarafından yapılmalıdır.",
-                                "Malzeme uygulandıktan sonra, yapılabilecek yüzey kaplama uygulamaları için en az üç gün beklenmelidir.",
-                                "Karışımın dinlendirilmesi ve uygulama öncesinde tekrar karıştırılması kesinlikle ihmal edilmemelidir."
+                                "Uygulama yüzeyi 3 gün sonra trafiğe açılabilir. Ağır trafik koşullarında ise; uygulama yüzeyi 7 gün sonunda açılmalıdır.",
+                                "Eile PERFLOOR endüztiyel bir kaplamadır.Uygulama yüzeyin yapısına bağlı olarak renk değişimleri gözlene bilir.",
+                                "Uygulamalar uzman uygulamacılar tarafından yapılmalıdır."
                             ],
                             "en": [
-                                "Eile LEVEL is suitable for application in +5 °C to +25 °C temperature conditions. If the ambient or application ground temperature is not within the appropriate temperature conditions, appropriate temperatures should be waited for the application. Application should not be made in extremely hot and windy environments.",
-                                "Since the applied ground and ambient temperature will affect the hydration reaction of the cement, the ambient and ground temperature must be within the allowed temperature range.",
+                                "Eile PERFLOOR is suitable for application in +5 °C to +25 °C temperature conditions. If the application surface temperature is not within the specified temperature range, appropriate temperatures must be waited. Application should not be made in extremely hot and windy environments.",
+                                "The applied ground and ambient temperature affects the hydration reaction of the cement. Therefore, the ambient and ground temperature should be within the permissible value range.",
                                 "After the material is applied, rapid drying should be prevented. The applied material should be protected from water contact.",
-                                "Applications should be done by expert practitioners.",
-                                "After the material is applied, at least three days should be waited for surface coating applications.",
-                                "Letting the mixture rest and mixing again before application should not be neglected."
+                                "The application surface can be opened to traffic after 3 days. In heavy traffic conditions, the application surface should be opened after 7 days.",
+                                "Eile PERFLOOR is an industrial coating. Color changes may be observed depending on the structure of the application surface.",
+                                "Applications should be done by expert practitioners."
                             ]
                         },
                         "package": {
-                            "tr": "25 kg’lık kraft torba",
-                            "en": "25 kg kraft bag"
+                            "tr": " Set: 33 kg A Bileşen (toz): 25 kg ‘lık kraft torba B Bileşen (sıvı): 8 litre’lik plastik bidon",
+                            "en": "Set: 33 kg Component A (powder): 25 kg kraft bag Component B (liquid): 8 liter plastic drum"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        }
-                    },
-
-                    {
-                        "key": "3-2-3",
-                        "name": "eile LEVEL 15",
-                        "img": "/assets/products/eile_level.png",
-                        "appImage": "/assets/appImage/level.png",
-                        "info": {
-                            "tr": "Çimento Esaslı Kendiliğinden Yayılan Tesviye Şapı",
-                            "en": "Cement Based Self Leveling Leveling Screed"
-                        },
-                        "description": {
-                            "tr": "Düzgün olmayan beton zeminlerde düzeltme harcı olarak kullanılır. 1-10 mm. arası kalınlıkta uygulanabilen, polimer modifiyeli, çatlama ve büzülme yapmayan çimento esaslı zemin tesviye şapıdır.",
-                            "en": "It is used as a correction mortar on uneven concrete floors. 1-10mm. It is a polymer-modified, cement-based floor leveling screed that can be applied in thicknesses between 10 and 100 mm and does not cause cracking or shrinkage."
-                        },
-                        "areasOfUsage": {
-                            "tr": [
-                                "Orta ve yoğun yaya trafiğine maruz zeminlerde son kat kaplama öncesi,",
-                                "İç mekanlarda seramik, mermer, parke, halı ve PVC kaplamaların yapıştırılmasından önce",
-                                "Bozuk zeminlerin tesviyesi amacı ile,",
-                                "Sağlık kuruluşlarında,alışveriş merkezlerinde,otellerde kullanılır."
-                            ],
-                            "en": [
-                                "Before final coat coating on floors exposed to medium and heavy pedestrian traffic,",
-                                "Before gluing ceramics, marble, parquet, carpets and PVC coatings indoors",
-                                "For the purpose of leveling damaged ground,",
-                                "It is used in healthcare institutions, shopping malls and hotels."
-                            ]
-                        },
-                        "featuresOfProduct": {
-                            "tr": [
-                                "Hızlı ve uygulama kolaylığı.",
-                                "Su ile karıştırılır.",
-                                "Kendiliğinden yayılır, teraziye gelir."
-                            ],
-                            "en": [
-                                "Fast and easy to apply.",
-                                "Mixed with water.",
-                                "It spreads on its own, reaches the scale."
-                            ]
-                        },
-                        "beforeApplication": {
-                            "tr": "Yüzey hazırlığı : Yüzeyin sağlam, taşıyıcı, tozsuz ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntıları temizlenmeli gevşek parça olmamalıdır. Yüzeyde bulunan bozukluklar tamir edilmelidir. Uygulama yapılacak alanda hava akımı önlenmelidir. Büyük alanlarda, kot farkı ‘nın ortaya çıkmaması için karolaj yapılmalı ve uygulama kotları belirlenmelidir. Astarlama : Eile LEVEL tesviye şapının işleme süresini uzatmak, uygulama zeminine yüksek aderans sağlamak; oluşması mümkün hava kabarcıklarını en az düzeye indirmek amacı ile yüzey eile ASTAR E ile astarlanmalıdır. Emiciliği yüksek yüzeylerde ikinci kat astar uygulaması yapılmalıdır. Astar uygulaması yapılacak katlar arasında en az iki saat beklenmelidir.Astar uygulamasından 24 saat sonra eile level uygulamasına geçilir. eile ASTAR E inceltilmeden uygulanmalıdır.",
-                            "en": "Surface preparation: Care should be taken to ensure that the surface is solid, load-bearing, dust-free and clean. Any oil, grease, rust and paraffin residues that may weaken adherence should be cleaned and there should be no loose parts. Defects on the surface must be repaired. Air flow should be prevented in the application area. In large areas, tiling should be done and application levels should be determined to prevent elevation differences. Priming: To extend the processing time of Eile LEVEL leveling screed and to ensure high adherence to the application surface; The surface should be primed with eile PRIMER E in order to minimize possible air bubbles. A second layer of primer should be applied on highly absorbent surfaces. At least two hours should be waited between coats of primer application. Eile level application can be started 24 hours after the primer application. eile ASTAR E should be applied without dilution."
-                        },
-                        "mixing": {
-                            "tr": "Uygun miktarda su temiz bir karışım kovasına boşaltılır. Malzeme yavaşça karışım kovasına ilave edilerek düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika homojen karışım elde edilene kadar karıştırılır.Yaklaşık 4 dakika dinlendirildikten sonra 30 saniye kadar tekrar karıştırılarak kullanıma hazır hale getirilir.",
-                            "en": "An appropriate amount of water is poured into a clean mixing bucket. The material is slowly added to the mixing bucket and mixed with a low-speed mixer for approximately 3-4 minutes until a homogeneous mixture is obtained. After resting for approximately 4 minutes, it is mixed again for 30 seconds and made ready for use."
-                        },
-                        "mixture": {
-                            "tr": " 25 kg’lık Torba İçin: 4, 5-5,25 litre su -- Karışım Yoğunluğu: 2 gr/ cm3",
-                            "en": "For 25 kg Bag: 4.5-5.25 liters of water -- Mixture Density: 2 gr/ cm3"
-                        },
-                        "application": {
-                            "tr": "Hazırlanan harç, kendiliğinden yayılır. Malzemenin kalınlığı dişli mala ile ayarlanır. Priz süresince su ilave edilmemeli, yüzeydeki hava kirpi rulo ile alınmalıdır.Uygulama ortamında oluşabilecek ani sıcaklık değişimleri engellenmelidir. Güneş ve rüzgar etkilerine açık olan alanlarda uygulama yapılmamalıdır.",
-                            "en": "The prepared mortar spreads on its own. The thickness of the material is adjusted with a notched trowel. Water should not be added during the setting period, air on the surface should be removed with a hedgehog roller. Sudden temperature changes that may occur in the application environment should be prevented. Application should not be made in areas exposed to the effects of sun and wind."
-                        },
-                        "consumption": {
-                            "tr": [
-                                "Eile LEVEL +5 °C ile +25 °C sıcaklık koşullarında uygulamaya uygundur. Ortam veya uygulama zemini sıcaklığı uygun sıcaklık koşulları aralığında değil ise; uygulama için uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
-                                "Uygulanacak zemin ve ortam sıcaklığı, çimentonun hidratasyon reaksiyonunu etkileyeceği için, ortam ve zemin sıcaklığı izin verilen sıcaklık aralığında olmalıdır.",
-                                "Malzeme uygulandıktan sonra hızlı kuruma engellenmelidir. Uygulanmış malzeme su temasından korunmalıdır.",
-                                "Uygulamalar uzman uygulamacılar tarafından yapılmalıdır.",
-                                "Malzeme uygulandıktan sonra, yapılabilecek yüzey kaplama uygulamaları için en az üç gün beklenmelidir.",
-                                "Karışımın dinlendirilmesi ve uygulama öncesinde tekrar karıştırılması kesinlikle ihmal edilmemelidir."
-                            ],
-                            "en": [
-                                "Eile LEVEL is suitable for application in +5 °C to +25 °C temperature conditions. If the ambient or application ground temperature is not within the appropriate temperature conditions, appropriate temperatures should be waited for the application. Application should not be made in extremely hot and windy environments.",
-                                "Since the applied ground and ambient temperature will affect the hydration reaction of the cement, the ambient and ground temperature must be within the allowed temperature range.",
-                                "After the material is applied, rapid drying should be prevented. The applied material should be protected from water contact.",
-                                "Applications should be done by expert practitioners.",
-                                "After the material is applied, at least three days should be waited for surface coating applications.",
-                                "Letting the mixture rest and mixing again before application should not be neglected."
-                            ]
-                        },
-                        "package": {
-                            "tr": "25 kg’lık kraft torba",
-                            "en": "25 kg kraft bag"
-                        },
-                        "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+                            "tr": "Açılmamış orijinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
                         }
                     }
                 ]
             },
-
             {
-                "key": "3-3",
+                "key": "3-2",
                 "name": {
                     "tr": "Epoksi Poliüretan Esaslı Kaplamalar Boyalar",
                     "en": "Epoxy Polyurethane Based Coatings"
                 },
                 "items": [
                     {
-                        "key": "3-3-1",
+                        "key": "3-2-1",
                         "name": "eile EPX 550",
                         "img": "/assets/products/epx550.png",
                         "appImage": "/assets/appImage/epx_550.png",
@@ -5146,9 +5107,8 @@
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, above +5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-3-2",
+                        "key": "3-2-2",
                         "name": "eile PUR 053",
                         "img": "/assets/products/pur_053.png",
                         "appImage": "/assets/appImage/pur_053.png",
@@ -5233,9 +5193,8 @@
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
                         }
                     },
-
                     {
-                        "key": "3-3-3",
+                        "key": "3-2-3",
                         "name": "eile EPX 400",
                         "img": "/assets/products/teneke_bos.png",
                         "info": {
@@ -5313,9 +5272,8 @@
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
                         }
                     },
-
                     {
-                        "key": "3-3-4",
+                        "key": "3-2-4",
                         "name": "eile EPX 629",
                         "img": "/assets/products/teneke_bos.png",
                         "info": {
@@ -5391,9 +5349,8 @@
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
                         }
                     },
-
                     {
-                        "key": "3-3-5",
+                        "key": "3-2-5",
                         "name": "eile EAP 435",
                         "img": "/assets/products/teneke_bos.png",
                         "info": {
@@ -5465,9 +5422,8 @@
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, above +5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-3-6",
+                        "key": "3-2-6",
                         "name": "eile EAP 4000",
                         "img": "/assets/products/teneke_bos.png",
                         "info": {
@@ -5535,13 +5491,12 @@
                             "en": "Component A: 15 kg -- Component B: 5 kg -- Total: 20 kg"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-3-7",
+                        "key": "3-2-7",
                         "name": "eile EPX 830",
                         "img": "/assets/products/teneke_bos.png",
                         "info": {
@@ -5607,13 +5562,12 @@
                             "en": "Set: 25 kg -- Component A 20 kg pail -- Component B 5 kg pail"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-3-8",
+                        "key": "3-2-8",
                         "name": "eile EPX 730",
                         "img": "/assets/products/teneke_bos.png",
                         "info": {
@@ -5679,22 +5633,21 @@
                             "en": "Set: 25 kg -- Component A 20 kg pail -- Component B 5 kg pail"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     }
                 ]
             },
-
             {
-                "key": "3-4",
+                "key": "3-3",
                 "name": {
                     "tr": "Epoksi Poliüretan Esaslı Astarlar",
                     "en": "Epoxy Based Undercoats"
                 },
                 "items": [
                     {
-                        "key": "3-4-1",
+                        "key": "3-3-1",
                         "name": "eile EPX 021",
                         "img": "/assets/products/epx_021.png",
                         "info": {
@@ -5766,13 +5719,12 @@
                             "en": "Set: 30 kg -- component A: in 15 kg tin pails -- component B: in 15 kg tin pails"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-4-2",
+                        "key": "3-3-2",
                         "name": "eile EPX 260",
                         "img": "/assets/products/teneke_bos.png",
                         "appImage": "/assets/appImage/epx_260.png",
@@ -5849,13 +5801,12 @@
                             "en": "Set: 16 kg -- Component A: 10 kg tin -- Component B: 6 kg tin"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-4-3",
+                        "key": "3-3-3",
                         "name": "eile EPX 225",
                         "img": "/assets/products/epx_225.png",
                         "info": {
@@ -5931,13 +5882,12 @@
                             "en": "Set: 18 kg -- Component A: 12 kg tin -- Component B: 6 kg tin"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-4-4",
+                        "key": "3-3-4",
                         "name": "eile EPX 110",
                         "img": "/assets/products/epx_110.png",
                         "appImage": "/assets/appImage/epx_110.png",
@@ -6012,13 +5962,12 @@
                             "en": "Set: 20 kg -- Component A: 16 kg tin -- Component B: 4 kg tin"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-4-5",
+                        "key": "3-3-5",
                         "name": "eile EPS 201",
                         "img": "/assets/products/eile_genel_teneke.png",
                         "info": {
@@ -6090,19 +6039,18 @@
                             "en": "Set: 30 kg -- component A: in 15 kg tin pails -- component B: in 15 kg tin pails"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     }
                 ]
             },
-
             {
-                "key": "3-5",
+                "key": "3-4",
                 "name": { "tr": "Kür Malzemeleri", "en": "Curing Materials" },
                 "items": [
                     {
-                        "key": "3-5-1",
+                        "key": "3-4-1",
                         "name": "eile CURING 105",
                         "img": "/assets/products/eile_curing105.png",
                         "appImage": "/assets/appImage/curing_105.png",
@@ -6189,13 +6137,12 @@
                             "en": "30 kg plastic drum, 200 kg barrel"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-5-2",
+                        "key": "3-4-2",
                         "name": "eile CURING AST",
                         "img": "/assets/products/eile_curing_AST.png",
                         "appImage": "/assets/appImage/curing_ast.png",
@@ -6278,13 +6225,12 @@
                             "en": "30 liter tin bucket"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     },
-
                     {
-                        "key": "3-5-3",
+                        "key": "3-4-3",
                         "name": "eile PARKÜR",
                         "img": "/assets/products/eile_parkur.png",
                         "appImage": "/assets/appImage/parkur.png",
@@ -6371,15 +6317,14 @@
                             "en": "30 kg plastic drum, 200 kg barrel"
                         },
                         "storage": {
-                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+                            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+                            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above + 5°C - +35°C, away from direct sunlight."
                         }
                     }
                 ]
             }
         ]
     },
-
     {
         "key": "4",
         "name": { "tr": "Yapıştırıcılar", "en": "Adhesives" },
@@ -6674,10 +6619,6 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/TSE_POMEX_SERAMİK_YAPIŞTIRICISI.pdf",
-                            "ce": "/assets/docs/ce_pomex_seramik_belgesi.pdf"
                         }
                     },
                     {
@@ -7041,9 +6982,6 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/TSE_POMEX_GRANİT_YAPIŞTIRICISI.pdf"
                         }
                     },
                     {
@@ -7124,7 +7062,6 @@
                     }
                 ]
             },
-
             {
                 "key": "4-2",
                 "name": "Epoksi Esaslı Yapıştırıcılar",
@@ -7211,7 +7148,6 @@
             }
         ]
     },
-
     {
         "key": "5",
         "name": { "tr": "Fuga Derz Dolgular", "en": "Joint Gaps Groutings" },
@@ -7296,9 +7232,6 @@
                         "storage": {
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                        },
-                        "docs": {
-                            "tse": "/assets/docs/TSE_POMEX_DERZ_DOLGU.pdf"
                         }
                     },
                     {
@@ -7782,7 +7715,6 @@
             }
         ]
     },
-
     {
         "key": "6",
         "name": {
@@ -7874,7 +7806,6 @@
                     "en": "A component (aggregate): Its life is infinite. It does not matter if it gets wet at the construction site. Component B (binder): It should be stored in a dry and cool environment in a maximum of 10 layers. Shelf life under appropriate storage conditions is 12 months from the date of production."
                 }
             },
-
             {
                 "key": "6-0-2",
                 "name": "POMEX THERMOMEX SIVA",
@@ -7965,13 +7896,8 @@
                 "storage": {
                     "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
                     "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
-                },
-                "docs": {
-                    "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf",
-                    "ce": "/assets/docs/ce_pomex_thermomex.pdf"
                 }
             },
-
             {
                 "key": "6-0-3",
                 "name": "POMEX THERMOMEX ŞAP",
@@ -8058,12 +7984,8 @@
                 "storage": {
                     "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 1O kat istifle depolanmalıdır. ",
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, in a stack of maximum 10 layers."
-                },
-                "docs": {
-                    "ce": "/assets/docs/ce_pomex_thermomex.pdf"
                 }
             },
-
             {
                 "key": "6-0-4",
                 "name": "eile PLY 2100",
@@ -8111,12 +8033,8 @@
                 "storage": {
                     "tr": "       ",
                     "en": "  "
-                },
-                "docs": {
-                    "tse": "/assets/docs/TSE_EİLE_PLY_2100.pdf"
                 }
             },
-
             {
                 "key": "6-0-5",
                 "name": "eile PLS 2000",
@@ -8164,12 +8082,8 @@
                 "storage": {
                     "tr": "       ",
                     "en": "  "
-                },
-                "docs": {
-                    "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
                 }
             },
-
             {
                 "key": "6-0-6",
                 "name": "POMEX ISI MANTOLAMA LEVHA SIVASI",
@@ -8248,7 +8162,6 @@
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, in a stack of maximum 10 layers. "
                 }
             },
-
             {
                 "key": "6-0-7",
                 "name": "POMEX ISI MANTOLAMA LEVHA YAPIŞTIRICISI",
@@ -8325,7 +8238,6 @@
             }
         ]
     },
-
     {
         "key": "7",
         "name": { "tr": "Sıvalar", "en": "Plasters" },
@@ -8405,9 +8317,6 @@
                 "storage": {
                     "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda En fazla 1O kat istifle depolanmalıdır. ",
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
-                },
-                "docs": {
-                    "ce": "/assets/docs/CE_eile_gbs_5000.pdf"
                 }
             },
             {
@@ -8488,9 +8397,6 @@
                 "storage": {
                     "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 1O kat istifle  depolanmalıdır. ",
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
-                },
-                "docs": {
-                    "ce": "/assets/docs/ce_eile_son_kat_elyaflı_sıva.pdf"
                 }
             },
             {
@@ -8567,9 +8473,6 @@
                 "storage": {
                     "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 1O kat istifle depolanmalıdır. ",
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
-                },
-                "docs": {
-                    "ce": "/assets/docs/ce_pomex_ds_40.pdf"
                 }
             },
             {
@@ -8646,10 +8549,6 @@
                 "storage": {
                     "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 1O kat istifle depolanmalıdır. ",
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
-                },
-                "docs": {
-                    "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf",
-                    "ce": "/assets/docs/ce_pomex_ince_sıva.pdf"
                 }
             },
             {
@@ -8736,10 +8635,6 @@
                 "storage": {
                     "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 1O kat istifle depolanmalıdır. ",
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
-                },
-                "docs": {
-                    "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf",
-                    "ce": "/assets/docs/ce_pomex_kalın_sıva.pdf"
                 }
             },
             {
@@ -8822,7 +8717,6 @@
             }
         ]
     },
-
     {
         "key": "8",
         "name": {
@@ -8919,7 +8813,6 @@
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment at temperatures above + 5 ° C - + 35 ° C, away from direct sunlight."
                 }
             },
-
             {
                 "key": "8-0-2",
                 "name": "eile TU-05",
@@ -8992,12 +8885,8 @@
                 "storage": {
                     "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır. ",
                     "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
-                },
-                "docs": {
-                    "tse": "/assets/docs/tse_tu_05.pdf"
                 }
             },
-
             {
                 "key": "8-0-3",
                 "name": "eile TU 06",
@@ -9076,7 +8965,6 @@
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, at temperatures above + 5 AC - + 35 AC, away from direct sunlight."
                 }
             },
-
             {
                 "key": "8-0-4",
                 "name": "eile LATEX",
@@ -9148,7 +9036,6 @@
                     "en": "It should be stored in its unopened original packaging, in a cool and dry environment, in a stack of maximum 10 layers."
                 }
             },
-
             {
                 "key": "8-0-5",
                 "name": "eile FİBER",
@@ -9222,7 +9109,6 @@
                     "en": "It should be stored in a dry and cool environment."
                 }
             },
-
             {
                 "key": "8-0-6",
                 "name": "eile KA 100",
@@ -9272,7 +9158,6 @@
                     "en": " "
                 }
             },
-
             {
                 "key": "8-0-7",
                 "name": "eile KA 300",
@@ -9351,7 +9236,6 @@
                     "en": "It should be stored in its original package at +5° C / +35° C in dry, protected and ventilated environments, protected from direct sunlight and frost."
                 }
             },
-
             {
                 "key": "8-0-8",
                 "name": "eile EPX 201",
