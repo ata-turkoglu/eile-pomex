@@ -327,7 +327,7 @@ function Header() {
                         >
                             <span>{t("certificates")}</span>
                         </Link>
-                        <Link
+                        {/* <Link
                             className={`nav-item ${
                                 activeTab == "references" && "active-nav"
                             }`}
@@ -340,7 +340,7 @@ function Header() {
                             }}
                         >
                             <span>{t("references")}</span>
-                        </Link>
+                        </Link> */}
                         <Link
                             className={`nav-item ${
                                 activeTab == "contact" && "active-nav"
@@ -491,13 +491,13 @@ function Header() {
                 >
                     <span>{t("certificates")}</span>
                 </Link>
-                <Link
+                {/* <Link
                     className="nav-item"
                     to="/references"
                     onClick={() => menuClose()}
                 >
                     <span>{t("references")}</span>
-                </Link>
+                </Link> */}
                 <Link
                     className="nav-item"
                     to="/contact"

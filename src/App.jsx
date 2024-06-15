@@ -10,7 +10,7 @@ import About from "./client/pages/About.jsx";
 import Products from "./client/pages/Products.jsx";
 import Projects from "./client/pages/Projects.jsx";
 import ProductDetails from "./client/pages/ProductDetails.jsx";
-import References from "./client/pages/References.jsx";
+//import References from "./client/pages/References.jsx";
 import Docs from "./client/pages/Docs.jsx";
 import Contact from "./client/pages/Contact.jsx";
 import Pomex_Blok_Page from "./client/pages/PomexBlok.jsx";
@@ -58,10 +58,10 @@ function App(navigation) {
                             element={<ProductDetails />}
                         ></Route>
                         <Route path="about" element={<About />}></Route>
-                        <Route
+                        {/* <Route
                             path="references"
                             element={<References />}
-                        ></Route>
+                        ></Route> */}
                         <Route path="docs" element={<Docs />}></Route>
                         <Route path="contact" element={<Contact />}></Route>
                     </Route>
