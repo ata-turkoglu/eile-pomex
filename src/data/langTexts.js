@@ -81,7 +81,7 @@ export default {
         infoThermomex:
             "Çimento esaslı, karışımında bulunan gözenekli yapıya sahip doğal hafif agregalar sayesinde uygulandığı yüzeyde nefes alan ısı-ses ve yangın yalıtımı sağlayan, sıva formunda çok amaçlı yalıtım malzemesidir. Yapıların dış ve iç cephelerinde tuğla-gaz beton-bims blok gibi yüzeyler üzerine kaba sıva yerine uygulanır.",
         infoPomexBlok:
-            "Son yıllarda inşaat sektöründe özellikle ısı ve ses yalıtımında, öz kütlesinin düşük olmasının sağladığı avantajların da bir sonucu olarak sıklıkla kullanılan, volkanizma sonucu oluşmuş doğal bir malzeme olan bims, kristalize, gözenekli, süngerimsi, fiziksel ve kimyasal etkenlere karşı dayanıklı bir malzemedir.",
+            "Son yıllarda inşaat sektöründe özellikle ısı ve ses yalıtımında, öz kütlesinin düşük olmasının sağladığı avantajların da bir sonucu olarak sıklıkla kullanılan, doğal bir malzeme olan bims, kristalize, gözenekli, süngerimsi, fiziksel ve kimyasal etkenlere karşı dayanıklı bir malzemedir.",
         cementBasedAdhesives: "Çimento Bazlı Yapıştırıcılar",
         rdInfo: "Tamamıyla AR-GE bölümümüz tarafından geliştirilen ve üretilen ürünlerimiz yüksek teknolojiye sahip labaratuvarlarımızdan onay almadan satışa çıkmamaktadır.",
         ourHighQualityStandards: "Yüksek Kalite Standartlarımız",
@@ -166,7 +166,7 @@ export default {
         infoThermomex:
             "It is a cement-based, multi-purpose insulation material in plaster form that provides breathing, heat, sound and fire insulation on the surface owing to the natural lightweight aggregates with a porous structure in its mixture. It is applied instead of rough plaster on surfaces such as brick, aerated concrete and pumice block on the exterior and interior facades of buildings.",
         infoPomexBlok:
-            "Pumice, a natural material formed as a result of volcanism, which has been frequently used in the construction industry in recent years, especially in heat and sound insulation, as a result of the advantages of its low density, is a crystallized, porous, spongy material that is resistant to physical and chemical factors.",
+            "Pumice, a natural material which has been frequently used in the construction industry in recent years, especially in heat and sound insulation, as a result of the advantages of its low density, is a crystallized, porous, spongy material that is resistant to physical and chemical factors.",
         cementBasedAdhesives: "Cement Based Adhesives",
         rdInfo: "Our products, developed and produced entirely by our R&D department, are not put on sale without approval from our high-tech laboratories.",
         ourHighQualityStandards: "Our High Quality Standards",
