@@ -55,10 +55,18 @@
                 top: 70%;
             }
         }
-        .detailButton:hover{
-            
+        .detailButton:hover{   
             box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);;
         }
+    }
+
+    .brightness70
+    {
+        filter: brightness(70%);
+        -webkit-filter: brightness(70%);
+        -moz-filter: brightness(70%);
+        -o-filter: brightness(70%);
+        -ms-filter: brightness(70%);
     }
 
     @media screen and (max-width:768px) {
@@ -72,5 +80,21 @@
         .carousel{
             height: 100%;
         }
+        .abslt{
+            position: absolute;
+            left: 10%;
+            top: 10%;
+            width: 80%;
+            height: 80%;
+            z-index: 10;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .abslt{
+        display: none;
     }
 }
