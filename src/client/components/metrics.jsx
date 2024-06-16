@@ -28,7 +28,7 @@ function Metrics() {
                     strokeWidth={1}
                     className="metricIcon"
                 />
-                <MetricCounter index={1} number={239} />
+                <MetricCounter index={1} number={153} />
                 <p>{t("productVariety")}</p>
             </div>
             <div className="metricContainer">

@@ -80,21 +80,23 @@
         .carousel{
             height: 100%;
         }
-        .abslt{
-            position: absolute;
-            left: 10%;
-            top: 10%;
-            width: 80%;
-            height: 80%;
-            z-index: 10;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+        
     }
     .abslt{
         display: none;
+
+        @media screen and (max-width:768px) {
+                position: absolute;
+                left: 10%;
+                top: 10%;
+                width: 80%;
+                height: 80%;
+                z-index: 10;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        }
     }
 }

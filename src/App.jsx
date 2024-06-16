@@ -24,7 +24,10 @@ function App(navigation) {
     const dispatch = useDispatch();
 
     const checkProductDetails = (route) => {
-        return route.pathname.includes("product-details");
+        return (
+            route.pathname.includes("product-details") ||
+            route.pathname.includes("pomexblok")
+        );
     };
 
     useEffect(() => {

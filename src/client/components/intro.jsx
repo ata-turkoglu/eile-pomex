@@ -68,6 +68,22 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            src="/assets/introCarousel/met-zzk.jpg"
+                        />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="imgContainer">
+                        <img
+                            className="d-block w-100"
+                            src="/assets/introCarousel/th-60.jpg"
+                        />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="imgContainer">
+                        <img
+                            className="d-block w-100"
                             src="/assets/introCarousel/bims.jpg"
                         />
                         <span
