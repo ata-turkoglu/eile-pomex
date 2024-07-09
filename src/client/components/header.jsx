@@ -26,6 +26,7 @@ function Header() {
     const [mobileNav, setMobileNav] = useState(false);
     const [langState, setLangState] = useState("");
     const [activeTab, setActiveTab] = useState("");
+    const [isSafari, setIsSafari] = useState(false);
 
     const lang = useSelector((state) => state.language.lang);
     const dispatch = useDispatch();
@@ -44,6 +45,7 @@ function Header() {
     }, [route]);
 
     useEffect(() => {
+        setIsSafari(!!window.safari);
         function setHeaderHeight() {
             if (window.scrollY > 200) {
                 setNarrowHeader(true);
@@ -279,6 +281,7 @@ function Header() {
                                 alignItems: narrowHeader
                                     ? "center"
                                     : "flex-end",
+                                fontWeight: isSafari && "400",
                             }}
                             onMouseOver={() => setHoverProducts(true)}
                             onMouseLeave={() => setHoverProducts(false)}
@@ -295,6 +298,7 @@ function Header() {
                                 alignItems: narrowHeader
                                     ? "center"
                                     : "flex-end",
+                                fontWeight: isSafari && "400",
                             }}
                         >
                             <span>{t("projects")}</span>
@@ -309,6 +313,7 @@ function Header() {
                                 alignItems: narrowHeader
                                     ? "center"
                                     : "flex-end",
+                                fontWeight: isSafari && "400",
                             }}
                         >
                             <span>{t("aboutus")}</span>
@@ -323,6 +328,7 @@ function Header() {
                                 alignItems: narrowHeader
                                     ? "center"
                                     : "flex-end",
+                                fontWeight: isSafari && "400",
                             }}
                         >
                             <span>{t("certificates")}</span>
@@ -351,6 +357,7 @@ function Header() {
                                 alignItems: narrowHeader
                                     ? "center"
                                     : "flex-end",
+                                fontWeight: isSafari && "400",
                             }}
                         >
                             <span>{t("contact")}</span>

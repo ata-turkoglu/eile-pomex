@@ -32,9 +32,9 @@ function Contact() {
 
         window.Email.send({
             SecureToken: "b8c77eaf-d45f-4f9e-a163-1e39d4910939",
-            To: "fatmaaydogdu581@gmail.com",
-            From: "fatmaaydogdu581@gmail.com",
-            Subject: "This is the subject",
+            To: "info@eilepomex.com",
+            From: email,
+            Subject: "Email from website",
             Body: body,
         }).then((message) => {
             if (message == `OK`) {

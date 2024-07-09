@@ -2,7 +2,9 @@ import { useLayoutEffect, useState } from "react";
 import "./numberPlace.scss";
 
 function numberPlace({ number, index, timeout, intvlValue }) {
+    const [isSafari, setIsSafari] = useState(false);
     useLayoutEffect(() => {
+        setIsSafari(!!window.safari);
         const el = document.getElementById(`placeContainer-${index}`);
         let placeHeight =
             document.getElementsByClassName("placeNumber")[0].clientHeight;
@@ -23,16 +25,66 @@ function numberPlace({ number, index, timeout, intvlValue }) {
 
     return (
         <div id={`placeContainer-${index}`} className="placeContainer">
-            <span className="placeNumber">0</span>
-            <span className="placeNumber">1</span>
-            <span className="placeNumber">2</span>
-            <span className="placeNumber">3</span>
-            <span className="placeNumber">4</span>
-            <span className="placeNumber">5</span>
-            <span className="placeNumber">6</span>
-            <span className="placeNumber">7</span>
-            <span className="placeNumber">8</span>
-            <span className="placeNumber">9</span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                0
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                1
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                2
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                3
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                4
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                5
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                6
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                7
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                8
+            </span>
+            <span
+                className="placeNumber"
+                style={{ fontWeight: isSafari && "400" }}
+            >
+                9
+            </span>
         </div>
     );
 }

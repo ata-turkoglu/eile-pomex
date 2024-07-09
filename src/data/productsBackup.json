@@ -1392,8 +1392,8 @@
                     {
                         "key": "1-3-4",
                         "name": "POMEX Bitülast",
-                        "img": "/assets/products/bitülast.png",
-                        "appImage": "/assets/appImage/bitülast_app.png",
+                        "img": "/assets/products/bitulast.png",
+                        "appImage": "/assets/appImage/bitulast_app.png",
                         "info": {
                             "tr": "Tek Bileşenli Su Yalıtım Malzemesi",
                             "en": "Single Component Waterproofing Material"
@@ -1905,8 +1905,8 @@
                     {
                         "key": "1-4-4",
                         "name": "eile Poliürea HP",
-                        "img": "/assets/products/poliürea_hp.png",
-                        "appImage": "/assets/appImage/poliürea_hp_app.png",
+                        "img": "/assets/products/poliurea_hp.png",
+                        "appImage": "/assets/appImage/poliurea_hp_app.png",
                         "info": {
                             "tr": "Hibrit Poliürea Esaslı, İki Bileşenli Sıcak Kürlenen, Su Yalıtım Malzemesi",
                             "en": "Hybrid Polyurea Based, Two Component, Hot Curing, Waterproofing Material"
@@ -1987,8 +1987,8 @@
                     {
                         "key": "1-4-5",
                         "name": "eile Poliürea 500",
-                        "img": "/assets/products/poliürea_hp.png",
-                        "appImage": "/assets/appImage/poliürea_500_app.png",
+                        "img": "/assets/products/poliurea_hp.png",
+                        "appImage": "/assets/appImage/poliurea_500_app.png",
                         "info": {
                             "tr": " Saf Poliürea Esaslı, İki Bileşenli Sıcak Kürlenen, Su Yalıtım Malzemesi",
                             "en": "Pure Polyurea Based, Two Component, Hot Curing, Waterproofing Material"
@@ -3491,7 +3491,7 @@
                     {
                         "key": "2-3-4",
                         "name": "eile TH 60",
-                        "img": "/assets/products/eile_TH_60_ince_tamir_harcı.png",
+                        "img": "/assets/products/eile_TH_60_ince_tamir_harci.png",
                         "appImage": "/assets/appImage/th60.png",
                         "info": {
                             "tr": "Çimento Esaslı Yüzey Düzeltme Ve Tamir Harcı",
@@ -3815,7 +3815,7 @@
                     {
                         "key": "2-3-8",
                         "name": "POMEX BRÜT BETON TAMİR HARCI",
-                        "img": "/assets/products/pomex_bürüt_beton_sıvası.png",
+                        "img": "/assets/products/pomex_burut_beton_sivasi.png",
                         "info": {
                             "tr": "Çimento Esaslı Brüt Beton Yüzeyler İçin İnce Tamir Harcı",
                             "en": "Cement Based Fine Repair Mortar for Exposed Concrete Surfaces"
@@ -4218,7 +4218,7 @@
                     {
                         "key": "2-5-1",
                         "name": "eile HORASAN HARCI",
-                        "img": "/assets/products/eile_horasan_harcı.png",
+                        "img": "/assets/products/eile_horasan_harci.png",
                         "appImage": "/assets/appImage/horasan.png",
                         "info": {
                             "tr": "Tarihi Yapılar İçin Hidrolik Kireç Esaslı,Tamir Ve Sıva Malzemesi",
@@ -4778,7 +4778,7 @@
                     {
                         "key": "3-1-4",
                         "name": "POMEX YÜZEY SERTLEŞTİRİCİ",
-                        "img": "/assets/products/pomex_yüzey_sertleştirici.png",
+                        "img": "/assets/products/pomex_yuzey_sertlestirici.png",
                         "appImage": "/assets/appImage/yuzeysert.png",
                         "info": {
                             "tr": "Endüstriyel Zeminler İçin Kuvars-Silis Agregalı,Yüzey Sertleştirici",
@@ -6432,7 +6432,7 @@
                     {
                         "key": "4-1-2",
                         "name": "eile FLEX YAPIŞTIRICI",
-                        "img": "/assets/products/pomex_flex_yapıştırıcı.png",
+                        "img": "/assets/products/pomex_flex_yapistirici.png",
                         "appImage": "/assets/appImage/flex.png",
                         "info": {
                             "tr": "Çimento Esaslı Yüksek Performanslı, Esnek Yapıştırma Harcı",
@@ -6817,8 +6817,8 @@
                     {
                         "key": "4-1-6",
                         "name": "SERABELL SERAMİK YAPIŞTIRMA HARCI",
-                        "img": "/assets/products/serabell_seramik_yapıştırma_harcı.png",
-                        "appImage": "/assets/appImage/hızlı_donan.png",
+                        "img": "/assets/products/serabell_seramik_yapistirma_harci.png",
+                        "appImage": "/assets/appImage/hizli_donan.png",
                         "info": {
                             "tr": "Çimento Esaslı Polimer Takviyeli, Yüksek Performanslı, Hızlı Sertleşen Yapıştırma Harcı",
                             "en": "Cement Based Polymer Reinforced, High Performance, Fast Hardening Adhesive Mortar"
@@ -6897,7 +6897,7 @@
                     {
                         "key": "4-1-7",
                         "name": "POMEX GRANİT YAPIŞTIRICISI",
-                        "img": "/assets/products/pomex_granit_yapıştırma_harcı.png",
+                        "img": "/assets/products/pomex_granit_yapistirma_harci.png",
                         "appImage": "/assets/appImage/granit.png",
                         "info": {
                             "tr": "Çimento Esaslı Tek Bileşenli, Granit Ve Mermer Yapıştırma Harcı",
@@ -6987,7 +6987,7 @@
                     {
                         "key": "4-1-8",
                         "name": "POMEX GAZBETON YAPIŞTIRMA HARCI",
-                        "img": "/assets/products/pomex_gazbeton_yapıştırma_harcı.png",
+                        "img": "/assets/products/pomex_gazbeton_yapistirma_harci.png",
                         "appImage": "/assets/appImage/gaz.png",
                         "info": {
                             "tr": "Çimento esaslı Tek Bileşenli,Pratik Gazbeton Örgü Harcı",
@@ -7809,7 +7809,7 @@
             {
                 "key": "6-0-2",
                 "name": "POMEX THERMOMEX SIVA",
-                "img": "/assets/products/thermomex_ısı_ve_yalıtım_sıvası.png",
+                "img": "/assets/products/thermomex_isi_ve_yalitim_sivasi.png",
                 "appImage": "/assets/appImage/siva.png",
                 "info": {
                     "tr": "Isı Ses ve Yangın Yalıtım Sıvası",
@@ -7901,7 +7901,7 @@
             {
                 "key": "6-0-3",
                 "name": "POMEX THERMOMEX ŞAP",
-                "img": "/assets/products/thermomex_şap.png",
+                "img": "/assets/products/thermomex_sap.png",
                 "appImage": "/assets/appImage/sap.png",
                 "info": {
                     "tr": "Isı Ses ve Yangın Yalıtımlı Şap ",
@@ -8087,7 +8087,7 @@
             {
                 "key": "6-0-6",
                 "name": "POMEX ISI MANTOLAMA LEVHA SIVASI",
-                "img": "/assets/products/pomex_ısı_mantolama_levha_sıvası.png",
+                "img": "/assets/products/pomex_isi_mantolama_levha_sivasi.png",
                 "appImage": "/assets/appImage/montaloma_sivasi.png",
                 "info": {
                     "tr": "Isı Yalıtım Levhaları için Sıva Harcı ",
@@ -8165,7 +8165,7 @@
             {
                 "key": "6-0-7",
                 "name": "POMEX ISI MANTOLAMA LEVHA YAPIŞTIRICISI",
-                "img": "/assets/products/pomex_ısı_mantolama_levha_yapıştırıcısı.png",
+                "img": "/assets/products/pomex_isi_mantolama_levha_yapistiricisi.png",
                 "appImage": "/assets/appImage/yapistirma_harci.png",
                 "info": {
                     "tr": "Isı Yalıtım Levhaları için Yapıştırma Harcı ",
@@ -8322,7 +8322,7 @@
             {
                 "key": "7-0-2",
                 "name": "eile SON KAT ELYAFLI SIVA",
-                "img": "/assets/products/eile_son_kat_elyaflı_sıva.png",
+                "img": "/assets/products/eile_son_kat_elyafli_siva.png",
                 "appImage": "/assets/appImage/elyaflı.png",
                 "info": {
                     "tr": "Lif ve Polimer Katkılı Sıva Harcı ",
@@ -8478,7 +8478,7 @@
             {
                 "key": "7-0-4",
                 "name": "POMEX İNCE SIVA",
-                "img": "/assets/products/pomex_ince_sıva.png",
+                "img": "/assets/products/pomex_ince_siva.png",
                 "appImage": "/assets/appImage/ince_siva.png",
                 "info": {
                     "tr": "Polimer Takviyeli Çimento Esaslı ince Sıva ",
@@ -8554,8 +8554,8 @@
             {
                 "key": "7-0-5",
                 "name": "POMEX KALIN SIVA",
-                "img": "/assets/products/pomex_kalın_sıva.png",
-                "appImage": "/assets/appImage/kalın_siva.png",
+                "img": "/assets/products/pomex_kalin_siva.png",
+                "appImage": "/assets/appImage/kalin_siva.png",
                 "info": {
                     "tr": "Çimento Esaslı Polimer Katkılı Ekonomik Kalın Sıva",
                     "en": "Cement Based Polymer Added Economical Thick Plaster"
@@ -8640,7 +8640,7 @@
             {
                 "key": "7-0-6",
                 "name": "POMEX MAKİNA SIVASI",
-                "img": "/assets/products/pomex_makina_sıvası.png",
+                "img": "/assets/products/pomex_makina_sivasi.png",
                 "appImage": "/assets/appImage/makine.png",
                 "info": {
                     "tr": " Çimento Esaslı Polimer Katkılı, Ekonomik Makine Kalın Sıva ",

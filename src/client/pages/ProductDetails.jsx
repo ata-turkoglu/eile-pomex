@@ -15,10 +15,12 @@ function ProductDetails() {
     const { productKey } = useParams();
     const [product, setProduct] = useState(null);
     const [mobileView, setMobileView] = useState(false);
+    const [isSafari, setIsSafari] = useState(false);
 
     const navigate = useNavigate();
 
     useLayoutEffect(() => {
+        setIsSafari(!!window.safari);
         if (window.innerWidth < 768) {
             /* document.getElementById("product-categories").style.visibility =
                 "hidden"; */
@@ -47,7 +49,11 @@ function ProductDetails() {
         "Two-Component, Adherence Augmenter and Corrosion Preventing Epoxy Resin Based Mortar"; */
         if (text == "") return "";
         const list = text.split(",");
-        return list.map((item, index) => <span key={index}>{item}</span>);
+        return list.map((item, index) => (
+            <span key={index} style={{ fontWeight: isSafari && "400" }}>
+                {item}
+            </span>
+        ));
     };
 
     const renderAreasofUsage = (

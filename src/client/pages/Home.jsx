@@ -5,7 +5,7 @@ import Info from "../components/info";
 import Banner from "../components/banner";
 import Brands from "../components/brands";
 import ProjectSamplesSection from "../components/projectsGroup/projectSamplesSection";
-import thermomexImg from "/assets/products/thermomex_ısı_ve_yalıtım_sıvası.png";
+import thermomexImg from "/assets/products/thermomex_isi_ve_yalitim_sivasi.png";
 import bannerImage from "/assets/info/etiperview.jpg";
 import { translateText as t } from "../../store/reducers/language";
 function Home() {

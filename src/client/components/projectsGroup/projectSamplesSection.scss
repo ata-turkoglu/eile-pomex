@@ -38,7 +38,7 @@
         .groupCard{
             position: relative;
             width: 350px;
-            height: 300px;
+            height: 325px;
             display: block;
             overflow: hidden;
             box-shadow: 0 0 12px -2px rgb(200, 200, 200);
@@ -65,7 +65,7 @@
     
             .textContainer{
                 width: 100%;
-                height: 50px;
+                height: 75px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -108,7 +108,7 @@
         @media screen and (max-width:768px) {
             width: 100%;
             max-width: 350px;
-            height: 300px
+            height: 325px
         }
         
         &:hover{
@@ -163,7 +163,7 @@
 
         .textContainer{
             width: 100%;
-            height: 50px;
+            height: 75px;
             display: flex;
             align-items: center;
             justify-content: center;

@@ -5,8 +5,10 @@ import { useNavigate } from "react-router-dom";
 function ProjectSampleCard({ image1, image2, text, icon, product }) {
     const navigate = useNavigate();
     const [mobile, setMobile] = useState(null);
+    const [isSafari, setIsSafari] = useState(false);
     useEffect(() => {
         window.innerWidth < 768 ? setMobile(true) : setMobile(false);
+        setIsSafari(!!window.safari);
     }, []);
     return (
         <div className="groupCard">
@@ -29,7 +31,7 @@ function ProjectSampleCard({ image1, image2, text, icon, product }) {
                 />
             </div>
             <div className="textContainer">
-                <p>{text}</p>
+                <p style={{ fontWeight: isSafari && "400" }}>{text}</p>
             </div>
         </div>
     );

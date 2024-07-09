@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useLayoutEffect, useState } from "react";
 import "./productCard.scss";
 
 function ProductCard({ image, text, onClick, rowList }) {
+    const [isSafari, setIsSafari] = useState(false);
+    useLayoutEffect(() => {
+        setIsSafari(!!window.safari);
+    }, []);
     return (
         <div
             className={rowList ? "productRowCard" : "productCard"}
@@ -23,7 +27,7 @@ function ProductCard({ image, text, onClick, rowList }) {
                         : "productCard-textContainer"
                 }
             >
-                <p>{text}</p>
+                <p style={{ fontWeight: isSafari && "400" }}>{text}</p>
             </div>
         </div>
     );

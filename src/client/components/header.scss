@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: flex-start;
     transition: height ease 0.3s;
-    font-family: "Play", sans-serif;
     border-bottom: 5px solid;
     border-image: linear-gradient(to right, rgb(1, 90, 170) 25%, white) 30;
 
@@ -400,7 +399,7 @@
 
         .pomexblok-link{
             height: 25px;
-            width: fit-content;
+            width: 60px;
             display: flex;
             cursor: pointer;
             margin-top: 1rem;

@@ -132,7 +132,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE_TH_70.pdf"
+                                            href="/assets/docs/TSE_EILE_TH_70.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -165,7 +165,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/eile_brüt_beton_sıva.pdf"
+                                            href="/assets/docs/eile_brut_beton_siva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -298,7 +298,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE_LİKİT_AKRİLİK.pdf"
+                                            href="/assets/docs/TSE_EILE_LIKIT_AKRILIK.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -384,14 +384,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_POMEX_ZEMİN_YÜZEY_SERTLEŞTİRİCİSİ.pdf"
+                                            href="/assets/docs/TSE_POMEX_ZEMIN_YUZEY_SERTLESTIRICISI.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex_zemin_yüzey_sertleştiricisi.pdf"
+                                            href="/assets/docs/ce_pomex_zemin_yuzey_sertlestiricisi.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -404,7 +404,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE_LEVEL.pdf"
+                                            href="/assets/docs/TSE_EILE_LEVEL.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -433,14 +433,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button three"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             UTO
                                         </a>
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -473,7 +473,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE_PLY_2100.pdf"
+                                            href="/assets/docs/TSE_EILE_PLY_2100.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -486,7 +486,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -534,7 +534,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_eile_son_kat_elyaflı_sıva.pdf"
+                                            href="/assets/docs/ce_eile_son_kat_elyafli_siva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -547,14 +547,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex_ince_sıva.pdf"
+                                            href="/assets/docs/ce_pomex_ince_siva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -567,14 +567,14 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-İNCE_SIVA.pdf"
+                                            href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
                                         </a>
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex_kalın_sıva.pdf"
+                                            href="/assets/docs/ce_pomex_kalin_siva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -587,7 +587,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="/assets/docs/ce_pomex_saten_sıva.pdf"
+                                            href="/assets/docs/ce_pomex_saten_siva.pdf"
                                             onClick={handleClick}
                                         >
                                             CE
@@ -609,7 +609,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_EİLE_SYP_1000.pdf"
+                                            href="/assets/docs/TSE_EILE_SYP_1000.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -629,7 +629,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_POMEX_SERAMİK_YAPIŞTIRICISI.pdf"
+                                            href="/assets/docs/TSE_POMEX_SERAMIK_YAPISTIRICISI.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
@@ -649,7 +649,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button two"
-                                            href="/assets/docs/TSE_POMEX_GRANİT_YAPIŞTIRICISI.pdf"
+                                            href="/assets/docs/TSE_POMEX_GRANIT_YAPISTIRICISI.pdf"
                                             onClick={handleClick}
                                         >
                                             TSE
