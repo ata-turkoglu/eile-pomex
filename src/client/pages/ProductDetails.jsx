@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useState } from "react";
 import "./css/productDetails.scss";
-import ProductData from "../../data/products.json";
+//import ProductData from "../../data/products.json";
+import ProductList from "../../data/productList.json";
 import { useParams, useNavigate } from "react-router-dom";
 import img from "../../../public/assets/products/eile_genel_teneke.png";
 import { Accordion } from "react-bootstrap";
@@ -30,7 +31,7 @@ function ProductDetails() {
     }, []);
 
     useLayoutEffect(() => {
-        const list = productKey.split("-");
+        /* const list = productKey.split("-");
         const group = ProductData.find((group) => group.key == list[0]);
         if (list[1] == "0") {
             const item = group.items.find((item) => item.key == productKey);
@@ -41,7 +42,8 @@ function ProductDetails() {
             );
             const item = subGroup.items.find((item) => item.key == productKey);
             setProduct(item);
-        }
+        } */
+        setProduct(ProductList.find((item) => item.id == productKey));
     }, [productKey]);
 
     const renderInfo = (text) => {

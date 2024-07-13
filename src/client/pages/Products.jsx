@@ -123,8 +123,8 @@ function Products() {
         }
     };
 
-    const handleProductClick = (key) => {
-        if (key.includes("-")) {
+    const handleProductClick = (key, productId = false) => {
+        if (productId || key.includes("-")) {
             navigate("/product-details/" + key);
         } else {
             handleCategoryItemClick(key, false);
@@ -259,7 +259,11 @@ function Products() {
                                     (header == "ürünler" ||
                                         header == "products")
                                 }
-                                onClick={() => handleProductClick(item.key)}
+                                onClick={() =>
+                                    item.id
+                                        ? handleProductClick(item.id, true)
+                                        : handleProductClick(item.key)
+                                }
                             />
                         );
                     })}
