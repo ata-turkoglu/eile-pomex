@@ -1,4 +1,5 @@
 [
+    //---Astarlar
     {
         "key": "1",
         "name": {
@@ -7,8 +8,8 @@
         },
         "img": "/assets/categories/primer-and-support-products.jpg",
         "items": [
+            //eile ASTAR E
             {
-                "id": 1,
                 "key": "1-0-1",
                 "name": "eile ASTAR E",
                 "img": "/assets/products/eile_astar_e.png",
@@ -97,8 +98,8 @@
                 }
             },
 
+            //eile FİBER
             {
-                "id": 2,
                 "key": "1-0-2",
                 "name": "eile FİBER",
                 "img": "/assets/products/gorsel_yok.png",
@@ -172,8 +173,8 @@
                 }
             },
 
+            //eile KA 300
             {
-                "id": 3,
                 "key": "1-0-3",
                 "name": "eile KA 300",
                 "img": "/assets/products/ka300.png",
@@ -252,8 +253,8 @@
                 }
             },
 
+            //eile LATEX
             {
-                "id": 4,
                 "key": "1-0-4",
                 "name": "eile LATEX",
                 "img": "/assets/products/eile_latex.png",
@@ -325,8 +326,8 @@
                 }
             },
 
+            //eile TU-05
             {
-                "id": 5,
                 "key": "1-0-5",
                 "name": "eile TU-05",
                 "img": "/assets/products/tu_05.png",
@@ -404,8 +405,8 @@
                 }
             },
 
+            //eile TU 06
             {
-                "id": 6,
                 "key": "1-0-6",
                 "name": "eile TU 06",
                 "img": "/assets/products/tu_06.png",
@@ -486,11 +487,13 @@
         ]
     },
 
+    //---Derz Dolgular
     {
         "key": "2",
         "name": { "tr": "Fuga Derz Dolgular", "en": "Joint Gaps Groutings" },
         "img": "/assets/categories/tile-grouts.jpg",
         "subGroups": [
+            //Çimento Esaslı Fugalar
             {
                 "key": "2-1",
                 "name": {
@@ -498,8 +501,8 @@
                     "en": "Cement Based Groutings"
                 },
                 "items": [
+                    //POMEX DERZ DOLGU
                     {
-                        "id": 7,
                         "key": "2-1-1",
                         "name": "POMEX DERZ DOLGU",
                         "img": "/assets/products/fuga1-6mm.png",
@@ -577,8 +580,8 @@
                         }
                     },
 
+                    //POMEX FLEX FUGA
                     {
-                        "id": 8,
                         "key": "2-1-2",
                         "name": "POMEX FLEX FUGA",
                         "img": "/assets/products/pomex_fuga.png",
@@ -659,8 +662,8 @@
                         }
                     },
 
+                    //POMEX HAVUZ FUGA
                     {
-                        "id": 9,
                         "key": "2-1-3",
                         "name": "POMEX HAVUZ FUGA",
                         "img": "/assets/products/fuga1-6mm.png",
@@ -741,8 +744,8 @@
                         }
                     },
 
+                    //POMEX RUSTİK FUGA
                     {
-                        "id": 10,
                         "key": "2-1-4",
                         "name": "POMEX RUSTİK FUGA",
                         "img": "/assets/products/fuga1-6mm.png",
@@ -823,6 +826,7 @@
                 ]
             },
 
+            //Epoksi Esaslı Fugalar
             {
                 "key": "2-2",
                 "name": {
@@ -830,8 +834,8 @@
                     "en": "Epoxy Based Groutings"
                 },
                 "items": [
+                    //eile EPX 630
                     {
-                        "id": 11,
                         "key": "2-2-1",
                         "name": "eile EPX 630",
                         "img": "/assets/products/epx_630.png",
@@ -916,6 +920,7 @@
                 ]
             },
 
+            //Mastikler
             {
                 "key": "2-3",
                 "name": {
@@ -923,8 +928,8 @@
                     "en": "Mastics"
                 },
                 "items": [
+                    //eile POLİÜRETAN MASTİK
                     {
-                        "id": 12,
                         "key": "2-3-1",
                         "name": "eile POLİÜRETAN MASTİK",
                         "img": "/assets/products/poliuretan_mastik.png",
@@ -999,8 +1004,8 @@
                         }
                     },
 
+                    //eile POLİÜRETAN MASTİK 100-D
                     {
-                        "id": 13,
                         "key": "2-3-2",
                         "name": "eile POLİÜRETAN MASTİK 100-D",
                         "img": "/assets/products/poliuretan_mastik.png",
@@ -1075,8 +1080,8 @@
                         }
                     },
 
+                    //eile POLİÜRETAN MASTİK 200
                     {
-                        "id": 14,
                         "key": "2-3-3",
                         "name": "eile POLİÜRETAN MASTİK 200",
                         "img": "/assets/products/poliuretan_mastik.png",
@@ -1151,8 +1156,8 @@
                         }
                     },
 
+                    //eile PSM 700
                     {
-                        "id": 15,
                         "key": "2-3-4",
                         "name": "eile PSM 700",
                         "img": "/assets/products/poliuretan_mastik.png",
@@ -1231,6 +1236,7 @@
         ]
     },
 
+    //---Isı Ses Yangın İzolasyonu
     {
         "key": "3",
         "name": {
@@ -1239,8 +1245,8 @@
         },
         "img": "/assets/categories/thermal-insulation-systems.jpg",
         "items": [
+            //eile DS 40
             {
-                "id": 16,
                 "key": "3-0-1",
                 "name": "eile DS 40",
                 "img": "/assets/products/eile_DS_40.png",
@@ -1320,8 +1326,8 @@
                 }
             },
 
+            //eile DS 40 ACRYL
             {
-                "id": 17,
                 "key": "3-0-2",
                 "name": "eile DS 40 ACRYL",
                 "img": "/assets/products/eile_DS_40.png",
@@ -1401,8 +1407,8 @@
                 }
             },
 
+            //eile PLS 2000
             {
-                "id": 18,
                 "key": "3-0-3",
                 "name": "eile PLS 2000",
                 "img": "/assets/products/eile_PLS_2000.png",
@@ -1455,8 +1461,8 @@
                 }
             },
 
+            //eile PLY 2100
             {
-                "id": 19,
                 "key": "3-0-4",
                 "name": "eile PLY 2100",
                 "img": "/assets/products/eile_PLY_2100.png",
@@ -1509,8 +1515,8 @@
                 }
             },
 
+            //eile SON KAT ELYAFLI SIVA
             {
-                "id": 20,
                 "key": "3-0-5",
                 "name": "eile SON KAT ELYAFLI SIVA",
                 "img": "/assets/products/eile_son_kat_elyafli_siva.png",
@@ -1594,8 +1600,8 @@
                 }
             },
 
+            //POMEX ISI MANTOLAMA LEVHA SIVASI
             {
-                "id": 21,
                 "key": "3-0-6",
                 "name": "POMEX ISI MANTOLAMA LEVHA SIVASI",
                 "img": "/assets/products/pomex_isi_mantolama_levha_sivasi.png",
@@ -1674,8 +1680,8 @@
                 }
             },
 
+            //POMEX ISI MANTOLAMA LEVHA YAPIŞTIRICISI
             {
-                "id": 22,
                 "key": "3-0-7",
                 "name": "POMEX ISI MANTOLAMA LEVHA YAPIŞTIRICISI",
                 "img": "/assets/products/pomex_isi_mantolama_levha_yapistiricisi.png",
@@ -1750,8 +1756,8 @@
                 }
             },
 
+            //POMEX THERMOMEX SIVA
             {
-                "id": 23,
                 "key": "3-0-8",
                 "name": "POMEX THERMOMEX SIVA",
                 "img": "/assets/products/thermomex_isi_ve_yalitim_sivasi.png",
@@ -1848,8 +1854,8 @@
                 }
             },
 
+            //POMEX THERMOMEX ŞAP
             {
-                "id": 24,
                 "key": "3-0-9",
                 "name": "POMEX THERMOMEX ŞAP",
                 "img": "/assets/products/thermomex_sap.png",
@@ -1943,6 +1949,7 @@
         ]
     },
 
+    //---Onarım ve Güçlendirme Sistemleri
     {
         "key": "4",
         "name": {
@@ -1951,6 +1958,7 @@
         },
         "img": "/assets/categories/repair-and-reinforcement.jpg",
         "subGroups": [
+            //Çimento Esaslı Onarım Güçlendirme
             {
                 "key": "4-1",
                 "name": {
@@ -1958,8 +1966,8 @@
                     "en": "Cement Based Reinforcement"
                 },
                 "items": [
+                    //eile A-K8
                     {
-                        "id": 25,
                         "key": "4-1-1",
                         "name": "eile A-K8",
                         "img": "/assets/products/eile_AK8.png",
@@ -2044,8 +2052,8 @@
                         }
                     },
 
+                    //eile GROUT 50 C
                     {
-                        "id": 26,
                         "key": "4-1-2",
                         "name": "eile GROUT 50 C",
                         "img": "/assets/products/eile_GROUT_50C.png",
@@ -2137,8 +2145,8 @@
                         }
                     },
 
+                    //eile GROUT 60 C
                     {
-                        "id": 27,
                         "key": "4-1-3",
                         "name": "eile GROUT 60 C",
                         "img": "/assets/products/eile_GROUT_60C.png",
@@ -2225,8 +2233,8 @@
                         }
                     },
 
+                    //eile GROUT 100 C
                     {
-                        "id": 28,
                         "key": "4-1-4",
                         "name": "eile GROUT 100 C",
                         "img": "/assets/products/eile_grout_1000.png",
@@ -2305,8 +2313,8 @@
                         }
                     },
 
+                    //eile SNS 804
                     {
-                        "id": 29,
                         "key": "4-1-5",
                         "name": "eile SNS 804",
                         "img": "/assets/products/eile_SNS_804.png",
@@ -2381,8 +2389,8 @@
                         }
                     },
 
+                    //eile TH 60
                     {
-                        "id": 30,
                         "key": "4-1-6",
                         "name": "eile TH 60",
                         "img": "/assets/products/eile_TH_60_ince_tamir_harci.png",
@@ -2469,8 +2477,8 @@
                         }
                     },
 
+                    //eile TH 70
                     {
-                        "id": 31,
                         "key": "4-1-7",
                         "name": "eile TH 70",
                         "img": "/assets/products/eile_TH_70.png",
@@ -2557,6 +2565,7 @@
                 ]
             },
 
+            //Epoksi Esaslı Onarım Güçlendirme
             {
                 "key": "4-2",
                 "name": {
@@ -2564,8 +2573,8 @@
                     "en": "Epoxy Based Reinforcement"
                 },
                 "items": [
+                    //eile EPX 50
                     {
-                        "id": 32,
                         "key": "4-2-1",
                         "name": "eile EPX 50",
                         "img": "/assets/products/epx_50.png",
@@ -2650,8 +2659,8 @@
                         }
                     },
 
+                    //eile EPX 100
                     {
-                        "id": 33,
                         "key": "4-2-2",
                         "name": "eile EPX 100",
                         "img": "/assets/products/epx_100.png",
@@ -2753,8 +2762,8 @@
                         }
                     },
 
+                    //eile EPX 120
                     {
-                        "id": 34,
                         "key": "4-2-3",
                         "name": "eile EPX 120",
                         "img": "/assets/products/teneke_epx_120.png",
@@ -2827,8 +2836,8 @@
                         }
                     },
 
+                    //eile EPX 240 G
                     {
-                        "id": 35,
                         "key": "4-2-4",
                         "name": "eile EPX 240 G",
                         "img": "/assets/products/epx_240.png",
@@ -2920,8 +2929,8 @@
                         }
                     },
 
+                    //eile EPX 300
                     {
-                        "id": 36,
                         "key": "4-2-5",
                         "name": "eile EPX 300",
                         "img": "/assets/products/epx_300.png",
@@ -3006,6 +3015,7 @@
                 ]
             },
 
+            //Karbon Esaslı Onarım Güçlendirme
             {
                 "key": "4-3",
                 "name": {
@@ -3013,8 +3023,8 @@
                     "en": "Carbon Based Reinforcement"
                 },
                 "items": [
+                    //eile CARBOFRP
                     {
-                        "id": 37,
                         "key": "4-3-1",
                         "name": "eile CARBOFRP",
                         "img": "/assets/products/carbo_frp.png",
@@ -3097,8 +3107,8 @@
                         }
                     },
 
+                    //eile Carbon Mesh 170
                     {
-                        "id": 38,
                         "key": "4-3-2",
                         "name": "eile Carbon Mesh 170",
                         "img": "/assets/products/mesh_170.png",
@@ -3167,8 +3177,8 @@
                         }
                     },
 
+                    //eile CARBOSHIELD
                     {
-                        "id": 39,
                         "key": "4-3-3",
                         "name": "eile CARBOSHIELD",
                         "img": "/assets/products/carboshild.jpg",
@@ -3249,8 +3259,8 @@
                         }
                     },
 
+                    //eile EPX 33
                     {
-                        "id": 40,
                         "key": "4-3-4",
                         "name": "eile EPX 33",
                         "img": "/assets/products/teneke_epx_33.png",
@@ -3329,12 +3339,13 @@
                 ]
             },
 
+            //Kimyasal Dübeller
             {
                 "key": "4-4",
                 "name": { "tr": "Kimyasal Dübeller", "en": "Chemical Anchors" },
                 "items": [
+                    //eile EPOX
                     {
-                        "id": 41,
                         "key": "4-4-1",
                         "name": "eile EPOX",
                         "img": "/assets/products/epox.png",
@@ -3424,8 +3435,8 @@
                         }
                     },
 
+                    //eile ROTFIX
                     {
-                        "id": 42,
                         "key": "4-4-2",
                         "name": "eile ROTFIX",
                         "img": "/assets/products/rotfix.png",
@@ -3514,6 +3525,7 @@
                 ]
             },
 
+            //Tarihi Eser Onarım Güçlendirme
             {
                 "key": "4-5",
                 "name": {
@@ -3521,8 +3533,8 @@
                     "en": "Historical Artifacts Repair And Restoration Mortars"
                 },
                 "items": [
+                    //eile HORASAN HARCI
                     {
-                        "id": 43,
                         "key": "4-5-1",
                         "name": "eile HORASAN HARCI",
                         "img": "/assets/products/eile_horasan_harci.png",
@@ -3597,8 +3609,8 @@
                         }
                     },
 
+                    //eile LIME INJECTION
                     {
-                        "id": 44,
                         "key": "4-5-2",
                         "name": "eile LIME INJECTION",
                         "img": "/assets/products/lime_injection.png",
@@ -3673,8 +3685,8 @@
                         }
                     },
 
+                    //eile HRS 10
                     {
-                        "id": 45,
                         "key": "4-5-3",
                         "name": "eile HRS 10",
                         "img": "/assets/products/eile_HRS_10.png",
@@ -3751,8 +3763,8 @@
                         }
                     },
 
+                    //eile Seal SB
                     {
-                        "id": 46,
                         "key": "4-5-4",
                         "name": "eile Seal SB",
                         "img": "/assets/products/seal_sb.png",
@@ -3835,13 +3847,14 @@
         ]
     },
 
+    //---Sıvalar
     {
         "key": "5",
         "name": { "tr": "Sıvalar", "en": "Plasters" },
         "img": "/assets/categories/plasters.jpg",
         "items": [
+            //eile GBS 5000
             {
-                "id": 47,
                 "key": "5-0-1",
                 "name": "eile GBS 5000",
                 "img": "/assets/products/eile_GBS_5000.png",
@@ -3921,8 +3934,8 @@
                 }
             },
 
+            //POMEX BRÜT BETON SIVASI
             {
-                "id": 48,
                 "key": "5-0-2",
                 "name": "POMEX BRÜT BETON SIVASI",
                 "img": "/assets/products/pomex_burut_beton_sivasi.png",
@@ -4003,8 +4016,8 @@
                 }
             },
 
+            //POMEX DOLGU MACUNU
             {
-                "id": 49,
                 "key": "5-0-3",
                 "name": "POMEX DOLGU MACUNU",
                 "img": "/assets/products/pomex_burut_beton_sivasi.png",
@@ -4085,8 +4098,8 @@
                 }
             },
 
+            //POMEX İNCE SIVA
             {
-                "id": 50,
                 "key": "5-0-4",
                 "name": "POMEX İNCE SIVA",
                 "img": "/assets/products/pomex_ince_siva.png",
@@ -4167,8 +4180,8 @@
                 }
             },
 
+            //POMEX KALIN SIVA
             {
-                "id": 51,
                 "key": "5-0-5",
                 "name": "POMEX KALIN SIVA",
                 "img": "/assets/products/pomex_kalin_siva.png",
@@ -4259,8 +4272,8 @@
                 }
             },
 
+            //POMEX İNCE MAKİNA SIVASI
             {
-                "id": 52,
                 "key": "5-0-6",
                 "name": "POMEX İNCE MAKİNA SIVASI",
                 "img": "/assets/products/pomex_makina_sivasi.png",
@@ -4339,8 +4352,8 @@
                 }
             },
 
+            //POMEX KALIN MAKİNA SIVASI
             {
-                "id": 53,
                 "key": "5-0-7",
                 "name": "POMEX KALIN MAKİNA SIVASI",
                 "img": "/assets/products/pomex_makina_sivasi.png",
@@ -4419,8 +4432,8 @@
                 }
             },
 
+            //POMEX SATEN SIVA
             {
-                "id": 54,
                 "key": "5-0-8",
                 "name": "POMEX SATEN SIVA",
                 "img": "/assets/products/pomex_makina_sivasi.png",
@@ -4501,6 +4514,7 @@
         ]
     },
 
+    //---Su Yalıtım Sistemleri
     {
         "key": "6",
         "name": {
@@ -4509,6 +4523,7 @@
         },
         "img": "/assets/categories/waterproofing.jpg",
         "subGroups": [
+            //Akrilik Esaslı Su Yalıtım
             {
                 "key": "6-1",
                 "name": {
@@ -4516,8 +4531,8 @@
                     "en": "Acrylic Based Waterproofing"
                 },
                 "items": [
+                    //eile ELASTOMER
                     {
-                        "id": 55,
                         "key": "6-1-1",
                         "name": "eile ELASTOMER",
                         "img": "/assets/products/elastomer_render.png",
@@ -4602,8 +4617,8 @@
                         }
                     },
 
+                    //eile ELASTOMER TEXTURE
                     {
-                        "id": 56,
                         "key": "6-1-2",
                         "name": "eile ELASTOMER TEXTURE",
                         "img": "/assets/products/elastomer_texture.png",
@@ -4686,8 +4701,8 @@
                         }
                     },
 
+                    //eile LİKİT AKRİLİK
                     {
-                        "id": 57,
                         "key": "6-1-3",
                         "name": "eile LİKİT AKRİLİK",
                         "img": "/assets/products/likit_akrilik.png",
@@ -4789,6 +4804,7 @@
                 ]
             },
 
+            //Bitüm - Poliüretan Esaslı Su Yalıtımı
             {
                 "key": "6-2",
                 "name": {
@@ -4796,8 +4812,8 @@
                     "en": "Bitumen - Polyurethane Based Waterproofing"
                 },
                 "items": [
+                    //eile PUR 1KB
                     {
-                        "id": 58,
                         "key": "6-2-1",
                         "name": "eile PUR 1KB",
                         "img": "/assets/products/pur_1kb.png",
@@ -4874,8 +4890,8 @@
                         }
                     },
 
+                    //eile PUR 2K B
                     {
-                        "id": 59,
                         "key": "6-2-2",
                         "name": "eile PUR 2K B",
                         "img": "/assets/products/pur_2kb.png",
@@ -4976,6 +4992,7 @@
                 ]
             },
 
+            //Bitüm Esaslı Su Yalıtım
             {
                 "key": "6-3",
                 "name": {
@@ -4983,8 +5000,8 @@
                     "en": "Bitumen Based Waterproofing"
                 },
                 "items": [
+                    //eile BİTÜ-ÇİM
                     {
-                        "id": 60,
                         "key": "6-3-1",
                         "name": "eile BİTÜ-ÇİM",
                         "img": "/assets/products/bitu_cim.png",
@@ -5090,8 +5107,8 @@
                         }
                     },
 
+                    //eile BİTÜ-ÇİM ELASTİK
                     {
-                        "id": 61,
                         "key": "6-3-2",
                         "name": "eile BİTÜ-ÇİM ELASTİK",
                         "img": "/assets/products/bitu_cim_elas.png",
@@ -5201,8 +5218,8 @@
                         }
                     },
 
+                    //eile MET ZZK-40
                     {
-                        "id": 62,
                         "key": "6-3-3",
                         "name": "eile MET ZZK-40",
                         "img": "/assets/products/met_zzk_40.png",
@@ -5300,8 +5317,8 @@
                         }
                     },
 
+                    //POMEX Bitülast
                     {
-                        "id": 63,
                         "key": "6-3-4",
                         "name": "POMEX Bitülast",
                         "img": "/assets/products/bitulast.png",
@@ -5388,6 +5405,7 @@
                 ]
             },
 
+            //Çimento - Akrilik Esaslı Su Yalıtım
             {
                 "key": "6-4",
                 "name": {
@@ -5395,8 +5413,8 @@
                     "en": "Cement - Acrylic Based Waterproofing"
                 },
                 "items": [
+                    //eile A SEAL
                     {
-                        "id": 64,
                         "key": "6-4-1",
                         "name": "eile A SEAL",
                         "img": "/assets/products/eile_ASEAL.png",
@@ -5477,8 +5495,8 @@
                         }
                     },
 
+                    //eile KAPİLER
                     {
-                        "id": 65,
                         "key": "6-4-2",
                         "name": "eile KAPİLER",
                         "img": "/assets/products/eile_kapiler.png",
@@ -5571,8 +5589,8 @@
                         }
                     },
 
+                    //eile KAPİLER 2K
                     {
-                        "id": 66,
                         "key": "6-4-3",
                         "name": "eile KAPİLER 2K",
                         "img": "/assets/products/kapiler_2k.png",
@@ -5657,8 +5675,8 @@
                         }
                     },
 
+                    //eile MAX SEAL
                     {
-                        "id": 67,
                         "key": "6-4-4",
                         "name": "eile MAX SEAL",
                         "img": "/assets/products/eile_max_seal.png",
@@ -5758,8 +5776,8 @@
                         }
                     },
 
+                    //eile MAX SEAL ELASTİK
                     {
-                        "id": 68,
                         "key": "6-4-5",
                         "name": "eile MAX SEAL ELASTİK",
                         "img": "/assets/products/eile_max_seal_elastic.png",
@@ -5858,8 +5876,8 @@
                         }
                     },
 
+                    //POMEX 2K
                     {
-                        "id": 69,
                         "key": "6-4-6",
                         "name": "POMEX 2K",
                         "img": "/assets/products/pomex_2k.png",
@@ -5952,8 +5970,8 @@
                         }
                     },
 
+                    //POMEX 2K ELASTİK
                     {
-                        "id": 70,
                         "key": "6-4-7",
                         "name": "POMEX 2K ELASTİK",
                         "img": "/assets/products/pomex_2K_elastik.png",
@@ -6032,8 +6050,8 @@
                         }
                     },
 
+                    //POMEX WATERBOND
                     {
-                        "id": 71,
                         "key": "6-4-8",
                         "name": "POMEX WATERBOND",
                         "img": "/assets/products/water_bond_render.png",
@@ -6118,8 +6136,8 @@
                         }
                     },
 
+                    //POMEX T SEAL
                     {
-                        "id": 72,
                         "key": "6-4-9",
                         "name": "POMEX T SEAL",
                         "img": "/assets/products/eilegenel.png",
@@ -6204,6 +6222,7 @@
                 ]
             },
 
+            //Epoksi Poliüretan Esaslı Su Yalıtım
             {
                 "key": "6-5",
                 "name": {
@@ -6211,8 +6230,8 @@
                     "en": "Epoxy Polyurethane Based Waterproofing"
                 },
                 "items": [
+                    //eile POLİJET 120 - eile POLİJET 120 K
                     {
-                        "id": 73,
                         "key": "6-5-1",
                         "name": "eile POLİJET 120 - eile POLİJET 120 K",
                         "img": "/assets/products/polijet_120.png",
@@ -6291,8 +6310,8 @@
                         }
                     },
 
+                    //eile PUR 012
                     {
-                        "id": 74,
                         "key": "6-5-2",
                         "name": "eile PUR 012",
                         "img": "/assets/products/teneke_pur_012.png",
@@ -6380,8 +6399,8 @@
                         }
                     },
 
+                    //eile PUR 022
                     {
-                        "id": 75,
                         "key": "6-5-3",
                         "name": "eile PUR 022",
                         "img": "/assets/products/pur_022.png",
@@ -6464,8 +6483,8 @@
                         }
                     },
 
+                    //eile PUR 042
                     {
-                        "id": 76,
                         "key": "6-5-4",
                         "name": "eile PUR 042",
                         "img": "/assets/products/pur_042.png",
@@ -6544,6 +6563,7 @@
                 ]
             },
 
+            //Poliürea
             {
                 "key": "6-6",
                 "name": {
@@ -6551,8 +6571,8 @@
                     "en": "Poliurea"
                 },
                 "items": [
+                    //eile Poliürea 500
                     {
-                        "id": 77,
                         "key": "6-6-1",
                         "name": "eile Poliürea 500",
                         "img": "/assets/products/poliurea_hp.png",
@@ -6639,8 +6659,8 @@
                         }
                     },
 
+                    //eile Poliürea HP
                     {
-                        "id": 78,
                         "key": "6-6-2",
                         "name": "eile Poliürea HP",
                         "img": "/assets/products/poliurea_hp.png",
@@ -6725,6 +6745,7 @@
                 ]
             },
 
+            //Destek Ürünleri
             {
                 "key": "6-7",
                 "name": {
@@ -6732,8 +6753,8 @@
                     "en": "Waterproofing Tapes and Subsidiary Products"
                 },
                 "items": [
+                    //FC 805
                     {
-                        "id": 79,
                         "key": "6-7-1",
                         "name": "FC 805",
                         "img": "/assets/products/dilatasyon.png",
@@ -6810,8 +6831,8 @@
                         }
                     },
 
+                    //eile PB 12
                     {
-                        "id": 80,
                         "key": "6-7-2",
                         "name": "eile PB 12",
                         "img": "/assets/products/pb_12.png",
@@ -6882,8 +6903,8 @@
                         }
                     },
 
+                    //eile Swell
                     {
-                        "id": 81,
                         "key": "6-7-3",
                         "name": "eile Swell",
                         "img": "/assets/products/swell.png",
@@ -6958,11 +6979,13 @@
         ]
     },
 
+    //---Yapıştırıcılar
     {
         "key": "7",
         "name": { "tr": "Yapıştırıcılar", "en": "Adhesives" },
         "img": "/assets/categories/ceramic-adhesives.jpg",
         "subGroups": [
+            //Akrilik Esaslı Yapıştırıcılar
             {
                 "key": "7-1",
                 "name": {
@@ -6970,8 +6993,8 @@
                     "en": "Acrylic Based Adhesives"
                 },
                 "items": [
+                    //eile PMA 100
                     {
-                        "id": 82,
                         "key": "7-1-1",
                         "name": "eile PMA 100",
                         "img": "/assets/products/epx_927.png",
@@ -7052,6 +7075,7 @@
                 ]
             },
 
+            //Çimento Esaslı Yapıştırıcılar
             {
                 "key": "7-2",
                 "name": {
@@ -7059,8 +7083,8 @@
                     "en": "Cement Based Adhesives"
                 },
                 "items": [
+                    //eile POMEX 28
                     {
-                        "id": 83,
                         "key": "7-2-1",
                         "name": "eile POMEX 28",
                         "img": "/assets/products/eilegenel.png",
@@ -7148,8 +7172,8 @@
                         }
                     },
 
+                    //eile SYP 1000
                     {
-                        "id": 84,
                         "key": "7-2-2",
                         "name": "eile SYP 1000",
                         "img": "/assets/products/eile_SYP_1000.png",
@@ -7242,8 +7266,8 @@
                         }
                     },
 
+                    //Pomex FLEX YAPIŞTIRICI
                     {
-                        "id": 85,
                         "key": "7-2-3",
                         "name": "Pomex FLEX YAPIŞTIRICI",
                         "img": "/assets/products/pomex_flex_yapistirici.png",
@@ -7346,8 +7370,8 @@
                         }
                     },
 
+                    //POMEX GAZBETON YAPIŞTIRMA HARCI
                     {
-                        "id": 86,
                         "key": "7-2-4",
                         "name": "POMEX GAZBETON YAPIŞTIRMA HARCI",
                         "img": "/assets/products/pomex_gazbeton_yapistirma_harci.png",
@@ -7424,8 +7448,8 @@
                         }
                     },
 
+                    //POMEX GRANİT YAPIŞTIRICISI
                     {
-                        "id": 87,
                         "key": "7-2-5",
                         "name": "POMEX GRANİT YAPIŞTIRICISI",
                         "img": "/assets/products/pomex_granit_yapistirma_harci.png",
@@ -7519,8 +7543,8 @@
                         }
                     },
 
+                    //POMEX HAVUZ YAPIŞTIRICISI
                     {
-                        "id": 88,
                         "key": "7-2-6",
                         "name": "POMEX HAVUZ YAPIŞTIRICISI",
                         "img": "/assets/products/eilegenel.png",
@@ -7627,8 +7651,8 @@
                         }
                     },
 
+                    //POMEX HIZLI DONAN SERAMİK YAPIŞTIRMA HARCI
                     {
-                        "id": 89,
                         "key": "7-2-7",
                         "name": "POMEX HIZLI DONAN SERAMİK YAPIŞTIRMA HARCI",
                         "img": "/assets/products/pomex_seramik.png",
@@ -7723,8 +7747,8 @@
                         }
                     },
 
+                    //POMEX SERAMİK YAPIŞTIRMA HARCI
                     {
-                        "id": 90,
                         "key": "7-2-8",
                         "name": "POMEX SERAMİK YAPIŞTIRMA HARCI",
                         "img": "/assets/products/pomex_seramik.png",
@@ -7819,8 +7843,8 @@
                         }
                     },
 
+                    //SERABELL SERAMİK YAPIŞTIRMA HARCI
                     {
-                        "id": 91,
                         "key": "7-2-9",
                         "name": "SERABELL SERAMİK YAPIŞTIRMA HARCI",
                         "img": "/assets/products/serabell_seramik_yapistirma_harci.png",
@@ -7903,6 +7927,7 @@
                 ]
             },
 
+            //Epoksi Esaslı Yapıştırıcılar
             {
                 "key": "7-3",
                 "name": {
@@ -7910,8 +7935,8 @@
                     "en": "Epoxy Based Adhesives"
                 },
                 "items": [
+                    //eile EPX 927
                     {
-                        "id": 92,
                         "key": "7-3-1",
                         "name": "eile EPX 927",
                         "img": "/assets/products/epx_927.png",
@@ -7994,11 +8019,13 @@
         ]
     },
 
+    //---Zemin Sistemleri
     {
         "key": "8",
         "name": { "tr": "Zemin Sistemleri", "en": "Ground Systems" },
         "img": "/assets/categories/ground-systems.jpg",
         "subGroups": [
+            //Çimento Esaslı Zemin Sistemleri
             {
                 "key": "8-1",
                 "name": {
@@ -8006,8 +8033,8 @@
                     "en": "Cement Based Ground Systems"
                 },
                 "items": [
+                    //eile Top 110 S
                     {
-                        "id": 93,
                         "key": "8-1-1",
                         "name": "eile Top 110 S",
                         "img": "/assets/products/eile_TOP_110S.png",
@@ -8093,8 +8120,8 @@
                         }
                     },
 
+                    //eile 125 KK
                     {
-                        "id": 94,
                         "key": "8-1-2",
                         "name": "eile 125 KK",
                         "img": "/assets/products/pomex_125_KK.png",
@@ -8179,8 +8206,8 @@
                         }
                     },
 
+                    //eile KORUND 120 F
                     {
-                        "id": 95,
                         "key": "8-1-3",
                         "name": "eile KORUND 120 F",
                         "img": "/assets/products/eile_korunt_120F.png",
@@ -8265,8 +8292,8 @@
                         }
                     },
 
+                    //eile LEVEL
                     {
-                        "id": 96,
                         "key": "8-1-4",
                         "name": "eile LEVEL",
                         "img": "/assets/products/eile_level.png",
@@ -8353,8 +8380,8 @@
                         }
                     },
 
+                    //eile LEVEL 10
                     {
-                        "id": 97,
                         "key": "8-1-5",
                         "name": "eile LEVEL 10",
                         "img": "/assets/products/eile_level.png",
@@ -8437,8 +8464,8 @@
                         }
                     },
 
+                    //eile LEVEL 15
                     {
-                        "id": 98,
                         "key": "8-1-6",
                         "name": "eile LEVEL 15",
                         "img": "/assets/products/eile_level.png",
@@ -8521,8 +8548,8 @@
                         }
                     },
 
+                    //POMEX ZEMİN YÜZEY SERTLEŞTİRİCİ
                     {
-                        "id": 99,
                         "key": "8-1-7",
                         "name": "POMEX ZEMİN YÜZEY SERTLEŞTİRİCİ",
                         "img": "/assets/products/pomex_yuzey_sertlestirici.png",
@@ -8607,6 +8634,7 @@
                 ]
             },
 
+            //Epoksi - Poliüretan Esaslı Zemin Sistemleri
             {
                 "key": "8-2",
                 "name": {
@@ -8614,8 +8642,8 @@
                     "en": "Epoxy Polyurethane Based Ground Systems"
                 },
                 "items": [
+                    //eile EPX 018
                     {
-                        "id": 100,
                         "key": "8-2-1",
                         "name": "eile EPX 018",
                         "img": "/assets/products/teneke_bos.png",
@@ -8695,8 +8723,8 @@
                         }
                     },
 
+                    //eile EPX 400 P
                     {
-                        "id": 101,
                         "key": "8-2-2",
                         "name": "eile EPX 400 P",
                         "img": "/assets/products/teneke_bos.png",
@@ -8776,8 +8804,8 @@
                         }
                     },
 
+                    //eile EPX 550
                     {
-                        "id": 102,
                         "key": "8-2-3",
                         "name": "eile EPX 550",
                         "img": "/assets/products/epx550.png",
@@ -8858,8 +8886,8 @@
                         }
                     },
 
+                    //eile EPX 550 - boya
                     {
-                        "id": 103,
                         "key": "8-2-4",
                         "name": "eile EPX 550 - boya",
                         "img": "/assets/products/epx550.png",
@@ -8940,8 +8968,8 @@
                         }
                     },
 
+                    //eile EPX 730
                     {
-                        "id": 104,
                         "key": "8-2-5",
                         "name": "eile EPX 730",
                         "img": "/assets/products/teneke_bos.png",
@@ -9013,8 +9041,8 @@
                         }
                     },
 
+                    //eile EPX 830
                     {
-                        "id": 105,
                         "key": "8-2-6",
                         "name": "eile EPX 830",
                         "img": "/assets/products/teneke_bos.png",
@@ -9086,8 +9114,8 @@
                         }
                     },
 
+                    //eile EPX 1001
                     {
-                        "id": 106,
                         "key": "8-2-7",
                         "name": "eile EPX 1001",
                         "img": "/assets/products/teneke_bos.png",
@@ -9159,8 +9187,8 @@
                         }
                     },
 
+                    //eile PU CONCRETE 3K
                     {
-                        "id": 107,
                         "key": "8-2-8",
                         "name": "eile PU CONCRETE 3K",
                         "img": "/assets/products/teneke_bos.png",
@@ -9232,8 +9260,8 @@
                         }
                     },
 
+                    //eile PUR 053
                     {
-                        "id": 108,
                         "key": "8-2-9",
                         "name": "eile PUR 053",
                         "img": "/assets/products/pur_053.png",
@@ -9320,8 +9348,8 @@
                         }
                     },
 
+                    //eile PUR 060
                     {
-                        "id": 109,
                         "key": "8-2-10",
                         "name": "eile PUR 060",
                         "img": "/assets/products/pur_053.png",
@@ -9408,8 +9436,8 @@
                         }
                     },
 
+                    //eile PUR 750
                     {
-                        "id": 110,
                         "key": "8-2-11",
                         "name": "eile PUR 750",
                         "img": "/assets/products/pur_053.png",
@@ -9496,8 +9524,8 @@
                         }
                     },
 
+                    //eile SEALGARD
                     {
-                        "id": 111,
                         "key": "8-2-12",
                         "name": "eile SEALGARD",
                         "img": "/assets/products/pur_053.png",
@@ -9584,8 +9612,8 @@
                         }
                     },
 
+                    //eile STONE CARPET 2 K
                     {
-                        "id": 112,
                         "key": "8-2-13",
                         "name": "eile STONE CARPET 2 K",
                         "img": "/assets/products/pur_053.png",
@@ -9674,6 +9702,7 @@
                 ]
             },
 
+            //Epoksi Esaslı Zemin Sistemleri
             {
                 "key": "8-3",
                 "name": {
@@ -9681,8 +9710,8 @@
                     "en": "Epoxy Based Ground Systems"
                 },
                 "items": [
+                    //eile EPX 021
                     {
-                        "id": 113,
                         "key": "8-3-1",
                         "name": "eile EPX 021",
                         "img": "/assets/products/epx_021.png",
@@ -9760,8 +9789,8 @@
                         }
                     },
 
+                    //eile EPX 110
                     {
-                        "id": 114,
                         "key": "8-3-2",
                         "name": "eile EPX 110",
                         "img": "/assets/products/epx_110.png",
@@ -9842,8 +9871,8 @@
                         }
                     },
 
+                    //eile EPX 225
                     {
-                        "id": 115,
                         "key": "8-3-3",
                         "name": "eile EPX 225",
                         "img": "/assets/products/epx_225.png",
@@ -9925,8 +9954,8 @@
                         }
                     },
 
+                    //eile EPX 260
                     {
-                        "id": 116,
                         "key": "8-3-4",
                         "name": "eile EPX 260",
                         "img": "/assets/products/teneke_bos.png",
@@ -10009,8 +10038,8 @@
                         }
                     },
 
+                    //eile EPS 280 FL
                     {
-                        "id": 117,
                         "key": "8-3-5",
                         "name": "eile EPS 280 FL",
                         "img": "/assets/products/eile_genel_teneke.png",
@@ -10088,8 +10117,8 @@
                         }
                     },
 
+                    //eile PUR 710
                     {
-                        "id": 118,
                         "key": "8-3-6",
                         "name": "eile PUR 710",
                         "img": "/assets/products/teneke_pur_710.png",
@@ -10169,8 +10198,8 @@
                         }
                     },
 
+                    //eile PUR 712 2 K
                     {
-                        "id": 119,
                         "key": "8-3-7",
                         "name": "eile PUR 712 2 K",
                         "img": "/assets/products/teneke_pur_710.png",
@@ -10252,12 +10281,13 @@
                 ]
             },
 
+            //Kür Malzemeleri
             {
                 "key": "8-4",
                 "name": { "tr": "Kür Malzemeleri", "en": "Curing Materials" },
                 "items": [
+                    //eile CURING 105
                     {
-                        "id": 120,
                         "key": "8-4-1",
                         "name": "eile CURING 105",
                         "img": "/assets/products/eile_curing105.png",
@@ -10350,8 +10380,8 @@
                         }
                     },
 
+                    //eile CURING AST
                     {
-                        "id": 121,
                         "key": "8-4-2",
                         "name": "eile CURING AST",
                         "img": "/assets/products/eile_curing_AST.png",
@@ -10440,8 +10470,8 @@
                         }
                     },
 
+                    //eile PARKÜR
                     {
-                        "id": 122,
                         "key": "8-4-3",
                         "name": "eile PARKÜR",
                         "img": "/assets/products/eile_parkur.png",
@@ -10536,12 +10566,13 @@
                 ]
             },
 
+            //Silikat Esaslı Zemin Sistemleri
             {
                 "key": "8-5",
                 "name": { "tr": "Kür Malzemeleri", "en": "Curing Materials" },
                 "items": [
+                    //eile SILIKA 100
                     {
-                        "id": 123,
                         "key": "8-5-1",
                         "name": "eile SILIKA 100",
                         "img": "/assets/products/eile_curing105.png",
