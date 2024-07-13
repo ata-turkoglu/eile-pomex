@@ -21,7 +21,7 @@ function Home() {
                 image={thermomexImg}
                 header={t("naturalSolutionsInInsulation")}
                 text={t("infoThermomex")}
-                to="/product-details/6-0-2"
+                to="/product-details/23"
                 textColor="black"
             />
             <Banner image={bannerImage} />
