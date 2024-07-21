@@ -2,7 +2,7 @@
     {
         "id": 1,
         "key": "1-0-1",
-        "name": "eile ASTAR E",
+        "name": { "tr": "eile ASTAR E", "en": "eile ASTAR E" },
         "img": "/assets/products/eile_astar_e.png",
         "appImage": "/assets/appImage/astar.png",
         "info": {
@@ -92,7 +92,7 @@
     {
         "id": 2,
         "key": "1-0-2",
-        "name": "eile FİBER",
+        "name": { "tr": "eile FİBER", "en": "eile FIBER" },
         "img": "/assets/products/gorsel_yok.png",
         "info": {
             "tr": "Polipropilen Elyaf Lif",
@@ -165,7 +165,7 @@
     {
         "id": 3,
         "key": "1-0-3",
-        "name": "eile KA 300",
+        "name": { "tr": "eile KA 300", "en": "eile KA 300" },
         "img": "/assets/products/ka300.png",
         "appImage": "/assets/appImage/ka_300.png",
         "info": {
@@ -241,7 +241,7 @@
     {
         "id": 4,
         "key": "1-0-4",
-        "name": "eile LATEX",
+        "name": { "tr": "eile LATEX", "en": "eile LATEX" },
         "img": "/assets/products/eile_latex.png",
         "info": {
             "tr": "Çimento Esaslı Harçlar ve Sıvalar için, Su Geçirimsizlik Katkısı",
@@ -314,7 +314,7 @@
     {
         "id": 5,
         "key": "1-0-5",
-        "name": "eile TU-05",
+        "name": { "tr": "eile TU-05", "en": "eile TU-05" },
         "img": "/assets/products/tu_05.png",
         "appImage": "/assets/appImage/tu_05.png",
         "info": {
@@ -393,7 +393,7 @@
     {
         "id": 6,
         "key": "1-0-6",
-        "name": "eile TU 06",
+        "name": { "tr": "eile TU 06", "en": "eile TU 06" },
         "img": "/assets/products/tu_06.png",
         "appImage": "/assets/appImage/tu_06.png",
         "info": {
@@ -473,7 +473,7 @@
     {
         "id": 7,
         "key": "2-1-1",
-        "name": "POMEX DERZ DOLGU",
+        "name": { "tr": "POMEX DERZ DOLGU", "en": "POMEX JOINT" },
         "img": "/assets/products/fuga1-6mm.png",
         "appImage": "/assets/appImage/fuga.png",
         "info": {
@@ -554,7 +554,7 @@
     {
         "id": 8,
         "key": "2-1-2",
-        "name": "POMEX FLEX FUGA",
+        "name": { "tr": "POMEX FLEX FUGA", "en": "POMEX FLEX JOINT" },
         "img": "/assets/products/pomex_fuga.png",
         "appImage": "/assets/appImage/flex_fuga.png",
         "info": {
@@ -636,7 +636,7 @@
     {
         "id": 9,
         "key": "2-1-3",
-        "name": "POMEX HAVUZ FUGA",
+        "name": { "tr": "POMEX HAVUZ FUGA", "en": "POMEX POOL JOINT SEALANT" },
         "img": "/assets/products/fuga1-6mm.png",
         "appImage": "/assets/appImage/havuz_fuga.png",
         "info": {
@@ -718,7 +718,10 @@
     {
         "id": 10,
         "key": "2-1-4",
-        "name": "POMEX RUSTİK FUGA",
+        "name": {
+            "tr": "POMEX RUSTİK FUGA",
+            "en": "POMEX RUSTIC JOINT SEALANT"
+        },
         "img": "/assets/products/fuga1-6mm.png",
         "appImage": "/assets/appImage/rustik_fuga.png",
         "info": {
@@ -798,7 +801,7 @@
     {
         "id": 11,
         "key": "2-2-1",
-        "name": "eile EPX 630",
+        "name": { "tr": "eile EPX 630", "en": "eile EPX 630" },
         "img": "/assets/products/epx_630.png",
         "appImage": "/assets/appImage/epx_630.png",
         "info": {
@@ -882,7 +885,10 @@
     {
         "id": 12,
         "key": "2-3-1",
-        "name": "eile POLİÜRETAN MASTİK",
+        "name": {
+            "tr": "eile POLİÜRETAN MASTİK",
+            "en": "eile POLYURETHANE SEALANT"
+        },
         "img": "/assets/products/poliuretan_mastik.png",
         "appImage": "/assets/appImage/mastik.png",
         "info": {
@@ -958,7 +964,10 @@
     {
         "id": 13,
         "key": "2-3-2",
-        "name": "eile POLİÜRETAN MASTİK 100-D",
+        "name": {
+            "tr": "eile POLİÜRETAN MASTİK 100-D",
+            "en": "eile POLYURETHANE SEALANT 100-D"
+        },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/mastik.png",
         "info": {
@@ -1044,7 +1053,10 @@
     {
         "id": 14,
         "key": "2-3-3",
-        "name": "eile POLİÜRETAN MASTİK 200",
+        "name": {
+            "tr": "eile POLİÜRETAN MASTİK 200",
+            "en": "eile POLYURETHANE SEALANT 200"
+        },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/mastik.png",
         "info": {
@@ -1134,7 +1146,7 @@
     {
         "id": 15,
         "key": "2-3-4",
-        "name": "eile PSM 700",
+        "name": { "tr": "eile PSM 700", "en": "eile PSM 700" },
         "img": "/assets/products/poliuretan_mastik.png",
         "appImage": "/assets/appImage/mastik.png",
         "info": {
@@ -1236,7 +1248,7 @@
     {
         "id": 16,
         "key": "3-0-1",
-        "name": "eile DS 40",
+        "name": { "tr": "eile DS 40", "en": "eile DS 40" },
         "img": "/assets/products/eile_DS_40.png",
         "appImage": "/assets/appImage/ds_40_app.png",
         "info": {
@@ -1317,7 +1329,7 @@
     {
         "id": 17,
         "key": "3-0-2",
-        "name": "eile DS 40 ACRYL",
+        "name": { "tr": "eile DS 40 ACRYL", "en": "eile DS 40 ACRYL" },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/ds_40_app.png",
         "info": {
@@ -1394,7 +1406,7 @@
     {
         "id": 18,
         "key": "3-0-3",
-        "name": "eile PLS 2000",
+        "name": { "tr": "eile PLS 2000", "en": "eile PLS 2000" },
         "img": "/assets/products/eile_PLS_2000.png",
         "info": {
             "tr": "Isı Yalıtım Levhaları İçin Sıva Harcı",
@@ -1476,7 +1488,7 @@
     {
         "id": 19,
         "key": "3-0-4",
-        "name": "eile PLY 2100",
+        "name": { "tr": "eile PLY 2100", "en": "eile PLY 2100" },
         "img": "/assets/products/eile_PLY_2100.png",
         "info": {
             "tr": "Isı Yalıtım Levhaları İçin Yapıştırma Harcı",
@@ -1551,7 +1563,10 @@
     {
         "id": 20,
         "key": "3-0-5",
-        "name": "eile SON KAT ELYAFLI SIVA",
+        "name": {
+            "tr": "eile SON KAT ELYAFLI SIVA",
+            "en": "eile FINISHING COAT FIBER PLASTER"
+        },
         "img": "/assets/products/eile_son_kat_elyafli_siva.png",
         "appImage": "/assets/appImage/elyafli.png",
         "info": {
@@ -1636,7 +1651,10 @@
     {
         "id": 21,
         "key": "3-0-6",
-        "name": "POMEX ISI MANTOLAMA LEVHA SIVASI",
+        "name": {
+            "tr": "POMEX ISI MANTOLAMA LEVHA SIVASI",
+            "en": "POMEX THERMAL JACKETING PLASTER"
+        },
         "img": "/assets/products/pomex_isi_mantolama_levha_sivasi.png",
         "appImage": "/assets/appImage/montaloma_sivasi.png",
         "info": {
@@ -1717,7 +1735,10 @@
     {
         "id": 22,
         "key": "3-0-7",
-        "name": "POMEX ISI MANTOLAMA LEVHA YAPIŞTIRICISI",
+        "name": {
+            "tr": "POMEX ISI MANTOLAMA LEVHA YAPIŞTIRICISI",
+            "en": "POMEX THERMAL JACKETING ADHESIVE MORTAR"
+        },
         "img": "/assets/products/pomex_isi_mantolama_levha_yapistiricisi.png",
         "appImage": "/assets/appImage/yapistirma_harci.png",
         "info": {
@@ -1793,7 +1814,10 @@
     {
         "id": 23,
         "key": "3-0-8",
-        "name": "POMEX THERMOMEX SIVA",
+        "name": {
+            "tr": "POMEX THERMOMEX SIVA",
+            "en": "POMEX THERMOMEX PLASTER"
+        },
         "img": "/assets/products/thermomex_isi_ve_yalitim_sivasi.png",
         "appImage": "/assets/appImage/siva.png",
         "info": {
@@ -1888,7 +1912,7 @@
     {
         "id": 24,
         "key": "3-0-9",
-        "name": "POMEX THERMOMEX ŞAP",
+        "name": { "tr": "POMEX THERMOMEX ŞAP", "en": "POMEX THERMOMEX SCREED" },
         "img": "/assets/products/thermomex_sap.png",
         "appImage": "/assets/appImage/sap.png",
         "info": {
@@ -1981,7 +2005,7 @@
     {
         "id": 25,
         "key": "4-1-1",
-        "name": "eile A-K8",
+        "name": { "tr": "eile A-K8", "en": "eile A-K8" },
         "img": "/assets/products/eile_AK8.png",
         "appImage": "/assets/appImage/ak8.png",
         "info": {
@@ -2067,7 +2091,7 @@
     {
         "id": 26,
         "key": "4-1-2",
-        "name": "eile GROUT 50 C",
+        "name": { "tr": "eile GROUT 50 C", "en": "eile GROUT 50 C" },
         "img": "/assets/products/eile_GROUT_50C.png",
         "appImage": "/assets/appImage/50C.png",
         "info": {
@@ -2160,7 +2184,7 @@
     {
         "id": 27,
         "key": "4-1-3",
-        "name": "eile GROUT 60 C",
+        "name": { "tr": "eile GROUT 60 C", "en": "eile GROUT 60 C" },
         "img": "/assets/products/eile_GROUT_60C.png",
         "info": {
             "tr": "Erken Yüksek Mukavemete Sahip Grout Harcı",
@@ -2248,7 +2272,7 @@
     {
         "id": 28,
         "key": "4-1-4",
-        "name": "eile GROUT 100 C",
+        "name": { "tr": "eile GROUT 100 C", "en": "eile GROUT 100 C" },
         "img": "/assets/products/eile_grout_1000.png",
         "appImage": "/assets/appImage/grout100.png",
         "info": {
@@ -2328,7 +2352,7 @@
     {
         "id": 29,
         "key": "4-1-5",
-        "name": "eile SNS 804",
+        "name": { "tr": "eile SNS 804", "en": "eile SNS 804" },
         "img": "/assets/products/eile_SNS_804.png",
         "appImage": "/assets/appImage/sns804.png",
         "info": {
@@ -2404,7 +2428,7 @@
     {
         "id": 30,
         "key": "4-1-6",
-        "name": "eile TH 60",
+        "name": { "tr": "eile TH 60", "en": "eile TH 60" },
         "img": "/assets/products/eile_TH_60_ince_tamir_harci.png",
         "appImage": "/assets/appImage/th60.png",
         "info": {
@@ -2492,7 +2516,7 @@
     {
         "id": 31,
         "key": "4-1-7",
-        "name": "eile TH 70",
+        "name": { "tr": "eile TH 70", "en": "eile TH 70" },
         "img": "/assets/products/eile_TH_70.png",
         "appImage": "/assets/appImage/th70.png",
         "info": {
@@ -2578,7 +2602,7 @@
     {
         "id": 32,
         "key": "4-2-1",
-        "name": "eile EPX 50",
+        "name": { "tr": "eile EPX 50", "en": "eile EPX 50" },
         "img": "/assets/products/epx_50.png",
         "appImage": "/assets/appImage/epx_50.png",
         "info": {
@@ -2664,7 +2688,7 @@
     {
         "id": 33,
         "key": "4-2-2",
-        "name": "eile EPX 100",
+        "name": { "tr": "eile EPX 100", "en": "eile EPX 100" },
         "img": "/assets/products/epx_100.png",
         "appImage": "/assets/appImage/epx_100.png",
         "info": {
@@ -2767,7 +2791,7 @@
     {
         "id": 34,
         "key": "4-2-3",
-        "name": "eile EPX 120",
+        "name": { "tr": "eile EPX 120", "en": "eile EPX 120" },
         "img": "/assets/products/teneke_epx_120.png",
         "appImage": "/assets/appImage/epx_120.png",
         "info": {
@@ -2841,7 +2865,7 @@
     {
         "id": 35,
         "key": "4-2-4",
-        "name": "eile EPX 240 G",
+        "name": { "tr": "eile EPX 240 G", "en": "eile EPX 240 G" },
         "img": "/assets/products/epx_240.png",
         "appImage": "/assets/appImage/epx_240.png",
         "info": {
@@ -2934,7 +2958,7 @@
     {
         "id": 36,
         "key": "4-2-5",
-        "name": "eile EPX 300",
+        "name": { "tr": "eile EPX 300", "en": "eile EPX 300" },
         "img": "/assets/products/epx_300.png",
         "appImage": "/assets/appImage/epx_300.png",
         "info": {
@@ -3018,7 +3042,7 @@
     {
         "id": 37,
         "key": "4-3-1",
-        "name": "eile CARBOFRP",
+        "name": { "tr": "eile CARBOFRP", "en": "eile CARBOFRP" },
         "img": "/assets/products/carbo_frp.png",
         "appImage": "/assets/appImage/carbofrp.png",
         "info": {
@@ -3102,7 +3126,7 @@
     {
         "id": 38,
         "key": "4-3-2",
-        "name": "eile Carbon Mesh 170",
+        "name": { "tr": "eile CARBON MESH 170", "en": "eile CARBON MESH 170" },
         "img": "/assets/products/mesh_170.png",
         "appImage": "/assets/appImage/mesh_170_app.png",
         "info": {
@@ -3172,7 +3196,7 @@
     {
         "id": 39,
         "key": "4-3-3",
-        "name": "eile CARBOSHIELD",
+        "name": { "tr": "eile CARBOSHIELD", "en": "eile CARBOSHIELD" },
         "img": "/assets/products/carboshild.jpg",
         "appImage": "/assets/appImage/carboshield.png",
         "info": {
@@ -3254,7 +3278,7 @@
     {
         "id": 40,
         "key": "4-3-4",
-        "name": "eile EPX 33",
+        "name": { "tr": "eile EPX 33", "en": "eile EPX 33" },
         "img": "/assets/products/teneke_epx_33.png",
         "appImage": "/assets/appImage/epx33.png",
         "info": {
@@ -3330,7 +3354,7 @@
     {
         "id": 41,
         "key": "4-4-1",
-        "name": "eile EPOX",
+        "name": { "tr": "eile EPOX", "en": "eile EPOX" },
         "img": "/assets/products/epox.png",
         "appImage": "/assets/appImage/epox.png",
         "info": {
@@ -3421,7 +3445,7 @@
     {
         "id": 42,
         "key": "4-4-2",
-        "name": "eile ROTFIX",
+        "name": { "tr": "eile ROTFIX", "en": "eile ROTFIX" },
         "img": "/assets/products/rotfix.png",
         "appImage": "/assets/appImage/rotfix.png",
         "info": {
@@ -3509,7 +3533,7 @@
     {
         "id": 43,
         "key": "4-5-1",
-        "name": "eile HORASAN HARCI",
+        "name": { "tr": "eile HORASAN HARCI", "en": "eile HORASAN MORTAR" },
         "img": "/assets/products/eile_horasan_harci.png",
         "appImage": "/assets/appImage/horasan.png",
         "info": {
@@ -3585,7 +3609,7 @@
     {
         "id": 44,
         "key": "4-5-2",
-        "name": "eile LIME INJECTION",
+        "name": { "tr": "eile LIME INJECTION", "en": "eile LIME INJECTION" },
         "img": "/assets/products/lime_injection.png",
         "appImage": "/assets/appImage/lime_injection.png",
         "info": {
@@ -3661,7 +3685,7 @@
     {
         "id": 45,
         "key": "4-5-3",
-        "name": "eile HRS 10",
+        "name": { "tr": "eile HRS 10", "en": "eile HRS 10" },
         "img": "/assets/products/eile_HRS_10.png",
         "appImage": "/assets/appImage/hrs10app.png",
         "info": {
@@ -3739,7 +3763,7 @@
     {
         "id": 46,
         "key": "4-5-4",
-        "name": "eile Seal SB",
+        "name": { "tr": "eile SEAL SB", "en": "eile SEAL SB" },
         "img": "/assets/products/seal_sb.png",
         "appImage": "/assets/appImage/seal_sb_app.png",
         "info": {
@@ -3819,7 +3843,7 @@
     {
         "id": 47,
         "key": "5-0-1",
-        "name": "eile GBS 5000",
+        "name": { "tr": "eile GBS 5000", "en": "eile GBS 5000" },
         "img": "/assets/products/eile_GBS_5000.png",
         "appImage": "/assets/appImage/gbs_5000.png",
         "info": {
@@ -3900,7 +3924,10 @@
     {
         "id": 48,
         "key": "5-0-2",
-        "name": "POMEX BRÜT BETON SIVASI",
+        "name": {
+            "tr": "POMEX BRÜT BETON SIVASI",
+            "en": "POMEX EXPOSED CONCRETE PLASTER"
+        },
         "img": "/assets/products/pomex_burut_beton_sivasi.png",
         "info": {
             "tr": "Çimento Esaslı Brüt Beton Yüzeyler İçin İnce Tamir Harcı",
@@ -3982,7 +4009,7 @@
     {
         "id": 49,
         "key": "5-0-3",
-        "name": "POMEX DOLGU MACUNU",
+        "name": { "tr": "POMEX DOLGU MACUNU", "en": "POMEX SEALANT" },
         "img": "/assets/products/pomex_burut_beton_sivasi.png",
         "info": {
             "tr": "Çimento Esaslı Brüt Beton Yüzeyler İçin İnce Tamir Harcı",
@@ -4064,7 +4091,7 @@
     {
         "id": 50,
         "key": "5-0-4",
-        "name": "POMEX İNCE SIVA",
+        "name": { "tr": "POMEX İNCE SIVA", "en": "POMEX THIN PLASTER" },
         "img": "/assets/products/pomex_ince_siva.png",
         "appImage": "/assets/appImage/ince_siva.png",
         "info": {
@@ -4146,7 +4173,7 @@
     {
         "id": 51,
         "key": "5-0-5",
-        "name": "POMEX KALIN SIVA",
+        "name": { "tr": "POMEX KALIN SIVA", "en": "POMEX THICK PLASTER" },
         "img": "/assets/products/pomex_kalin_siva.png",
         "appImage": "/assets/appImage/kalin_siva.png",
         "info": {
@@ -4238,7 +4265,10 @@
     {
         "id": 52,
         "key": "5-0-6",
-        "name": "POMEX İNCE MAKİNA SIVASI",
+        "name": {
+            "tr": "POMEX İNCE MAKİNA SIVASI",
+            "en": "POMEX FINE MACHINE PLASTER"
+        },
         "img": "/assets/products/pomex_makina_sivasi.png",
         "appImage": "/assets/appImage/makine.png",
         "info": {
@@ -4318,7 +4348,10 @@
     {
         "id": 53,
         "key": "5-0-7",
-        "name": "POMEX KALIN MAKİNA SIVASI",
+        "name": {
+            "tr": "POMEX KALIN MAKİNA SIVASI",
+            "en": "POMEX THICK MACHINE PLASTER"
+        },
         "img": "/assets/products/pomex_makina_sivasi.png",
         "appImage": "/assets/appImage/makine.png",
         "info": {
@@ -4398,7 +4431,7 @@
     {
         "id": 54,
         "key": "5-0-8",
-        "name": "POMEX SATEN SIVA",
+        "name": { "tr": "POMEX SATEN SIVA", "en": "POMEX SATIN PLASTER" },
         "img": "/assets/products/pomex_makina_sivasi.png",
         "appImage": "/assets/appImage/makine.png",
         "info": {
@@ -4478,7 +4511,7 @@
     {
         "id": 55,
         "key": "6-1-1",
-        "name": "eile ELASTOMER",
+        "name": { "tr": "eile ELASTOMER", "en": "eile ELASTOMER FLOOR" },
         "img": "/assets/products/elastomer_render.png",
         "appImage": "/assets/appImage/elastomer.png",
         "info": {
@@ -4564,7 +4597,10 @@
     {
         "id": 56,
         "key": "6-1-2",
-        "name": "eile ELASTOMER TEXTURE",
+        "name": {
+            "tr": "eile ELASTOMER TEXTURE",
+            "en": "eile ELASTOMER TEXTURE"
+        },
         "img": "/assets/products/elastomer_texture.png",
         "appImage": "/assets/appImage/elastomer_texture.png",
         "info": {
@@ -4648,7 +4684,7 @@
     {
         "id": 57,
         "key": "6-1-3",
-        "name": "eile LİKİT AKRİLİK",
+        "name": { "tr": "eile LİKİT AKRİLİK", "en": "eile LIQUID ACRYLIC" },
         "img": "/assets/products/likit_akrilik.png",
         "appImage": "/assets/appImage/likit.png",
         "info": {
@@ -4749,7 +4785,7 @@
     {
         "id": 58,
         "key": "6-2-1",
-        "name": "eile PUR 1KB",
+        "name": { "tr": "eile PUR 1KB", "en": "eile PUR 1KB" },
         "img": "/assets/products/pur_1kb.png",
         "appImage": "/assets/appImage/pur_1kb_app.png",
         "info": {
@@ -4827,7 +4863,7 @@
     {
         "id": 59,
         "key": "6-2-2",
-        "name": "eile PUR 2K B",
+        "name": { "tr": "eile PUR 2K B", "en": "eile PUR 2K B" },
         "img": "/assets/products/pur_2kb.png",
         "appImage": "/assets/appImage/pur_2kb_app.png",
         "info": {
@@ -4927,7 +4963,7 @@
     {
         "id": 60,
         "key": "6-3-1",
-        "name": "eile BİTÜ-ÇİM",
+        "name": { "tr": "eile BİTÜ-ÇİM", "en": "eile BİTÜ-ÇİM" },
         "img": "/assets/products/bitu_cim.png",
         "appImage": "/assets/appImage/bitu_cim.png",
         "info": {
@@ -5034,7 +5070,10 @@
     {
         "id": 61,
         "key": "6-3-2",
-        "name": "eile BİTÜ-ÇİM ELASTİK",
+        "name": {
+            "tr": "eile BİTÜ-ÇİM ELASTİK",
+            "en": "eile BİTÜ-ÇİM FLEXIBLE"
+        },
         "img": "/assets/products/bitu_cim_elas.png",
         "appImage": "/assets/appImage/bitu_cim_elastic.png",
         "info": {
@@ -5145,7 +5184,7 @@
     {
         "id": 62,
         "key": "6-3-3",
-        "name": "eile MET ZZK-40",
+        "name": { "tr": "eile MET ZZK-40", "en": "eile MET ZZK-40" },
         "img": "/assets/products/met_zzk_40.png",
         "appImage": "/assets/appImage/met_zzk40.png",
         "info": {
@@ -5244,7 +5283,7 @@
     {
         "id": 63,
         "key": "6-3-4",
-        "name": "POMEX Bitülast",
+        "name": { "tr": "POMEX BİTÜLAST", "en": "POMEX BİTÜLAST" },
         "img": "/assets/products/bitulast.png",
         "appImage": "/assets/appImage/bitulast_app.png",
         "info": {
@@ -5330,7 +5369,7 @@
     {
         "id": 64,
         "key": "6-4-1",
-        "name": "eile A SEAL",
+        "name": { "tr": "eile A SEAL", "en": "eile A SEAL" },
         "img": "/assets/products/eile_ASEAL.png",
         "appImage": "/assets/appImage/a-seal.jpg",
         "info": {
@@ -5412,7 +5451,7 @@
     {
         "id": 65,
         "key": "6-4-2",
-        "name": "eile KAPİLER",
+        "name": { "tr": "eile KAPİLER", "en": "eile KAPİLER" },
         "img": "/assets/products/eile_kapiler.png",
         "appImage": "/assets/appImage/kapiler.png",
         "info": {
@@ -5506,7 +5545,7 @@
     {
         "id": 66,
         "key": "6-4-3",
-        "name": "eile KAPİLER 2K",
+        "name": { "tr": "eile KAPİLER 2K", "en": "eile KAPİLER 2K" },
         "img": "/assets/products/kapiler_2k.png",
         "appImage": "/assets/appImage/kapiler_2k_app.png",
         "info": {
@@ -5592,7 +5631,7 @@
     {
         "id": 67,
         "key": "6-4-4",
-        "name": "eile MAX SEAL",
+        "name": { "tr": "eile MAX SEAL", "en": "eile MAX SEAL" },
         "img": "/assets/products/eile_max_seal.png",
         "appImage": "/assets/appImage/max-seal.png",
         "info": {
@@ -5693,7 +5732,10 @@
     {
         "id": 68,
         "key": "6-4-5",
-        "name": "eile MAX SEAL ELASTİK",
+        "name": {
+            "tr": "eile MAX SEAL ELASTİK",
+            "en": "eile MAX SEAL ELASTİK"
+        },
         "img": "/assets/products/eile_max_seal_elastic.png",
         "appImage": "/assets/appImage/max-seal-elastic.png",
         "info": {
@@ -5793,7 +5835,7 @@
     {
         "id": 69,
         "key": "6-4-6",
-        "name": "POMEX 2K",
+        "name": { "tr": "POMEX 2K", "en": "POMEX 2K" },
         "img": "/assets/products/pomex_2k.png",
         "appImage": "/assets/appImage/pomex_2k_app.png",
         "info": {
@@ -5887,7 +5929,7 @@
     {
         "id": 70,
         "key": "6-4-7",
-        "name": "POMEX 2K ELASTİK",
+        "name": { "tr": "POMEX 2K ELASTİK", "en": "POMEX 2K ELASTİK" },
         "img": "/assets/products/pomex_2K_elastik.png",
         "appImage": "/assets/appImage/2k_elastik_app.png",
         "info": {
@@ -5967,7 +6009,7 @@
     {
         "id": 71,
         "key": "6-4-8",
-        "name": "POMEX WATERBOND",
+        "name": { "tr": "POMEX WATERBOND", "en": "POMEX WATERBOND" },
         "img": "/assets/products/water_bond_render.png",
         "appImage": "/assets/appImage/waterbond.png",
         "info": {
@@ -6053,7 +6095,7 @@
     {
         "id": 72,
         "key": "6-4-9",
-        "name": "POMEX T SEAL",
+        "name": { "tr": "POMEX T SEAL", "en": "POMEX T SEAL" },
         "img": "/assets/products/eilegenel.png",
         "appImage": "/assets/appImage/t_seal.png",
         "info": {
@@ -6137,7 +6179,10 @@
     {
         "id": 73,
         "key": "6-5-1",
-        "name": "eile POLİJET 120 - eile POLİJET 120 K",
+        "name": {
+            "tr": "eile POLİJET 120 - eile POLİJET 120 K",
+            "en": "eile POLİJET 120 - eile POLİJET 120 K"
+        },
         "img": "/assets/products/polijet_120.png",
         "appImage": "/assets/appImage/polijet_120.png",
         "info": {
@@ -6217,7 +6262,7 @@
     {
         "id": 74,
         "key": "6-5-2",
-        "name": "eile PUR 012",
+        "name": { "tr": "eile PUR 012", "en": "eile PUR 012" },
         "img": "/assets/products/teneke_pur_012.png",
         "appImage": "/assets/appImage/pur_012.png",
         "info": {
@@ -6306,7 +6351,7 @@
     {
         "id": 75,
         "key": "6-5-3",
-        "name": "eile PUR 022",
+        "name": { "tr": "eile PUR 022", "en": "eile PUR 022" },
         "img": "/assets/products/pur_022.png",
         "appImage": "/assets/appImage/pur_022_app.png",
         "info": {
@@ -6390,7 +6435,7 @@
     {
         "id": 76,
         "key": "6-5-4",
-        "name": "eile PUR 042",
+        "name": { "tr": "eile PUR 042", "en": "eile PUR 042" },
         "img": "/assets/products/pur_042.png",
         "appImage": "/assets/appImage/pur_042_app.png",
         "info": {
@@ -6468,7 +6513,7 @@
     {
         "id": 77,
         "key": "6-6-1",
-        "name": "eile Poliürea 500",
+        "name": { "tr": "eile POLİÜREA 500", "en": "eile POLİÜREA 500" },
         "img": "/assets/products/poliurea_hp.png",
         "appImage": "/assets/appImage/poliurea_500_app.png",
         "info": {
@@ -6556,7 +6601,7 @@
     {
         "id": 78,
         "key": "6-6-2",
-        "name": "eile Poliürea HP",
+        "name": { "tr": "eile POLİÜREA HP", "en": "eile POLİÜREA HP" },
         "img": "/assets/products/poliurea_hp.png",
         "appImage": "/assets/appImage/poliurea_hp_app.png",
         "info": {
@@ -6640,7 +6685,7 @@
     {
         "id": 79,
         "key": "6-7-1",
-        "name": "FC 805",
+        "name": { "tr": "FC 805", "en": "FC 805" },
         "img": "/assets/products/dilatasyon.png",
         "appImage": "/assets/appImage/dilatasyon.png",
         "info": {
@@ -6718,7 +6763,7 @@
     {
         "id": 80,
         "key": "6-7-2",
-        "name": "eile PB 12",
+        "name": { "tr": "eile PB 12", "en": "eile PB 12" },
         "img": "/assets/products/pb_12.png",
         "appImage": "/assets/appImage/pb_12_app.png",
         "info": {
@@ -6790,7 +6835,7 @@
     {
         "id": 81,
         "key": "6-7-3",
-        "name": "eile Swell",
+        "name": { "tr": "eile SWELL", "en": "eile SWELL" },
         "img": "/assets/products/swell.png",
         "appImage": "/assets/appImage/swell_app.png",
         "info": {
@@ -6862,7 +6907,7 @@
     {
         "id": 82,
         "key": "7-1-1",
-        "name": "eile PMA 100",
+        "name": { "tr": "eile PMA 100", "en": "eile PMA 100" },
         "img": "/assets/products/epx_927.png",
         "appImage": "/assets/appImage/epx_927.png",
         "info": {
@@ -6942,7 +6987,7 @@
     {
         "id": 83,
         "key": "7-2-1",
-        "name": "eile POMAX 28",
+        "name": { "tr": "eile POMAX 28", "en": "eile POMAX 28" },
         "img": "/assets/products/eilegenel.png",
         "info": {
             "tr": "Çimento Esaslı, Yüksek Performanslı Esnek, İki Bileşenli Yapıştırma Harcı",
@@ -7031,7 +7076,7 @@
     {
         "id": 84,
         "key": "7-2-2",
-        "name": "eile SYP 1000",
+        "name": { "tr": "eile SYP 1000", "en": "eile SYP 1000" },
         "img": "/assets/products/eile_SYP_1000.png",
         "appImage": "/assets/appImage/syp_1000.png",
         "info": {
@@ -7125,7 +7170,7 @@
     {
         "id": 85,
         "key": "7-2-3",
-        "name": "Pomex FLEX YAPIŞTIRICI",
+        "name": { "tr": "POMEX FLEX YAPIŞTIRICI", "en": "POMEX FLEX ADHESIVE" },
         "img": "/assets/products/pomex_flex_yapistirici.png",
         "appImage": "/assets/appImage/flex.png",
         "info": {
@@ -7229,7 +7274,10 @@
     {
         "id": 86,
         "key": "7-2-4",
-        "name": "POMEX GAZBETON YAPIŞTIRMA HARCI",
+        "name": {
+            "tr": "POMEX GAZBETON YAPIŞTIRMA HARCI",
+            "en": "POMEX GAS CONCRETE ADHESIVE MORTAR"
+        },
         "img": "/assets/products/pomex_gazbeton_yapistirma_harci.png",
         "appImage": "/assets/appImage/gaz.png",
         "info": {
@@ -7307,7 +7355,10 @@
     {
         "id": 87,
         "key": "7-2-5",
-        "name": "POMEX GRANİT YAPIŞTIRICISI",
+        "name": {
+            "tr": "POMEX GRANİT YAPIŞTIRICISI",
+            "en": "POMEX GRANITE ADHESIVE"
+        },
         "img": "/assets/products/pomex_granit_yapistirma_harci.png",
         "appImage": "/assets/appImage/granit.png",
         "info": {
@@ -7402,7 +7453,10 @@
     {
         "id": 88,
         "key": "7-2-6",
-        "name": "POMEX HAVUZ YAPIŞTIRICISI",
+        "name": {
+            "tr": "POMEX HAVUZ YAPIŞTIRICISI",
+            "en": "POMEX POOL ADHESIVE"
+        },
         "img": "/assets/products/eilegenel.png",
         "appImage": "/assets/appImage/havuz.png",
         "info": {
@@ -7510,7 +7564,10 @@
     {
         "id": 89,
         "key": "7-2-7",
-        "name": "POMEX HIZLI DONAN SERAMİK YAPIŞTIRMA HARCI",
+        "name": {
+            "tr": "POMEX HIZLI DONAN SERAMİK YAPIŞTIRMA HARCI",
+            "en": "POMEX RAPID HARDENING CERAMIC ADHESIVE MORTAR"
+        },
         "img": "/assets/products/pomex_seramik.png",
         "appImage": "/assets/appImage/seramik.png",
         "info": {
@@ -7606,7 +7663,10 @@
     {
         "id": 90,
         "key": "7-2-8",
-        "name": "POMEX SERAMİK YAPIŞTIRMA HARCI",
+        "name": {
+            "tr": "POMEX SERAMİK YAPIŞTIRMA HARCI",
+            "en": "POMEX CERAMIC ADHESIVE"
+        },
         "img": "/assets/products/pomex_seramik.png",
         "appImage": "/assets/appImage/seramik.png",
         "info": {
@@ -7702,7 +7762,10 @@
     {
         "id": 91,
         "key": "7-2-9",
-        "name": "SERABELL SERAMİK YAPIŞTIRMA HARCI",
+        "name": {
+            "tr": "SERABELL SERAMİK YAPIŞTIRMA HARCI",
+            "en": "SERABELL CERAMIC ADHESIVE MORTAR"
+        },
         "img": "/assets/products/serabell_seramik_yapistirma_harci.png",
         "appImage": "/assets/appImage/hizli_donan.png",
         "info": {
@@ -7784,7 +7847,7 @@
     {
         "id": 92,
         "key": "7-3-1",
-        "name": "eile EPX 927",
+        "name": { "tr": "eile EPX 927", "en": "eile EPX 927" },
         "img": "/assets/products/epx_927.png",
         "appImage": "/assets/appImage/epx_927.png",
         "info": {
@@ -7864,7 +7927,7 @@
     {
         "id": 93,
         "key": "8-1-1",
-        "name": "eile Top 110 S",
+        "name": { "tr": "eile Top 110 S", "en": "eile Top 110 S" },
         "img": "/assets/products/eile_TOP_110S.png",
         "appImage": "/assets/appImage/top110.png",
         "info": {
@@ -7951,7 +8014,7 @@
     {
         "id": 94,
         "key": "8-1-2",
-        "name": "eile 125 KK",
+        "name": { "tr": "eile 125 KK", "en": "eile 125 KK" },
         "img": "/assets/products/pomex_125_KK.png",
         "appImage": "/assets/appImage/125_kk_app.png",
         "info": {
@@ -8037,7 +8100,7 @@
     {
         "id": 95,
         "key": "8-1-3",
-        "name": "eile KORUND 120 F",
+        "name": { "tr": "eile KORUND 120 F", "en": "eile KORUND 120 F" },
         "img": "/assets/products/eile_korunt_120F.png",
         "appImage": "/assets/appImage/korund_120F.png",
         "info": {
@@ -8123,7 +8186,7 @@
     {
         "id": 96,
         "key": "8-1-4",
-        "name": "eile LEVEL",
+        "name": { "tr": "eile LEVEL", "en": "eile LEVEL" },
         "img": "/assets/products/eile_level.png",
         "appImage": "/assets/appImage/level.png",
         "info": {
@@ -8211,7 +8274,7 @@
     {
         "id": 97,
         "key": "8-1-5",
-        "name": "eile LEVEL 10",
+        "name": { "tr": "eile LEVEL 10", "en": "eile LEVEL 10" },
         "img": "/assets/products/eile_level.png",
         "appImage": "/assets/appImage/level.png",
         "info": {
@@ -8295,7 +8358,7 @@
     {
         "id": 98,
         "key": "8-1-6",
-        "name": "eile LEVEL 15",
+        "name": { "tr": "eile LEVEL 15", "en": "eile LEVEL 15" },
         "img": "/assets/products/eile_level.png",
         "appImage": "/assets/appImage/level.png",
         "info": {
@@ -8379,7 +8442,10 @@
     {
         "id": 99,
         "key": "8-1-7",
-        "name": "POMEX ZEMİN YÜZEY SERTLEŞTİRİCİ",
+        "name": {
+            "tr": "POMEX ZEMİN YÜZEY SERTLEŞTİRİCİ",
+            "en": "POMEX GROUND SURFACE HARDENER"
+        },
         "img": "/assets/products/pomex_yuzey_sertlestirici.png",
         "appImage": "/assets/appImage/yuzeysert.png",
         "info": {
@@ -8463,7 +8529,7 @@
     {
         "id": 100,
         "key": "8-2-1",
-        "name": "eile EPX 018",
+        "name": { "tr": "eile EPX 018", "en": "eile EPX 018" },
         "img": "/assets/products/teneke_bos.png",
         "info": {
             "tr": "İki Bileşenli, Epoksi Esaslı, Tekstürlü Yüzey Kaplama",
@@ -8544,7 +8610,7 @@
     {
         "id": 101,
         "key": "8-2-2",
-        "name": "eile EPX 400 P",
+        "name": { "tr": "eile EPX 400 P", "en": "eile EPX 400 P" },
         "img": "/assets/products/teneke_bos.png",
         "info": {
             "tr": "İki Bileşenli, Epoksi Esaslı, Tekstürlü Yüzey Kaplama",
@@ -8625,7 +8691,7 @@
     {
         "id": 102,
         "key": "8-2-3",
-        "name": "eile EPX 550",
+        "name": { "tr": "eile EPX 550", "en": "eile EPX 550" },
         "img": "/assets/products/epx550.png",
         "appImage": "/assets/appImage/epx_550.png",
         "info": {
@@ -8707,7 +8773,7 @@
     {
         "id": 103,
         "key": "8-2-4",
-        "name": "eile EPX 550 - boya",
+        "name": { "tr": "eile EPX 550 - boya", "en": "eile EPX 550 - boya" },
         "img": "/assets/products/epx550.png",
         "appImage": "/assets/appImage/epx_550.png",
         "info": {
@@ -8789,7 +8855,7 @@
     {
         "id": 104,
         "key": "8-2-5",
-        "name": "eile EPX 730",
+        "name": { "tr": "eile EPX 730", "en": "eile EPX 730" },
         "img": "/assets/products/teneke_bos.png",
         "info": {
             "tr": "Solventli Yarı Mat Epoksi Boya",
@@ -8862,7 +8928,7 @@
     {
         "id": 105,
         "key": "8-2-6",
-        "name": "eile EPX 830",
+        "name": { "tr": "eile EPX 830", "en": "eile EPX 830" },
         "img": "/assets/products/teneke_bos.png",
         "info": {
             "tr": "Solventli Epoksi Son Kat Boya",
@@ -8935,7 +9001,7 @@
     {
         "id": 106,
         "key": "8-2-7",
-        "name": "eile EPX 1001",
+        "name": { "tr": "eile EPX 1001", "en": "eile EPX 1001" },
         "img": "/assets/products/teneke_bos.png",
         "info": {
             "tr": "Solventli Epoksi Son Kat Boya",
@@ -9008,7 +9074,7 @@
     {
         "id": 107,
         "key": "8-2-8",
-        "name": "eile PU CONCRETE 3K",
+        "name": { "tr": "eile PU CONCRETE 3K", "en": "eile PU CONCRETE 3K" },
         "img": "/assets/products/teneke_bos.png",
         "info": {
             "tr": "Solventli Epoksi Son Kat Boya",
@@ -9081,7 +9147,7 @@
     {
         "id": 108,
         "key": "8-2-9",
-        "name": "eile PUR 053",
+        "name": { "tr": "eile PUR 053", "en": "eile PUR 053" },
         "img": "/assets/products/pur_053.png",
         "appImage": "/assets/appImage/pur_053.png",
         "info": {
@@ -9169,7 +9235,7 @@
     {
         "id": 109,
         "key": "8-2-10",
-        "name": "eile PUR 060",
+        "name": { "tr": "eile PUR 060", "en": "eile PUR 060" },
         "img": "/assets/products/pur_053.png",
         "appImage": "/assets/appImage/pur_053.png",
         "info": {
@@ -9257,7 +9323,7 @@
     {
         "id": 110,
         "key": "8-2-11",
-        "name": "eile PUR 750",
+        "name": { "tr": "eile PUR 750", "en": "eile PUR 750" },
         "img": "/assets/products/pur_053.png",
         "appImage": "/assets/appImage/pur_053.png",
         "info": {
@@ -9345,7 +9411,7 @@
     {
         "id": 111,
         "key": "8-2-12",
-        "name": "eile SEALGARD",
+        "name": { "tr": "eile SEALGARD", "en": "eile SEALGARD" },
         "img": "/assets/products/pur_053.png",
         "appImage": "/assets/appImage/pur_053.png",
         "info": {
@@ -9433,7 +9499,10 @@
     {
         "id": 112,
         "key": "8-2-13",
-        "name": "eile STONE CARPET 2 K",
+        "name": {
+            "tr": "eile STONE CARPET 2 K",
+            "en": "eile STONE CARPET 2 K"
+        },
         "img": "/assets/products/pur_053.png",
         "appImage": "/assets/appImage/pur_053.png",
         "info": {
@@ -9521,7 +9590,7 @@
     {
         "id": 113,
         "key": "8-3-1",
-        "name": "eile EPX 021",
+        "name": { "tr": "eile EPX 021", "en": "eile EPX 021" },
         "img": "/assets/products/epx_021.png",
         "info": {
             "tr": "% 100 Nemli Yüzeyler için Epoksi Astar",
@@ -9600,7 +9669,7 @@
     {
         "id": 114,
         "key": "8-3-2",
-        "name": "eile EPX 110",
+        "name": { "tr": "eile EPX 110", "en": "eile EPX 110" },
         "img": "/assets/products/epx_110.png",
         "appImage": "/assets/appImage/epx_110.png",
         "info": {
@@ -9682,7 +9751,7 @@
     {
         "id": 115,
         "key": "8-3-3",
-        "name": "eile EPX 225",
+        "name": { "tr": "eile EPX 225", "en": "eile EPX 225" },
         "img": "/assets/products/epx_225.png",
         "info": {
             "tr": "İki Bileşenli Düşük Vizkoziteli,Epoksi Astar Malzemesi",
@@ -9765,7 +9834,7 @@
     {
         "id": 116,
         "key": "8-3-4",
-        "name": "eile EPX 260",
+        "name": { "tr": "eile EPX 260", "en": "eile EPX 260" },
         "img": "/assets/products/teneke_bos.png",
         "appImage": "/assets/appImage/epx_260.png",
         "info": {
@@ -9849,7 +9918,7 @@
     {
         "id": 117,
         "key": "8-3-5",
-        "name": "eile EPS 280 FL",
+        "name": { "tr": "eile EPS 280 FL", "en": "eile EPS 280 FL" },
         "img": "/assets/products/eile_genel_teneke.png",
         "info": {
             "tr": "% 100 Nemli Yüzeyler için Epoksi Astar",
@@ -9928,7 +9997,7 @@
     {
         "id": 118,
         "key": "8-3-6",
-        "name": "eile PUR 710",
+        "name": { "tr": "eile PUR 710", "en": "eile PUR 710" },
         "img": "/assets/products/teneke_pur_710.png",
         "info": {
             "tr": "Tek Bileşenli Poliüretan Astar Malzemesi",
@@ -10009,7 +10078,7 @@
     {
         "id": 119,
         "key": "8-3-7",
-        "name": "eile PUR 712 2 K",
+        "name": { "tr": "eile PUR 712 2 K", "en": "eile PUR 712 2 K" },
         "img": "/assets/products/teneke_pur_710.png",
         "info": {
             "tr": "Tek Bileşenli Poliüretan Astar Malzemesi",
@@ -10090,7 +10159,7 @@
     {
         "id": 120,
         "key": "8-4-1",
-        "name": "eile CURING 105",
+        "name": { "tr": "eile CURING 105", "en": "eile CURING 105" },
         "img": "/assets/products/eile_curing105.png",
         "appImage": "/assets/appImage/curing_105.png",
         "info": {
@@ -10184,7 +10253,7 @@
     {
         "id": 121,
         "key": "8-4-2",
-        "name": "eile CURING AST",
+        "name": { "tr": "eile CURING AST", "en": "eile CURING AST" },
         "img": "/assets/products/eile_curing_AST.png",
         "appImage": "/assets/appImage/curing_ast.png",
         "info": {
@@ -10274,7 +10343,7 @@
     {
         "id": 122,
         "key": "8-4-3",
-        "name": "eile PARKÜR",
+        "name": { "tr": "eile PARKÜR", "en": "eile PARKÜR" },
         "img": "/assets/products/eile_parkur.png",
         "appImage": "/assets/appImage/parkur.png",
         "info": {
@@ -10368,7 +10437,7 @@
     {
         "id": 123,
         "key": "8-5-1",
-        "name": "eile SILIKA 100",
+        "name": { "tr": "eile SILIKA 100", "en": "eile SILIKA 100" },
         "img": "/assets/products/eile_curing105.png",
         "appImage": "/assets/appImage/curing_105.png",
         "info": {

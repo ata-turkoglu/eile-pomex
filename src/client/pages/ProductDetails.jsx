@@ -131,7 +131,7 @@ function ProductDetails() {
                                 />
                             </div>
                         )}
-                        <h1>{product.name}</h1>
+                        <h1>{product.name[lang]}</h1>
                         {mobileView && <div className="filter-icon"></div>}
                     </div>
                     <div className="firstPart">

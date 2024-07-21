@@ -253,7 +253,7 @@ function Products() {
                             <ProductCard
                                 key={item.key}
                                 image={item.img || pImg}
-                                text={item.name[lang] || item.name}
+                                text={item.name[lang]}
                                 rowList={
                                     mobileView &&
                                     (header == "ürünler" ||
