@@ -21,13 +21,14 @@ function ProjectSampleCard({ image1, image2, text, icon, product }) {
                     !mobile && navigate("/product-details/" + product);
                 }}
             >
-                <img className="img1" src={image1} />
+                <img className="img1" src={image1} loading="lazy" />
                 <img
                     className="img2"
                     src={image2}
                     onClick={() => {
                         mobile && navigate("/product-details/" + product);
                     }}
+                    loading="lazy"
                 />
             </div>
             <div className="textContainer">

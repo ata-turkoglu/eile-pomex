@@ -137,7 +137,7 @@ function ProductDetails() {
                     <div className="firstPart">
                         <div className="leftPart">
                             <div className="imgContainer">
-                                <img src={product.img || img} />
+                                <img src={product.img || img} loading="lazy" />
                             </div>
                             <div className="tags">
                                 {renderInfo(product.info[lang])}
@@ -161,7 +161,10 @@ function ProductDetails() {
                                     )}
                                 </div>
                                 <div className="imgContainer">
-                                    <img src={product.appImage || appImg} />
+                                    <img
+                                        src={product.appImage || appImg}
+                                        loading="lazy"
+                                    />
                                 </div>
                                 <Accordion>
                                     <Accordion.Item eventKey="0">

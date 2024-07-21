@@ -15,13 +15,14 @@ function ProjectCard({ project }) {
     return (
         <div className="projectCard">
             <div className="imgContainer">
-                <img className="img1" src={project.image1} />
+                <img className="img1" src={project.image1} loading="lazy" />
                 <img
                     className="img2"
                     src={project.image2}
                     onClick={() =>
                         navigate("/product-details/" + project.product)
                     }
+                    loading="lazy"
                 />
             </div>
             <div className="textContainer">
