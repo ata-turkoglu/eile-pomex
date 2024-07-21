@@ -82,14 +82,7 @@ function ProductDetails() {
         return list.map((item, index) => <li key={index}>{item.trim()}</li>);
     };
 
-    const renderConsumption = (
-        list = [
-            /*  "It is rapid curing",
-            "It can be used with standard guns",
-            "It can be used at low temperatures",
-            "Its load carrying capacity is high and consumption is low", */
-        ]
-    ) => {
+    const renderConsumption = (list = []) => {
         if (list.length <= 0) return null;
         return list.map((item, index) => <li key={index}>{item.trim()}</li>);
     };
@@ -185,18 +178,22 @@ function ProductDetails() {
                                             </p>
                                         </Accordion.Body>
                                     </Accordion.Item>
-                                    <Accordion.Item eventKey="1">
-                                        <Accordion.Header>
-                                            <h5>{t("mixing")}</h5>
-                                        </Accordion.Header>
-                                        <Accordion.Body>
-                                            <p>{product.mixing[lang]}</p>
-                                            <p>
-                                                <strong>Karışım Oranı:</strong>
-                                                {product.mixture[lang]}
-                                            </p>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
+                                    {product.mixing[lang] != "" && (
+                                        <Accordion.Item eventKey="1">
+                                            <Accordion.Header>
+                                                <h5>{t("mixing")}</h5>
+                                            </Accordion.Header>
+                                            <Accordion.Body>
+                                                <p>{product.mixing[lang]}</p>
+                                                <p>
+                                                    <strong>
+                                                        Karışım Oranı:
+                                                    </strong>
+                                                    {product.mixture[lang]}
+                                                </p>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+                                    )}
                                     <Accordion.Item eventKey="2">
                                         <Accordion.Header>
                                             <h5>{t("application")}</h5>
@@ -216,7 +213,10 @@ function ProductDetails() {
                                         <Accordion.Body>
                                             <p>
                                                 {renderConsumption(
-                                                    product.consumption[lang]
+                                                    product
+                                                        .pointsToTakeIntoConsideration[
+                                                        lang
+                                                    ]
                                                 )}
                                             </p>
                                         </Accordion.Body>

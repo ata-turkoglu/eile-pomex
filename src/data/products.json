@@ -1003,7 +1003,7 @@
                         "id": 13,
                         "key": "2-3-2",
                         "name": "eile POLİÜRETAN MASTİK 100-D",
-                        "img": "/assets/products/poliuretan_mastik.png",
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "appImage": "/assets/appImage/mastik.png",
                         "info": {
                             "tr": "Poliüretan Esaslı Tek Bileşenli ,Esnek Yapıştırıcı ",
@@ -1079,7 +1079,7 @@
                         "id": 14,
                         "key": "2-3-3",
                         "name": "eile POLİÜRETAN MASTİK 200",
-                        "img": "/assets/products/poliuretan_mastik.png",
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "appImage": "/assets/appImage/mastik.png",
                         "info": {
                             "tr": "Poliüretan Esaslı Tek Bileşenli ,Esnek Yapıştırıcı ",
@@ -1324,7 +1324,7 @@
                 "id": 17,
                 "key": "3-0-2",
                 "name": "eile DS 40 ACRYL",
-                "img": "/assets/products/eile_DS_40.png",
+                "img": "/assets/products/eile_genel_teneke.png",
                 "appImage": "/assets/appImage/ds_40_app.png",
                 "info": {
                     "tr": "Çimento Esaslı Dekoratif (Mineral) Sıva ",

@@ -14,7 +14,7 @@ function About() {
             </div>
 
             <div className="wrapper">
-                <h2>{t("about")}</h2>
+                <h2>{t("aboutus")}</h2>
 
                 <p>{t("about1")}</p>
                 <p>{t("about2")}</p>
