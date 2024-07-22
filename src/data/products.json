@@ -672,7 +672,7 @@
                             "tr": "POMEX HAVUZ FUGA",
                             "en": "POMEX POOL JOINT SEALANT"
                         },
-                        "img": "/assets/products/fuga1-6mm.png",
+                        "img": "/assets/products/eilegenel.png",
                         "appImage": "/assets/appImage/havuz_fuga.png",
                         "info": {
                             "tr": "Çimento Esaslı Havuz Kimyasallarına Dayanıklı,Antibakteriyel Esnek Derz Dolgu Malzemesi",
@@ -757,7 +757,7 @@
                             "tr": "POMEX RUSTİK FUGA",
                             "en": "POMEX RUSTIC JOINT SEALANT"
                         },
-                        "img": "/assets/products/fuga1-6mm.png",
+                        "img": "/assets/products/eilegenel.png",
                         "appImage": "/assets/appImage/rustik_fuga.png",
                         "info": {
                             "tr": "Çimento Esaslı Esnek Yüksek Performanslı ,Derz Dolgu Malzemesi (6-20 mm)",
@@ -1176,7 +1176,7 @@
                         "id": 15,
                         "key": "2-3-4",
                         "name": { "tr": "eile PSM 700", "en": "eile PSM 700" },
-                        "img": "/assets/products/poliuretan_mastik.png",
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "appImage": "/assets/appImage/mastik.png",
                         "info": {
                             "tr": "Poliüretan Esaslı Tek Bileşenli ,Esnek Yapıştırıcı ",
@@ -1538,7 +1538,7 @@
                     "en": "eile FINISHING COAT FIBER PLASTER"
                 },
                 "img": "/assets/products/eile_son_kat_elyafli_siva.png",
-                "appImage": "/assets/appImage/elyaflı.png",
+                "appImage": "/assets/appImage/elyafli_siva.jpg",
                 "info": {
                     "tr": "Lif ve Polimer Katkılı Sıva Harcı ",
                     "en": "Fiber and Polymer Added Plaster Mortar"
@@ -4073,7 +4073,7 @@
                 "id": 49,
                 "key": "5-0-3",
                 "name": { "tr": "POMEX DOLGU MACUNU", "en": "POMEX SEALANT" },
-                "img": "/assets/products/pomex_burut_beton_sivasi.png",
+                "img": "/assets/products/dolgu_macunu.png",
                 "info": {
                     "tr": "Çimento Esaslı Brüt Beton Yüzeyler İçin İnce Tamir Harcı",
                     "en": "Cement Based Fine Repair Mortar for Exposed Concrete Surfaces"
@@ -4501,7 +4501,7 @@
                     "tr": "POMEX SATEN SIVA",
                     "en": "POMEX SATIN PLASTER"
                 },
-                "img": "/assets/products/pomex_makina_sivasi.png",
+                "img": "/assets/products/eilegenel.png",
                 "appImage": "/assets/appImage/makine.png",
                 "info": {
                     "tr": " Çimento Esaslı Polimer Katkılı, Ekonomik Makine Kalın Sıva ",
@@ -7100,7 +7100,7 @@
                         "id": 82,
                         "key": "7-1-1",
                         "name": { "tr": "eile PMA 100", "en": "eile PMA 100" },
-                        "img": "/assets/products/epx_927.png",
+                        "img": "/assets/products/genel_kova.png",
                         "appImage": "/assets/appImage/epx_927.png",
                         "info": {
                             "tr": "Epoksi Esaslı İki Bileşenli Yapıştırma Harcı",
@@ -7192,7 +7192,7 @@
                             "tr": "eile POMAX 28",
                             "en": "eile POMAX 28"
                         },
-                        "img": "/assets/products/eilegenel.png",
+                        "img": "/assets/products/genel_multi.png",
                         "info": {
                             "tr": "Çimento Esaslı, Yüksek Performanslı Esnek, İki Bileşenli Yapıştırma Harcı",
                             "en": "Cement Based, High Performance Flexible, Two Component Adhesive Mortar"
@@ -7778,7 +7778,7 @@
                             "tr": "POMEX HIZLI DONAN SERAMİK YAPIŞTIRMA HARCI",
                             "en": "POMEX RAPID HARDENING CERAMIC ADHESIVE MORTAR"
                         },
-                        "img": "/assets/products/pomex_seramik.png",
+                        "img": "/assets/products/eilegenel.png",
                         "appImage": "/assets/appImage/seramik.png",
                         "info": {
                             "tr": "Çimento Esaslı Seramik Ve Fayans Yapıştırıcısı",
@@ -9683,8 +9683,8 @@
                             "tr": "eile SEALGARD",
                             "en": "eile SEALGARD"
                         },
-                        "img": "/assets/products/pur_053.png",
-                        "appImage": "/assets/appImage/pur_053.png",
+                        "img": "/assets/products/eile_genel_teneke.png",
+                        "appImage": "/assets/appImage/sealgard.png",
                         "info": {
                             "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
                             "en": "two-component solvent-free self-leveling polyurethane coating material"
@@ -9774,7 +9774,7 @@
                             "tr": "eile STONE CARPET 2 K",
                             "en": "eile STONE CARPET 2 K"
                         },
-                        "img": "/assets/products/pur_053.png",
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "appImage": "/assets/appImage/pur_053.png",
                         "info": {
                             "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
@@ -10745,54 +10745,42 @@
                             "tr": "eile SILIKA 100",
                             "en": "eile SILIKA 100"
                         },
-                        "img": "/assets/products/eile_curing105.png",
+                        "img": "/assets/products/genel_bidon.png",
                         "appImage": "/assets/appImage/curing_105.png",
                         "info": {
-                            "tr": "Beton Yüzeyler İçin Akrilik Emülsiyon Esaslı, Kür Malzemesi",
-                            "en": "Acrylic Emulsion Based Curing Material for Concrete Surfaces"
+                            "tr": "",
+                            "en": ""
                         },
                         "description": {
-                            "tr": "Taze dökülmüş beton yüzeyine betonun hızlı su  kaybını ve bu sebepten oluşabilecek rötre çatlaklarını önleyen akrilik emülsiyon esaslı beton kür  malzemesidir.",
-                            "en": "It is an acrylic emulsion-based concrete curing material that prevents rapid water loss on the freshly poured concrete surface and shrinkage cracks that may occur for this reason."
+                            "tr": "Lityum silikat esaslı, beton üzerine uygulanabilir su bazlı, düşük viskoziteli likit yüzey sertleştirici malzemesidir.",
+                            "en": "Lityum silikat esaslı, beton üzerine uygulanabilir su bazlı, düşük viskoziteli likit yüzey sertleştirici malzemesidir."
                         },
                         "areasOfUsage": {
                             "tr": [
-                                "Düşey ve yataydaki beton elemanlarının kürlenmesinde.",
-                                "Havaalanı ve saha betonlarında.",
-                                "Yüzey sertleştiricisi uygulamalarında.",
-                                "Sıcak havalarda beton dökümlerinde.",
-                                "Nem oranının düşük buharlaşmanın fazla olduğu yerlerdeki beton dökümlerinde kullanılır.",
-                                "Otopark ve depo zeminlerinde",
-                                "Endüstriyel zeminlerde"
+                                "Çimento esaslı zeminlerin sertleştirilme amacı ile kullanılır."
                             ],
                             "en": [
-                                "In the curing of vertical and horizontal concrete elements.",
-                                "In airport and field concrete.",
-                                "In surface hardener applications.",
-                                "Concrete pouring in hot weather.",
-                                "It is used in concrete casting in places where humidity is low and evaporation is high.",
-                                "On parking lot and warehouse floors",
-                                "On industrial floors"
+                                "Çimento esaslı zeminlerin sertleştirilme amacı ile kullanılır."
                             ]
                         },
                         "featuresOfProduct": {
                             "tr": [
-                                "Daha sert ve tozumaz bir yüzey sağlar.",
-                                "Uygulandığı beton yüzeyde oluşturduğu film tabakası, beton içindeki nemi koruyarak hızlı su kaybını önler.",
-                                "Beton sulama ihtiyacını ortadan kaldırır.",
-                                "Çimento hidratasyonuna yardımcı olur.",
-                                "Betonda kürlenme sırasında hızlı su kaybından kaynaklanan rötre çatlaklarını azaltır.",
+                                "Tek bileşenlidir.",
                                 "Solvent içermez.",
-                                "Akrilik esaslı olduğundan üzerine yapılacak uygulamalara engel teşkil etmez."
+                                "Uygulaması kolaydır. ",
+                                "Mükemmel şekilde penetre olur.",
+                                "Uygulandığı betonun aşınma direncini ve dayanıklılığını arttırır.",
+                                "Uygulandığı yüzeyi suya dayanıklı hale getirir.",
+                                "Uygulanmış olduğu yüzeyin parlak olmasını sağlar."
                             ],
                             "en": [
-                                "It provides a harder and dust-free surface.",
-                                "The film layer it forms on the concrete surface where it is applied prevents rapid water loss by preserving the moisture in the concrete.",
-                                "Concrete eliminates the need for irrigation.",
-                                "It helps cement hydration.",
-                                "It reduces shrinkage cracks caused by rapid water loss in concrete during curing.",
-                                "It does not contain solvents.",
-                                "Since it is acrylic-based, it does not hinder the applications on it."
+                                "Tek bileşenlidir.",
+                                "Solvent içermez.",
+                                "Uygulaması kolaydır. ",
+                                "Mükemmel şekilde penetre olur.",
+                                "Uygulandığı betonun aşınma direncini ve dayanıklılığını arttırır.",
+                                "Uygulandığı yüzeyi suya dayanıklı hale getirir.",
+                                "Uygulanmış olduğu yüzeyin parlak olmasını sağlar."
                             ]
                         },
                         "beforeApplication": {

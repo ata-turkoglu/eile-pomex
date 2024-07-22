@@ -93,7 +93,8 @@
         "id": 2,
         "key": "1-0-2",
         "name": { "tr": "eile FİBER", "en": "eile FIBER" },
-        "img": "/assets/products/gorsel_yok.png",
+        "img": "/assets/products/fiber.png",
+        "appImage": "/assets/appImage/fiber.png",
         "info": {
             "tr": "Polipropilen Elyaf Lif",
             "en": "Polypropylene Fiber Fiber"
@@ -243,6 +244,7 @@
         "key": "1-0-4",
         "name": { "tr": "eile LATEX", "en": "eile LATEX" },
         "img": "/assets/products/eile_latex.png",
+        "appImage": "/assets/appImage/latex.jpg",
         "info": {
             "tr": "Çimento Esaslı Harçlar ve Sıvalar için, Su Geçirimsizlik Katkısı",
             "en": "Waterproofing Additive for Cement Based Mortars and Plasters"
@@ -637,7 +639,7 @@
         "id": 9,
         "key": "2-1-3",
         "name": { "tr": "POMEX HAVUZ FUGA", "en": "POMEX POOL JOINT SEALANT" },
-        "img": "/assets/products/fuga1-6mm.png",
+        "img": "/assets/products/eilegenel.png",
         "appImage": "/assets/appImage/havuz_fuga.png",
         "info": {
             "tr": "Çimento Esaslı Havuz Kimyasallarına Dayanıklı, Antibakteriyel Esnek Derz Dolgu Malzemesi",
@@ -722,7 +724,7 @@
             "tr": "POMEX RUSTİK FUGA",
             "en": "POMEX RUSTIC JOINT SEALANT"
         },
-        "img": "/assets/products/fuga1-6mm.png",
+        "img": "/assets/products/eilegenel.png",
         "appImage": "/assets/appImage/rustik_fuga.png",
         "info": {
             "tr": "Çimento Esaslı Esnek Yüksek Performanslı ,Derz Dolgu Malzemesi (6-20 mm)",
@@ -969,7 +971,7 @@
             "en": "eile POLYURETHANE SEALANT 100-D"
         },
         "img": "/assets/products/eile_genel_teneke.png",
-        "appImage": "/assets/appImage/mastik.png",
+        "appImage": "/assets/appImage/poli_mastik_100.jpg",
         "info": {
             "tr": "",
             "en": ""
@@ -1058,7 +1060,7 @@
             "en": "eile POLYURETHANE SEALANT 200"
         },
         "img": "/assets/products/eile_genel_teneke.png",
-        "appImage": "/assets/appImage/mastik.png",
+        "appImage": "/assets/appImage/poli_mastik_200.jpg",
         "info": {
             "tr": "",
             "en": ""
@@ -1147,8 +1149,8 @@
         "id": 15,
         "key": "2-3-4",
         "name": { "tr": "eile PSM 700", "en": "eile PSM 700" },
-        "img": "/assets/products/poliuretan_mastik.png",
-        "appImage": "/assets/appImage/mastik.png",
+        "img": "/assets/products/eile_genel_teneke.png",
+        "appImage": "/assets/appImage/psm_700.jpg",
         "info": {
             "tr": "Polisülfit Esaslı, Yüksek Performanslı Derz Dolgu Mastiği",
             "en": "Polysulfide Based, High Performance Joint Sealant"
@@ -1330,8 +1332,8 @@
         "id": 17,
         "key": "3-0-2",
         "name": { "tr": "eile DS 40 ACRYL", "en": "eile DS 40 ACRYL" },
-        "img": "/assets/products/eile_genel_teneke.png",
-        "appImage": "/assets/appImage/ds_40_app.png",
+        "img": "/assets/products/ds_40_acryl.png",
+        "appImage": "/assets/appImage/ds_40_acryl.jpg",
         "info": {
             "tr": "Akrilik Emülsiyon Esaslı Hazır Sıva",
             "en": "Acrylic Emulsion Based Mill-Mixed Plaster"
@@ -1568,7 +1570,7 @@
             "en": "eile FINISHING COAT FIBER PLASTER"
         },
         "img": "/assets/products/eile_son_kat_elyafli_siva.png",
-        "appImage": "/assets/appImage/elyafli.png",
+        "appImage": "/assets/appImage/elyafli_siva.jpg",
         "info": {
             "tr": "Lif ve Polimer Katkılı Sıva Harcı",
             "en": "Fiber and Polymer Reinforced Plaster Mortar"
@@ -3929,77 +3931,78 @@
             "en": "POMEX EXPOSED CONCRETE PLASTER"
         },
         "img": "/assets/products/pomex_burut_beton_sivasi.png",
+        "appImage": "/assets/appImage/burut_beton_siva.jpg",
         "info": {
-            "tr": "Çimento Esaslı Brüt Beton Yüzeyler İçin İnce Tamir Harcı",
-            "en": "Cement Based Fine Repair Mortar for Exposed Concrete Surfaces"
+            "tr": "Çimento Esaslı Brüt Beton Yüzeyler İçin Sıva Harcı",
+            "en": "Cement Based Plaster Mortar for Exposed Concrete Surfaces"
         },
         "description": {
-            "tr": "Çimento esaslı, tek bileşenli, polimer modifiyeli, yüksek performanslı, brüt betonlar için tasarlanmış ince tamir ve tesviye harcıdır.",
-            "en": "It is a cement-based, single-component, polymer-modified, high-performance, thin repair and leveling mortar designed for exposed concrete."
+            "tr": "Çimento esaslı, yüksek performanslı, brüt betonlar için tasarlanmış sıva harcıdır.",
+            "en": "Cement based, high performance plaster mortar designed for exposed concrete."
         },
         "areasOfUsage": {
             "tr": [
-                "Yapıların iç ve dış cephelerinde, duvar ve tavanlarında beton tamir ve tesviye amacı ile kullanılır.",
+                "Beton yüzeylerde ( tavan, perde ve kolonlarda)sıva olarak uygulanır.",
                 "Duvarlara seramik, fayans vb. kaplama malzemesi döşenmeden önce tamir harcı olarak ta kullanılır."
             ],
             "en": [
-                "It is used for concrete repair and leveling purposes on the interior and exterior facades, walls and ceilings of buildings.",
-                "It is also used as a repair mortar before laying ceramics, tiles, etc. coating materials on the walls."
+                "It is applied as plaster on concrete surfaces (ceilings, curtains and columns).",
+                "It is also used as repair mortar before laying ceramic, tile etc. coating materials on the walls."
             ]
         },
         "featuresOfProduct": {
             "tr": [
                 "Donma çözünme çevrimine dayanıklıdır.",
                 "Beton ve sıvalı yüzeylere mükemmel aderans sağlar.",
-                "Çalışma süresi uzundur."
+                "Çalışma süresi uzundur.",
+                "Pomex Brüt Beton Kalın Sıva ve Pomex Brüt Beton İnce Sıva olarak iki farklı şekilde üretilir"
             ],
             "en": [
-                "It is resistant to freeze-thaw cycles.",
-                "It provides excellent adherence to concrete and plastered surfaces.",
-                "It has a long working time."
+                "Resistant to freeze thaw cycle.",
+                "Provides excellent adherence to concrete and plastered surfaces.",
+                "Working time is long.",
+                "It is produced in two different ways as Pomex Exposed Concrete Thick Plaster and Pomex Exposed Concrete Thin Plaster."
             ]
         },
         "beforeApplication": {
             "tr": "Uygulama zemini kalıp yağlarından arındırılmış, sağlam ve temiz olmalıdır. Uygulama yüzeyi mutlaka nemlendirilmeli, sıcak ve rüzgarlı günlerde suya doyurulmalıdır.",
-            "en": "The application surface must be free of mold oils, solid and clean. The application surface must be moistened and saturated with water on hot and windy days."
+            "en": "The application surface must be free from mould oils, solid and clean. The application surface must be moistened and saturated with water on hot and windy days."
         },
         "mixing": {
-            "tr": "Uygun su miktarı karışım kovasına alınır ve üzerine 25 kg’ lık pomex brüt beton ince tamir harcı yavaş şekilde eklenir. Düşük devirli karıştırıcı yardımı ile 3- 5 dakika homojen karışım elde edilene kadar karıştırılır. Karışım 5 dakika karışım kovasında olgunlaşması için dinlendirilir. Ardından 20-30 saniye kadar tekrar karıştırılan malzeme uygulamaya hazır duruma gelir.",
-            "en": "The appropriate amount of water is poured into the mixing bucket and 25 kg of Pomex gross concrete fine repair mortar is slowly added onto it. It is mixed with the help of a low speed mixer for 3-5 minutes until a homogeneous mixture is obtained. The mixture is left to mature in the mixture bucket for 5 minutes. Then, the material is mixed again for 20-30 seconds and is ready for application."
+            "tr": "Uygun su miktarı karışım kovasına alınır ve üzerine 25 kg’ lık pomex brüt beton sıva harcı yavaş şekilde eklenir. Düşük devirli karıştırıcı yardımı ile 3- 5 dakika homojen karışım elde edilene kadar karıştırılır. Karışım 5 dakika karışım kovasında olgunlaşması için dinlendirilir. Ardından 20-30 saniye kadar tekrar karıştırılan malzeme uygulamaya hazır duruma gelir.",
+            "en": "The appropriate amount of water is added to the mixing bucket and 25 kg of Pomex exposed concrete plaster mortar is slowly added. It is mixed using a low speed mixer for 3 to 5 minutes until a homogenous mixture is obtained. The mixture is left to age in the mixing bucket for 5 minutes. The material is then mixed again for 20-30 seconds and is then ready for application."
         },
         "mixture": {
-            "tr": " 25 kg toz için: 5-6 litre su -- 1 kg toz ürün için: 0,200-0,240 litre su",
-            "en": "For 25 kg of powder: 5-6 liters of water -- For 1 kg of powder product: 0.200-0.240 liters of water"
+            "tr": "25 kg toz için: 5-6 litre su, 1 kg toz ürün için: 0,200-0,240 litre su",
+            "en": "For 25 kg of powder: 5-6 liters of water, For 1 kg of powder product: 0,200- 0,240 liters of water"
         },
         "application": {
-            "tr": "Pomex brüt beton ince tamir harcı, çelik mala yardımı ile yüzeye eşit kalınlıkta uygulanır. Birden fazla kat uygulamasında katlar arasında en az 3- 4 saat beklenmelidir ve bir sonraki kat uygulamasına geçilmeden yüzey nemlendirilmelidir. Toplam kalınlık 1 cm yi geçmemelidir. Yüzey düzgünlüğü plastik mala ya da sünger yardımı ile sağlanabilir. Uygulama sonrasında yüzey 2 gün süre ile sulanmalıdır.",
-            "en": "Pomex gross concrete thin repair mortar is applied to the surface in equal thickness with the help of a steel trowel. When applying more than one coat, at least 3-4 hours should be waited between coats and the surface should be moistened before applying the next coat. The total thickness should not exceed 1 cm. Surface smoothness can be achieved with the help of a plastic trowel or sponge. After application, the surface should be watered for 2 days."
+            "tr": "Uygulamaya hazır hale getirilmiş Pomex Brüt Beton Sıva Harcı, çelik mala yardımı ile yüzeye eşit kalınlıkta uygulanır. Birden fazla kat uygulamasında katlar arasında en az 6 saat beklenmelidir ve bir sonraki kat uygulamasına geçilmeden yüzey nemlendirilmelidir. Uygulama sonrasında yüzey 2 gün süre ile sulanmalıdır. Pomex Brüt Beton Kalın Sıvanın tek kat uygulama kalınlığı max 2 cm olmalıdır. Pomex Brüt Beton İnce Sıvanın uygulama kalınlığı 3-4 mm  olmalıdır.",
+            "en": "Pomex Exposed Concrete Plaster Mortar, which is made ready for application, is applied to the surface using a steel trowel in equal thickness. When applying more than one layer, wait at least 6 hours between layers and moisten the surface before applying the next layer. After application, the area should be watered for 2 days. Single layer application thickness of Pomex Exposed Concrete Thick Plaster should be max 2 cm. Application thickness of Pomex Exposed Concrete Thin Plaster should be max 3-4 mm."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "POMEX BRÜT BETON İNCE TAMİR HARCI uygulamasında, ortam sıcaklığı +5°C'nin altında ya da +30°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
+                "Pomex Brüt Beton Sıva Harcı uygulamasında, ortam sıcaklığı +5°C'nin altında ya da +30°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
                 "Donmuş, erimekte olan veya 24 saat içerisinde don tehlikesi olan yüzeylerde uygulanmamalıdır.",
-                "Tek kat uygulama kalınlığı max 5 mm olmalıdır.",
-                "Brüt beton yüzeye aderansı arttırmak için Eile TU-05 ya da Eile TU-06 ürünleri kullanılmalıdır.",
+                "Brüt beton yüzeye aderansı arttırmak için eile TU-05 kullanılmalıdır..",
                 "Kurumaya başlamış karışıma kesinlikle su ve yeni malzeme ilave edilmemelidir.",
                 "Alçı, eski boyalı yüzey, gaz beton üzerine uygulanmaz. "
             ],
             "en": [
-                "In the application of POMEX GROSS CONCRETE FINE REPAIR MORTAR, appropriate temperatures should be waited if the ambient temperature is below +5°C or above +30°C. Application should not be made in extremely hot, rainy or windy weather.",
-                "It should not be applied on surfaces that are frozen, melting or in danger of freezing within 24 hours.",
-                "Single layer application thickness should be maximum 5 mm.",
-                "Eile TU-05 or Eile TU-06 products should be used to increase adherence to the exposed concrete surface.",
-                "Water and new materials should never be added to the mixture that has started to dry.",
-                "It cannot be applied on plaster, old painted surfaces, aerated concrete."
+                "When applying Pomex Exposed Concrete Plaster Mortar, it is necessary to wait until the appropriate temperatures are reached when the ambient temperature is below +5°C or above +30°C. Application should not be performed in extremely hot, rainy or windy weather.",
+                "It should not be applied on surfaces which are frozen, melting or have the risk of frost within 24 hours.",
+                "Eile TU-05 should be used to increase adherence to the exposed concrete surface.",
+                "Water and new material should not be added to a mixture that has begun to dry.",
+                "Not applicable on plaster, old painted surface, aerated concrete."
             ]
         },
         "package": {
-            "tr": "25 kg’ lık kraft torba",
-            "en": "25 kg craft bag"
+            "tr": "25 kg’lık kraft torba",
+            "en": "25 kg kraft bag"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+            "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
         },
         "docs": {
             "ce": "/assets/docs/eile_brut_beton_siva.pdf"
@@ -4010,78 +4013,79 @@
         "id": 49,
         "key": "5-0-3",
         "name": { "tr": "POMEX DOLGU MACUNU", "en": "POMEX SEALANT" },
-        "img": "/assets/products/pomex_burut_beton_sivasi.png",
+        "img": "/assets/products/dolgu_macunu.png",
+        "appImage": "/assets/appImage/dolgu_macunu.jpg",
         "info": {
-            "tr": "Çimento Esaslı Brüt Beton Yüzeyler İçin İnce Tamir Harcı",
-            "en": "Cement Based Fine Repair Mortar for Exposed Concrete Surfaces"
+            "tr": "Çimento esaslı Polimer Katkılı Dolgu Harcı",
+            "en": "Cement based Polymer Additive Filling Mortar"
         },
         "description": {
-            "tr": "Çimento esaslı, tek bileşenli, polimer modifiyeli, yüksek performanslı, brüt betonlar için tasarlanmış ince tamir ve tesviye harcıdır.",
-            "en": "It is a cement-based, single-component, polymer-modified, high-performance, thin repair and leveling mortar designed for exposed concrete."
+            "tr": "Çimento esaslı, elyaf ve polimer takviyeli beyaz renkli sıva ve dolgu harcıdır.",
+            "en": "It is a cement based, fiber and polymer reinforced white colored plaster and filling mortar."
         },
         "areasOfUsage": {
             "tr": [
-                "Yapıların iç ve dış cephelerinde, duvar ve tavanlarında beton tamir ve tesviye amacı ile kullanılır.",
-                "Duvarlara seramik, fayans vb. kaplama malzemesi döşenmeden önce tamir harcı olarak ta kullanılır."
+                "Tüm yapıların iç ve dış cephelerinde yüzey dolgu ve  tamir harcı olarak kullanılır."
             ],
             "en": [
-                "It is used for concrete repair and leveling purposes on the interior and exterior facades, walls and ceilings of buildings.",
-                "It is also used as a repair mortar before laying ceramics, tiles, etc. coating materials on the walls."
+                "It is used as surface filling and repair mortar on the interior and exterior walls of all buildings."
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Donma çözünme çevrimine dayanıklıdır.",
-                "Beton ve sıvalı yüzeylere mükemmel aderans sağlar.",
-                "Çalışma süresi uzundur."
+                "Mükemmel yapışır uygulaması kolaydır. ",
+                "İçerdiği kimyasal katkılar dolayısıyla yapışması yüksektir.",
+                "Geri sekmesi azdır bu nedenle ekonomiktir.",
+                "Pürüzsüz bir yüzey sağlar.",
+                "Lif takviyeli olduğundan dış etkilere karşı dayanıklıdır."
             ],
             "en": [
-                "It is resistant to freeze-thaw cycles.",
-                "It provides excellent adherence to concrete and plastered surfaces.",
-                "It has a long working time."
+                "Excellent adhesion, easy to apply.",
+                "High adhesion due to the chemical additives it contains.",
+                "Affordable due to low rebound.",
+                "It provides a smooth surface.",
+                "Resistant to external effects due to fiber reinforcement."
             ]
         },
         "beforeApplication": {
-            "tr": "Uygulama zemini kalıp yağlarından arındırılmış, sağlam ve temiz olmalıdır. Uygulama yüzeyi mutlaka nemlendirilmeli, sıcak ve rüzgarlı günlerde suya doyurulmalıdır.",
-            "en": "The application surface must be free of mold oils, solid and clean. The application surface must be moistened and saturated with water on hot and windy days."
+            "tr": "Uygulama zemini sağlam, düz, aderansı azaltıcı maddelerden arındırılmış olmalıdır. Emiciliği yüksek yüzeylerde dolgu harcının erken kuruma ve dökülme riski ortadan kaldırılmalıdır. Uygulama öncesinde yüzey mutlaka nemlendirilmeli, çok sıcak ve rüzgarlı havalarda suya doyurulmalıdır.",
+            "en": "The application surface should be solid, smooth and free from adherence. On highly absorbent surfaces, the risk of premature drying and spillage of the filling mortar  should be eliminated. Before application, the surface must be moistened and saturated with water in very hot and windy weathers."
         },
         "mixing": {
-            "tr": "Uygun su miktarı karışım kovasına alınır ve üzerine 25 kg’ lık pomex brüt beton ince tamir harcı yavaş şekilde eklenir. Düşük devirli karıştırıcı yardımı ile 3- 5 dakika homojen karışım elde edilene kadar karıştırılır. Karışım 5 dakika karışım kovasında olgunlaşması için dinlendirilir. Ardından 20-30 saniye kadar tekrar karıştırılan malzeme uygulamaya hazır duruma gelir.",
-            "en": "The appropriate amount of water is poured into the mixing bucket and 25 kg of Pomex gross concrete fine repair mortar is slowly added onto it. It is mixed with the help of a low speed mixer for 3-5 minutes until a homogeneous mixture is obtained. The mixture is left to mature in the mixture bucket for 5 minutes. Then, the material is mixed again for 20-30 seconds and is ready for application."
+            "tr": "Uygun su miktarı, bir ölçek yardımıyla temiz karıştırma kabına boşaltılır. Karıştırma kabının içerisine pomex dolgu macunu yavaş şekilde ilave edilir. Düşük devirli bir karıştırıcı ile 3 - 5 dakika, homojen karışım elde edilene kadar karıştırılır.  5-10 dakika dinlendirilen malzeme yaklaşık 30 saniye kadar tekrar karıştırılarak kullanıma hazır kıvama gelir.",
+            "en": "The appropriate amount of water is poured into the clean mixing bowl using a scale. Pomex sealant is slowly added into the mixing container. It is mixed with a low speed mixer for 3-5 minutes until a homogeneous mixture is obtained. The material, which is rested for 5-10 minutes, is mixed again for about 30 seconds and becomes ready for use."
         },
         "mixture": {
-            "tr": " 25 kg toz için: 5-6 litre su -- 1 kg toz ürün için: 0,200-0,240 litre su",
-            "en": "For 25 kg of powder: 5-6 liters of water -- For 1 kg of powder product: 0.200-0.240 liters of water"
+            "tr": "25 kg toz için: 5,5-6,5 litre su, 1 kg toz için: 0,220-0,260 litre su",
+            "en": "For 25 kg of powder: 5,5-6,5 liters of water, For 1 kg of powder: 0,220-0,260 liters of water"
         },
         "application": {
-            "tr": "Pomex brüt beton ince tamir harcı, çelik mala yardımı ile yüzeye eşit kalınlıkta uygulanır. Birden fazla kat uygulamasında katlar arasında en az 3- 4 saat beklenmelidir ve bir sonraki kat uygulamasına geçilmeden yüzey nemlendirilmelidir. Toplam kalınlık 1 cm yi geçmemelidir. Yüzey düzgünlüğü plastik mala ya da sünger yardımı ile sağlanabilir. Uygulama sonrasında yüzey 2 gün süre ile sulanmalıdır.",
-            "en": "Pomex gross concrete thin repair mortar is applied to the surface in equal thickness with the help of a steel trowel. When applying more than one coat, at least 3-4 hours should be waited between coats and the surface should be moistened before applying the next coat. The total thickness should not exceed 1 cm. Surface smoothness can be achieved with the help of a plastic trowel or sponge. After application, the surface should be watered for 2 days."
+            "tr": "Uygulamaya hazır malzeme mala ile yüzeye eşit kalınlıkta uygulanmalıdır. Uygulama kalınlığı tek katta  5 mm’ yi geçmemelidir.  Toplam 2 kat halinde 10 mm kalınlığında uygulanabilir. Özellikle sıcak veya rüzgarlı ortamlardaki uygulamalarda 24-48 saat süre ile sıvanın hızlı su kaybı, kür malzemesi veya su ile önlenmelidir.",
+            "en": "The material ready for application should be applied on the surface by using a trowel in equal thickness. Application thickness should not exceed 5 mm in one layer. It can be applied in a total of 2 layers in a thickness of 10 mm. Especially in applications in hot or windy environments, rapid water loss of the plaster for 24-48 hours should be prevented with curing material."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "POMEX BRÜT BETON İNCE TAMİR HARCI uygulamasında, ortam sıcaklığı +5°C'nin altında ya da +30°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
+                "Ortam sıcaklığı +5°C'nin altında ya da +30°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
+                "Uygulama kalınlığı tek katta 5 mm'yi geçmemelidir.",
+                "Kap içinde kurumaya başlamış karışıma kesinlikle su ve yeni malzeme ilave edilmemelidir.",
                 "Donmuş, erimekte olan veya 24 saat içerisinde don tehlikesi olan yüzeylerde uygulanmamalıdır.",
-                "Tek kat uygulama kalınlığı max 5 mm olmalıdır.",
-                "Brüt beton yüzeye aderansı arttırmak için Eile TU-05 ya da Eile TU-06 ürünleri kullanılmalıdır.",
-                "Kurumaya başlamış karışıma kesinlikle su ve yeni malzeme ilave edilmemelidir.",
-                "Alçı, eski boyalı yüzey, gaz beton üzerine uygulanmaz. "
+                "Hazırlanan karışım 20°C'de 60 dakika içinde tüketilmelidir."
             ],
             "en": [
-                "In the application of POMEX GROSS CONCRETE FINE REPAIR MORTAR, appropriate temperatures should be waited if the ambient temperature is below +5°C or above +30°C. Application should not be made in extremely hot, rainy or windy weather.",
-                "It should not be applied on surfaces that are frozen, melting or in danger of freezing within 24 hours.",
-                "Single layer application thickness should be maximum 5 mm.",
-                "Eile TU-05 or Eile TU-06 products should be used to increase adherence to the exposed concrete surface.",
-                "Water and new materials should never be added to the mixture that has started to dry.",
-                "It cannot be applied on plaster, old painted surfaces, aerated concrete."
+                "If the ambient temperature is below +5°C or above +30°C, then it must be waited for the appropriate temperatures. Application should not be performed in extremely hot, rainy or windy weather.",
+                "Application thickness should not exceed 5 mm in one layer.",
+                "Water and new material should not be added into the mixture which begins to set in the container.",
+                "It should not be applied on substrates which are frozen, melting or have the risk of frost within 24 hours.",
+                "The prepared mixture must be consumed within 60 minutes at 20°C."
             ]
         },
         "package": {
-            "tr": "25 kg’ lık kraft torba",
-            "en": "25 kg craft bag"
+            "tr": "25 kg’lık kraft torba",
+            "en": "25 kg kraft bag"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+            "en": "It should be stored in its original package in a cool and dry environment with a maximum"
         },
         "docs": {
             "ce": "/assets/docs/eile_brut_beton_siva.pdf"
@@ -4272,25 +4276,25 @@
         "img": "/assets/products/pomex_makina_sivasi.png",
         "appImage": "/assets/appImage/makine.png",
         "info": {
-            "tr": " Çimento Esaslı Polimer Katkılı, Ekonomik Makine Kalın Sıva ",
-            "en": "Cement Based Polymer Added, Economical Machine Thick Plaster"
+            "tr": "Çimento Esaslı, Polimer Katkılı İnce makine sıvası",
+            "en": "Cement Based, Polymer Additive Machine FINE Plaster"
         },
         "description": {
-            "tr": "Çimento esaslı, tek bileşenli, polimer ve elyaf katkılı, sıva makinesi ile uygulanan sıva harcıdır. ",
-            "en": "It is a cement-based, single-component, polymer and fiber-added plaster mortar applied with a plaster machine."
+            "tr": "Çimento esaslı, el ve makina ile uygulanan iç ve dış cephede kullanılan sıva harcıdır.",
+            "en": "It is a cement based, single component, polymer and fiber additive plaster mortar applied with a plaster machine."
         },
         "areasOfUsage": {
             "tr": [
                 "İç ve dış mekanlarda",
-                "Gazbeton (eile ASTAR E uygulanmış)",
-                "Beton ( eile TU-05 veya eile TU-06 uygulanmış)",
+                "Gazbeton (eile ASTAR E uygulanmış),",
+                "Beton (eile TU-05 veya eile TU-06 uygulanmış),",
                 "Briket, tuğla vb. yüzeylere uygulanır."
             ],
             "en": [
                 "Indoors and outdoors",
-                "Aerated Concrete (applied to Eile PRIMER)",
+                "Gas concrete (eile ASTAR E applied)",
                 "Concrete (eile TU-05 or eile TU-06 applied)",
-                "It is applied to surfaces such as briquettes, bricks, etc."
+                "It is applied to briquettes, bricks etc. surfaces."
             ]
         },
         "featuresOfProduct": {
@@ -4301,27 +4305,27 @@
                 "Geri sekmesi az olduğu için ekonomiktir."
             ],
             "en": [
-                "It adheres perfectly due to the chemical additives it contains.",
-                "It is extremely easy to apply.",
-                "It provides easy and fast application by machine.",
-                "It is economical because it has little rebound."
+                "Due to the chemical additives it contains, it adheres perfectly.",
+                "It is extremely simple to apply.",
+                "It allows easy and quick application with the machine.",
+                "Affordable due to low rebound."
             ]
         },
         "beforeApplication": {
-            "tr": "Uygulama zemini sağlam ve aderansı azaltacak maddelerden temizlenmiş olmalıdır. Uygulama yüzeyi mutlaka nemlendirilmeli, sıcak ve rüzgarlı günlerde suya doyurulmalıdır. ",
-            "en": "The application surface must be solid and clean of substances that will reduce adherence. The application surface must be moistened and saturated with water on hot and windy days."
+            "tr": "Uygulama zemini sağlam ve aderansı azaltacak maddelerden temizlenmiş olmalıdır. Uygulama yüzeyi mutlaka nemlendirilmeli, sıcak ve rüzgarlı günlerde suya doyurulmalıdır.",
+            "en": "The application surface should be solid and free from adherence. The application surface must be moistened and saturated with water on hot and windy days."
         },
         "mixing": {
-            "tr": "POMEX MAKİNE SIVA; sıva makinesi ile 40 kg torba/ 7,2-8,8 lt su oranı ile karıştırılmalıdır. ",
-            "en": "POMEX MACHINE PLASTER; It should be mixed with a plastering machine at the rate of 40 kg bag / 7.2-8.8 liters of water."
+            "tr": "POMEX MAKİNE SIVA; sıva makinesi veya mikser ile 25 kg torba/ 5-6 lt su oranı ile karıştırılmalıdır.",
+            "en": "POMEX MACHINE PLASTER; should be mixed with a plaster machine with a ratio of 25 kg bag/ 5-6 lt water."
         },
         "mixture": {
-            "tr": " 40 kg toz için: 7,2-8,8 litre su -- 1 kg toz ürün için: O, 180-0,220 litre su ",
-            "en": "For 40 kg of powder: 7.2-8.8 liters of water -- For 1 kg of powder product: O, 180-0.220 liters of water"
+            "tr": "25 kg toz için: 5-6 litre su",
+            "en": "For 25 kg of powder: 5-6 liters of water"
         },
         "application": {
-            "tr": "Kullanıma hazır hale getirilmiş karışım; önceden suya doyurulmuş veya astarlanmış yüzeye kalınlığı 2 cm yi geçmeyecek şekilde makine ile uygulanır. Daha kalın uygulama yapılacak ise birinci kat prizini aldıktan sonra 2. Kat uygulaması yapılır. Uygulama sonrası yüzey mastarlanmalıdır. Bu işlemden sonra sıva yeterince sertleştiğinde sıva yüzeyi trifillenir ve nemli bir sünger ile yüzey bitirilir. ",
-            "en": "The mixture is ready for use; It is applied by machine to a previously saturated or primed surface with a thickness not exceeding 2 cm. If a thicker application is to be made, the second layer is applied after the first layer has set. The surface must be leveled after application. After this process, when the plaster hardens sufficiently, the plaster surface is trifilled and the surface is finished with a damp sponge."
+            "tr": "Kullanıma hazır hale getirilmiş karışım; makine ile uygulamada püskürtülerek, el ile uygulamada ise mala ile kalınlığı 1 cm yi geçmeyecek şekilde uygulanır. Daha kalın uygulama yapılacak ise birinci kat prizini aldıktan sonra 2. Kat uygulaması yapılır. Uygulama sonrası yüzey mastarlanmalıdır. Uygun kıvama gelince perdahlama işlemine geçilir.",
+            "en": "The ready-to-use mixture is applied with a machine to a surface previously saturated with water or primed, in a thickness not exceeding 1 cm. If a thicker coat is to be applied, the second coat is applied after the first coat has set. Coat application is performed. The surface should be primed after application. After this process, when the plaster has hardened sufficiently, the plaster surface is polished and the surface is completed with a damp sponge."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
@@ -4330,18 +4334,18 @@
                 "Kurumaya başlamış karışıma kesinlikle su ve yeni malzeme ilave edilmemelidir. "
             ],
             "en": [
-                "In POMEX MACHINE PLASTER application, appropriate temperatures should be waited if the ambient temperature is below +5°C or above +30°C. Application should not be made in extremely hot, rainy or windy weather.",
-                "Application thickness should be maximum 2 cm at a time. For thicker applications, 2 layers should be applied.",
-                "Water and new materials should never be added to the mixture that has started to dry."
+                "When applying POMEX MAKINE PLASTER, it is necessary to wait until the appropriate temperatures are reached when the ambient temperature is below +5°C or above +30°C. Application should not be performed in extremely hot, rainy or windy weather.",
+                "Application thickness should be maximum 1 cm at one time. For thicker applications, 2 coats should be applied.",
+                "Water and new material should not be added to a mixture that has begun to dry."
             ]
         },
         "package": {
-            "tr": "40 kg'lık kraft torba ",
-            "en": "40 kg craft bag"
+            "tr": "25 kg'lık kraft torba",
+            "en": "25 kg kraft bag"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda En fazla 1O kat istifle depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
+            "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
         }
     },
 
@@ -4432,79 +4436,75 @@
         "id": 54,
         "key": "5-0-8",
         "name": { "tr": "POMEX SATEN SIVA", "en": "POMEX SATIN PLASTER" },
-        "img": "/assets/products/pomex_makina_sivasi.png",
-        "appImage": "/assets/appImage/makine.png",
+        "img": "/assets/products/eilegenel.png",
+        "appImage": "/assets/appImage/saten_siva.jpg",
         "info": {
-            "tr": " Çimento Esaslı Polimer Katkılı, Ekonomik Makine Kalın Sıva ",
-            "en": "Cement Based Polymer Added, Economical Machine Thick Plaster"
+            "tr": "Polimer Takviyeli Çimento Esaslı Saten Sıva (beyaz)",
+            "en": "Polymer-Reinforced Cement-Based Satin Plaster (white)"
         },
         "description": {
-            "tr": "Çimento esaslı, tek bileşenli, polimer ve elyaf katkılı, sıva makinesi ile uygulanan sıva harcıdır. ",
-            "en": "It is a cement-based, single-component, polymer and fiber-added plaster mortar applied with a plaster machine."
+            "tr": "Çimento esaslı, polimer ve elyaf katkılı saten sıva harcıdır.",
+            "en": "It is a cement based, polymer and fiber reinforced plaster mortar."
         },
         "areasOfUsage": {
             "tr": [
-                "İç ve dış mekanlarda",
-                "Gazbeton (eile ASTAR E uygulanmış)",
-                "Beton ( eile TU-05 veya eile TU-06 uygulanmış)",
-                "Briket, tuğla vb. yüzeylere uygulanır."
+                "İç mekanlarda, duvar ve tavanda, kaba sıva, ince sıva veya beton yüzeylerinde kullanılır. Ayrıca;  yüzeydeki ince çatlakların düzeltilmesinde,  Pürüzsüz bir yüzey elde etmek için boya öncesi son kat saten sıva olarak kullanılır."
             ],
             "en": [
-                "Indoors and outdoors",
-                "Aerated Concrete (applied to Eile PRIMER)",
-                "Concrete (eile TU-05 or eile TU-06 applied)",
-                "It is applied to surfaces such as briquettes, bricks, etc."
+                "It can be used indoor, on the walls and the ceilings, or rough cast, fine cast or on concrete surfaces . It can also be used as a topcoat satin plaster before painting to obtain a smooth surface in the correction of fine cracks on the surface."
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "İçerdiği kimyasal katkılar nedeni ile kusursuz yapışır.",
-                "Uygulaması son derece kolaydır.",
-                "Makine ile kolay ve hızlı uygulama olanağı sağlar.",
-                "Geri sekmesi az olduğu için ekonomiktir."
+                "Yüksek yapışma ve dayanım mukavemetleri ile sağlam bir zemin oluşturur",
+                "Pürüzsüz bir yüzey sağlar",
+                "Boya sarfiyatını düşürür"
             ],
             "en": [
-                "It adheres perfectly due to the chemical additives it contains.",
-                "It is extremely easy to apply.",
-                "It provides easy and fast application by machine.",
-                "It is economical because it has little rebound."
+                "It forms a solid ground with high adhesion and resistance strength",
+                "Provides a smooth surface",
+                "Reduces paint consumption"
             ]
         },
         "beforeApplication": {
-            "tr": "Uygulama zemini sağlam ve aderansı azaltacak maddelerden temizlenmiş olmalıdır. Uygulama yüzeyi mutlaka nemlendirilmeli, sıcak ve rüzgarlı günlerde suya doyurulmalıdır. ",
-            "en": "The application surface must be solid and clean of substances that will reduce adherence. The application surface must be moistened and saturated with water on hot and windy days."
+            "tr": "Uygulama zemini sağlam düz ve temiz olmalıdır. Yüzey, aderansı azaltıcı maddelerden arındırılmalıdır. Uygulama öncesinde yüzey mutlaka nemlendirilmeli, sıcak ve rüzgarlı günlerde suya doyurulmalıdır.",
+            "en": "The application surface must be firm, flat and clean. The surface should be free from adherence reducing agents. Before application, the surface must be moistened and saturated with water on hot and windy days."
         },
         "mixing": {
-            "tr": "POMEX MAKİNE SIVA; sıva makinesi ile 40 kg torba/ 7,2-8,8 lt su oranı ile karıştırılmalıdır. ",
-            "en": "POMEX MACHINE PLASTER; It should be mixed with a plastering machine at the rate of 40 kg bag / 7.2-8.8 liters of water."
+            "tr": "Uygun su miktarı, bir ölçek yardımıyla temiz karıştırma kabına boşaltılır. POMEX SATEN SIVA yavaş şekilde ilave edilir. Düşük devirli karıştırıcı ile 3 - 5 dakika, homojen bir karışım elde edilinceye kadar karıştırılır. Yaklaşık 5 dakika dinlendirilir, tekrar 20-30 saniye karıştırıldıktan sonra malzeme kullanıma hazır hale gelir.",
+            "en": "The appropriate amount of water is poured into the clean container using a scale. POMEX SATIN PLASTER  is added slowly. It is mixed with a low speed mixer for 3-5 minutes until a homogeneous mixture is obtained. It is left to rest for about 5 minutes, after mixing for 20-30 seconds, the material is ready for use."
         },
         "mixture": {
-            "tr": " 40 kg toz için: 7,2-8,8 litre su -- 1 kg toz ürün için: O, 180-0,220 litre su ",
-            "en": "For 40 kg of powder: 7.2-8.8 liters of water -- For 1 kg of powder product: O, 180-0.220 liters of water"
+            "tr": "16 kg toz için 8-9 litre su, 1 kg toz için: 0,500-0,560 lt su, Karışım yoğunluğu: 1,5± 0,1 gr/cm3",
+            "en": "8-9 liters of water for 16 kg of powder, For 1 kg of powder: 0,500-0,560 liters of water, Mixture density: 1,5± 0,1 g/cm3"
         },
         "application": {
-            "tr": "Kullanıma hazır hale getirilmiş karışım; önceden suya doyurulmuş veya astarlanmış yüzeye kalınlığı 2 cm yi geçmeyecek şekilde makine ile uygulanır. Daha kalın uygulama yapılacak ise birinci kat prizini aldıktan sonra 2. Kat uygulaması yapılır. Uygulama sonrası yüzey mastarlanmalıdır. Bu işlemden sonra sıva yeterince sertleştiğinde sıva yüzeyi trifillenir ve nemli bir sünger ile yüzey bitirilir. ",
-            "en": "The mixture is ready for use; It is applied by machine to a previously saturated or primed surface with a thickness not exceeding 2 cm. If a thicker application is to be made, the second layer is applied after the first layer has set. The surface must be leveled after application. After this process, when the plaster hardens sufficiently, the plaster surface is trifilled and the surface is finished with a damp sponge."
+            "tr": "Hazırlanan homojen karışım çelik mala ile tüm yüzeye eşit kalınlıkta uygulanmalıdır. Birden fazla kat uygulanacak ise katlar arasında minimum 2 saat beklenmelidir. Maksimum kalınlık 3 mm olmalıdır.   Uygulanan sıva sertleşmeye başladığında perdahlanarak düzeltilmesi gerekir. Sıva yüzeyi tam kuruduktan sonra yüzey zımparalanarak yüzey boya uygulamasına hazır hale getirilir.",
+            "en": "The prepared homogeneous mixture should be applied on the entire surface using a steel trowel in equal thickness. If more than one coat will be applied, there should be a minimum of 2 hours between the coats. The maximum thickness should be 3 mm. When the applied plaster starts to harden, it must be polished and finished. After the plaster surface is completely dry, the surface is sanded and made ready for surface paint application."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "POMEX MAKİNE SIVA uygulamasında, ortam sıcaklığı +5°C'nin altında ya da +30° C'nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
-                "Uygulama kalınlığı tek seferde maksimum 2 cm olmalıdır. Daha kalın uygulamalarda 2 kat uygulama yapılmalıdır. ",
-                "Kurumaya başlamış karışıma kesinlikle su ve yeni malzeme ilave edilmemelidir. "
+                "POMEX SATEN SIVA uygulamasında, ortam sıcaklığı +5°C'nin altında ya da +30°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
+                "POMEX SATEN SIVA uygulama kalınlığı 3 mm'yi geçmemelidir.",
+                "Kabuklaşmış POMEX SATEN SIVA karışımına kesinlikle su ve yeni malzeme ilave edilmemelidir.",
+                "Hazırlanan karışım 20 0C de 2 saat içinde tüketilmelidir.",
+                "POMEX SATEN SIVA uygulanan yüzey 24 saat süre ile güneş ve rüzgardan korunmalıdır. Uygulamadan 6 saat sonra yüzey nemlendirme işlemi yapılmalıdır. Nemlendirme işlemi 6 saat aralıklar ile 2 gün boyunca yapılmalıdır."
             ],
             "en": [
-                "In POMEX MACHINE PLASTER application, appropriate temperatures should be waited if the ambient temperature is below +5°C or above +30°C. Application should not be made in extremely hot, rainy or windy weather.",
-                "Application thickness should be maximum 2 cm at a time. For thicker applications, 2 layers should be applied.",
-                "Water and new materials should never be added to the mixture that has started to dry."
+                "In the application of POMEX SATIN PLASTER , if the ambient temperature is below +5°C or above +30°C, then it must be waited for the appropriate temperatures. Application should not be performed in extremely hot, rainy or windy weathers.",
+                "POMEX SATIN PLASTER application thickness should not exceed 3 mm.",
+                "Water and new material should not be added into the scabby POMEX SATIN PLASTER mixture.",
+                "The prepared mixture must be consumed within 2 hours at 20°C.",
+                "The POMEX SATIN PLASTER applied surface should be protected from sun and wind for 24 hours. The surface should be moistened 6 hours after the application. The surface should be moistened every 6 hours for 2 days."
             ]
         },
         "package": {
-            "tr": "40 kg'lık kraft torba ",
-            "en": "40 kg craft bag"
+            "tr": "16 kg’lık kraft torba",
+            "en": "16 kg kraft bag"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda En fazla 1O kat istifle depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
+            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
+            "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
         }
     },
 
@@ -6908,79 +6908,82 @@
         "id": 82,
         "key": "7-1-1",
         "name": { "tr": "eile PMA 100", "en": "eile PMA 100" },
-        "img": "/assets/products/epx_927.png",
-        "appImage": "/assets/appImage/epx_927.png",
+        "img": "/assets/products/genel_kova.png",
+        "appImage": "/assets/appImage/pma100.jpg",
         "info": {
-            "tr": "Epoksi Esaslı İki Bileşenli Yapıştırma Harcı",
-            "en": "Epoxy Based Two Component Adhesive Mortar"
+            "tr": "PVC Yapıştırıcısı",
+            "en": "PVC Adhesive"
         },
         "description": {
-            "tr": "Solventsiz, iki bileşenli, tıksotropik, macun kıvamında,yüksek mukavemetli, yapıştırma ve dolgu harcıdır.",
-            "en": "It is a solvent-free, two-component, thixotropic, paste-like, high-strength, adhesive and filling mortar."
+            "tr": "Tek bileşenli, yüksek yapışma mukavemetine sahip, PVC ve linolyum zemin kaplama malzemeleri için geliştirilmiş solventsiz akrilik dispersiyon esaslı yapıştırıcıdır.",
+            "en": "It is a single component, high-adhesive, solvent-free acrylic dispersion based adhesive developed for PVC and linoleum flooring materials."
         },
         "areasOfUsage": {
             "tr": [
-                "Seramik, fayans, granit seramik cam mozaik, alümina tuğla vb. kaplama malzemelerinin duvar, zemine kagir ve/veya saç üzerine yapıştırılmasında, kimyasallara karşı direnç gerektiren ortamlarda kullanılır."
+                "İç mekanlarda",
+                "Marley, PVC, linolyum",
+                "Homojen ve heterojen yapıdaki yer kaplamalarında",
+                "Tesviye edilmiş beton ve şap yüzeylerinde"
             ],
             "en": [
-                "It is used for adhering coating materials such as ceramics, tiles, granite ceramic glass mosaic, alumina brick, etc. to walls, floors, masonry and/or sheet metal, and in environments requiring resistance to chemicals."
+                "Indoors",
+                "For bonding Marley, PVC, linoleum",
+                "Homogeneous and heterogeneous floor coverings",
+                "To leveled concrete and screed surfaces"
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Kolay uygulanır.",
-                "Tiksotropik özelliktedir.",
-                "Yüksek yapışma mukavemetine sahiptir.",
-                "Macun kıvamında olması kolay uygulamayı sağlar.",
-                "150 ºC ye kadar dayanım gösterir."
+                "Mükemmel yapışma özelliğine sahiptir, ",
+                "Uzun çalışma süresine sahiptir.",
+                "Solvent içermez.",
+                "Esnek özelliktedir.",
+                "Ani ısı değişimlerinden kaynaklanan yüzey gerilimlerine karşı dayanıklıdır.",
+                "Yüksek stabiliteye sahiptir."
             ],
             "en": [
-                "Easy to apply.",
-                "It has thixotropic properties.",
-                "It has high adhesion strength.",
-                "Its paste consistency makes it easy to apply.",
-                "It is resistant up to 150 ºC."
+                "It has excellent adhesion feature, *It has a long service life.",
+                "It does not contain solvent.",
+                "It is flexible.",
+                "It is resistant to surface tensions caused by sudden temperature changes.",
+                "It has high stability."
             ]
         },
         "beforeApplication": {
-            "tr": "Uygulanacak yüzeyler temiz olmalı, yağ, kir, oynak parçalar, beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalar temizlenmelidir. ",
-            "en": "The surfaces to be applied must be clean; oil, dirt, loose parts, cement slurry on concrete surfaces and parts that prevent adhesion must be removed."
+            "tr": "Uygulama yüzeyinin sağlam, kuru, taşıyıcı, tozsuz ve temiz, aynı zamanda terazisinde olmasına dikkat edilmelidir. Yüzey, aderansı azaltacak her türlü yağ, gres, pas ve parafin kalıntılarından iyice temizlenmelidir. Uygulama yapılacak yüzey bozuklukları eile TH 60 veya eile TH 70 tamir harçları ile düzeltilmelidir. Düzgün olmayan yüzeyler eile LEVEL tesviye şapı ürünü düzeltilmelidir.",
+            "en": "Care must be taken to ensure that the application surface is intact, dry, carrier, dust-free and clean, as well as inside its scale. The surface must be thoroughly cleaned from any oil, grease, rust and paraffin residues that will reduce adherence. Surface defects to be applied must be repaired with  eile TH 60  or eile TH 70  repair mortars. Uneven surfaces must be corrected with eile LEVEL leveling screed product."
         },
         "mixing": {
-            "tr": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır.",
-            "en": "Components A and B should be mixed for at least 3-4 minutes with the help of a low speed mixer until a homogeneous mixture is obtained, paying attention to the mixing ratios."
+            "tr": "",
+            "en": ""
         },
         "mixture": {
-            "tr": " Ağırlıkça A:B 3:1 ",
-            "en": "A:B 3:1 by weight"
+            "tr": "",
+            "en": ""
         },
         "application": {
-            "tr": "Karışımı hazırlanan EPX 927 yüzeye uygulanıp kalınlığı dişli çelik mala ile ayarlanmalıdır. Malanın diş boyutu seramik boyutuna ve zeminin düzgünlüğüne göre belirlenmelidir. İyi bir yapışma sağlanması için,lastik çekiç yardımıyla kuvvet uygulanmalıdır.",
-            "en": "The prepared EPX 927 mixture should be applied to the surface and its thickness should be adjusted with a notched steel trowel. The tooth size of the trowel should be determined according to the ceramic size and the smoothness of the ground. To ensure good adhesion, force should be applied with the help of a rubber hammer."
+            "tr": "Kullanımdan önce eile PMA 100 ürünü karıştırılmalıdır.  Uygulamaya hazır kıvama getirilmiş eile PMA 100 yapıştırma harcı zemine dökülerek dişli mala ile yüzeye yayılması sağlanır. 15- 20 dakika sonra kaplama malzemesi zemine yapıştırılır ve kaplama malzemesine baskı yapılarak yapıştırıcıya temas etmeyen kısımlar yapıştırılır ve hava boşlukları giderilir.",
+            "en": "Eile PMA 100 product must be mixed before use. Ready to apply consistency eile PMA 100  adhesive mortar is poured on the floor and spread on the surface using a notched trowel. After 15-20 minutes, the coating material is adhered to the floor and the parts that do not contact the adhesive are adhered by pressing the coating material and air gaps are removed."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Yüzeyler yeterli dayanıma sahip olmalıdır. Beton minimum 25 N/ mm² basınca dayanıklı en az 1,5- 2 N/mm² çekme dayanımına sahip olmalıdır.",
-                "Yüzey temiz, düzgün, kuru olmalı ve nem oranı % 5’ i geçmemelidir, eğer nem bunun üzerinde ise nemli yüzeylerde kullanılan nemli yüzey epoksi astar kullanılmalıdır.",
-                "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.",
-                "Karışım oranlarına dikkat edilmelidir.",
-                "20°C de yaklaşık 12 saat sonra üzerinde yürünebilir."
+                "Uygulama için ideal ortam sıcaklığı 10-30°C'dir.",
+                "Düşük sıcaklıklarda ve yüksek nemli ortamlarda eile PMA 100 ün kuruma süresi uzarken, yüksek sıcaklık ve düşük nemli ortamda yapıştırıcının kuruma süresi kısalır.",
+                "Zeminden ısıtmalı döşemelerde ısıtma sistemi, kaplamadan 10 gün önce çalıştırılmalı ve kaplama sırasında kapatılmalıdır."
             ],
             "en": [
-                "Surfaces must have sufficient strength. Concrete must have a minimum pressure resistance of 25 N/mm² and a tensile strength of at least 1.5-2 N/mm².",
-                "The surface must be clean, smooth, dry and the humidity rate should not exceed 5%. If the humidity is above this, a damp surface epoxy primer used on damp surfaces should be used.",
-                "Application should be avoided below 10°C and in very humid environments.",
-                "Mixing ratios should be taken into consideration.",
-                "It can be walked on after approximately 12 hours at 20°C."
+                "Optimal ambient temperature for application is 10-30°C.",
+                "While drying time of eile PMA 100 is extended at low temperatures and high humidity environments, the drying time of the adhesive is shortened in high temperature and low humidity environment.",
+                "In floors with floor heating, the heating system must be operated 10 days before the coating and closed during the coating."
             ]
         },
         "package": {
-            "tr": "4,5 kg A komp. ve 1,5 kg B komp. kovalarda",
-            "en": "4.5 kg A comp. and 1.5 kg B comp. in buckets"
+            "tr": "20 kg'lık kova",
+            "en": "20 kg bucket"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından korunmalıdır.",
-            "en": "It should be stored in its unopened original packaging at temperatures between +5°C - +35°C. The product should be protected from direct sunlight."
+            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamlarda, +10 °C ile +30 °C arasında direkt güneş ışığından korunarak depolanmalıdır.",
+            "en": "It should be stored in its original package, in a cool and dry environment protected from direct sunlight between +10°C and +30°C."
         }
     },
 
@@ -6988,7 +6991,7 @@
         "id": 83,
         "key": "7-2-1",
         "name": { "tr": "eile POMAX 28", "en": "eile POMAX 28" },
-        "img": "/assets/products/eilegenel.png",
+        "img": "/assets/products/genel_multi.png",
         "info": {
             "tr": "Çimento Esaslı, Yüksek Performanslı Esnek, İki Bileşenli Yapıştırma Harcı",
             "en": "Cement Based, High Performance Flexible, Two Component Adhesive Mortar"
@@ -7568,91 +7571,81 @@
             "tr": "POMEX HIZLI DONAN SERAMİK YAPIŞTIRMA HARCI",
             "en": "POMEX RAPID HARDENING CERAMIC ADHESIVE MORTAR"
         },
-        "img": "/assets/products/pomex_seramik.png",
-        "appImage": "/assets/appImage/seramik.png",
+        "img": "/assets/products/eilegenel.png",
+        "appImage": "/assets/appImage/hizli_donan_seramik.jpg",
         "info": {
-            "tr": "Çimento Esaslı Seramik Ve Fayans Yapıştırıcısı",
-            "en": "Cement Based Ceramic And Tile Adhesive"
+            "tr": "",
+            "en": ""
         },
         "description": {
-            "tr": "Çimento esaslı, polimer takviyeli, fayans ve seramik kaplama malzemelerinin yapıştırılmasında kullanılan yüksek stabiliteye sahip yapıştırma harcıdır.",
-            "en": "It is a cement-based, polymer-reinforced, high-stability adhesive mortar used for bonding tile and ceramic coating materials."
+            "tr": "Çimento esaslı, polimer takviyeli, yüksek performanslı, hızlı sertleşen yapıştırma harcıdır.",
+            "en": "It is cement based, polymer reinforced rapid hardening adhesive mortar with high performance."
         },
         "areasOfUsage": {
             "tr": [
-                "İç mekan duvar; Çimento bazlı sıva",
-                "İç mekan zemin; Çimento bazlı şap, Beton döşeme",
-                "Dış mekan zemin; Çimento bazlı şap, Beton döşeme üzerine seramik ve fayans yapıştırılmasında"
+                "Bir gün içerisinde kullanıma açılması istenen; iç mekan duvar ve zeminde, beton, şap ve sıva üzerine; dış mekan zeminde, beton, şap ve sıva üzerine; seramik, granit, porselen ve doğal taşların yapıştırılmasında kullanılır."
             ],
             "en": [
-                "Interior wall; Cement based plaster",
-                "Indoor floor; Cement-based screed, Concrete flooring",
-                "Outdoor floor; Cement-based screed, Ceramic and tile bonding on concrete flooring"
+                "Used for sticking ceramics, granites and natural stones on concrete, plaster or screed on the indoor walls and floors and outdoor floors to make them available for use within a day."
             ]
         },
         "featuresOfProduct": {
             "tr": [
                 "Mükemmel yapışma özelliğine sahiptir.",
                 "Kolay hazırlanır ve uygulanır.",
-                "Düşey uygulamalarda kayma yapmaz.",
+                "Hızlı priz alma özelliği sayesinde 6 saat sonra mukavemet kazanır.",
                 "Yüksek stabiliteye sahiptir."
             ],
             "en": [
-                "It has excellent adhesion properties.",
-                "Easy to prepare and apply.",
-                "It does not slip in vertical applications.",
-                "It has high stability."
+                "It is perfectly adhesive.",
+                "It is easy to prepare and apply.",
+                "It gains resistance within 6 hours thanks to its rapid setting quality.",
+                "It is highly stable."
             ]
         },
         "beforeApplication": {
-            "tr": "Uygulama yüzeyinin sağlam, kuru, taşıyıcı, tozsuz ve temiz, aynı zamanda terazisinde olmasına dikkat edilmelidir. Aderansı azaltacak her türlü yağ, gres, pas ve parafin kalıntısı iyice temizlenmelidir. Yüzeyde gevşek parçacıklar olmamalıdır.5 ila 20 mm derinliğindeki bozuk yüzeyler, iki gün önceden eile TH 60 veya eile TH 70 tamir harçları ile tamir edilmelidir.Uygulama yüzeyi veya ortam sıcaklığı +25°C'nin üstünde ise; uygulama yüzeyi ıslatılmalı ve yüzeyde serbest su kalmayıncaya kadar beklenmelidir.",
-            "en": "Care should be taken to ensure that the application surface is solid, dry, supporting, dust-free and clean, as well as level. Any oil, grease, rust and paraffin residue that will reduce adherence must be thoroughly cleaned. There should be no loose particles on the surface. Damaged surfaces with a depth of 5 to 20 mm should be repaired with eile TH 60 or eile TH 70 repair mortars two days in advance. If the application surface or ambient temperature is above +25°C; The application surface should be wetted and waited until there is no free water left on the surface."
+            "tr": "Uygulama yüzeyinin sağlam, kuru, taşıyıcı, tozsuz ve temiz, aynı zamanda terazisinde olmasına dikkat edilmelidir. Yüzey, aderansı azaltacak her türlü yağ, gres, pas ve parafin kalıntılarından iyice temizlenmelidir. Yüzeyde gevşek parçacıklar olmamalıdır. Uygulama yapılacak yüzey bozuklukları eile TH 60 veya eile TH 70 tamir harçları ile düzeltilmelidir. Uygulama yüzeyi veya ortam sıcaklığı +25°C'nin üstünde ise; uygulama yüzeyi ıslatılmalı ve yüzeyde serbest su kalmayıncaya kadar beklenmelidir.",
+            "en": "The application surface should be strong, dry, bearing, dust-free and clean, as well as leveled. All the residues such as oil, grease, rust and paraffin reducing adherence as well as the loose parts should be removed. Rough surfaces on which the application will be carried out should be repaired using repair mortars eileTH 60 or eileTH 70. If the application surface or ambient temperature is above +25°C, the application surface should be moisturized and should be left to dry up until there is no uncontrolled water on the surface."
         },
         "mixing": {
-            "tr": "Uygun miktarda su, bir ölçek yardımıyla temiz bir karıştırma kabına boşaltılır. Bu kap içerisine eile POMEX Seramik Yapıştırma Harcı yavaş şekilde ilave edilir. Malzeme düşük devirli bir karıştırıcı ile 3 - 5 dakika, homojen kıvama gelene kadar karıştırılır. 5 dakika dinlendirilen malzeme tekrar 20-30 saniye karıştırıldıktan sonra kullanıma hazır hale gelir.",
-            "en": "Pour the appropriate amount of water into a clean mixing bowl using a scale. Add eile POMEX Ceramic Adhesive Mortar slowly into this container. The material is mixed with a low speed mixer for 3 - 5 minutes until it reaches a homogeneous consistency. The material rests for 5 minutes and is ready for use after mixing again for 20-30 seconds."
+            "tr": "Uygun miktarda su, bir ölçek yardımıyla temiz bir karıştırma kabına boşaltılır. Bu kap içerisine POMEX HIZLI DONAN SERAMİK YAPIŞTIRICISI yavaşça ilave edilir. Malzeme düşük devirli bir karıştırıcı ile 3 - 5 dakika karıştırılarak homojen kıvam elde edilir. Hazırlanan harç, olgunlaşması için 3 dakika dinlendirilmeli ve 20-30 saniye kadar tekrar karıştırılarak uygulamaya geçilmelidir.",
+            "en": "A clean mixing bowl is filled with the necessary amount of water by means of a scale. POMEX RAPID HARDENING CERAMIC ADHESIVE is slowly added into. A homogeneous mixture is prepared by mixing it with a low speed mixer for 3-5 minutes. The mixture waits for 3 minutes for maturation before being mixed for another 20-30 seconds."
         },
         "mixture": {
-            "tr": "25 kg toz için: 6-7,5 litre su -- 1 kg toz için: 0,240-0,300 litre su",
-            "en": "For 25 kg powder: 6-7.5 liters of water -- For 1 kg powder: 0.240-0.300 liters of water"
+            "tr": "25 kg toz için: 6-7,0 litre su, 1 kg toz için: 0,240-0,280 litre su",
+            "en": "6-7 liters of water for 25 kg powder, 0.240-0.280 liters of water for 1 kg powder"
         },
         "application": {
-            "tr": "Malanın düz tarafı ile uygulama yüzeyine 1 mm kalınlığında POMEX Seramik Yapıştırma Harcı tabakası tatbik edilir. Malzeme malanın dişli tarafı ile üniform kalınlık elde edilecek şekilde tek yönde çekilir.Kalınlıkları farklı seramiklerin veya fayansların yapıştırılmasında, uygulama yüzeyindeki bozuklukları kapatmak amacı ile her seramiğin ya da fayansın altına 1 mm kalınlığında harç sürülmesi önerilir. İyi yapışma sağlanması için, seramik veya fayanslara lastik çekiç yardımıyla kuvvet uygulanarak, yapıştırma harcına tamamen temas etmesi sağlanmalıdır. Uygun seramik veya fayans ebadına göre tavsiye edilen derz aralığı bırakılarak uygulama tamamlanır.Bırakılan derz aralıklarının doldurulması için POMEX markalı derz dolgu ürünleri kullanılmalıdır.",
-            "en": "A 1 mm thick layer of POMEX Ceramic Adhesive Mortar is applied to the application surface with the flat side of the trowel. The material is pulled in one direction with the notched side of the trowel to obtain a uniform thickness. When adhering ceramics or tiles of different thicknesses, it is recommended to apply 1 mm thick mortar under each ceramic or tile in order to cover the imperfections on the application surface. In order to ensure good adhesion, force should be applied to the ceramics or tiles with the help of a rubber hammer to ensure that they come into full contact with the adhesive mortar. The application is completed by leaving the recommended joint gap according to the appropriate ceramic or tile size. POMEX brand joint filler products should be used to fill the left joint gaps."
+            "tr": "Uygulamaya hazır kıvama getirilmiş POMEX HIZLI DONAN SERAMİK YAPIŞTIRICISI, malanın düz kısmı ile uygulama yüzeyine, 1 mm kalınlığında uygulanmalıdır. Kaplama malzemesinin boyutuna uygun olarak seçilmiş malanın dişli tarafı ile üniform kalınlık elde edilecek şekilde tek yönde çekilmelidir. İyi yapışma sağlanması için, kaplama malzemesine lastik çekiç yardımıyla kuvvet uygulanarak, yapıştırma harcına tamamen temas etmesi sağlanmalıdır. Uygun seramik veya fayans ebadına göre tavsiye edilen derz aralığı bırakılarak uygulama tamamlanır. Bırakılan derz aralıklarının doldurulması için eile POMEX Derz Dolgu ürünleri tercih edilmelidir. Derz uygulanmasına 6 saat sonra geçilebilir.",
+            "en": "The prepared eile POMAX RAPID HARDENING CERAMIC ADHESIVE is applied on the surface as thick as 1 mm using the flat side of the steel trowel. It should be applied unidirectional until the thickness is uniform using the notched side of the trowel which has been selected in line with the size of the coating material. In order to enable good adhesion, the coating material must completely touch the adhesive mortar by being pressed down by a rubber hammer. The application is finished after leaving the recommended grout gaps for the ceramic or tile size. The gaps should be filled with eile POMEX Joint Gap Sealants. The grout applications should be carried out after 6 hours."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "POMEX Seramik Yapıştırma Harcı uygulamasında,ortam ve yüzey sıcaklığı +5°C'nin altında ya da +35°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
+                "POMEX HIZLI DONAN SERAMİK YAPIŞTIRICISI uygulamasında, ortam ve yüzey sıcaklığı +5°C'nin altında ya da +35°C’nin üzerinde ise, uygun sıcaklıklar beklenmelidir. Aşırı sıcak, yağışlı veya rüzgarlı havalarda uygulama yapılmamalıdır.",
                 "Yapıştırma harcının performansını arttırmak için uygun nem seviyesi gereklidir.",
-                "Yayılım kalınlığı en az 3 mm en fazla 6 mm olmalıdır.",
                 "Su emmesi yüksek olan seramikler, uygulama öncesinde suya doyurulmalıdır.",
-                "Kurumaya başlayan karışıma kesinlikle su ve yeni malzeme ilave edilmemelidir.",
-                "Çok gözenekli yüzeylerde; eile ASTAR E ürünü ile yüzey astarlandıktan sonra seramik uygulamasına geçilmelidir.",
-                "6 mm den daha geniş derz boşlukları pomex rusik fuga ile doldurulmalıdır.",
+                "Kurumaya başlamış POMEX HIZLI DONAN SERAMİK YAPIŞTIRICISI karışımına kesinlikle su ve yeni malzeme ilave edilmemelidir.",
+                "Çok gözenekli yüzeylerde;  eile ASTAR E ürünü ile yüzey astarlandıktan sonra seramik uygulamasına geçilmelidir.",
                 "Geçirimsiz ve parlak yüzeyler eile TU 05 veya eile TU 06 ürünü ile astarlandıktan sonra uygulamaya geçilmelidir.",
-                "Derz uygulamasına en az 24 saat sonra geçilebilir.",
-                "Binaların iç ve dış cephelerinde 3 m den daha yüksekte yapılacak uygulamalar için eile POMAX 28 ürünü kullanılmalıdır. "
+                "6 mm den daha geniş derz boşlukları pomex rusik fuga ile doldurulmalıdır."
             ],
             "en": [
-                "In the application of POMEX Ceramic Adhesive Mortar, if the ambient and surface temperature is below +5°C or above +35°C, appropriate temperatures should be waited. Application should not be made in extremely hot, rainy or windy weather.",
-                "A proper moisture level is required to increase the performance of the adhesive mortar.",
-                "The spreading thickness should be at least 3 mm and at most 6 mm.",
-                "Ceramics with high water absorption should be saturated with water before application.",
-                "Water and new materials should never be added to the mixture that has started to dry.",
-                "On very porous surfaces, ceramic application should be started after priming the surface with eile ASTAR E product.",
-                "Joint gaps wider than 6 mm should be filled with pomex rusik joint joint.",
-                "The application should begin after impermeable and shiny surfaces have been primed with eile TU 05 or eile TU 06.",
-                "The joint application can be started after at least 24 hours.",
-                "Eile POMAX 28 product should be used for applications higher than 3 m on the interior and exterior of buildings."
+                "For POMEX RAPID HARDENING CERAMIC ADHESIVE application, if the ambient temperature is below +5°C or above +35°C, the suitable conditions should be met. Extremely hot, rainy or windy weather is not suitable for application.",
+                "The proper moisture level is required to enhance the performance of the adhesive mortar.",
+                "The ceramics with high water absorbency rate should be saturated with water before the application.",
+                "The POMEX RAPID HARDENING CERAMIC ADHESIVE mixture starting to dry should not be mixed with water or new materials.",
+                "Very porous surfaces should be primed with eile PRIMER E before ceramic application.",
+                "Impermeable and bright surfaces such as exposed concrete should be primed with eile TU 05 or eile TU O6 before the application.",
+                "The grout gaps larger than 6 mm should be filled with pomex rustic joint sealant."
             ]
         },
         "package": {
-            "tr": "25 kg’ lık kraft torba ",
-            "en": "25 kg craft bag"
+            "tr": "25 kg’lık kraft torba",
+            "en": "Kraft sack of 25 kg"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
+            "en": "Best stored in cool and dry place in their unopened package with a maximum 10-fold stacking."
         },
         "docs": {
             "tse": "/assets/docs/TSE_POMEX_SERAMIK_YAPISTIRICISI.pdf",
@@ -8276,74 +8269,59 @@
         "key": "8-1-5",
         "name": { "tr": "eile LEVEL 10", "en": "eile LEVEL 10" },
         "img": "/assets/products/eile_level.png",
-        "appImage": "/assets/appImage/level.png",
+        "appImage": "/assets/appImage/level10.jpg",
         "info": {
             "tr": "Çimento Esaslı Kendiliğinden Yayılan Tesviye Şapı",
-            "en": "Cement Based Self Leveling Leveling Screed"
+            "en": "Cement Based Self Leveling Screed"
         },
         "description": {
-            "tr": "Düzgün olmayan beton zeminlerde düzeltme harcı olarak kullanılır. 1-10 mm. arası kalınlıkta uygulanabilen, polimer modifiyeli, çatlama ve büzülme yapmayan çimento esaslı zemin tesviye şapıdır.",
-            "en": "It is used as a correction mortar on uneven concrete floors. 1-10mm. It is a polymer-modified, cement-based floor leveling screed that can be applied in thicknesses between 10 and 100 mm and does not cause cracking or shrinkage."
+            "tr": "1 - 10 mm. arası kalınlıkta uygulanabilen, polimer modifiyeli, çatlama ve büzülme yapmayan çimento esaslı zemin tesviye şapıdır.",
+            "en": "It is used as correcting mortar on non-uniform concrete ground. It is a cement based ground leveling screed that is applicable between 1-10 mm thickness, polymer modified, non- cracking and shrinking."
         },
         "areasOfUsage": {
             "tr": [
                 "Orta ve yoğun yaya trafiğine maruz zeminlerde son kat kaplama öncesi,",
-                "İç mekanlarda seramik, mermer, parke, halı ve PVC kaplamaların yapıştırılmasından önce",
-                "Bozuk zeminlerin tesviyesi amacı ile,",
-                "Sağlık kuruluşlarında,alışveriş merkezlerinde,otellerde kullanılır."
+                "Seramik, mermer, parke, halı ve PVC kaplamaların yapıştırılmasından önce",
+                "Bozuk zeminlerin tesviyesi amacı ile",
+                "Sağlık kuruluşlarında, alışveriş merkezlerinde, otellerde kullanılır"
             ],
             "en": [
-                "Before final coat coating on floors exposed to medium and heavy pedestrian traffic,",
-                "Before gluing ceramics, marble, parquet, carpets and PVC coatings indoors",
-                "For the purpose of leveling damaged ground,",
-                "It is used in healthcare institutions, shopping malls and hotels."
+                "Prior to finishing coat on the surfaces exposed to medium and heavy pedestrian traffic,",
+                "Indoors before bonding ceramic, marble, parquet, carpet and PVC coatings",
+                "With the aim of leveling of uneven grounds,",
+                "Used in health care facilities, shopping centers, hotels."
             ]
         },
         "featuresOfProduct": {
-            "tr": [
-                "Hızlı ve uygulama kolaylığı.",
-                "Su ile karıştırılır.",
-                "Kendiliğinden yayılır, teraziye gelir."
-            ],
-            "en": [
-                "Fast and easy to apply.",
-                "Mixed with water.",
-                "It spreads on its own, reaches the scale."
-            ]
+            "tr": ["Hızlı ve uygulama kolaylığı.", "Su ile karıştırılır."],
+            "en": ["Fast and easy to apply.", "Mixed with water."]
         },
         "beforeApplication": {
-            "tr": "Yüzey hazırlığı : Yüzeyin sağlam, taşıyıcı, tozsuz ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntıları temizlenmeli gevşek parça olmamalıdır. Yüzeyde bulunan bozukluklar tamir edilmelidir. Uygulama yapılacak alanda hava akımı önlenmelidir. Büyük alanlarda, kot farkı ‘nın ortaya çıkmaması için karolaj yapılmalı ve uygulama kotları belirlenmelidir. Astarlama : Eile LEVEL tesviye şapının işleme süresini uzatmak, uygulama zeminine yüksek aderans sağlamak; oluşması mümkün hava kabarcıklarını en az düzeye indirmek amacı ile yüzey eile ASTAR E ile astarlanmalıdır. Emiciliği yüksek yüzeylerde ikinci kat astar uygulaması yapılmalıdır. Astar uygulaması yapılacak katlar arasında en az iki saat beklenmelidir.Astar uygulamasından 24 saat sonra eile level uygulamasına geçilir. eile ASTAR E inceltilmeden uygulanmalıdır.",
-            "en": "Surface preparation: Care should be taken to ensure that the surface is solid, load-bearing, dust-free and clean. Any oil, grease, rust and paraffin residues that may weaken adherence should be cleaned and there should be no loose parts. Defects on the surface must be repaired. Air flow should be prevented in the application area. In large areas, tiling should be done and application levels should be determined to prevent elevation differences. Priming: To extend the processing time of Eile LEVEL leveling screed and to ensure high adherence to the application surface; The surface should be primed with eile PRIMER E in order to minimize possible air bubbles. A second layer of primer should be applied on highly absorbent surfaces. At least two hours should be waited between coats of primer application. Eile level application can be started 24 hours after the primer application. eile ASTAR E should be applied without dilution."
+            "tr": "Yüzeyin sağlam, taşıyıcı, tozsuz ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntıları temizlenmeli gevşek parça olmamalıdır. Yüzeyde bulunan bozukluklar tamir edilmelidir. Uygulama yapılacak alanda hava akımı önlenmelidir. Büyük alanlarda, kot farkı ‘nın ortaya çıkmaması için karolaj yapılmalı ve uygulama kotları belirlenmelidir. Astarlama: eile LEVEL 10 tesviye şapının işleme süresini uzatmak, uygulama zeminine yüksek aderans sağlamak; oluşması mümkün hava kabarcıklarını en az düzeye indirmek amacı ile yüzey eile ASTAR E ile astarlanmalıdır. Emiciliği yüksek yüzeylerde ikinci kat astar uygulaması yapılmalıdır. Astar uygulaması yapılacak katlar arasında en az iki saat beklenmelidir. Astar uygulamasından 24 saat sonra eile LEVEL uygulamasına geçilir. eile ASTAR E inceltilmeden uygulanmalıdır.",
+            "en": ""
         },
         "mixing": {
-            "tr": "Uygun miktarda su temiz bir karışım kovasına boşaltılır. Malzeme yavaşça karışım kovasına ilave edilerek düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika homojen karışım elde edilene kadar karıştırılır.Yaklaşık 4 dakika dinlendirildikten sonra 30 saniye kadar tekrar karıştırılarak kullanıma hazır hale getirilir.",
-            "en": "An appropriate amount of water is poured into a clean mixing bucket. The material is slowly added to the mixing bucket and mixed with a low-speed mixer for approximately 3-4 minutes until a homogeneous mixture is obtained. After resting for approximately 4 minutes, it is mixed again for 30 seconds and made ready for use."
+            "tr": "Uygun miktarda su temiz bir karışım kovasına boşaltılır. Malzeme yavaşça karışım kovasına ilave edilerek düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika homojen karışım elde edilene kadar karıştırılır. Yaklaşık 4 dakika dinlendirildikten sonra 30 saniye kadar tekrar karıştırılarak kullanıma hazır hale getirilir.",
+            "en": "The appropriate amount of water is emptied in a clean mixing bucket. By adding the material into the mixing bucket, it should be mixed with the help of a low-speed mixer for at least 3-4 minutes until a homogeneous mixture is obtained. After letting it rest for about 4 minutes, it is mixed again for 30 seconds to make it ready to use."
         },
         "mixture": {
-            "tr": " 25 kg’lık Torba İçin: 4, 5-5,25 litre su -- Karışım Yoğunluğu: 2 gr/ cm3",
-            "en": "For 25 kg Bag: 4.5-5.25 liters of water -- Mixture Density: 2 gr/ cm3"
+            "tr": "25 kg’ lık Torba İçin: 4, 5-5,25 litre su, Karışım Yoğunluğu: 2 gr/ cm3",
+            "en": "For 25 kg Bag: 4, 5-5.25 liters of water"
         },
         "application": {
-            "tr": "Hazırlanan harç, kendiliğinden yayılır. Malzemenin kalınlığı dişli mala ile ayarlanır. Priz süresince su ilave edilmemeli, yüzeydeki hava kirpi rulo ile alınmalıdır.Uygulama ortamında oluşabilecek ani sıcaklık değişimleri engellenmelidir. Güneş ve rüzgar etkilerine açık olan alanlarda uygulama yapılmamalıdır.",
-            "en": "The prepared mortar spreads on its own. The thickness of the material is adjusted with a notched trowel. Water should not be added during the setting period, air on the surface should be removed with a hedgehog roller. Sudden temperature changes that may occur in the application environment should be prevented. Application should not be made in areas exposed to the effects of sun and wind."
+            "tr": "Hazırlanan harç, kendiliğinden yayılır. Malzemenin kalınlığı dişli mala ile ayarlanır. Priz süresince su ilave edilmemeli, yüzeydeki hava kirpi rulo ile alınmalıdır. Uygulama ortamında oluşabilecek ani sıcaklık değişimleri engellenmelidir. Güneş ve rüzgar etkilerine açık olan alanlarda uygulama yapılmamalıdır.",
+            "en": "Prepared mortar spreads spontaneously. The thickness of the material is set with a notched trowel. During setting, water should not be added; the air at the surface should be taken with a spiked roller. Sudden temperature changes that may occur in the application environment must be prevented. In the areas exposed to the sun and wind effects, application should not be carried out."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Eile LEVEL +5 °C ile +25 °C sıcaklık koşullarında uygulamaya uygundur. Ortam veya uygulama zemini sıcaklığı uygun sıcaklık koşulları aralığında değil ise; uygulama için uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
+                "eile LEVEL +5 0C ile +25 0C sıcaklık koşullarında uygulamaya uygundur. Ortam veya uygulama zemini sıcaklığı uygun sıcaklık koşulları aralığında değil ise; uygulama için uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
                 "Uygulanacak zemin ve ortam sıcaklığı, çimentonun hidratasyon reaksiyonunu etkileyeceği için, ortam ve zemin sıcaklığı izin verilen sıcaklık aralığında olmalıdır.",
                 "Malzeme uygulandıktan sonra hızlı kuruma engellenmelidir. Uygulanmış malzeme su temasından korunmalıdır.",
                 "Uygulamalar uzman uygulamacılar tarafından yapılmalıdır.",
                 "Malzeme uygulandıktan sonra, yapılabilecek yüzey kaplama uygulamaları için en az üç gün beklenmelidir.",
                 "Karışımın dinlendirilmesi ve uygulama öncesinde tekrar karıştırılması kesinlikle ihmal edilmemelidir."
             ],
-            "en": [
-                "Eile LEVEL is suitable for application in +5 °C to +25 °C temperature conditions. If the ambient or application ground temperature is not within the appropriate temperature conditions, appropriate temperatures should be waited for the application. Application should not be made in extremely hot and windy environments.",
-                "Since the applied ground and ambient temperature will affect the hydration reaction of the cement, the ambient and ground temperature must be within the allowed temperature range.",
-                "After the material is applied, rapid drying should be prevented. The applied material should be protected from water contact.",
-                "Applications should be done by expert practitioners.",
-                "After the material is applied, at least three days should be waited for surface coating applications.",
-                "Letting the mixture rest and mixing again before application should not be neglected."
-            ]
+            "en": []
         },
         "package": {
             "tr": "25 kg’lık kraft torba",
@@ -8351,7 +8329,7 @@
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+            "en": "It must be stored unopened in its original packaging, in cool and dry conditions with a maximum 10-fold stacking."
         }
     },
 
@@ -8360,74 +8338,65 @@
         "key": "8-1-6",
         "name": { "tr": "eile LEVEL 15", "en": "eile LEVEL 15" },
         "img": "/assets/products/eile_level.png",
-        "appImage": "/assets/appImage/level.png",
+        "appImage": "/assets/appImage/level15.jpg",
         "info": {
-            "tr": "Çimento Esaslı Kendiliğinden Yayılan Tesviye Şapı",
-            "en": "Cement Based Self Leveling Leveling Screed"
+            "tr": "Kalsiyum Sülfat Esaslı Kendiliğinden Yayılan Tesviye Şapı",
+            "en": "Calcium Sulphate Based Self Propagating Leveling Screed"
         },
         "description": {
-            "tr": "Düzgün olmayan beton zeminlerde düzeltme harcı olarak kullanılır. 1-10 mm. arası kalınlıkta uygulanabilen, polimer modifiyeli, çatlama ve büzülme yapmayan çimento esaslı zemin tesviye şapıdır.",
-            "en": "It is used as a correction mortar on uneven concrete floors. 1-10mm. It is a polymer-modified, cement-based floor leveling screed that can be applied in thicknesses between 10 and 100 mm and does not cause cracking or shrinkage."
+            "tr": "1 - 15 mm. arası kalınlıkta uygulanabilen, polimer modifiyeli, çatlama ve büzülme yapmayan, Kalsiyum sülfat esaslı, elle veya makine ile uygulanabilen, kendinden seviye alan zemin şapıdır. Zemin bozukluklarını düzelten, sıvı halde pompalanabilen ve mükemmel yayılan, düşük yüzey gerilimine sahip, yüksek performanslı üründür.",
+            "en": "It is a self-leveling floor screed that can be applied in a thickness of 1 - 15 mm, that is polymer modified, that does not crack and shrink, that is calcium sulfate based, applicable by hand or machine, and self-leveling. It is a high performance product that corrects ground defects, can be pumped in liquid form and spreads perfectly, has low surface tension."
         },
         "areasOfUsage": {
             "tr": [
+                "Tüm yapılarda, iç mekânlarda kullanılabilir. Çimento, beton, kalsiyum sülfat zeminler için uygundur.",
                 "Orta ve yoğun yaya trafiğine maruz zeminlerde son kat kaplama öncesi,",
-                "İç mekanlarda seramik, mermer, parke, halı ve PVC kaplamaların yapıştırılmasından önce",
-                "Bozuk zeminlerin tesviyesi amacı ile,",
-                "Sağlık kuruluşlarında,alışveriş merkezlerinde,otellerde kullanılır."
+                "Seramik, mermer, parke, halı ve PVC kaplamaların yapıştırılmasından önce yüzey tesviyesi amacı ile uygulanır.",
+                "Bozuk zeminlerin tesviyesi amacı ile",
+                "Sağlık kuruluşlarında, alışveriş merkezlerinde, otellerde kullanılır."
             ],
             "en": [
-                "Before final coat coating on floors exposed to medium and heavy pedestrian traffic,",
-                "Before gluing ceramics, marble, parquet, carpets and PVC coatings indoors",
-                "For the purpose of leveling damaged ground,",
-                "It is used in healthcare institutions, shopping malls and hotels."
+                "It can be used in all buildings, indoor areas. It is suitable for cement, concrete, calcium sulfate floors.",
+                "Before topcoat coating on grounds exposed to medium and heavy pedestrian traffic,",
+                "It is applied for the purpose of surface leveling before bonding of ceramic, marble, parquet, carpet and PVC coatings",
+                "For the purpose of leveling the damaged grounds",
+                "It is used in health institutions, shopping malls, hotels."
             ]
         },
         "featuresOfProduct": {
             "tr": [
                 "Hızlı ve uygulama kolaylığı.",
-                "Su ile karıştırılır.",
-                "Kendiliğinden yayılır, teraziye gelir."
+                "Hızlı priz alır.",
+                "Pürüzsüz ve homojen üst yüzey"
             ],
-            "en": [
-                "Fast and easy to apply.",
-                "Mixed with water.",
-                "It spreads on its own, reaches the scale."
-            ]
+            "en": []
         },
         "beforeApplication": {
-            "tr": "Yüzey hazırlığı : Yüzeyin sağlam, taşıyıcı, tozsuz ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntıları temizlenmeli gevşek parça olmamalıdır. Yüzeyde bulunan bozukluklar tamir edilmelidir. Uygulama yapılacak alanda hava akımı önlenmelidir. Büyük alanlarda, kot farkı ‘nın ortaya çıkmaması için karolaj yapılmalı ve uygulama kotları belirlenmelidir. Astarlama : Eile LEVEL tesviye şapının işleme süresini uzatmak, uygulama zeminine yüksek aderans sağlamak; oluşması mümkün hava kabarcıklarını en az düzeye indirmek amacı ile yüzey eile ASTAR E ile astarlanmalıdır. Emiciliği yüksek yüzeylerde ikinci kat astar uygulaması yapılmalıdır. Astar uygulaması yapılacak katlar arasında en az iki saat beklenmelidir.Astar uygulamasından 24 saat sonra eile level uygulamasına geçilir. eile ASTAR E inceltilmeden uygulanmalıdır.",
-            "en": "Surface preparation: Care should be taken to ensure that the surface is solid, load-bearing, dust-free and clean. Any oil, grease, rust and paraffin residues that may weaken adherence should be cleaned and there should be no loose parts. Defects on the surface must be repaired. Air flow should be prevented in the application area. In large areas, tiling should be done and application levels should be determined to prevent elevation differences. Priming: To extend the processing time of Eile LEVEL leveling screed and to ensure high adherence to the application surface; The surface should be primed with eile PRIMER E in order to minimize possible air bubbles. A second layer of primer should be applied on highly absorbent surfaces. At least two hours should be waited between coats of primer application. Eile level application can be started 24 hours after the primer application. eile ASTAR E should be applied without dilution."
+            "tr": "Yüzey hazırlığı: Yüzeyin sağlam, taşıyıcı, tozsuz ve temiz olmasına dikkat edilmelidir. Aderansı zayıflatacak her türlü yağ, gres, pas ve parafin kalıntıları temizlenmeli gevşek parça olmamalıdır. Yüzeyde bulunan bozukluklar tamir edilmelidir. Uygulama yapılacak alanda hava akımı önlenmelidir. Büyük alanlarda, kot farkı ‘nın ortaya çıkmaması için karolaj yapılmalı ve uygulama kotları belirlenmelidir. Astarlama: eile LEVEL 15 tesviye şapının işleme süresini uzatmak, uygulama zeminine yüksek aderans sağlamak; oluşması mümkün hava kabarcıklarını en az düzeye indirmek amacı ile yüzey eile ASTAR E ile astarlanmalıdır. Emiciliği yüksek yüzeylerde ikinci kat astar uygulaması yapılmalıdır. Astar uygulaması yapılacak katlar arasında en az iki saat beklenmelidir. Astar uygulamasından 24 saat sonra eile LEVEL 15 uygulamasına geçilir. eile ASTAR E inceltilmeden uygulanmalıdır.",
+            "en": ""
         },
         "mixing": {
-            "tr": "Uygun miktarda su temiz bir karışım kovasına boşaltılır. Malzeme yavaşça karışım kovasına ilave edilerek düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika homojen karışım elde edilene kadar karıştırılır.Yaklaşık 4 dakika dinlendirildikten sonra 30 saniye kadar tekrar karıştırılarak kullanıma hazır hale getirilir.",
-            "en": "An appropriate amount of water is poured into a clean mixing bucket. The material is slowly added to the mixing bucket and mixed with a low-speed mixer for approximately 3-4 minutes until a homogeneous mixture is obtained. After resting for approximately 4 minutes, it is mixed again for 30 seconds and made ready for use."
+            "tr": "Uygun miktarda su temiz bir karışım kovasına boşaltılır. Malzeme yavaşça karışım kovasına ilave edilerek düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika homojen karışım elde edilene kadar karıştırılır. Yaklaşık 4 dakika dinlendirildikten sonra 30 saniye kadar tekrar karıştırılarak kullanıma hazır hale getirilir.",
+            "en": "The appropriate amount of water is poured into a clean bucket. The material is slowly added to the mixing bucket and mixed with a low speed mixer for 3-4 minutes until a homogeneous mixture is obtained. After resting for about 4 minutes, it is made ready for use by mixing again for 30 seconds."
         },
         "mixture": {
-            "tr": " 25 kg’lık Torba İçin: 4, 5-5,25 litre su -- Karışım Yoğunluğu: 2 gr/ cm3",
-            "en": "For 25 kg Bag: 4.5-5.25 liters of water -- Mixture Density: 2 gr/ cm3"
+            "tr": "25 kg’lık Torba İçin: 6,5-7,5-litre su, Karışım Yoğunluğu: 2 gr/ cm3",
+            "en": "For a Bag of 25 kg: 6,5-7,5 liters of water"
         },
         "application": {
-            "tr": "Hazırlanan harç, kendiliğinden yayılır. Malzemenin kalınlığı dişli mala ile ayarlanır. Priz süresince su ilave edilmemeli, yüzeydeki hava kirpi rulo ile alınmalıdır.Uygulama ortamında oluşabilecek ani sıcaklık değişimleri engellenmelidir. Güneş ve rüzgar etkilerine açık olan alanlarda uygulama yapılmamalıdır.",
-            "en": "The prepared mortar spreads on its own. The thickness of the material is adjusted with a notched trowel. Water should not be added during the setting period, air on the surface should be removed with a hedgehog roller. Sudden temperature changes that may occur in the application environment should be prevented. Application should not be made in areas exposed to the effects of sun and wind."
+            "tr": "Hazırlanan harç, kendiliğinden yayılır. Malzemenin kalınlığı dişli mala ile ayarlanır. Priz süresince su ilave edilmemeli, yüzeydeki hava kirpi rulo ile alınmalıdır. Uygulama ortamında oluşabilecek ani sıcaklık değişimleri engellenmelidir. Güneş ve rüzgar etkilerine açık olan alanlarda uygulama yapılmamalıdır. Düzeltme ve kirpi rulo uygulamalarının ardından tamamlanan uygulama kurumaya bırakılır. Yaklaşık 6 saat sonra üzerinde yürünebilir. 5 mm’ lik bir tabaka için 72 saat sonra üzerinde işlem yapılabilir. 5 mm’nin üzerindeki her 1 mm kalınlık için 24 saat daha beklenmesi tavsiye edilmektedir.",
+            "en": "The prepared mortar propagates itself. The thickness of the material is adjusted with a notched trowel. During setting, no water should be added, the air on the surface should be taken with a spiked roller. Sudden temperature changes that may occur in the application environment should be prevented. Application should not be made in areas exposed to sun and wind effects. After the correction and spiked roller applications, the completed application is left to dry. It can be walked on after about 6 hours. For a 5 mm layer, it can be processed after 72 hours. It is recommended to wait another 24 hours for every 1 mm thickness over 5 mm."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Eile LEVEL +5 °C ile +25 °C sıcaklık koşullarında uygulamaya uygundur. Ortam veya uygulama zemini sıcaklığı uygun sıcaklık koşulları aralığında değil ise; uygulama için uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
-                "Uygulanacak zemin ve ortam sıcaklığı, çimentonun hidratasyon reaksiyonunu etkileyeceği için, ortam ve zemin sıcaklığı izin verilen sıcaklık aralığında olmalıdır.",
+                "eile LEVEL 15 +5 0C ile +30 0C sıcaklık koşullarında uygulamaya uygundur. Ortam veya uygulama zemini sıcaklığı uygun sıcaklık koşulları aralığında değil ise; uygulama için uygun sıcaklıklar beklenilmelidir. Aşırı sıcak ve rüzgarlı ortamlarda uygulama yapılmamalıdır.",
+                "Uygulanacak zemin ve ortam sıcaklığı; hidratasyon reaksiyonunu etkileyeceği için, ortam ve zemin sıcaklığı izin verilen sıcaklık aralığında olmalıdır.",
                 "Malzeme uygulandıktan sonra hızlı kuruma engellenmelidir. Uygulanmış malzeme su temasından korunmalıdır.",
                 "Uygulamalar uzman uygulamacılar tarafından yapılmalıdır.",
                 "Malzeme uygulandıktan sonra, yapılabilecek yüzey kaplama uygulamaları için en az üç gün beklenmelidir.",
                 "Karışımın dinlendirilmesi ve uygulama öncesinde tekrar karıştırılması kesinlikle ihmal edilmemelidir."
             ],
-            "en": [
-                "Eile LEVEL is suitable for application in +5 °C to +25 °C temperature conditions. If the ambient or application ground temperature is not within the appropriate temperature conditions, appropriate temperatures should be waited for the application. Application should not be made in extremely hot and windy environments.",
-                "Since the applied ground and ambient temperature will affect the hydration reaction of the cement, the ambient and ground temperature must be within the allowed temperature range.",
-                "After the material is applied, rapid drying should be prevented. The applied material should be protected from water contact.",
-                "Applications should be done by expert practitioners.",
-                "After the material is applied, at least three days should be waited for surface coating applications.",
-                "Letting the mixture rest and mixing again before application should not be neglected."
-            ]
+            "en": []
         },
         "package": {
             "tr": "25 kg’lık kraft torba",
@@ -8435,7 +8404,7 @@
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+            "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
         }
     },
 
@@ -8857,6 +8826,7 @@
         "key": "8-2-5",
         "name": { "tr": "eile EPX 730", "en": "eile EPX 730" },
         "img": "/assets/products/teneke_bos.png",
+        "appImage": "/assets/appImage/epx_730.jpg",
         "info": {
             "tr": "Solventli Yarı Mat Epoksi Boya",
             "en": "Solvent Semi-Matte Epoxy Paint"
@@ -8890,15 +8860,15 @@
             "en": "The surfaces to be applied must be clean and must be cleaned of oil, dirt, loose parts, cement slurry on concrete surfaces and parts that prevent adhesion. After the surface cleaning process, one of the eile EPX 110, eile EPS 201 primers should be applied."
         },
         "mixing": {
-            "tr": " A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
+            "tr": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
             "en": "Components A and B should be mixed for at least 3-4 minutes with the help of a low speed mixer until a homogeneous mixture is obtained, paying attention to the mixing ratios. It is ready for application after mixing."
         },
         "mixture": {
-            "tr": " Ağırlıkça 5/1",
-            "en": " 5/1 by weight"
+            "tr": " Ağırlıkça 4/1",
+            "en": " 4/1 by weight"
         },
         "application": {
-            "tr": "Hazırlanan homojen karışım fırça, rulo veya pistole ile uygulanır.10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de).20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
+            "tr": "Hazırlanan homojen karışım fırça, rulo veya pistole ile uygulanır. 10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de).20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
             "en": "The prepared homogeneous mixture is applied with a brush, roller or spray gun. Application should be avoided below 10°C and in very humid environments. Mixing ratios should be taken into consideration. A minimum of 12 hours should be waited between coats (at 20°C). Approximately 12 hours later at 20°C. walkable."
         },
         "pointsToTakeIntoConsideration": {
@@ -8916,8 +8886,8 @@
             ]
         },
         "package": {
-            "tr": "Set: 25 kg -- A Bileşen 20 kg kova -- B Bileşen 5 kg kova",
-            "en": "Set: 25 kg -- Component A 20 kg pail -- Component B 5 kg pail"
+            "tr": "Set: 25 kg, A Bileşen 20 kg kova, B Bileşen 5 kg kova",
+            "en": "Set: 25 kg, Component A 20 kg pail, Component B 5 kg pail"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
@@ -8930,13 +8900,14 @@
         "key": "8-2-6",
         "name": { "tr": "eile EPX 830", "en": "eile EPX 830" },
         "img": "/assets/products/teneke_bos.png",
+        "appImage": "/assets/appImage/epx_830.jpg",
         "info": {
-            "tr": "Solventli Epoksi Son Kat Boya",
-            "en": "Solvent Epoxy Topcoat Paint"
+            "tr": "Epoksi Son Kat Boya",
+            "en": "Epoksi Son Kat Boya"
         },
         "description": {
-            "tr": "İki bileşenli, epoksi reçine esaslı parlak son kat boyadır. Aşınma ve sürtünmeye karşı yüksek direnci, deniz suyu, mineral yağları ve birçok kimyasal maddeye karşı dayanıklı son kat parlak boyadır.",
-            "en": "It is a two-component, epoxy resin based glossy top coat paint. It is a glossy topcoat paint with high resistance to abrasion and friction, resistant to sea water, mineral oils and many chemicals."
+            "tr": "İki bileşenli, solvent içermeyen epoksi reçine esaslı parlak son kat boyadır. Aşınma ve sürtünmeye karşı yüksek direnci, deniz suyu, mineral yağları ve birçok kimyasal maddeye karşı dayanıklı son kat parlak boyadır.",
+            "en": "İki bileşenli, solvent içermeyen epoksi reçine esaslı parlak son kat boyadır. Aşınma ve sürtünmeye karşı yüksek direnci, deniz suyu, mineral yağları ve birçok kimyasal maddeye karşı dayanıklı son kat parlak boyadır."
         },
         "areasOfUsage": {
             "tr": [
@@ -8959,19 +8930,19 @@
             "en": []
         },
         "beforeApplication": {
-            "tr": " Uygulanacak yüzeyler temiz olmalı,yağ, kir, oynak parçalar ve beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. Sac yüzeylere uygulanacaksa mutlaka sa2½ mertebesinde kum raspa ile temizlenmelidir. epoksi maxi filler astar üzerine uygulanmalıdır.",
-            "en": "The surfaces to be applied must be clean and free of oil, dirt, loose parts, cement slurry on concrete surfaces and parts that prevent adhesion. If it is to be applied to sheet metal surfaces, it must be cleaned with sand blasting at a level of Sa2½. It should be applied over epoxy maxi filler primer."
+            "tr": "Uygulanacak yüzeyler temiz olmalı, yağ, kir, oynak parçalar, beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. Yüzey temizliği işleminden sonra eile (EPX 225, EPX 260, EPX 110) astarlarından biri uygulanmalıdır. (Uygulanacak yüzey nem oranı % 4-8 aralığında ise nemli yüzey astarı eile EPX 021 uygulanmalıdır.)",
+            "en": "Uygulanacak yüzeyler temiz olmalı, yağ, kir, oynak parçalar, beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. Yüzey temizliği işleminden sonra eile (EPX 225, EPX 260, EPX 110) astarlarından biri uygulanmalıdır. (Uygulanacak yüzey nem oranı % 4-8 aralığında ise nemli yüzey astarı eile EPX 021 uygulanmalıdır.)"
         },
         "mixing": {
-            "tr": " A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
-            "en": "Components A and B should be mixed for at least 3-4 minutes with the help of a low speed mixer until a homogeneous mixture is obtained, paying attention to the mixing ratios. It is ready for application after mixing."
+            "tr": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
+            "en": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır."
         },
         "mixture": {
-            "tr": "Ağırlıkça 4/1",
-            "en": " 4/1 by weight"
+            "tr": "",
+            "en": ""
         },
         "application": {
-            "tr": "Hazırlanan homojen karışım fırça, rulo veya pistole ile uygulanır.10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de).20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
+            "tr": "Hazırlanan homojen karışım fırça, rulo veya pistole ile uygulanır. 10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de).20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
             "en": "The prepared homogeneous mixture is applied with a brush, roller or spray gun. Application should be avoided below 10°C and in very humid environments. Mixing ratios should be taken into consideration. A minimum of 12 hours should be waited between coats (at 20°C). Approximately 12 hours later at 20°C. walkable."
         },
         "pointsToTakeIntoConsideration": {
@@ -8989,8 +8960,8 @@
             ]
         },
         "package": {
-            "tr": "Set: 25 kg -- A Bileşen 20 kg kova -- B Bileşen 5 kg kova",
-            "en": "Set: 25 kg -- Component A 20 kg pail -- Component B 5 kg pail"
+            "tr": "Set: 24,250 kg, A Bileşen 20 kg kova, B Bileşen 4,250 kg kova",
+            "en": "Set: 24,250 kg, Component A 20 kg pail, Component B 4,250 kg pail"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
@@ -9003,71 +8974,70 @@
         "key": "8-2-7",
         "name": { "tr": "eile EPX 1001", "en": "eile EPX 1001" },
         "img": "/assets/products/teneke_bos.png",
+        "appImage": "/assets/appImage/epx1001.jpg",
         "info": {
-            "tr": "Solventli Epoksi Son Kat Boya",
-            "en": "Solvent Epoxy Topcoat Paint"
+            "tr": "",
+            "en": ""
         },
         "description": {
-            "tr": "İki bileşenli, epoksi reçine esaslı parlak son kat boyadır. Aşınma ve sürtünmeye karşı yüksek direnci, deniz suyu, mineral yağları ve birçok kimyasal maddeye karşı dayanıklı son kat parlak boyadır.",
-            "en": "It is a two-component, epoxy resin based glossy top coat paint. It is a glossy topcoat paint with high resistance to abrasion and friction, resistant to sea water, mineral oils and many chemicals."
+            "tr": "eile EPX 1001 çift bileşen li,epoksi reçine bazlı doğal taş yüzeylerde kullanılan  izolasyon ve yapıştırıcı  malzemedir.",
+            "en": "eile EPX 1001 çift bileşen li,epoksi reçine bazlı doğal taş yüzeylerde kullanılan  izolasyon ve yapıştırıcı  malzemedir."
         },
         "areasOfUsage": {
             "tr": [
-                "Hastane odaları, bekleme salonları,",
-                "Gıda tesisleri, yemekhaneler, mutfaklar,",
-                "Soğuk hava depoları,",
-                "Çelik konstrüksiyon",
-                "Petro kimya tesislerinde kullanılır."
+                "Doğal taş, mermer, traverten, seramik, kayrak taşlarında",
+                "Bahçe mobilyaları ve bahçe dizaynlarında dekoratif taş uygulamalarında yapıştırıcı ve koruyucu olarak kullanılır."
             ],
             "en": [
-                "Hospital rooms, waiting rooms,",
-                "Food facilities, dining halls, kitchens,",
-                "Cold storages",
-                "Steel construction",
-                "Used in petrochemical plants."
+                "Doğal taş, mermer, traverten, seramik, kayrak taşlarında",
+                "Bahçe mobilyaları ve bahçe dizaynlarında dekoratif taş uygulamalarında yapıştırıcı ve koruyucu olarak kullanılır."
             ]
         },
         "featuresOfProduct": {
-            "tr": [],
-            "en": []
+            "tr": [
+                "Sürüldüğü yüzeyi suyun ve kimyasal maddenin aşındırmasından korur."
+            ],
+            "en": [
+                "Sürüldüğü yüzeyi suyun ve kimyasal maddenin aşındırmasından korur."
+            ]
         },
         "beforeApplication": {
-            "tr": " Uygulanacak yüzeyler temiz olmalı,yağ, kir, oynak parçalar ve beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. Sac yüzeylere uygulanacaksa mutlaka sa2½ mertebesinde kum raspa ile temizlenmelidir. epoksi maxi filler astar üzerine uygulanmalıdır.",
-            "en": "The surfaces to be applied must be clean and free of oil, dirt, loose parts, cement slurry on concrete surfaces and parts that prevent adhesion. If it is to be applied to sheet metal surfaces, it must be cleaned with sand blasting at a level of Sa2½. It should be applied over epoxy maxi filler primer."
+            "tr": "Uygulanacak yüzeyler temiz olmalı, yağ kir oynak parçalar beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. Gereken durumda astar uygulaması yapılmalıdır.",
+            "en": "Uygulanacak yüzeyler temiz olmalı, yağ kir oynak parçalar beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. Gereken durumda astar uygulaması yapılmalıdır."
         },
         "mixing": {
-            "tr": " A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
-            "en": "Components A and B should be mixed for at least 3-4 minutes with the help of a low speed mixer until a homogeneous mixture is obtained, paying attention to the mixing ratios. It is ready for application after mixing."
+            "tr": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır.",
+            "en": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır."
         },
         "mixture": {
-            "tr": "Ağırlıkça 4/1",
-            "en": " 4/1 by weight"
+            "tr": "Ağırlıkça 2/1",
+            "en": "Ağırlıkça 2/1"
         },
         "application": {
-            "tr": "Hazırlanan homojen karışım fırça, rulo veya pistole ile uygulanır.10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de).20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
-            "en": "The prepared homogeneous mixture is applied with a brush, roller or spray gun. Application should be avoided below 10°C and in very humid environments. Mixing ratios should be taken into consideration. A minimum of 12 hours should be waited between coats (at 20°C). Approximately 12 hours later at 20°C. walkable."
+            "tr": "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır. Karışım oranlarına dikkat edilmelidir. Homojen karışım fırça, rulo, havasız veya havalı tabanca ile yüzeye uygulanır.",
+            "en": "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır. Karışım oranlarına dikkat edilmelidir. Homojen karışım fırça, rulo, havasız veya havalı tabanca ile yüzeye uygulanır."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.",
-                "Karışım oranlarına dikkat edilmelidir.",
+                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +10 °C‘ nin atında veya +30°C üzerinde ise uygulama yapılmamalıdır.",
                 "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
-                "Uzman uygulayıcılar tarafından uygulama yapılmalıdır."
+                "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+                "Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır."
             ],
             "en": [
-                "Application should be avoided below 10°C and in very humid environments.",
-                "Mixing ratios should be taken into consideration.",
-                "In applications to be carried out in extremely cold weather, ambient and ground temperature should be provided with the help of heaters.",
-                "Application should be done by expert practitioners."
+                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +10 °C‘ nin atında veya +30°C üzerinde ise uygulama yapılmamalıdır.",
+                "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
+                "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
+                "Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır."
             ]
         },
         "package": {
-            "tr": "Set: 25 kg -- A Bileşen 20 kg kova -- B Bileşen 5 kg kova",
-            "en": "Set: 25 kg -- Component A 20 kg pail -- Component B 5 kg pail"
+            "tr": "Set: 18 kg, A Bileşen 12 kg kova, B Bileşen 6 kg kova",
+            "en": "Set: 18 kg, A Bileşen 12 kg kova, B Bileşen 6 kg kova"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından ve dondan korunarak depolanmalıdır.",
+            "en": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından ve dondan korunarak depolanmalıdır."
         }
     },
 
@@ -9075,72 +9045,85 @@
         "id": 107,
         "key": "8-2-8",
         "name": { "tr": "eile PU CONCRETE 3K", "en": "eile PU CONCRETE 3K" },
-        "img": "/assets/products/teneke_bos.png",
+        "img": "/assets/products/pu_concrete_3k.png",
+        "appImage": "/assets/appImage/pu_concrete_3k.jpg",
         "info": {
-            "tr": "Solventli Epoksi Son Kat Boya",
-            "en": "Solvent Epoxy Topcoat Paint"
+            "tr": "Üç Bileşenli, Yüksek Performanslı Poliüretan Beton Kaplaması",
+            "en": "Üç Bileşenli, Yüksek Performanslı Poliüretan Beton Kaplaması"
         },
         "description": {
-            "tr": "İki bileşenli, epoksi reçine esaslı parlak son kat boyadır. Aşınma ve sürtünmeye karşı yüksek direnci, deniz suyu, mineral yağları ve birçok kimyasal maddeye karşı dayanıklı son kat parlak boyadır.",
-            "en": "It is a two-component, epoxy resin based glossy top coat paint. It is a glossy topcoat paint with high resistance to abrasion and friction, resistant to sea water, mineral oils and many chemicals."
+            "tr": "Orta ve ağır trafik ve kimyasal dayanım gereken zeminler için geliştirilmiş, yüksek darbe ve aşınma dayanımlı, yüksek ısı ortamlarında mükemmel dayanım gösteren, mat ve düzgün yüzey bitişli, üç bileşenli poliüretan-çimento karışımı beton kaplamasıdır",
+            "en": "Orta ve ağır trafik ve kimyasal dayanım gereken zeminler için geliştirilmiş, yüksek darbe ve aşınma dayanımlı, yüksek ısı ortamlarında mükemmel dayanım gösteren, mat ve düzgün yüzey bitişli, üç bileşenli poliüretan-çimento karışımı beton kaplamasıdır"
         },
         "areasOfUsage": {
             "tr": [
-                "Hastane odaları, bekleme salonları,",
-                "Gıda tesisleri, yemekhaneler, mutfaklar,",
-                "Soğuk hava depoları,",
-                "Çelik konstrüksiyon",
-                "Petro kimya tesislerinde kullanılır."
+                "İç ve dış mekanlarda",
+                "Fabrika, depo gibi endüstriyel zeminlerde,",
+                "Gıda tesislerinde, ilaç endüstrisinde,",
+                "Yüksek ısı dayanımı gereken zeminlerde."
             ],
             "en": [
-                "Hospital rooms, waiting rooms,",
-                "Food facilities, dining halls, kitchens,",
-                "Cold storages",
-                "Steel construction",
-                "Used in petrochemical plants."
+                "İç ve dış mekanlarda",
+                "Fabrika, depo gibi endüstriyel zeminlerde,",
+                "Gıda tesislerinde, ilaç endüstrisinde,",
+                "Yüksek ısı dayanımı gereken zeminlerde."
             ]
         },
         "featuresOfProduct": {
-            "tr": [],
-            "en": []
+            "tr": [
+                "Yüksek ısı dayanımı.",
+                "Tozumaz.",
+                "Uygulanan yüzeyde kalıcı su yalıtımı sağlar.",
+                "Kaymaz, mat ve düzgün yüzey görünümlü",
+                "Hijyeniktir. Bakteri üremesine izin vermez.",
+                "Yüksek darbe ve aşınma dayanımı.",
+                "Endüstriyel deterjan, yağ, şeker, organik asit gibi kimyevilere karşı dayanıklıdır.(lütfen kimyevi dayanım için teknik bilgi alınız)",
+                "Kısa sürede trafiğe açılabilir."
+            ],
+            "en": [
+                "Yüksek ısı dayanımı.",
+                "Tozumaz.",
+                "Uygulanan yüzeyde kalıcı su yalıtımı sağlar.",
+                "Kaymaz, mat ve düzgün yüzey görünümlü",
+                "Hijyeniktir. Bakteri üremesine izin vermez.",
+                "Yüksek darbe ve aşınma dayanımı.",
+                "Endüstriyel deterjan, yağ, şeker, organik asit gibi kimyevilere karşı dayanıklıdır.(lütfen kimyevi dayanım için teknik bilgi alınız)",
+                "Kısa sürede trafiğe açılabilir."
+            ]
         },
         "beforeApplication": {
-            "tr": " Uygulanacak yüzeyler temiz olmalı,yağ, kir, oynak parçalar ve beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir. Sac yüzeylere uygulanacaksa mutlaka sa2½ mertebesinde kum raspa ile temizlenmelidir. epoksi maxi filler astar üzerine uygulanmalıdır.",
-            "en": "The surfaces to be applied must be clean and free of oil, dirt, loose parts, cement slurry on concrete surfaces and parts that prevent adhesion. If it is to be applied to sheet metal surfaces, it must be cleaned with sand blasting at a level of Sa2½. It should be applied over epoxy maxi filler primer."
+            "tr": "Yüzey, basınçlı su kullanılarak temizlenmeli; yağ, gres, çimento artıkları, yakıt ve parafin atıkları çıkarılmalı  ve kürlenmiş membranlardan da tamamen arındırılmalıdır. Eski beton üzerine zemin kaplama uygulamalarında mozaik silme makinesi ile yüzey pürüzlendirilmeli boşluk ve çatlaklar tamir edilmelidir. Boşluk ve çatlakların tamir malzemesi olarak eile PU CONCRETE 3K kullanılabilir. Beton yüzeylere yapılacak kaplama uygulamasında betonun en az 7 günlük olmasına dikkat edilmelidir. Uygulama öncesi yüzey kesinlikle su ile yıkanmamalı, yüzey kuru olmalı ve nem oranı %9 üzerinde olmamalıdır.",
+            "en": "Yüzey, basınçlı su kullanılarak temizlenmeli; yağ, gres, çimento artıkları, yakıt ve parafin atıkları çıkarılmalı  ve kürlenmiş membranlardan da tamamen arındırılmalıdır. Eski beton üzerine zemin kaplama uygulamalarında mozaik silme makinesi ile yüzey pürüzlendirilmeli boşluk ve çatlaklar tamir edilmelidir. Boşluk ve çatlakların tamir malzemesi olarak eile PU CONCRETE 3K kullanılabilir. Beton yüzeylere yapılacak kaplama uygulamasında betonun en az 7 günlük olmasına dikkat edilmelidir. Uygulama öncesi yüzey kesinlikle su ile yıkanmamalı, yüzey kuru olmalı ve nem oranı %9 üzerinde olmamalıdır."
         },
         "mixing": {
-            "tr": " A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. Karşım sonrası uygulamaya hazırdır.",
-            "en": "Components A and B should be mixed for at least 3-4 minutes with the help of a low speed mixer until a homogeneous mixture is obtained, paying attention to the mixing ratios. It is ready for application after mixing."
+            "tr": "eile PU CONCRETE 3K, üç bileşenlidir. (A+B+C) Önce B bileşeni A bileşenine eklenerek karıştırılır. Sonra C bileşeni yavaşça eklenerek homojen bir karışım elde edilene kadar 3-5 dakika karıştırılır.3 bileşenli set halindeki malzemenin self leveling – kendiliğinden yayılma özelliği en az +20oC ısıya göre ayarlanmıştır. Düşük ısılarda yayılma özelliği için toz bileşenini karışıma daha az vermek gerekebilir.",
+            "en": "eile PU CONCRETE 3K, üç bileşenlidir. (A+B+C) Önce B bileşeni A bileşenine eklenerek karıştırılır. Sonra C bileşeni yavaşça eklenerek homojen bir karışım elde edilene kadar 3-5 dakika karıştırılır.3 bileşenli set halindeki malzemenin self leveling – kendiliğinden yayılma özelliği en az +20oC ısıya göre ayarlanmıştır. Düşük ısılarda yayılma özelliği için toz bileşenini karışıma daha az vermek gerekebilir."
         },
         "mixture": {
-            "tr": "Ağırlıkça 4/1",
-            "en": " 4/1 by weight"
+            "tr": "A komponent: 2,84 kg, B komponent: 3,20 kg, C komponent: 15 kg, Pigment pasta: 0,50 kg",
+            "en": "A komponent: 2,84 kg, B komponent: 3,20 kg, C komponent: 15 kg, Pigment pasta: 0,50 kg"
         },
         "application": {
-            "tr": "Hazırlanan homojen karışım fırça, rulo veya pistole ile uygulanır.10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.Karışım oranlarına dikkat edilmelidir.Katlar arasında minimum 12 saat beklenmelidir(20°C’de).20°C de yaklaşık 12 saat sonra üzerinde yürünebilir.",
-            "en": "The prepared homogeneous mixture is applied with a brush, roller or spray gun. Application should be avoided below 10°C and in very humid environments. Mixing ratios should be taken into consideration. A minimum of 12 hours should be waited between coats (at 20°C). Approximately 12 hours later at 20°C. walkable."
+            "tr": "İyice karışmış malzeme yüzeye dökülür ve dişli mala yardımı ile yayılarak istenilen kalınlık elde edilene kadar düzlenir (8mm mala ile 3-4 mm kalınlık elde edilir). eile PU CONCRETE 3K malzemesi halen yaş iken ( 1-2 dakika içinde ) hava kabarcıkları kirpi rulo ile alınmalıdır. Uygulama, duraksamayacak şekilde yapılmalı, soğuk derz yaratılmamalı ve buna göre planlama ve eleman sayısı ayarlanmalıdır. Genelde karıştırma için 2 kişi, uygulama için 3 kişi, kirpi rulo uygulaması için 1 kişi olmak üzere toplam en az 6 kişilik uygulama ekibi olmalıdır. Bu malzeme sadece yetkili firmalar tarafından uygulanmalıdır. Derzler, eile PU CONCRETE 3K kaplamasının altındaki derzlere göre, 2 gün içinde kesilmelidir.",
+            "en": "İyice karışmış malzeme yüzeye dökülür ve dişli mala yardımı ile yayılarak istenilen kalınlık elde edilene kadar düzlenir (8mm mala ile 3-4 mm kalınlık elde edilir). eile PU CONCRETE 3K malzemesi halen yaş iken ( 1-2 dakika içinde ) hava kabarcıkları kirpi rulo ile alınmalıdır. Uygulama, duraksamayacak şekilde yapılmalı, soğuk derz yaratılmamalı ve buna göre planlama ve eleman sayısı ayarlanmalıdır. Genelde karıştırma için 2 kişi, uygulama için 3 kişi, kirpi rulo uygulaması için 1 kişi olmak üzere toplam en az 6 kişilik uygulama ekibi olmalıdır. Bu malzeme sadece yetkili firmalar tarafından uygulanmalıdır. Derzler, eile PU CONCRETE 3K kaplamasının altındaki derzlere göre, 2 gün içinde kesilmelidir."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "10°C altında ve çok nemli ortamlarda uygulamadan kaçınılmalıdır.",
-                "Karışım oranlarına dikkat edilmelidir.",
-                "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
-                "Uzman uygulayıcılar tarafından uygulama yapılmalıdır."
+                "Uygulama miktarı dışında kalan karıştırılmamış malzemeler daha sonraki kullanım için saklanabilir.",
+                "Sağlam olmayan alt katmanlara uygulama yapılmamalıdır."
             ],
             "en": [
-                "Application should be avoided below 10°C and in very humid environments.",
-                "Mixing ratios should be taken into consideration.",
-                "In applications to be carried out in extremely cold weather, ambient and ground temperature should be provided with the help of heaters.",
-                "Application should be done by expert practitioners."
+                "Uygulama miktarı dışında kalan karıştırılmamış malzemeler daha sonraki kullanım için saklanabilir.",
+                "Sağlam olmayan alt katmanlara uygulama yapılmamalıdır."
             ]
         },
         "package": {
-            "tr": "Set: 25 kg -- A Bileşen 20 kg kova -- B Bileşen 5 kg kova",
-            "en": "Set: 25 kg -- Component A 20 kg pail -- Component B 5 kg pail"
+            "tr": "Set: 21,54 kg",
+            "en": "Set: 21,54 kg"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+            "tr": "Açılmamış orijinal kovalarında, 5°C ile 25°C arası sıcaklıktaki kuru ortamlarda minimum 12 ay saklanabilir. Açılan kovadaki malzeme mümkün olduğunca en kısa sürede kullanılmalıdır.",
+            "en": "Açılmamış orijinal kovalarında, 5°C ile 25°C arası sıcaklıktaki kuru ortamlarda minimum 12 ay saklanabilir. Açılan kovadaki malzeme mümkün olduğunca en kısa sürede kullanılmalıdır."
         }
     },
 
@@ -9412,87 +9395,75 @@
         "id": 111,
         "key": "8-2-12",
         "name": { "tr": "eile SEALGARD", "en": "eile SEALGARD" },
-        "img": "/assets/products/pur_053.png",
-        "appImage": "/assets/appImage/pur_053.png",
+        "img": "/assets/products/eile_genel_teneke.png",
+        "appImage": "/assets/appImage/sealgard.jpg",
         "info": {
-            "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
-            "en": "two-component solvent-free self-leveling polyurethane coating material"
+            "tr": "Beton Yüzeyler İçin Koruyucu Kaplama",
+            "en": "Beton Yüzeyler İçin Koruyucu Kaplama"
         },
         "description": {
-            "tr": "Poliüretan esaslı, self leveling son kat zemin kaplaması",
-            "en": "Polyurethane based, self leveling top coat floor covering"
+            "tr": "Tek bileşenli, metakrilat bazlı, solvent içeren, şeffaf yüzey koruyucu malzemedir.",
+            "en": "Tek bileşenli, metakrilat bazlı, solvent içeren, şeffaf yüzey koruyucu malzemedir."
         },
         "areasOfUsage": {
             "tr": [
-                "Hastanelerde, otopark ve depo alanlarında,",
-                "Gıda ve içecek sanayinde, otopark zeminlerde,",
-                "Büyük alışma ve üretim alanları,",
-                "Yükleme rampalarında"
+                "Doğal taş, beton vb mineral yüzeyler",
+                "Çimentolu mineral yüzeylerin atmosferik etkilere karşı korunmasında"
             ],
             "en": [
-                "In hospitals, parking lots and warehouse areas,",
-                "In the food and beverage industry, on parking lots,",
-                "Large training and production areas",
-                "On loading docks"
+                "Doğal taş, beton vb mineral yüzeyler",
+                "Çimentolu mineral yüzeylerin atmosferik etkilere karşı korunmasında"
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Kolay Yayılma ve kullanım sağlar,",
-                "Esnek özelliktedir.",
-                "Çatlak köprüsü kurar,",
-                "Kimyasal ve mekanik dayanıma sahiptir.",
-                "Solvent içermez.",
-                "Estetik yüzey görünümü sağlar."
+                "Hızlı kuruma özelliğinden dolayı kısa sürede atmosferik etkilere karşı dayanım kazanır.",
+                "Güneş ışınlarına karşı dayanıklıdır.",
+                "Su buharı geçirgenliğini olumsuz yönde etkilemez.",
+                "Su emici yüzeylerin su emiciliğini azaltır ve yüzeyin kir tutmasını önler."
             ],
             "en": [
-                "Easy to spread and use,",
-                "It is flexible.",
-                "The crack builds a bridge,",
-                "It has chemical and mechanical resistance.",
-                "It does not contain solvents.",
-                "It provides an aesthetic surface appearance."
+                "Hızlı kuruma özelliğinden dolayı kısa sürede atmosferik etkilere karşı dayanım kazanır.",
+                "Güneş ışınlarına karşı dayanıklıdır.",
+                "Su buharı geçirgenliğini olumsuz yönde etkilemez.",
+                "Su emici yüzeylerin su emiciliğini azaltır ve yüzeyin kir tutmasını önler."
             ]
         },
         "beforeApplication": {
-            "tr": "Yüzeyler yeterli dayanıma sahip olmalıdır. Zemin betonu; en az 25 N/mm2 basınç ile en az 1,5-2 N/mm2 çekme dayanımına sahip olmalıdır. Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntılar temizlenmelidir. Uygulama zemini önceden uygun astarlar (EPX 225, EPX 110) ile astarlanmalıdır.Uygulanacak yüzey nem oranı % 5 in üzerinde ise nemli yüzey astarı eile EPX 021 veya eile EPX 022 uygulanmalıdır.",
-            "en": "Surfaces must have sufficient strength. Floor concrete; It must have a tensile strength of at least 1.5-2 N/mm2 with a pressure of at least 25 N/mm2. The application surface must be solid, carrier, dust-free and clean. Substances such as oil, grease, paint, rust and paraffin that will reduce adherence should be removed. The application surface must be primed with suitable primers (EPX 225, EPX 110) beforehand. If the moisture content of the surface to be applied is above 5%, a moist surface primer eile EPX 021 or eile EPX 022 should be applied."
+            "tr": "Uygulanacak yüzeyler temiz olmalı, yağ kir oynak parçalar beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir.",
+            "en": "Uygulanacak yüzeyler temiz olmalı, yağ kir oynak parçalar beton yüzeylerdeki çimento şerbeti ve yapışmaya engel olan parçalardan temizlenmelidir."
         },
         "mixing": {
-            "tr": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir.Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
-            "en": "Component A is mixed with a low speed mixer (300-400 rpm) for 2-3 minutes. Component B is added to it and the mixing process continues. Then; The material is taken into another container and mixed until a homogeneous color is formed."
+            "tr": "",
+            "en": ""
         },
         "mixture": {
-            "tr": " 5/1 ( ağırlıkça )",
-            "en": " 5/1 by weight"
+            "tr": "",
+            "en": ""
         },
         "application": {
-            "tr": "Eile PUR 053 uygulamasına geçmeden önce astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile PUR 053 zemine dökülerek ayarlı dişli mala ile uygulanır. ",
-            "en": "The primer must be cured before applying Eile PUR 053. The prepared homogeneous mixture eile PUR 053 is poured onto the ground and applied with an adjustable notched trowel."
+            "tr": "Uygulama öncesinde malzeme karıştırılıp, fırça, kısa tüylü rulo veya havasız tabanca ile püskürtülerek uygulanabilir.",
+            "en": "Uygulama öncesinde malzeme karıştırılıp, fırça, kısa tüylü rulo veya havasız tabanca ile püskürtülerek uygulanabilir."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda ;Ortam sıcaklığı +10 °C ile +30°C üzerinde ise uygulama yapılmamalıdır.",
-                "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
-                "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
-                "Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır.",
-                "Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır. "
+                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +5 °C‘ nin atında veya +30°C üzerinde ise uygulama yapılmamalıdır.",
+                "Uygulama yüzeyi +20°C’de en az 1 saat süreyle yağmurdan korunmalıdır.",
+                "Tam kürlenme 7 günde gerçekleşir."
             ],
             "en": [
-                "Application should not be done in extremely hot, windy and rainy weather; if the ambient temperature is above +10 °C and +30 °C.",
-                "In applications to be carried out in extremely cold weather, ambient and ground temperature should be provided with the help of heaters.",
-                "Application should be done by expert practitioners.",
-                "In order for the entire material to cure, the ambient and ground temperature must be within the appropriate range.",
-                "After coating, the surface should be protected from water contact for 24 hours."
+                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +5 °C‘ nin atında veya +30°C üzerinde ise uygulama yapılmamalıdır.",
+                "Uygulama yüzeyi +20°C’de en az 1 saat süreyle yağmurdan korunmalıdır.",
+                "Tam kürlenme 7 günde gerçekleşir."
             ]
         },
         "package": {
-            "tr": "Set: 24 kg -- A Bileşen: 20 kg teneke kova -- B Bileşen: 4 kg teneke kova",
-            "en": "Set: 24 kg -- Component A: 20 kg tin pail -- Component B: 4 kg tin pail"
+            "tr": "12 kg kova",
+            "en": "12 kg kova"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
+            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından ve dondan korunarak depolanmalıdır.",
+            "en": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından ve dondan korunarak depolanmalıdır."
         }
     },
 
@@ -9503,87 +9474,69 @@
             "tr": "eile STONE CARPET 2 K",
             "en": "eile STONE CARPET 2 K"
         },
-        "img": "/assets/products/pur_053.png",
-        "appImage": "/assets/appImage/pur_053.png",
+        "img": "/assets/products/eile_genel_teneke.png",
+        "appImage": "/assets/appImage/stone_carpet.jpg",
         "info": {
-            "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
-            "en": "two-component solvent-free self-leveling polyurethane coating material"
+            "tr": "Polimer Esaslı Taş Bağlayıcı",
+            "en": "Polimer Esaslı Taş Bağlayıcı"
         },
         "description": {
-            "tr": "Poliüretan esaslı, self leveling son kat zemin kaplaması",
-            "en": "Polyurethane based, self leveling top coat floor covering"
+            "tr": "İki bileşenli, polimer esaslı, solventsiz, UV dayanımlı taş bağlayıcıdır.",
+            "en": "İki bileşenli, polimer esaslı, solventsiz, UV dayanımlı taş bağlayıcıdır."
         },
         "areasOfUsage": {
             "tr": [
-                "Hastanelerde, otopark ve depo alanlarında,",
-                "Gıda ve içecek sanayinde, otopark zeminlerde,",
-                "Büyük alışma ve üretim alanları,",
-                "Yükleme rampalarında"
+                "Yapıların iç ve dış mekanlarında çimento esaslı mineral yüzeylere uygulanır. "
             ],
             "en": [
-                "In hospitals, parking lots and warehouse areas,",
-                "In the food and beverage industry, on parking lots,",
-                "Large training and production areas",
-                "On loading docks"
+                "Yapıların iç ve dış mekanlarında çimento esaslı mineral yüzeylere uygulanır. "
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Kolay Yayılma ve kullanım sağlar,",
-                "Esnek özelliktedir.",
-                "Çatlak köprüsü kurar,",
-                "Kimyasal ve mekanik dayanıma sahiptir.",
                 "Solvent içermez.",
-                "Estetik yüzey görünümü sağlar."
+                "Aderansı yüksektir.",
+                "UV dayanıma sahiptir."
             ],
             "en": [
-                "Easy to spread and use,",
-                "It is flexible.",
-                "The crack builds a bridge,",
-                "It has chemical and mechanical resistance.",
-                "It does not contain solvents.",
-                "It provides an aesthetic surface appearance."
+                "Solvent içermez.",
+                "Aderansı yüksektir.",
+                "UV dayanıma sahiptir."
             ]
         },
         "beforeApplication": {
-            "tr": "Yüzeyler yeterli dayanıma sahip olmalıdır. Zemin betonu; en az 25 N/mm2 basınç ile en az 1,5-2 N/mm2 çekme dayanımına sahip olmalıdır. Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntılar temizlenmelidir. Uygulama zemini önceden uygun astarlar (EPX 225, EPX 110) ile astarlanmalıdır.Uygulanacak yüzey nem oranı % 5 in üzerinde ise nemli yüzey astarı eile EPX 021 veya eile EPX 022 uygulanmalıdır.",
-            "en": "Surfaces must have sufficient strength. Floor concrete; It must have a tensile strength of at least 1.5-2 N/mm2 with a pressure of at least 25 N/mm2. The application surface must be solid, carrier, dust-free and clean. Substances such as oil, grease, paint, rust and paraffin that will reduce adherence should be removed. The application surface must be primed with suitable primers (EPX 225, EPX 110) beforehand. If the moisture content of the surface to be applied is above 5%, a moist surface primer eile EPX 021 or eile EPX 022 should be applied."
+            "tr": "Uygulanacak beton yüzey en az 28 gün kürlenmiş olmalıdır. Zemin; aderansı azaltacak toz, yağ ve gevşek parçalardan arındırılmalıdır. Yüzeydeki bozukluklar, eile TH 60, eile TH 70 veya eile EPX 100 ile onarılmalıdır. Beton nem oranı % 4 ten fazla olmamalıdır.",
+            "en": "Uygulanacak beton yüzey en az 28 gün kürlenmiş olmalıdır. Zemin; aderansı azaltacak toz, yağ ve gevşek parçalardan arındırılmalıdır. Yüzeydeki bozukluklar, eile TH 60, eile TH 70 veya eile EPX 100 ile onarılmalıdır. Beton nem oranı % 4 ten fazla olmamalıdır."
         },
         "mixing": {
-            "tr": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir.Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
-            "en": "Component A is mixed with a low speed mixer (300-400 rpm) for 2-3 minutes. Component B is added to it and the mixing process continues. Then; The material is taken into another container and mixed until a homogeneous color is formed."
+            "tr": "POMEX STONE CARPET 2 K A bileşen ve B bileşen temiz bir kap içerisinde homojen bir karışım elde edilinceye kadar mekanik bir karıştırıcı ile karıştırılır. Uygulamada kullanılacak taş miktarı hazırlanmış olan A ve B bileşen karışım miktarının ağırlıkça 12-15 katı kadar olmalıdır. Bu oran kullanılacak taşın boyutuna göre değişkenlik gösterebilir.",
+            "en": "POMEX STONE CARPET 2 K A bileşen ve B bileşen temiz bir kap içerisinde homojen bir karışım elde edilinceye kadar mekanik bir karıştırıcı ile karıştırılır. Uygulamada kullanılacak taş miktarı hazırlanmış olan A ve B bileşen karışım miktarının ağırlıkça 12-15 katı kadar olmalıdır. Bu oran kullanılacak taşın boyutuna göre değişkenlik gösterebilir."
         },
         "mixture": {
-            "tr": " 5/1 ( ağırlıkça )",
-            "en": " 5/1 by weight"
+            "tr": "",
+            "en": ""
         },
         "application": {
-            "tr": "Eile PUR 053 uygulamasına geçmeden önce astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile PUR 053 zemine dökülerek ayarlı dişli mala ile uygulanır. ",
-            "en": "The primer must be cured before applying Eile PUR 053. The prepared homogeneous mixture eile PUR 053 is poured onto the ground and applied with an adjustable notched trowel."
+            "tr": "Homojen hazırlanmış karışım düzgün bir yüzey elde edilecek şekilde mala yardımı ile yüzeye uygulanır ve en az 48 saat sonra trafiğe açılır. Bu süre; hava koşullarına göre değişkenlik gösterir.",
+            "en": "Homojen hazırlanmış karışım düzgün bir yüzey elde edilecek şekilde mala yardımı ile yüzeye uygulanır ve en az 48 saat sonra trafiğe açılır. Bu süre; hava koşullarına göre değişkenlik gösterir."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda ;Ortam sıcaklığı +10 °C ile +30°C üzerinde ise uygulama yapılmamalıdır.",
-                "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
-                "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
-                "Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır.",
-                "Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır. "
+                "Donmuş, erimekte olan veya 24 saat içerisinde yağmur veya don tehlikesi olan yüzeylerde uygulanmamalıdır.",
+                "Uygulanan malzeme ilk 48 saat yağmur çeşitleri ve don olaylarından korunmalıdır."
             ],
             "en": [
-                "Application should not be done in extremely hot, windy and rainy weather; if the ambient temperature is above +10 °C and +30 °C.",
-                "In applications to be carried out in extremely cold weather, ambient and ground temperature should be provided with the help of heaters.",
-                "Application should be done by expert practitioners.",
-                "In order for the entire material to cure, the ambient and ground temperature must be within the appropriate range.",
-                "After coating, the surface should be protected from water contact for 24 hours."
+                "Donmuş, erimekte olan veya 24 saat içerisinde yağmur veya don tehlikesi olan yüzeylerde uygulanmamalıdır.",
+                "Uygulanan malzeme ilk 48 saat yağmur çeşitleri ve don olaylarından korunmalıdır."
             ]
         },
         "package": {
-            "tr": "Set: 24 kg -- A Bileşen: 20 kg teneke kova -- B Bileşen: 4 kg teneke kova",
-            "en": "Set: 24 kg -- Component A: 20 kg tin pail -- Component B: 4 kg tin pail"
+            "tr": "Plastik kovalarda",
+            "en": "Plastik kovalarda"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
+            "tr": "Açılmamış orjinal ambalajında +5 0C  -+30 0C sıcaklık aralığında, dondan ve direkt güneş ışığından korunarak depolanmalıdır.",
+            "en": "Açılmamış orjinal ambalajında +5 0C  -+30 0C sıcaklık aralığında, dondan ve direkt güneş ışığından korunarak depolanmalıdır."
         }
     },
 
@@ -10438,59 +10391,47 @@
         "id": 123,
         "key": "8-5-1",
         "name": { "tr": "eile SILIKA 100", "en": "eile SILIKA 100" },
-        "img": "/assets/products/eile_curing105.png",
-        "appImage": "/assets/appImage/curing_105.png",
+        "img": "/assets/products/genel_bidon.png",
+        "appImage": "/assets/appImage/silika_100.jpg",
         "info": {
-            "tr": "Beton Yüzeyler İçin Akrilik Emülsiyon Esaslı, Kür Malzemesi",
-            "en": "Acrylic Emulsion Based Curing Material for Concrete Surfaces"
+            "tr": "",
+            "en": ""
         },
         "description": {
-            "tr": "Taze dökülmüş beton yüzeyine betonun hızlı su  kaybını ve bu sebepten oluşabilecek rötre çatlaklarını önleyen akrilik emülsiyon esaslı beton kür  malzemesidir.",
-            "en": "It is an acrylic emulsion-based concrete curing material that prevents rapid water loss on the freshly poured concrete surface and shrinkage cracks that may occur for this reason."
+            "tr": "Lityum silikat esaslı, beton üzerine uygulanabilir su bazlı, düşük viskoziteli likit yüzey sertleştirici malzemesidir.",
+            "en": "Lityum silikat esaslı, beton üzerine uygulanabilir su bazlı, düşük viskoziteli likit yüzey sertleştirici malzemesidir."
         },
         "areasOfUsage": {
             "tr": [
-                "Düşey ve yataydaki beton elemanlarının kürlenmesinde.",
-                "Havaalanı ve saha betonlarında.",
-                "Yüzey sertleştiricisi uygulamalarında.",
-                "Sıcak havalarda beton dökümlerinde.",
-                "Nem oranının düşük buharlaşmanın fazla olduğu yerlerdeki beton dökümlerinde kullanılır.",
-                "Otopark ve depo zeminlerinde",
-                "Endüstriyel zeminlerde"
+                "Çimento esaslı zeminlerin sertleştirilme amacı ile kullanılır."
             ],
             "en": [
-                "In the curing of vertical and horizontal concrete elements.",
-                "In airport and field concrete.",
-                "In surface hardener applications.",
-                "Concrete pouring in hot weather.",
-                "It is used in concrete casting in places where humidity is low and evaporation is high.",
-                "On parking lot and warehouse floors",
-                "On industrial floors"
+                "Çimento esaslı zeminlerin sertleştirilme amacı ile kullanılır."
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Daha sert ve tozumaz bir yüzey sağlar.",
-                "Uygulandığı beton yüzeyde oluşturduğu film tabakası, beton içindeki nemi koruyarak hızlı su kaybını önler.",
-                "Beton sulama ihtiyacını ortadan kaldırır.",
-                "Çimento hidratasyonuna yardımcı olur.",
-                "Betonda kürlenme sırasında hızlı su kaybından kaynaklanan rötre çatlaklarını azaltır.",
+                "Tek bileşenlidir.",
                 "Solvent içermez.",
-                "Akrilik esaslı olduğundan üzerine yapılacak uygulamalara engel teşkil etmez."
+                "Uygulaması kolaydır. ",
+                "Mükemmel şekilde penetre olur.",
+                "Uygulandığı betonun aşınma direncini ve dayanıklılığını arttırır.",
+                "Uygulandığı yüzeyi suya dayanıklı hale getirir.",
+                "Uygulanmış olduğu yüzeyin parlak olmasını sağlar."
             ],
             "en": [
-                "It provides a harder and dust-free surface.",
-                "The film layer it forms on the concrete surface where it is applied prevents rapid water loss by preserving the moisture in the concrete.",
-                "Concrete eliminates the need for irrigation.",
-                "It helps cement hydration.",
-                "It reduces shrinkage cracks caused by rapid water loss in concrete during curing.",
-                "It does not contain solvents.",
-                "Since it is acrylic-based, it does not hinder the applications on it."
+                "Tek bileşenlidir.",
+                "Solvent içermez.",
+                "Uygulaması kolaydır. ",
+                "Mükemmel şekilde penetre olur.",
+                "Uygulandığı betonun aşınma direncini ve dayanıklılığını arttırır.",
+                "Uygulandığı yüzeyi suya dayanıklı hale getirir.",
+                "Uygulanmış olduğu yüzeyin parlak olmasını sağlar."
             ]
         },
         "beforeApplication": {
-            "tr": "",
-            "en": ""
+            "tr": "Yüzeyler temiz ve sağlam olmalı, aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntısından arındırılmalı ve gevsek parçalar hava veya mekanik yöntemlerle temizlenmelidir. Uygulama yapılacak beton kalitesi C20-C25 olmalıdır.",
+            "en": "Yüzeyler temiz ve sağlam olmalı, aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntısından arındırılmalı ve gevsek parçalar hava veya mekanik yöntemlerle temizlenmelidir. Uygulama yapılacak beton kalitesi C20-C25 olmalıdır."
         },
         "mixing": {
             "tr": "",
@@ -10501,30 +10442,26 @@
             "en": ""
         },
         "application": {
-            "tr": "Curing 105 taze dökülmüş beton üzerine homojen bir şekilde püskürtülerek ya da rulo ile uygulanır.Uygulama beton ve yüzey sertleştiricisi uygulamasının ardından; beton yüzeyi bozulmayacak kadar priz alınca veya kalıpların sökülmesinden sonra uygulanır.Püskürtme yoluyla uygulanacak ise ekipmanın düşük basınçlı olmasına dikkat edilmelidir.",
-            "en": "Curing 105 is applied homogeneously on freshly poured concrete by spraying or using a roller. Following the application of concrete and surface hardener; It is applied when the concrete surface has set enough to not be distorted or after the molds have been dismantled. If it will be applied by spraying, care should be taken to ensure that the equipment is at low pressure."
+            "tr": "Yeni dökülmüş beton üzerine herhangi bir ön hazırlığa gerek duyulmadan uygulanabilmektedir. Derz kesim işlemi bitirilip yüzey temizliği sonrası yüzeye uygulanabilmektedir. düşük basınçlı püskürtücü pompa yardımı ile rahatlıkla yapılabilmektedir.",
+            "en": "Yeni dökülmüş beton üzerine herhangi bir ön hazırlığa gerek duyulmadan uygulanabilmektedir. Derz kesim işlemi bitirilip yüzey temizliği sonrası yüzeye uygulanabilmektedir. düşük basınçlı püskürtücü pompa yardımı ile rahatlıkla yapılabilmektedir."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Kullanıma hazırdır, su ile seyreltilmemelidir.",
-                "Kullanılmadan önce iyice çalkalanmalıdır.",
-                "Yüzeye püskürtme yolu ile uygulanması önerilir.",
-                "Eile Curing 105 uygulamasında kalınlık farklılıkları leke oluşumuna neden olabilir."
+                "Uygulama sırasında yüzeyde göllenmeler olmamasına dikkat edilmelidir.",
+                "Yüzey kurumadan uygulama alanı kullanıma açılmamalıdır."
             ],
             "en": [
-                "Ready to use, should not be diluted with water.",
-                "It should be shaken well before use.",
-                "It is recommended to apply to the surface by spraying.",
-                "Thickness differences in Eile Curing 105 application may cause stain formation."
+                "Uygulama sırasında yüzeyde göllenmeler olmamasına dikkat edilmelidir.",
+                "Yüzey kurumadan uygulama alanı kullanıma açılmamalıdır."
             ]
         },
         "package": {
-            "tr": "30 kg’ lık plastik bidon,200 kg’lık varil",
-            "en": "30 kg plastic drum, 200 kg barrel"
+            "tr": "30 kg'lık plastik bidon",
+            "en": "30 kg'lık plastik bidon"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+            "en": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
         }
     }
 ]

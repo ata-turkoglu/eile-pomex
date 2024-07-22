@@ -5,7 +5,6 @@ import ProductList from "../../data/productList.json";
 import { useParams, useNavigate } from "react-router-dom";
 import img from "../../../public/assets/products/eile_genel_teneke.png";
 import { Accordion } from "react-bootstrap";
-import appImg from "../../../public/assets/products/grout60c_app.png";
 import { ChevronLeft } from "lucide-react";
 import { translateText as t } from "../../store/reducers/language";
 import { useSelector } from "react-redux";
@@ -160,12 +159,14 @@ function ProductDetails() {
                                         product.featuresOfProduct[lang]
                                     )}
                                 </div>
-                                <div className="imgContainer">
-                                    <img
-                                        src={product.appImage || appImg}
-                                        loading="lazy"
-                                    />
-                                </div>
+                                {product.appImage && (
+                                    <div className="imgContainer">
+                                        <img
+                                            src={product.appImage}
+                                            loading="lazy"
+                                        />
+                                    </div>
+                                )}
                                 <Accordion>
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>
