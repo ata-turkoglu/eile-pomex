@@ -8786,7 +8786,7 @@
                         "id": 100,
                         "key": "8-2-1",
                         "name": { "tr": "eile EPX 018", "en": "eile EPX 018" },
-                        "img": "/assets/products/teneke_bos.png",
+                        "img": "/assets/products/epx_018.png",
                         "info": {
                             "tr": "İki Bileşenli, Epoksi Esaslı, Tekstürlü Yüzey Kaplama",
                             "en": "Two Component, Epoxy Based, Textured Surface Coating"
@@ -9504,7 +9504,7 @@
                         "id": 109,
                         "key": "8-2-10",
                         "name": { "tr": "eile PUR 060", "en": "eile PUR 060" },
-                        "img": "/assets/products/pur_053.png",
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "appImage": "/assets/appImage/pur_053.png",
                         "info": {
                             "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
@@ -9592,7 +9592,7 @@
                         "id": 110,
                         "key": "8-2-11",
                         "name": { "tr": "eile PUR 750", "en": "eile PUR 750" },
-                        "img": "/assets/products/pur_053.png",
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "appImage": "/assets/appImage/pur_053.png",
                         "info": {
                             "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
@@ -10365,7 +10365,7 @@
                             "tr": "eile PUR 712 2 K",
                             "en": "eile PUR 712 2 K"
                         },
-                        "img": "/assets/products/teneke_pur_710.png",
+                        "img": "/assets/products/eile_genel_teneke.png",
                         "info": {
                             "tr": "Tek Bileşenli Poliüretan Astar Malzemesi",
                             "en": "Single Component Polyurethane, Primer Material"

@@ -8499,80 +8499,111 @@
         "id": 100,
         "key": "8-2-1",
         "name": { "tr": "eile EPX 018", "en": "eile EPX 018" },
-        "img": "/assets/products/teneke_bos.png",
+        "img": "/assets/products/epx_018.png",
+        "appImage": "/assets/appImage/epx_018.jpg",
         "info": {
-            "tr": "İki Bileşenli, Epoksi Esaslı, Tekstürlü Yüzey Kaplama",
-            "en": "Two Component, Epoxy Based, Textured Surface Coating"
+            "tr": "",
+            "en": ""
         },
         "description": {
-            "tr": "İki bileşenli, epoksi esaslı, solventsiz, tekstürlü yüzeyli,kaymaz zemin kaplama malzemesidir",
-            "en": "It is a two-component, epoxy-based, solvent-free, textured surface, non-slip floor covering material."
+            "tr": "İki bileşenli, epoksi esaslı beton ve çeliği korumak için tasarlanmış kaplama malzemesidir",
+            "en": "Two-component, epoxy based coating material designed to protect concrete and steel"
         },
         "areasOfUsage": {
             "tr": [
-                "Otopark, garaj, uçak hangarları, rampalarda",
-                "Kayma riski yüksek alanlarda,",
-                "Gıda, meşrubat, kimya, ilaç endüstrisinde,",
-                "Üretim, ambalaj ve depolama alanlarında",
-                "Otomotiv endüstrisinde"
+                "İç – dış mekanlarda, düşey ve yatay uygulamalarda",
+                "Metal veya beton tanklarda",
+                "Duvarlarda kimyasal maddelere dayanıklı gaz ve buhar kesici kaplama olarak",
+                "Yağ ve yakıt depolarında",
+                "Enerji istasyonları, şeker fabrikaları, hangarlar ve sıvı depolama alanlarında",
+                "İçme suyu depolarında",
+                "Petrol rafinerileri ve kağt fabrikalarında*",
+                "Bira, şarap ve kuru üzüm endüstrisinde*",
+                "Meşrubat ve meyve suyu endüstrisinde*",
+                "Süt, peynir ve yoğurt endüstrisinde*",
+                "Salça ve konserve endüstrisinde*",
+                "Et ve balık endüstrisinde*",
+                "ilaç, boya, kağt, akü, gübre endüstrisinde*",
+                "Matbaalar, otel mutfak ve çamaşırhanelerde*",
+                "Hastane laboratuvarlarında, yemekhane, ıslak hacim ve hijyenik ortamlarda kullanılır",
+                "* sadece duvarlarda uygulanabileceğini ifade eder."
             ],
             "en": [
-                "Car parks, garages, aircraft hangars, ramps",
-                "In areas with high risk of slipping,",
-                "In the food, beverage, chemical and pharmaceutical industries,",
-                "In production, packaging and storage areas",
-                "In the automotive industry"
+                "Indoor and outdoor; vertical and horizontal applications",
+                "In metal or concrete tanks",
+                "On walls as gas and vapor barrier coating resistant to chemicals",
+                "Oil and fuel tanks",
+                "Energy stations, sugar factories, hangars and liquid storage spaces, drinking water reserviors",
+                "Oil refineries and pper mills*",
+                "Beer, wine and raisin industry*",
+                "Soft drink and fruit juice industry*",
+                "Milk, cheese and yoghurt industry*",
+                "Tomato paste ad canned food industry*",
+                "Meet and fish industry*",
+                "Pharmaceutical, paint, paper, battery, fertilizer industry*",
+                "In hospital laboratory, dining hall, wet areas and hygienic environment",
+                "* shows the places where it can only be applied on the walls"
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Solvent içermez,",
-                "Self leveling özelliktedir.",
-                "Yapışma mukavemeti yüksektir."
+                "Parlak yüzeylidir",
+                "Antibakteriyel özelliğe sahiptir. solvent içermez.",
+                "Hijyenik ortamlar yaratmak için kolay temizlenir.",
+                "Yüksek mekanik dayanımlara sahiptir.",
+                "Metal yüzeylerdeki hareketleri absorbe edebilecek elastikiyete sahiptir.",
+                "Standart epoksi kaplamalara göre kimyasal dayanımları yüksektir.",
+                "Fırça, rulo veya püskürtme yöntemi ile kolay uygulanır.",
+                "Su geçirimsizdir. içme suyu depolarında güvenle kullanılır."
             ],
             "en": [
-                "Solvent-free,",
-                "It has a self-leveling feature.",
-                "It has high adhesion strength."
+                "Its surface is bright",
+                "It has antibacterial properties. It is solvent-free",
+                "It is easy to clean for hygienic environment",
+                "It has high mechanical strength",
+                "It has flexibility to absorb movements on metal surfaces",
+                "It has higher chemical strength than standard epoxy coatings",
+                "It is easy to apply with brush, roller or by spraying",
+                "It is waterproof. It can be used safely in water reservvior tanks"
             ]
         },
         "beforeApplication": {
-            "tr": "Yüzeyler yeterli dayanıma sahip olmalıdır. Zemin betonu; en az 25 N/mm2 basınç ile en az 1,5-2 N/mm2 çekme dayanımına sahip olmalıdır. Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntılar temizlenmelidir. Uygulama zemini önceden uygun astarlar (EPX 225, EPX 110) ile astarlanmalıdır.Uygulanacak yüzey nem oranı % 5 in üzerinde ise nemli yüzey astarı eile EPX 021 veya eile EPX 022 uygulanmalıdır.",
-            "en": "Surfaces must have sufficient strength. Floor concrete; It must have a tensile strength of at least 1.5-2 N/mm2 with a pressure of at least 25 N/mm2. The application surface must be solid, carrier, dust-free and clean. Substances such as oil, grease, paint, rust and paraffin that will reduce adherence should be removed. The application surface must be primed with suitable primers (EPX 225, EPX 110) beforehand. If the moisture content of the surface to be applied is above 5%, a moist surface primer eile EPX 021 or eile EPX 022 should be applied."
+            "tr": "Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Yüzey; aderansı zayıflatacak pas, gres, yağ, boya, kür vb. kalıntılarından temizlenmelidir. Yüzeyde gevşek parça bulunmamalıdır. Beton yüzeylere yapılacak uygulamalarda; aktif su kaçakları varsa, POMEX WATERBOND ile kapatılmalıdır. Köşe ve kenarlara en az 4 cm yarıçapında eile TH 70 ürünü ile pah yapılmalıdır. Çelik yüzeylere yapılacak uygulamalarda; aderansı zayıflatacak pas, gres, yağ, boya vb. kalıntılarından temizlenmeli ve kumlama yapılarak uygun yüzey elde edilmelidir. Kumlama ile çalışılması mümkün olmayan hallerde, havalı raspa tabancası veya çanak tel fırça ile temizlik yapılmalıdır.",
+            "en": "The application surface should be solid, bearing, dust-free and clean. Any rust, grease, oil, paint, curing residues should be removed as they may weaken the adherence. Also remove any loose pieces on the surface. Use POMEX WATERBOND if there is active water leakage on concrete surface. The corners and the edges should be chamfered with at least 4cm radius of the product eile TH 70. For the applications to be carried on steel surface. Where the sandblasting is not possible, clean with air scaling machine or cup wire brush."
         },
         "mixing": {
-            "tr": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir.Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
-            "en": "Component A is mixed with a low speed mixer (300-400 rpm) for 2-3 minutes. Component B is added to it and the mixing process continues. Then; The material is taken into another container and mixed until a homogeneous color is formed."
+            "tr": "eile EPX 018 B bileşeni, A bileşen ambalajı içerisine yavaş yavaş eklenerek 400-600 devir/dk ‘ lık bir karıştırıcı ile homojen bir karışım elde edilinceye kadar karıştırılır.",
+            "en": "Add the eile EPX 018 component B into component A package slowly by mixing with a 400-600 cycle/min mixer until a homogenous mixture is achived."
         },
         "mixture": {
-            "tr": "5/1 ( ağırlıkça )",
-            "en": " 5/1 by weight"
+            "tr": "A bileşen: 4,5 birim, B bileşen: 1 birim",
+            "en": "Component A: 4,5 units, Component B: 1 unit"
         },
         "application": {
-            "tr": "Eile EPX 400 uygulamasına geçmeden önce uygulanmış olan astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile EPX 400 zemine dökülerek ayarlı dişli mala yüzeye yayılması sağlanır. Bu işlemden sonra mercan rulo ile malzeme uygulaması yapılarak tekstürlü görünüm sağlanır.",
-            "en": "The applied primer must be cured before applying Eile EPX 400. The prepared homogeneous mixture eile EPX 400 is poured onto the ground and spread over the surface with an adjustable notched trowel. After this process, a textured appearance is achieved by applying the material with a coral roller."
+            "tr": "eile EPX 018 rulo veya özel püskürtme makinası ile uygulanabilir.  eile EPX 018 in iki kat uygulanması tavsiye edilir.",
+            "en": "eile EPX 018 can be applied with a roller or with a special spraying equipment. We recommend you to apply two layers of eile EPX 018"
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda ;Ortam sıcaklığı +10 °C ile +30°C üzerinde ise uygulama yapılmamalıdır.",
-                "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
-                "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
-                "Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır."
+                "Uygulanacak zemin ve ortam sıcaklığı +5°C nin altında veya +30°C nin üstündeyse, uygun sıcaklıklar beklenmelidir.",
+                "Dış yüzey uygulamalarında, yüzeyin ilk 24 saat güneşten, rüzgardan, don veya yağmurdan korunması gerekir.",
+                "Epoksi esaslı sistemlerin reaksiyon süreleri, ortam ve uygulama zemin sıcaklığından etkilenir. Düşük sıcaklıklar reaksiyon süresini ve çalışma süresini uzatır. Yüksek sıcaklıklar ise reaksiyon süresini ve çalışma süresini kısaltır. Bu nedenle belirtilen sıcaklık koşullarında uygulama yapılmalıdır.",
+                "Dış yüzey uygulamalarında, uygulama sonrasın yüzey ilk 24 saat güneşten, yağmurdan, rüzgardan ve don olayından korunmalıdır."
             ],
             "en": [
-                "Application should not be done in extremely hot, windy and rainy weather; if the ambient temperature is above +10 °C and +30 °C.",
-                "In applications to be carried out in extremely cold weather, ambient and ground temperature should be provided with the help of heaters.",
-                "Application should be done by expert practitioners.",
-                "In order for the entire material to cure, the ambient and ground temperature must be within the appropriate range."
+                "The application ground and setting temperature should below +5°C and above +30°C, if the temperatures do not match these values wait until they do.",
+                "For outdoor applications, protect the surface from sun, wind, frost or rain for the first 24 hours.",
+                "The reaction times of epoxy based systems are affected by the temparatures of application settings and surfaces. Low temperatures increase reaction time and application time. High temperatures decrease reaction time and application time. So the application should between the specified temperature values.",
+                "For outdoor surface applications, protect the surface from sun, wind, frost or rain for the first 24 hours."
             ]
         },
         "package": {
-            "tr": "Set: 24 kg -- A Bileşen: 20 kg teneke kova -- B Bileşen: 4 kg teneke kova",
-            "en": "Set: 24 kg -- Component A: 20 kg tin pail -- Component B: 4 kg tin pail"
+            "tr": "Set: 5,5 kg, A bileşen: 4,5 kg'lık teneke kovalarda, B bileşen: 1 kg'lık teneke kovalarda",
+            "en": "Set: 5,5 kg, Component A: 4,5 kg in thin buckets, Component B: 1 kg in thin buckets"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
+            "tr": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunarak depolanmalıdır.",
+            "en": "Store in its original unopened package between the temperatures ​​+5°C -+30°C. Keep it away from direct sunlight and frost"
         }
     },
 
@@ -8586,7 +8617,7 @@
             "en": "Two Component, Epoxy Based, Textured Surface Coating"
         },
         "description": {
-            "tr": "İki bileşenli, epoksi esaslı, solventsiz, tekstürlü yüzeyli,kaymaz zemin kaplama malzemesidir",
+            "tr": "İki bileşenli, epoksi esaslı, solventsiz, tekstürlü yüzeyli, kaymaz zemin kaplama malzemesidir.",
             "en": "It is a two-component, epoxy-based, solvent-free, textured surface, non-slip floor covering material."
         },
         "areasOfUsage": {
@@ -8626,12 +8657,12 @@
             "en": "Component A is mixed with a low speed mixer (300-400 rpm) for 2-3 minutes. Component B is added to it and the mixing process continues. Then; The material is taken into another container and mixed until a homogeneous color is formed."
         },
         "mixture": {
-            "tr": "5/1 ( ağırlıkça )",
-            "en": " 5/1 by weight"
+            "tr": "5/1 (ağırlıkça)",
+            "en": "5/1 by weight"
         },
         "application": {
-            "tr": "Eile EPX 400 uygulamasına geçmeden önce uygulanmış olan astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile EPX 400 zemine dökülerek ayarlı dişli mala yüzeye yayılması sağlanır. Bu işlemden sonra mercan rulo ile malzeme uygulaması yapılarak tekstürlü görünüm sağlanır.",
-            "en": "The applied primer must be cured before applying Eile EPX 400. The prepared homogeneous mixture eile EPX 400 is poured onto the ground and spread over the surface with an adjustable notched trowel. After this process, a textured appearance is achieved by applying the material with a coral roller."
+            "tr": "eile EPX 400 P uygulamasına geçmeden önce uygulanmış olan astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile EPX 400 P zemine dökülerek ayarlı dişli mala yüzeye yayılması sağlanır. Bu işlemden sonra mercan rulo ile malzeme uygulaması yapılarak tekstürlü görünüm sağlanır.",
+            "en": "The applied primer must be cured before applying Eile EPX 400 P. The prepared homogeneous mixture eile EPX 400 P is poured onto the ground and spread over the surface with an adjustable notched trowel. After this process, a textured appearance is achieved by applying the material with a coral roller."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
@@ -8648,8 +8679,8 @@
             ]
         },
         "package": {
-            "tr": "Set: 24 kg -- A Bileşen: 20 kg teneke kova -- B Bileşen: 4 kg teneke kova",
-            "en": "Set: 24 kg -- Component A: 20 kg tin pail -- Component B: 4 kg tin pail"
+            "tr": "Set: 23,3 kg, A Bileşen: 20 kg teneke kova, B Bileşen: 3,3 kg teneke kova",
+            "en": "Set: 23,3 kg, A Bileşen: 20 kg teneke kova, B Bileşen: 3,3 kg teneke kova"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
@@ -9219,74 +9250,68 @@
         "id": 109,
         "key": "8-2-10",
         "name": { "tr": "eile PUR 060", "en": "eile PUR 060" },
-        "img": "/assets/products/pur_053.png",
-        "appImage": "/assets/appImage/pur_053.png",
+        "img": "/assets/products/eile_genel_teneke.png",
+        "appImage": "/assets/appImage/pur_060.jpg",
         "info": {
-            "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
-            "en": "two-component solvent-free self-leveling polyurethane coating material"
+            "tr": "İki Bileşenli Poliüretasn Esaslı UV dayanımlı Son Kat Boyadır.",
+            "en": "İki Bileşenli Poliüretasn Esaslı UV dayanımlı Son Kat Boyadır."
         },
         "description": {
-            "tr": "Poliüretan esaslı, self leveling son kat zemin kaplaması",
-            "en": "Polyurethane based, self leveling top coat floor covering"
+            "tr": "İki bileşenli, poliüretan esaslı, sararmaz, parlak/ Yarı Mat bir son kat boyadır.",
+            "en": "İki bileşenli, poliüretan esaslı, sararmaz, parlak/ Yarı Mat bir son kat boyadır."
         },
         "areasOfUsage": {
             "tr": [
-                "Hastanelerde, otopark ve depo alanlarında,",
-                "Gıda ve içecek sanayinde, otopark zeminlerde,",
-                "Büyük alışma ve üretim alanları,",
-                "Yükleme rampalarında"
+                "Renk ve parlaklık dayanımının yüksek olması istenilen yerlerde metal, alüminyum, galvaniz yüzeylerde astarsız olarak, yoğun korozif ortamlarda ise epoxy sistemin son katı olarak kullanılır."
             ],
             "en": [
-                "In hospitals, parking lots and warehouse areas,",
-                "In the food and beverage industry, on parking lots,",
-                "Large training and production areas",
-                "On loading docks"
+                "Renk ve parlaklık dayanımının yüksek olması istenilen yerlerde metal, alüminyum, galvaniz yüzeylerde astarsız olarak, yoğun korozif ortamlarda ise epoxy sistemin son katı olarak kullanılır."
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Kolay Yayılma ve kullanım sağlar,",
-                "Esnek özelliktedir.",
-                "Çatlak köprüsü kurar,",
-                "Kimyasal ve mekanik dayanıma sahiptir.",
-                "Solvent içermez.",
-                "Estetik yüzey görünümü sağlar."
+                "Güneş ışığı ve atmosfer koşullarına dayanıklıdır.",
+                "Elastiktir.",
+                "Yüksek mekanik ve kimyasal dirence sahiptir.",
+                "Örtücülüğü ve yayılması çok iyidir.",
+                "Fırça ve rulo ile uygulanabilir.",
+                "Poliüretan son kat bir boyadır."
             ],
             "en": [
-                "Easy to spread and use,",
-                "It is flexible.",
-                "The crack builds a bridge,",
-                "It has chemical and mechanical resistance.",
-                "It does not contain solvents.",
-                "It provides an aesthetic surface appearance."
+                "Güneş ışığı ve atmosfer koşullarına dayanıklıdır.",
+                "Elastiktir.",
+                "Yüksek mekanik ve kimyasal dirence sahiptir.",
+                "Örtücülüğü ve yayılması çok iyidir.",
+                "Fırça ve rulo ile uygulanabilir.",
+                "Poliüretan son kat bir boyadır."
             ]
         },
         "beforeApplication": {
-            "tr": "Yüzeyler yeterli dayanıma sahip olmalıdır. Zemin betonu; en az 25 N/mm2 basınç ile en az 1,5-2 N/mm2 çekme dayanımına sahip olmalıdır. Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntılar temizlenmelidir. Uygulama zemini önceden uygun astarlar (EPX 225, EPX 110) ile astarlanmalıdır.Uygulanacak yüzey nem oranı % 5 in üzerinde ise nemli yüzey astarı eile EPX 021 veya eile EPX 022 uygulanmalıdır.",
-            "en": "Surfaces must have sufficient strength. Floor concrete; It must have a tensile strength of at least 1.5-2 N/mm2 with a pressure of at least 25 N/mm2. The application surface must be solid, carrier, dust-free and clean. Substances such as oil, grease, paint, rust and paraffin that will reduce adherence should be removed. The application surface must be primed with suitable primers (EPX 225, EPX 110) beforehand. If the moisture content of the surface to be applied is above 5%, a moist surface primer eile EPX 021 or eile EPX 022 should be applied."
+            "tr": "Tüm yüzeyler temiz, kuru ve kirden arındırılmış olmalı, uygun astar kullanılmış yüzeylerde uygulanmalıdır.",
+            "en": "Tüm yüzeyler temiz, kuru ve kirden arındırılmış olmalı, uygun astar kullanılmış yüzeylerde uygulanmalıdır."
         },
         "mixing": {
-            "tr": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir.Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
-            "en": "Component A is mixed with a low speed mixer (300-400 rpm) for 2-3 minutes. Component B is added to it and the mixing process continues. Then; The material is taken into another container and mixed until a homogeneous color is formed."
+            "tr": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. İlk karıştırmanın ardından karışım mutlaka temiz bir kaba alınarak tekrar karıştırılmalıdır.",
+            "en": "A ve B bileşeni karışım oranlarına dikkat edilerek homojen bir karışım elde edilinceye kadar düşük devirli karıştırıcı yardımı ile en az 3-4 dakika karıştırılmalıdır. İlk karıştırmanın ardından karışım mutlaka temiz bir kaba alınarak tekrar karıştırılmalıdır."
         },
         "mixture": {
-            "tr": " 5/1 ( ağırlıkça )",
-            "en": " 5/1 by weight"
+            "tr": "Ağırlıkça 13:1",
+            "en": "Ağırlıkça 13:1"
         },
         "application": {
-            "tr": "Eile PUR 053 uygulamasına geçmeden önce astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile PUR 053 zemine dökülerek ayarlı dişli mala ile uygulanır. ",
-            "en": "The primer must be cured before applying Eile PUR 053. The prepared homogeneous mixture eile PUR 053 is poured onto the ground and applied with an adjustable notched trowel."
+            "tr": "Havalı-havasız püskürtme, fırça ve rulo ile uygulama yapılabilir.",
+            "en": "Havalı-havasız püskürtme, fırça ve rulo ile uygulama yapılabilir."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda ;Ortam sıcaklığı +10 °C ile +30°C üzerinde ise uygulama yapılmamalıdır.",
+                "Aşırı sıcak, rüzgarlı ve yağışlı havalarda; ortam sıcaklığı +10 °C‘ nin atında veya +30°C üzerinde ise uygulama yapılmamalıdır.",
                 "Aşırı soğuk havalarda yapılacak uygulamalarda ortam ve zemin sıcaklığı ısıtıcılar yardımı ile sağlanmalıdır.",
                 "Uzman uygulayıcılar tarafından uygulama yapılmalıdır.",
                 "Malzemenin tamamının kürünü tamamlaması için ortam ve zemin sıcaklığı, uygun görülen değer aralığında olmalıdır.",
                 "Kaplamanın ardından yüzey 24 saat su temasından korunmalıdır. "
             ],
             "en": [
-                "Application should not be done in extremely hot, windy and rainy weather; if the ambient temperature is above +10 °C and +30 °C.",
+                "Application should not be done in extremely hot, windy and rainy weather; if the ambient temperature is above +10°C and +30°C.",
                 "In applications to be carried out in extremely cold weather, ambient and ground temperature should be provided with the help of heaters.",
                 "Application should be done by expert practitioners.",
                 "In order for the entire material to cure, the ambient and ground temperature must be within the appropriate range.",
@@ -9294,8 +9319,8 @@
             ]
         },
         "package": {
-            "tr": "Set: 24 kg -- A Bileşen: 20 kg teneke kova -- B Bileşen: 4 kg teneke kova",
-            "en": "Set: 24 kg -- Component A: 20 kg tin pail -- Component B: 4 kg tin pail"
+            "tr": "A Bileşen: 26 kg teneke kova, B bileşen: 2 kg teneke kova",
+            "en": "A Bileşen: 26 kg teneke kova, B bileşen: 2 kg teneke kova"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
@@ -9307,63 +9332,47 @@
         "id": 110,
         "key": "8-2-11",
         "name": { "tr": "eile PUR 750", "en": "eile PUR 750" },
-        "img": "/assets/products/pur_053.png",
-        "appImage": "/assets/appImage/pur_053.png",
+        "img": "/assets/products/eile_genel_teneke.png",
+        "appImage": "/assets/appImage/pur_750.jpg",
         "info": {
-            "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
-            "en": "two-component solvent-free self-leveling polyurethane coating material"
+            "tr": "",
+            "en": ""
         },
         "description": {
-            "tr": "Poliüretan esaslı, self leveling son kat zemin kaplaması",
-            "en": "Polyurethane based, self leveling top coat floor covering"
+            "tr": "Poliol – İzosiyanat esaslı, iki bileşenli, kimyasal reaksiyon sonucu kürlenen, elastik, solvent içermeyen poliüretan boya malzemesidir.",
+            "en": "Poliol – İzosiyanat esaslı, iki bileşenli, kimyasal reaksiyon sonucu kürlenen, elastik, solvent içermeyen poliüretan boya malzemesidir."
         },
         "areasOfUsage": {
             "tr": [
-                "Hastanelerde, otopark ve depo alanlarında,",
-                "Gıda ve içecek sanayinde, otopark zeminlerde,",
-                "Büyük alışma ve üretim alanları,",
-                "Yükleme rampalarında"
+                "Beton yüzeylerin kimyasal ve fiziksel etkilere karşı korunması amacı ile geliştirilmiş bir yüzey kaplama sistemidir. Tozuma, aşınma gibi istenmeyen durumda, kolay temizlenmenin önemli olduğu, hijyenik ortamlarda, solvent içermemesi nedeniyle güvenle kullanılabilir."
             ],
             "en": [
-                "In hospitals, parking lots and warehouse areas,",
-                "In the food and beverage industry, on parking lots,",
-                "Large training and production areas",
-                "On loading docks"
+                "Beton yüzeylerin kimyasal ve fiziksel etkilere karşı korunması amacı ile geliştirilmiş bir yüzey kaplama sistemidir. Tozuma, aşınma gibi istenmeyen durumda, kolay temizlenmenin önemli olduğu, hijyenik ortamlarda, solvent içermemesi nedeniyle güvenle kullanılabilir."
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Kolay Yayılma ve kullanım sağlar,",
-                "Esnek özelliktedir.",
-                "Çatlak köprüsü kurar,",
-                "Kimyasal ve mekanik dayanıma sahiptir.",
-                "Solvent içermez.",
-                "Estetik yüzey görünümü sağlar."
+                "Asit, petrol ürünleri, su, deniz suyu ve solventlere dayanıklıdır. Darbelere karşı elastik yapıdadır. Yüksek mekanik dirence sahiptir."
             ],
             "en": [
-                "Easy to spread and use,",
-                "It is flexible.",
-                "The crack builds a bridge,",
-                "It has chemical and mechanical resistance.",
-                "It does not contain solvents.",
-                "It provides an aesthetic surface appearance."
+                "Asit, petrol ürünleri, su, deniz suyu ve solventlere dayanıklıdır. Darbelere karşı elastik yapıdadır. Yüksek mekanik dirence sahiptir."
             ]
         },
         "beforeApplication": {
-            "tr": "Yüzeyler yeterli dayanıma sahip olmalıdır. Zemin betonu; en az 25 N/mm2 basınç ile en az 1,5-2 N/mm2 çekme dayanımına sahip olmalıdır. Uygulama yüzeyi sağlam, taşıyıcı, tozsuz ve temiz olmalıdır. Aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntılar temizlenmelidir. Uygulama zemini önceden uygun astarlar (EPX 225, EPX 110) ile astarlanmalıdır.Uygulanacak yüzey nem oranı % 5 in üzerinde ise nemli yüzey astarı eile EPX 021 veya eile EPX 022 uygulanmalıdır.",
-            "en": "Surfaces must have sufficient strength. Floor concrete; It must have a tensile strength of at least 1.5-2 N/mm2 with a pressure of at least 25 N/mm2. The application surface must be solid, carrier, dust-free and clean. Substances such as oil, grease, paint, rust and paraffin that will reduce adherence should be removed. The application surface must be primed with suitable primers (EPX 225, EPX 110) beforehand. If the moisture content of the surface to be applied is above 5%, a moist surface primer eile EPX 021 or eile EPX 022 should be applied."
+            "tr": "Tüm uygulama yüzeyleri temiz, kuru ve kirden arındırılmış olmalıdır. Astarlı yüzeylerde uygun astar kullanılmış olduğundan ve astarlı yüzeyin hasarsız olduğundan emin olunmalıdır. Yüzey sıcaklığı havanın çiğ noktasının en az 3 °C üzerinde olmalıdır. Eski beton üzerine uygulama yapılacak ise yüzey üzerindeki gevşek tabaka mekanik yöntemlerle temizlenmeli ve yaş yüzeylerin tam kuruduğundan emin olunmalıdır. Yeni dökülmüş betonların 21 günlük prizlenme süresini tamamlamış olduğundan emin olunmalıdır. Yüzey astarlı değilse eile EPX 260 veya  eile PUR 710 tercih edilmelidir.",
+            "en": "Tüm uygulama yüzeyleri temiz, kuru ve kirden arındırılmış olmalıdır. Astarlı yüzeylerde uygun astar kullanılmış olduğundan ve astarlı yüzeyin hasarsız olduğundan emin olunmalıdır. Yüzey sıcaklığı havanın çiğ noktasının en az 3 °C üzerinde olmalıdır. Eski beton üzerine uygulama yapılacak ise yüzey üzerindeki gevşek tabaka mekanik yöntemlerle temizlenmeli ve yaş yüzeylerin tam kuruduğundan emin olunmalıdır. Yeni dökülmüş betonların 21 günlük prizlenme süresini tamamlamış olduğundan emin olunmalıdır. Yüzey astarlı değilse eile EPX 260 veya  eile PUR 710 tercih edilmelidir."
         },
         "mixing": {
-            "tr": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir.Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
-            "en": "Component A is mixed with a low speed mixer (300-400 rpm) for 2-3 minutes. Component B is added to it and the mixing process continues. Then; The material is taken into another container and mixed until a homogeneous color is formed."
+            "tr": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir. Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır.",
+            "en": "A bileşeni düşük devirli karıştırıcı ile (300-400 devir/dakika) 2-3 dakika karıştırılır, Üzerine B bileşeni ilave edilerek karıştırma işlemine devam edilir. Ardından; başka bir kaba alınan malzeme, homojen renk oluşana kadar karıştırılır."
         },
         "mixture": {
-            "tr": " 5/1 ( ağırlıkça )",
-            "en": " 5/1 by weight"
+            "tr": "Karışım Oranı: 5/1 (ağırlıkça)",
+            "en": "5/1 by weight"
         },
         "application": {
-            "tr": "Eile PUR 053 uygulamasına geçmeden önce astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile PUR 053 zemine dökülerek ayarlı dişli mala ile uygulanır. ",
-            "en": "The primer must be cured before applying Eile PUR 053. The prepared homogeneous mixture eile PUR 053 is poured onto the ground and applied with an adjustable notched trowel."
+            "tr": "eile PUR 750 uygulamasına geçmeden önce astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile PUR 750 fırça, rulo ve püskürtme ile uygulanabilir.",
+            "en": "eile PUR 750 uygulamasına geçmeden önce astar kürlenmiş olmalıdır. Hazırlanan homojen karışım eile PUR 750 fırça, rulo ve püskürtme ile uygulanabilir."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
@@ -9382,8 +9391,8 @@
             ]
         },
         "package": {
-            "tr": "Set: 24 kg -- A Bileşen: 20 kg teneke kova -- B Bileşen: 4 kg teneke kova",
-            "en": "Set: 24 kg -- Component A: 20 kg tin pail -- Component B: 4 kg tin pail"
+            "tr": "Set: 24 kg, A Bileşen: 20 kg teneke kova, B Bileşen: 4 kg teneke kova",
+            "en": "Set: 24 kg, Component A: 20 kg tin pail, Component B: 4 kg tin pail"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
@@ -9545,22 +9554,21 @@
         "key": "8-3-1",
         "name": { "tr": "eile EPX 021", "en": "eile EPX 021" },
         "img": "/assets/products/epx_021.png",
+        "appImage": "/assets/appImage/epx_021.jpg",
         "info": {
-            "tr": "% 100 Nemli Yüzeyler için Epoksi Astar",
-            "en": "Epoxy Primer for 100% Damp Surfaces"
+            "tr": "Nemli Yüzeyler için Epoksi Astar",
+            "en": "Nemli Yüzeyler için Epoksi Astar"
         },
         "description": {
-            "tr": "İki bileşenli, solventsiz epoksi reçine esaslı, % 100 nem ihtiva eden, ıslak beton yüzeylere kolayca yapışabilen elastik yüksek su resiztanslı, suda etkilenmeyen nem bariyeri oluşturan astardır.",
-            "en": "It is a two-component, solvent-free epoxy resin-based, 100% moisture-containing primer that can easily adhere to wet concrete surfaces, has an elastic high water resistance, and creates a moisture barrier that is not affected by water."
+            "tr": "İki bileşenli, solventsiz epoksi reçine esaslı, % 4-8  nem ihtiva eden, ıslak beton yüzeylere kolayca yapışabilen elastik yüksek su resiztanslı, sudan etkilenmeyen nem bariyeri oluşturan astardır.",
+            "en": "İki bileşenli, solventsiz epoksi reçine esaslı, % 4-8  nem ihtiva eden, ıslak beton yüzeylere kolayca yapışabilen elastik yüksek su resiztanslı, sudan etkilenmeyen nem bariyeri oluşturan astardır."
         },
         "areasOfUsage": {
             "tr": [
-                "Binaların çatı ve temellerinde,",
-                "Özellikle % 100 nemin oluştuğu, tamamen ıslak olan beton yüzeylere uygulanır."
+                "Fabrika ve depo zeminleri, çalışma alanları, yükleme bölgeleri, orta ve ağır yüke maruz endüstriyel zeminler, epoksi, poliüretan ve poliürea uygulama öncesinde nemli yüzey beton astarı olarak kullanılır."
             ],
             "en": [
-                "On the roofs and foundations of buildings",
-                "It is especially applied to completely wet concrete surfaces where 100% humidity occurs."
+                "Fabrika ve depo zeminleri, çalışma alanları, yükleme bölgeleri, orta ve ağır yüke maruz endüstriyel zeminler, epoksi, poliüretan ve poliürea uygulama öncesinde nemli yüzey beton astarı olarak kullanılır."
             ]
         },
         "featuresOfProduct": {
@@ -9586,8 +9594,8 @@
             "en": "Component B should be slowly added into component A and mixed with a low-speed mixer for approximately 3-4 minutes until a homogeneous mixture is obtained. After the first mixing, the mixture must be placed in a clean container and mixed again. After this process, the material is ready for use."
         },
         "mixture": {
-            "tr": " A bileşen/ B bileşen: 1/1 (ağırlıkça) ",
-            "en": "Part A/part B: 1/1 (by weight)"
+            "tr": "",
+            "en": ""
         },
         "application": {
             "tr": "Homojen karışım eile EPX 021 rulo veya uygun bir fırça ile yüzeye iyice yedirilmeli ve gözenekleri kapatacak şekilde uygulanmalıdır. İstenirse havasız tabanca ile uygulama yapılabilir. Yeni betonun yaşı en az 4 hafta olmalıdır.",
@@ -9610,8 +9618,8 @@
             ]
         },
         "package": {
-            "tr": "Set: 30 kg --  A bileşen: 15 kg lık teneke kovalarda --  B bileşen: 15 kg lık teneke kovalarda",
-            "en": "Set: 30 kg -- component A: in 15 kg tin pails -- component B: in 15 kg tin pails"
+            "tr": "Set: 17,5 kg, A bileşen: 13 kg lık teneke kovalarda, B bileşen: 4,5 kg lık teneke kovalarda",
+            "en": "Set: 17,5 kg,component A: in 13 kg tin pails, component B: in 4,5 kg tin pails"
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
@@ -9873,77 +9881,70 @@
         "key": "8-3-5",
         "name": { "tr": "eile EPS 280 FL", "en": "eile EPS 280 FL" },
         "img": "/assets/products/eile_genel_teneke.png",
+        "appImage": "/assets/appImage/eps_280_fl.jpg",
         "info": {
-            "tr": "% 100 Nemli Yüzeyler için Epoksi Astar",
-            "en": "Epoxy Primer for 100% Damp Surfaces"
+            "tr": "Epoksi Esaslı Solventsiz Dolgulu Astar",
+            "en": "Epoksi Esaslı Solventsiz Dolgulu Astar"
         },
         "description": {
-            "tr": "İki bileşenli, solventsiz epoksi reçine esaslı, % 100 nem ihtiva eden, ıslak beton yüzeylere kolayca yapışabilen elastik yüksek su resiztanslı, suda etkilenmeyen nem bariyeri oluşturan astardır.",
-            "en": "It is a two-component, solvent-free epoxy resin-based, 100% moisture-containing primer that can easily adhere to wet concrete surfaces, has an elastic high water resistance, and creates a moisture barrier that is not affected by water."
+            "tr": "İki bileşenli, epoksi esaslı, solventsiz, dolgulu astar malzemesidir.",
+            "en": "İki bileşenli, epoksi esaslı, solventsiz, dolgulu astar malzemesidir."
         },
         "areasOfUsage": {
             "tr": [
-                "Binaların çatı ve temellerinde,",
-                "Özellikle % 100 nemin oluştuğu, tamamen ıslak olan beton yüzeylere uygulanır."
+                "Epoksi veya poliüretan son kat zemin kaplama uygulamaları öncesinde yüzeyin astarlanmasında",
+                "Beton yüzeyindeki kılcal çatlakların doldurulmasında kullanılabilir",
+                "Eski beton üzerine yapılacak kaplama ve tamir amaçlı kullanılan çimento esaslı malzemelerin kullanılmasından önce yapışma arttırıcı astar olarak",
+                "Fabrika ve depo yükleme alanları, orta ve ağır yüke maruz endüstriyel zeminlerde, aşınma ve kayma dayanımlı epoksi harç uygulamasında kullanılır"
             ],
             "en": [
-                "On the roofs and foundations of buildings",
-                "It is especially applied to completely wet concrete surfaces where 100% humidity occurs."
+                "Epoksi veya poliüretan son kat zemin kaplama uygulamaları öncesinde yüzeyin astarlanmasında",
+                "Beton yüzeyindeki kılcal çatlakların doldurulmasında kullanılabilir",
+                "Eski beton üzerine yapılacak kaplama ve tamir amaçlı kullanılan çimento esaslı malzemelerin kullanılmasından önce yapışma arttırıcı astar olarak",
+                "Fabrika ve depo yükleme alanları, orta ve ağır yüke maruz endüstriyel zeminlerde, aşınma ve kayma dayanımlı epoksi harç uygulamasında kullanılır"
             ]
         },
         "featuresOfProduct": {
-            "tr": [
-                "Islak beton yüzeylere kolayca yapışır.",
-                "Elastik özellikte olup yüksek su rezistansı sağlar.",
-                "Tuzlu suya dayanıklıdır. Suyu geçirmez.",
-                "Nem bariyeri oluşturur. Solvent içermez."
-            ],
-            "en": [
-                "Easily adheres to wet concrete surfaces.",
-                "It is elastic and provides high water resistance.",
-                "Resistant to salt water. Waterproof.",
-                "It creates a moisture barrier. It does not contain solvents."
-            ]
+            "tr": [],
+            "en": []
         },
         "beforeApplication": {
-            "tr": "Yüzeyler temiz ve sağlam olmalı, aderansı azaltacak yağ, gres, boya, pas ve parafin gibi madde kalıntısından arındırılmalı ve gevsek parçalar hava veya mekanik yöntemlerle temizlenmelidir.",
-            "en": "Surfaces must be clean and solid, free of residues such as oil, grease, paint, rust and paraffin that will reduce adherence, and loose parts must be cleaned by air or mechanical methods."
+            "tr": "Uygulama yapılacak yüzey; temiz olmalı, yağ, kir ve gevşek parçalardan temizlenmelidir. Yüzeyler yeterli dayanıma sahip olmalıdır. Beton minimum 25 N/ mm² basınca dayanıklı ve en az 1,5 N/mm² çekme dayanıma sahip olmalıdır. Yüzey nem oranı max % 4 olmalıdır. Beton yüzeyindeki nem oranı % 4 ün üzerinde ise eile EPX 021 kullanılmalıdır. Yüzeydeki serbest parçacıklar tamamen temizlenmeli ve mekanik olarak (blastrak veya freze ) yüzeyler pürüzlendirilmelidir",
+            "en": "Uygulama yapılacak yüzey; temiz olmalı, yağ, kir ve gevşek parçalardan temizlenmelidir. Yüzeyler yeterli dayanıma sahip olmalıdır. Beton minimum 25 N/ mm² basınca dayanıklı ve en az 1,5 N/mm² çekme dayanıma sahip olmalıdır. Yüzey nem oranı max % 4 olmalıdır. Beton yüzeyindeki nem oranı % 4 ün üzerinde ise eile EPX 021 kullanılmalıdır. Yüzeydeki serbest parçacıklar tamamen temizlenmeli ve mekanik olarak (blastrak veya freze ) yüzeyler pürüzlendirilmelidir"
         },
         "mixing": {
-            "tr": "B bileşeni A bileşen içerisine yavaşça eklenerek homojen bir karışım elde edilene kadar düşük devirli bir karıştırıcı ile yaklaşık 3-4 dakika karıştırılmalıdır. İlk karıştırmanın ardından karışım mutlaka temiz bir kaba alınarak tekrar karıştırılmalıdır. Bu işlemden sonra malzeme kullanıma hazırdır.",
-            "en": "Component B should be slowly added into component A and mixed with a low-speed mixer for approximately 3-4 minutes until a homogeneous mixture is obtained. After the first mixing, the mixture must be placed in a clean container and mixed again. After this process, the material is ready for use."
+            "tr": "B bileşen A bileşeni içerisine ilave edilerek mekanik bir karıştırıcı ile homojen kıvam sağlanana kadar (yaklaşık 3-4 dakika ) karıştırılarak uygulamaya hazır hale getirilir.",
+            "en": "B bileşen A bileşeni içerisine ilave edilerek mekanik bir karıştırıcı ile homojen kıvam sağlanana kadar (yaklaşık 3-4 dakika ) karıştırılarak uygulamaya hazır hale getirilir."
         },
         "mixture": {
-            "tr": " A bileşen/ B bileşen: 1/1 (ağırlıkça) ",
-            "en": "Part A/part B: 1/1 (by weight)"
+            "tr": "Ağırlıkça A bileşen: B bileşen 4 :1",
+            "en": "Ağırlıkça A bileşen: B bileşen 4 :1"
         },
         "application": {
-            "tr": "Homojen karışım eile EPX 021 rulo veya uygun bir fırça ile yüzeye iyice yedirilmeli ve gözenekleri kapatacak şekilde uygulanmalıdır. İstenirse havasız tabanca ile uygulama yapılabilir. Yeni betonun yaşı en az 4 hafta olmalıdır.",
-            "en": "The homogeneous mixture should be thoroughly absorbed into the surface with eile EPX 021 roller or a suitable brush and applied in a way that closes the pores. If desired, application can be made with an airless gun. New concrete must be at least 4 weeks old."
+            "tr": "Uygulamaya hazır hale getirilen karışım, rulo veya fırça ile yüzeye uygulanır. Uygulanan astar yüzeyine yapılacak uygulamalar için maksimum 24 saat (20 0C’ de ) beklenmelidir. 24 saati aşan yeni kat uygulamaları öncesi astar yüzey, muhakkak zımparalanmalıdır.",
+            "en": "Uygulamaya hazır hale getirilen karışım, rulo veya fırça ile yüzeye uygulanır. Uygulanan astar yüzeyine yapılacak uygulamalar için maksimum 24 saat (20 0C’ de ) beklenmelidir. 24 saati aşan yeni kat uygulamaları öncesi astar yüzey, muhakkak zımparalanmalıdır."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
                 "Ürün profesyonel kullanım içindir.",
-                "Kullanmadan önce ambalaj üzerindeki güvenlik uyarılarına dikkat ediniz.",
-                "Gerektiği durumda ürünün Malzeme Güvenlik Bilgi Fişi’ne bakınız.",
-                "Solumayınız, deri ve gözle temasından kaçınınız, yutmayınız.",
-                "Uygun iş güvenliği malzemesi kullanınız."
+                "Açık alanlarda uygulamaya başlamadan 24 saat önce, uygulama esnasında ve uygulamadan 24 saat sonra yağmurlu olmamalıdır.",
+                "Solumayınız, deri ve gözle temasından kaçınınız, yutmayınız, uygun iş güvenliği malzemesi kullanınız.",
+                "Uygulama sıcaklığı (çevre ve yüzey) +5°C ile +35°C arasında olmalıdır."
             ],
             "en": [
-                "The product is for professional use.",
-                "Pay attention to the safety warnings on the packaging before use.",
-                "If necessary, see the Material Safety Data Sheet of the product.",
-                "Do not inhale, avoid contact with skin and eyes, do not swallow.",
-                "Use appropriate work safety equipment."
+                "Ürün profesyonel kullanım içindir.",
+                "Açık alanlarda uygulamaya başlamadan 24 saat önce, uygulama esnasında ve uygulamadan 24 saat sonra yağmurlu olmamalıdır.",
+                "Solumayınız, deri ve gözle temasından kaçınınız, yutmayınız, uygun iş güvenliği malzemesi kullanınız.",
+                "Uygulama sıcaklığı (çevre ve yüzey) +5°C ile +35°C arasında olmalıdır."
             ]
         },
         "package": {
-            "tr": "Set: 30 kg --  A bileşen: 15 kg lık teneke kovalarda --  B bileşen: 15 kg lık teneke kovalarda",
-            "en": "Set: 30 kg -- component A: in 15 kg tin pails -- component B: in 15 kg tin pails"
+            "tr": "Set: 20 kg, A Bileşen: 16 kg teneke, B Bileşen: 4 kg teneke",
+            "en": "Set: 20 kg, A Bileşen: 16 kg teneke, B Bileşen: 4 kg teneke"
         },
         "storage": {
-            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
-            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+            "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C -+25°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
+            "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C -+25°C, away from direct sunlight."
         }
     },
 
@@ -9952,79 +9953,90 @@
         "key": "8-3-6",
         "name": { "tr": "eile PUR 710", "en": "eile PUR 710" },
         "img": "/assets/products/teneke_pur_710.png",
+        "appImage": "/assets/appImage/pur_710.jpg",
         "info": {
             "tr": "Tek Bileşenli Poliüretan Astar Malzemesi",
             "en": "Single Component Polyurethane, Primer Material"
         },
         "description": {
-            "tr": "Tek bileşenli, derine nüfuz eden, solvent bazlı poliüretan astar malzemesidir.",
-            "en": "It is a one-component, deep-penetrating, solvent-based polyurethane primer material."
+            "tr": "Tek bileşenli, düşük viskoziteli poliüretan astardır. Poliüretan kaplamaların uygulanacağı yüzeylerin hazırlığında kullanılır. Poliüretan kaplamaların alt katmanlara yapışmasını arttırmak için tasarlanmıştır.",
+            "en": "Tek bileşenli, düşük viskoziteli poliüretan astardır. Poliüretan kaplamaların uygulanacağı yüzeylerin hazırlığında kullanılır. Poliüretan kaplamaların alt katmanlara yapışmasını arttırmak için tasarlanmıştır."
         },
         "areasOfUsage": {
             "tr": [
-                "Poliüretan su izolasyon malzemesi ve poliüretan derz dolgu malzemeleri uygulamalarından önce, beton, hafif beton, çimento esaslı sıva, ahşap vb. yüzeylerde astar olarak kullanılmaktadır."
+                "Beton yüzeyler",
+                "Metal yüzeyler",
+                "Sıvalı ve alçı yüzeyler",
+                "Ahşap yüzeyler",
+                "PVC yüzeyler",
+                "Bitüm esaslı yüzeyler"
             ],
             "en": [
-                "It is used as a primer on surfaces such as concrete, lightweight concrete, cement-based plaster, wood, etc. before the application of polyurethane waterproofing material and polyurethane joint filling materials."
+                "Beton yüzeyler",
+                "Metal yüzeyler",
+                "Sıvalı ve alçı yüzeyler",
+                "Ahşap yüzeyler",
+                "PVC yüzeyler",
+                "Bitüm esaslı yüzeyler"
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Kolay uygulanır (rulo veya havasız sprey ile).",
-                "Emici yüzeylerle mükemmel birleşme sağlar.",
-                "Çabuk kurur.",
-                "Yüzey hareketlerini takip etmek için yeterli esnekliği sağlar.",
-                "Su birikintilerine ve donmaya dayanıklıdır.",
-                "Yağ, gres, nem, kimyasal ve diğer sıvı kir lekelere karşı kimyasal direnç sağlar."
+                "Tek bileşenlidir",
+                "Düşük viskozitelidir",
+                "Her tür yüzeye kolaylıkla uygulanabilir",
+                "Camsı, gözeneksiz alt katmanlara bile güçlü bir şekilde yapışır",
+                "Yüzeyi bütünsel/kesintisiz ve homojen olarak mükemmel şekilde kaplar ve emici yüzeylerde mükemmel şekilde emprenye olur",
+                "Beton sızdırmazlığı ve korunması yönünde düşük maliyetli çözüm sunar"
             ],
             "en": [
-                "Easy to apply (with roller or airless spray).",
-                "It provides perfect bonding with absorbent surfaces.",
-                "Dries quickly.",
-                "It provides enough flexibility to follow surface movements.",
-                "It is resistant to puddles and freezing.",
-                "Provides chemical resistance against oil, grease, moisture, chemical and other liquid dirt stains."
+                "Tek bileşenlidir",
+                "Düşük viskozitelidir",
+                "Her tür yüzeye kolaylıkla uygulanabilir",
+                "Camsı, gözeneksiz alt katmanlara bile güçlü bir şekilde yapışır",
+                "Yüzeyi bütünsel/kesintisiz ve homojen olarak mükemmel şekilde kaplar ve emici yüzeylerde mükemmel şekilde emprenye olur",
+                "Beton sızdırmazlığı ve korunması yönünde düşük maliyetli çözüm sunar"
             ]
         },
         "beforeApplication": {
-            "tr": "Yüzeyin; temiz, kuru ve sağlam olması, izolasyon malzemesinin yapışkanlığını olumsuz yönde etkileyebilecek her türlü kirden ve gevşek malzemeden arındırılmış olması gerekmektedir. Maksimum nem içeriği %5’i geçmemelidir. Yeni binalar en az 28 gün boyunca kurumaya bırakılmalıdır.",
-            "en": "The surface must be clean, dry and solid, and free from all kinds of dirt and loose materials that may adversely affect the adhesion of the insulation material. The maximum moisture content should not exceed 5%. New buildings should be left to dry for at least 28 days."
+            "tr": "Uygulama yüzeyi sağlam olmalıdır. Tüm gevşek, oynak parçacıklar yağ ve boya artıklarından, çimento şerbetinden arındırılmış olmalıdır. Geniş kırıklar ve hatalar önceden tamir edilmelidir. Beton yüzeyinde bulunan çimento kabuğu ve parlak şap kumlama, çentme makinesi, elmas tamburlu silme makinesi, tahrikli taşlama gibi aletlerle temizlenip yüzey pürüzlendirilmeli ve silinmelidir. Sanayi tipi elektrik süpürgesi ile yüzeyin tamamı tozdan arındırılmalıdır. Yeni binalar en az 28 gün boyunca kurumaya bırakılmalıdır.",
+            "en": "Uygulama yüzeyi sağlam olmalıdır. Tüm gevşek, oynak parçacıklar yağ ve boya artıklarından, çimento şerbetinden arındırılmış olmalıdır. Geniş kırıklar ve hatalar önceden tamir edilmelidir. Beton yüzeyinde bulunan çimento kabuğu ve parlak şap kumlama, çentme makinesi, elmas tamburlu silme makinesi, tahrikli taşlama gibi aletlerle temizlenip yüzey pürüzlendirilmeli ve silinmelidir. Sanayi tipi elektrik süpürgesi ile yüzeyin tamamı tozdan arındırılmalıdır. Yeni binalar en az 28 gün boyunca kurumaya bırakılmalıdır."
         },
         "mixing": {
-            "tr": "Tek kat halinde 0,15-0,20 kg/m2 şeklinde uygulanmalıdır. Uygulama, rulo ve havasız sprey ile düz bir yüzeye yapılmalıdır. Yüzeydeki gözeneklere,ısıya, neme, uygulama yöntemine ve gerekli ince işlere bağlı olarak tüketim miktarı değişmektedir. ",
-            "en": "It should be applied in a single layer at 0.15-0.20 kg/m2. The application should be done on a flat surface with a roller and airless spray. The pointsToTakeIntoConsideration amount varies depending on the pores on the surface, heat, humidity, application method and necessary finishing work."
+            "tr": "",
+            "en": ""
         },
         "mixture": {
-            "tr": "       ",
-            "en": "   "
+            "tr": "",
+            "en": ""
         },
         "application": {
-            "tr": "En iyi sonucun alınabilmesi için, uygulama ve bekleme sırasındaki sıcaklık 5°C ile 35°C arasında olmalıdır.Düşük sıcaklıklar kuruma süresinin uzamasına neden olurken, yüksek sıcaklıklar ise kuruma süresini hızlandırır. Yüksek nem oranı, isin sonunu etkileyebilir.Astarlanacak yüzey, bir rulo veya fırça yardımı ile EilePUR 710 kullanılarak tamamen kaplanmalıdır. Büyük yüzeylerde, havasız sprey de kullanılabilir. 2–3 saat sonra (en geç 4 saat içinde) ve astar hala biraz yapışkan durumdayken poliüretan su izolasyon kaplaması veya poliüretan derz dolgusu uygulanmalıdır",
-            "en": "In order to get the best results, the temperature during application and waiting should be between 5°C and 35°C. While low temperatures cause the drying time to extend, high temperatures accelerate the drying time. High humidity may affect the end of the job. The surface to be primed should be coated with a roller. or with a brush, using EilePUR 710. On large surfaces, airless spray can also be used after 2-3 hours (within 4 hours at the latest) and while the primer is still slightly sticky, polyurethane waterproofing coating or polyurethane joint filler should be applied."
+            "tr": "Malzeme kullanıma hazırdır, inceltilmez. Rulo, fırça veya düşük basınçlı havasız püskürtme ile yüzey doyurulacak, gözenekler kapatılacak şekilde uygulanır. Geniş uygulama alanları için havasız sprey ile uygulama tavsiye edilir.",
+            "en": "Malzeme kullanıma hazırdır, inceltilmez. Rulo, fırça veya düşük basınçlı havasız püskürtme ile yüzey doyurulacak, gözenekler kapatılacak şekilde uygulanır. Geniş uygulama alanları için havasız sprey ile uygulama tavsiye edilir."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
-                "Eile PUR 710 ile yapılacak uygulamada zemin ve ortam sıcaklığı +5 °C ile +35 °C aralığında olmalıdır.",
-                "Uygulanacak zemin nem içeriği max. % 5 olmalıdır.",
+                "eile PUR 710 ile yapılacak uygulamada zemin ve ortam sıcaklığı +10 0C ile +30 0C aralığında olmalıdır.",
+                "Uygulanacak zemin nem içeriği max. % 4 olmalıdır.",
                 "Uygulama yüzeyinin su ile yıkanmaması gerekmektedir",
-                "Uygulama esnasında, iş ve işçi Sağlığı kurallarına uygun iş elbisesi, koruyucu eldiven, gözlük ve maske kullanılmalıdır. ",
-                "Eile PUR 710 solvent içermektedir. Yanıcıdır, ateş kaynaklarından uzak tutulmalıdır. Çocukların ulaşamayacağı yerlerde muhafaza edilmelidir."
+                "Uygulama esnasında, iş ve işçi Sağlığı kurallarına uygun iş elbisesi, koruyucu eldiven, gözlük ve maske kullanılmalıdır.",
+                "eile PUR 710 solvent içermektedir. Yanıcıdır, ateş kaynaklarından uzak tutulmalıdır. Çocukların ulaşamayacağı yerlerde muhafaza edilmelidir"
             ],
             "en": [
-                "In the application with Eile PUR 710, the ground and ambient temperature should be between +5 °C and +35 °C.",
-                "The moisture content of the ground to be applied should be maximum 5%.",
-                "The application surface should not be washed with water",
-                "During the application, work clothes, protective gloves, glasses and masks in accordance with occupational and worker health rules should be used.",
-                "Eile PUR 710 contains solvents. It is flammable and should be kept away from sources of fire. It should be kept out of the reach of children."
+                "eile PUR 710 ile yapılacak uygulamada zemin ve ortam sıcaklığı +10 0C ile +30 0C aralığında olmalıdır.",
+                "Uygulanacak zemin nem içeriği max. % 4 olmalıdır.",
+                "Uygulama yüzeyinin su ile yıkanmaması gerekmektedir",
+                "Uygulama esnasında, iş ve işçi Sağlığı kurallarına uygun iş elbisesi, koruyucu eldiven, gözlük ve maske kullanılmalıdır.",
+                "eile PUR 710 solvent içermektedir. Yanıcıdır, ateş kaynaklarından uzak tutulmalıdır. Çocukların ulaşamayacağı yerlerde muhafaza edilmelidir"
             ]
         },
         "package": {
-            "tr": "5 lt'lik teneke ambalajlarda ",
-            "en": "In 5 liter tin packages"
+            "tr": "20 lt'lik teneke ambalajlarda",
+            "en": "20 lt'lik teneke ambalajlarda"
         },
         "storage": {
-            "tr": "Orijinal kendi ambalajında, +5 °C ile +30 °C aralığında nem ve güneş ışığından korunarak depolanmalıdır.",
-            "en": "It should be stored in its original packaging, protected from moisture and sunlight, between +5 °C and +30 °C."
+            "tr": "Orijinal kendi ambalajında, +5°C ile +25°C aralığında, nem ve güneş ışığından korunarak depolanmalıdır.",
+            "en": "Orijinal kendi ambalajında, +5°C ile +25°C aralığında, nem ve güneş ışığından korunarak depolanmalıdır."
         }
     },
 
@@ -10032,80 +10044,73 @@
         "id": 119,
         "key": "8-3-7",
         "name": { "tr": "eile PUR 712 2 K", "en": "eile PUR 712 2 K" },
-        "img": "/assets/products/teneke_pur_710.png",
+        "img": "/assets/products/eile_genel_teneke.png",
+        "appImage": "/assets/appImage/pur_712_2k.jpg",
         "info": {
-            "tr": "Tek Bileşenli Poliüretan Astar Malzemesi",
-            "en": "Single Component Polyurethane, Primer Material"
+            "tr": "İki Bileşenli Poliüretan Astar Malzemesi",
+            "en": "İki Bileşenli Poliüretan Astar Malzemesi"
         },
         "description": {
-            "tr": "Tek bileşenli, derine nüfuz eden, solvent bazlı poliüretan astar malzemesidir.",
-            "en": "It is a one-component, deep-penetrating, solvent-based polyurethane primer material."
+            "tr": "İki bileşenli, nem toleranslı poliüretan astar malzemesidir. Kısa sürede kürlenir ve toksik madde içermez. Nemli beton yüzeyler üzerine poliüretan bazlı ürünlerin uygulanabilmesi için özel olarak dizayn edilmiştir.",
+            "en": "İki bileşenli, nem toleranslı poliüretan astar malzemesidir. Kısa sürede kürlenir ve toksik madde içermez. Nemli beton yüzeyler üzerine poliüretan bazlı ürünlerin uygulanabilmesi için özel olarak dizayn edilmiştir."
         },
         "areasOfUsage": {
             "tr": [
-                "Poliüretan su izolasyon malzemesi ve poliüretan derz dolgu malzemeleri uygulamalarından önce, beton, hafif beton, çimento esaslı sıva, ahşap vb. yüzeylerde astar olarak kullanılmaktadır."
+                "Poliüretan zemin kaplama ve su yalıtımı öncesi astar malzemesi olarak",
+                "Nemli zeminler",
+                "Havalandırılması zor uygulama alanları",
+                "Beton, çelik ve diğer malzemelerden yapılmış olan zeminler",
+                "Asfalt ve asfalt membranlar"
             ],
             "en": [
-                "It is used as a primer on surfaces such as concrete, lightweight concrete, cement-based plaster, wood, etc. before the application of polyurethane waterproofing material and polyurethane joint filling materials."
+                "Poliüretan zemin kaplama ve su yalıtımı öncesi astar malzemesi olarak",
+                "Nemli zeminler",
+                "Havalandırılması zor uygulama alanları",
+                "Beton, çelik ve diğer malzemelerden yapılmış olan zeminler",
+                "Asfalt ve asfalt membranlar"
             ]
         },
         "featuresOfProduct": {
             "tr": [
-                "Kolay uygulanır (rulo veya havasız sprey ile).",
-                "Emici yüzeylerle mükemmel birleşme sağlar.",
-                "Çabuk kurur.",
-                "Yüzey hareketlerini takip etmek için yeterli esnekliği sağlar.",
-                "Su birikintilerine ve donmaya dayanıklıdır.",
-                "Yağ, gres, nem, kimyasal ve diğer sıvı kir lekelere karşı kimyasal direnç sağlar."
+                "Düşük viskoziteli ve kullanımı kolaydır",
+                "Hidrofobiktir ve hidroliz direnci yüksektir",
+                "Genel amaçlı tüm beton yüzeyler için kullanılabilen poliüretan esaslı astardır",
+                "Kimyasallara karşı etkin direnç gösterir"
             ],
             "en": [
-                "Easy to apply (with roller or airless spray).",
-                "It provides perfect bonding with absorbent surfaces.",
-                "Dries quickly.",
-                "It provides enough flexibility to follow surface movements.",
-                "It is resistant to puddles and freezing.",
-                "Provides chemical resistance against oil, grease, moisture, chemical and other liquid dirt stains."
+                "Düşük viskoziteli ve kullanımı kolaydır",
+                "Hidrofobiktir ve hidroliz direnci yüksektir",
+                "Genel amaçlı tüm beton yüzeyler için kullanılabilen poliüretan esaslı astardır",
+                "Kimyasallara karşı etkin direnç gösterir"
             ]
         },
         "beforeApplication": {
-            "tr": "Yüzeyin; temiz, kuru ve sağlam olması, izolasyon malzemesinin yapışkanlığını olumsuz yönde etkileyebilecek her türlü kirden ve gevşek malzemeden arındırılmış olması gerekmektedir. Maksimum nem içeriği %5’i geçmemelidir. Yeni binalar en az 28 gün boyunca kurumaya bırakılmalıdır.",
-            "en": "The surface must be clean, dry and solid, and free from all kinds of dirt and loose materials that may adversely affect the adhesion of the insulation material. The maximum moisture content should not exceed 5%. New buildings should be left to dry for at least 28 days."
+            "tr": "Uygulama yapılacak yüzeyler sağlam olmalıdır. Yüzey basınç dayanımı 25N/ mm²  ve adezyon testi için en az 1,5 N/ mm² dayanımına sahip olmalıdır. Yüzeydeki  gevşek, sökülmüş veya oynayan beton parçacıkları yağ ve boya artıkları, çimento şerbeti kalıntıları gibi yapışma performansını etkileyecek etkenlerden  arındırılmalıdır. Ayrıca uygulanma yapılacak yüzeyler uygun alet ve makineler ile pürüzlendirilmeli ve silinmelidir. Silim yapılan yüzeyler sanayi tipi makineler ile tamamen tozdan arındırılmalıdır. Yüzey gözeneklerinde kalan tozlar, ürün performansını ve kaplamada delikler kalmasına neden olabilir. Toprak ile temas halindeki kaplama yapılacak yüzeyler için önceden su ve su buharı kesici izolasyonlarının yapılmış olması gerekmektedir.",
+            "en": "Uygulama yapılacak yüzeyler sağlam olmalıdır. Yüzey basınç dayanımı 25N/ mm²  ve adezyon testi için en az 1,5 N/ mm² dayanımına sahip olmalıdır. Yüzeydeki  gevşek, sökülmüş veya oynayan beton parçacıkları yağ ve boya artıkları, çimento şerbeti kalıntıları gibi yapışma performansını etkileyecek etkenlerden  arındırılmalıdır. Ayrıca uygulanma yapılacak yüzeyler uygun alet ve makineler ile pürüzlendirilmeli ve silinmelidir. Silim yapılan yüzeyler sanayi tipi makineler ile tamamen tozdan arındırılmalıdır. Yüzey gözeneklerinde kalan tozlar, ürün performansını ve kaplamada delikler kalmasına neden olabilir. Toprak ile temas halindeki kaplama yapılacak yüzeyler için önceden su ve su buharı kesici izolasyonlarının yapılmış olması gerekmektedir."
         },
         "mixing": {
-            "tr": "Tek kat halinde 0,15-0,20 kg/m2 şeklinde uygulanmalıdır. Uygulama, rulo ve havasız sprey ile düz bir yüzeye yapılmalıdır. Yüzeydeki gözeneklere,ısıya, neme, uygulama yöntemine ve gerekli ince işlere bağlı olarak tüketim miktarı değişmektedir. ",
-            "en": "It should be applied in a single layer at 0.15-0.20 kg/m2. The application should be done on a flat surface with a roller and airless spray. The pointsToTakeIntoConsideration amount varies depending on the pores on the surface, heat, humidity, application method and necessary finishing work."
+            "tr": "Ürün iki bileşenli olup karışımın kap ömrü dikkate alınarak tüketilecek miktar kadar karışım yapılması önerilir. Fazla yapılan karışımlar potlife süresi bittikten sonra kullanılamaz hale gelecektir. Karışımın homojen olası için ürün sıcaklığının +5°C ve üzerinde olmasına dikkat edilmelidir. A komponent kendi ambalajında ortalama 300rpm devirli bir karıştırıcı yardımı ile yaklaşık 2-3 dakika karıştırılmalıdır. Sonrasında sertleştirici (B komponent) içerisine ilave edilmelidir. A ve B bileşenler homojen bir yapı olana kadar karışım yapılmalıdır.",
+            "en": "Ürün iki bileşenli olup karışımın kap ömrü dikkate alınarak tüketilecek miktar kadar karışım yapılması önerilir. Fazla yapılan karışımlar potlife süresi bittikten sonra kullanılamaz hale gelecektir. Karışımın homojen olası için ürün sıcaklığının +5°C ve üzerinde olmasına dikkat edilmelidir. A komponent kendi ambalajında ortalama 300rpm devirli bir karıştırıcı yardımı ile yaklaşık 2-3 dakika karıştırılmalıdır. Sonrasında sertleştirici (B komponent) içerisine ilave edilmelidir. A ve B bileşenler homojen bir yapı olana kadar karışım yapılmalıdır."
         },
         "mixture": {
-            "tr": "       ",
-            "en": "   "
+            "tr": "",
+            "en": ""
         },
         "application": {
-            "tr": "En iyi sonucun alınabilmesi için, uygulama ve bekleme sırasındaki sıcaklık 5°C ile 35°C arasında olmalıdır.Düşük sıcaklıklar kuruma süresinin uzamasına neden olurken, yüksek sıcaklıklar ise kuruma süresini hızlandırır. Yüksek nem oranı, isin sonunu etkileyebilir.Astarlanacak yüzey, bir rulo veya fırça yardımı ile EilePUR 710 kullanılarak tamamen kaplanmalıdır. Büyük yüzeylerde, havasız sprey de kullanılabilir. 2–3 saat sonra (en geç 4 saat içinde) ve astar hala biraz yapışkan durumdayken poliüretan su izolasyon kaplaması veya poliüretan derz dolgusu uygulanmalıdır",
-            "en": "In order to get the best results, the temperature during application and waiting should be between 5°C and 35°C. While low temperatures cause the drying time to extend, high temperatures accelerate the drying time. High humidity may affect the end of the job. The surface to be primed should be coated with a roller. or with a brush, using EilePUR 710. On large surfaces, airless spray can also be used after 2-3 hours (within 4 hours at the latest) and while the primer is still slightly sticky, polyurethane waterproofing coating or polyurethane joint filler should be applied."
+            "tr": "Uygulama işlemine hazır olan astar karışımı fırça, rulo veya havasız sprey ile tüm yüzey ve gözenekler kapanacak şekilde uygulanır. Karışım kap ömrü dikkate alınarak yapılan karışım hızlı bir şekilde tüketilmelidir. Katlar arası uygulama süreleri, yapılacak olan kaplamanın sağlamlığı için çok önemlidir. Tam kuruma, mekanik ve kimyasal dayanıma 7 günde ulaşır.",
+            "en": "Uygulama işlemine hazır olan astar karışımı fırça, rulo veya havasız sprey ile tüm yüzey ve gözenekler kapanacak şekilde uygulanır. Karışım kap ömrü dikkate alınarak yapılan karışım hızlı bir şekilde tüketilmelidir. Katlar arası uygulama süreleri, yapılacak olan kaplamanın sağlamlığı için çok önemlidir. Tam kuruma, mekanik ve kimyasal dayanıma 7 günde ulaşır."
         },
         "pointsToTakeIntoConsideration": {
-            "tr": [
-                "Eile PUR 710 ile yapılacak uygulamada zemin ve ortam sıcaklığı +5 °C ile +35 °C aralığında olmalıdır.",
-                "Uygulanacak zemin nem içeriği max. % 5 olmalıdır.",
-                "Uygulama yüzeyinin su ile yıkanmaması gerekmektedir",
-                "Uygulama esnasında, iş ve işçi Sağlığı kurallarına uygun iş elbisesi, koruyucu eldiven, gözlük ve maske kullanılmalıdır. ",
-                "Eile PUR 710 solvent içermektedir. Yanıcıdır, ateş kaynaklarından uzak tutulmalıdır. Çocukların ulaşamayacağı yerlerde muhafaza edilmelidir."
-            ],
-            "en": [
-                "In the application with Eile PUR 710, the ground and ambient temperature should be between +5 °C and +35 °C.",
-                "The moisture content of the ground to be applied should be maximum 5%.",
-                "The application surface should not be washed with water",
-                "During the application, work clothes, protective gloves, glasses and masks in accordance with occupational and worker health rules should be used.",
-                "Eile PUR 710 contains solvents. It is flammable and should be kept away from sources of fire. It should be kept out of the reach of children."
-            ]
+            "tr": [],
+            "en": []
         },
         "package": {
-            "tr": "5 lt'lik teneke ambalajlarda ",
-            "en": "In 5 liter tin packages"
+            "tr": "A bileşen: 16 kg'lık teneke ambalajlarda, B bileşen: 4 kg'lık teneke ambalajlarda",
+            "en": "A bileşen: 16 kg'lık teneke ambalajlarda, B bileşen: 4 kg'lık teneke ambalajlarda"
         },
         "storage": {
-            "tr": "Orijinal kendi ambalajında, +5 °C ile +30 °C aralığında nem ve güneş ışığından korunarak depolanmalıdır.",
-            "en": "It should be stored in its original packaging, protected from moisture and sunlight, between +5 °C and +30 °C."
+            "tr": "Orijinal kendi ambalajında, +5 °C ile +25 °C aralığında, nem ve güneş ışığından korunarak depolanmalıdır.",
+            "en": "Orijinal kendi ambalajında, +5 °C ile +25 °C aralığında, nem ve güneş ışığından korunarak depolanmalıdır."
         }
     },
 
