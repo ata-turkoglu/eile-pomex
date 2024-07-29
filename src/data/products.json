@@ -101,7 +101,7 @@
                 "id": 2,
                 "key": "1-0-2",
                 "name": { "tr": "eile FİBER", "en": "eile FIBER" },
-                "img": "/assets/products/gorsel_yok.png",
+                "img": "/assets/products/fiber.png",
                 "info": {
                     "tr": "Polipropilen Elyaf Lif",
                     "en": "Polypropylene Fiber Fiber"
@@ -1345,7 +1345,7 @@
                 "id": 17,
                 "key": "3-0-2",
                 "name": { "tr": "eile DS 40 ACRYL", "en": "eile DS 40 ACRYL" },
-                "img": "/assets/products/eile_genel_teneke.png",
+                "img": "/assets/products/ds_40_acryl.png",
                 "appImage": "/assets/appImage/ds_40_app.png",
                 "info": {
                     "tr": "Çimento Esaslı Dekoratif (Mineral) Sıva ",
@@ -9343,7 +9343,7 @@
                             "tr": "eile PU CONCRETE 3K",
                             "en": "eile PU CONCRETE 3K"
                         },
-                        "img": "/assets/products/teneke_bos.png",
+                        "img": "/assets/products/pu_concrete_3k.png",
                         "info": {
                             "tr": "Solventli Epoksi Son Kat Boya",
                             "en": "Solvent Epoxy Topcoat Paint"
