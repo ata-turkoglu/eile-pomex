@@ -1,6 +1,6 @@
 import React, { useState, useLayoutEffect, useCallback, useRef } from "react";
 import "./css/contactPage.scss";
-import { MapPinned, Phone, Printer } from "lucide-react";
+import { MapPinned, Phone, Printer, Mail } from "lucide-react";
 import swal from "sweetalert";
 import ReCAPTCHA from "react-google-recaptcha";
 import { translateText as t } from "../../store/reducers/language";
@@ -31,12 +31,15 @@ function Contact() {
             message;
 
         window.Email.send({
-            SecureToken: "b8c77eaf-d45f-4f9e-a163-1e39d4910939",
+            Host: "smtp.elasticemail.com",
+            Username: "info@eilepomex.com",
+            Password: import.meta.env.VITE_STMP_PASS,
             To: "info@eilepomex.com",
-            From: email,
+            From: "info@eilepomex.com",
             Subject: "Email from website",
             Body: body,
         }).then((message) => {
+            console.log(message);
             if (message == `OK`) {
                 swal(
                     "Success!",
@@ -105,6 +108,26 @@ function Contact() {
                             <div className="text">
                                 <h3>{t("fax")}</h3>
                                 <p>0232 360 17 77</p>
+                            </div>
+                        </div>
+
+                        <div
+                            className="box"
+                            style={{
+                                display: "flex",
+                                alignItems: "center",
+                            }}
+                        >
+                            <div className="icon">
+                                <Mail size={25} />
+                            </div>
+                            <div
+                                className="text"
+                                style={{
+                                    fontSize: "1.5rem",
+                                }}
+                            >
+                                <span>info@eilepomex.com</span>
                             </div>
                         </div>
                     </div>
