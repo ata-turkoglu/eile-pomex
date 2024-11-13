@@ -93,7 +93,7 @@ function App(navigation) {
                 }}
             >
                 <a
-                    href="https://wa.me/+905058509789"
+                    href="https://wa.me/+905058509789?text=hello"
                     target="_blank"
                     aria-label="Chat on WhatsApp"
                 >
