@@ -81,6 +81,30 @@ function App(navigation) {
                     ></Route>
                 </Routes>
             </div>
+            <div
+                style={{
+                    position: "fixed",
+                    bottom: "20px",
+                    right: "20px",
+                    zIndex: 50,
+                    width: "fit-content",
+                    height: "fit-content",
+                    cursor: "pointer",
+                }}
+            >
+                <a
+                    href="https://wa.me/+905058509789"
+                    target="_blank"
+                    aria-label="Chat on WhatsApp"
+                >
+                    <img
+                        src="/assets/logos/whatsapp.png"
+                        alt="Chat on WhatsApp"
+                        width={40}
+                        style={{ filter: "drop-shadow(0 0 8px grey)" }}
+                    />
+                </a>
+            </div>
         </div>
     );
 }
