@@ -14,6 +14,7 @@ import ProductDetails from "./client/pages/ProductDetails.jsx";
 import Docs from "./client/pages/Docs.jsx";
 import Contact from "./client/pages/Contact.jsx";
 import Pomex_Blok_Page from "./client/pages/PomexBlok.jsx";
+import DownloadCatalogEn from "./client/pages/DownloadCatalogEn.jsx";
 
 import { Route, Routes, useLocation } from "react-router-dom";
 import { changeLang } from "./store/reducers/language.js";
@@ -67,6 +68,10 @@ function App(navigation) {
                         ></Route> */}
                         <Route path="docs" element={<Docs />}></Route>
                         <Route path="contact" element={<Contact />}></Route>
+                        <Route
+                            path="download_catalog_en"
+                            element={<DownloadCatalogEn />}
+                        ></Route>
                     </Route>
                     <Route path="/admin" element={<Admin />}>
                         <Route path="home" element={<Admin_Home />}></Route>
@@ -93,7 +98,7 @@ function App(navigation) {
                 }}
             >
                 <a
-                    href="https://wa.me/+905058509789?text=hello"
+                    href="https://wa.me/+905306414805"
                     target="_blank"
                     aria-label="Chat on WhatsApp"
                 >

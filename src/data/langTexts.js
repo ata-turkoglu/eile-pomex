@@ -85,6 +85,10 @@ export default {
         cementBasedAdhesives: "Çimento Bazlı Yapıştırıcılar",
         rdInfo: "Tamamıyla AR-GE bölümümüz tarafından geliştirilen ve üretilen ürünlerimiz yüksek teknolojiye sahip labaratuvarlarımızdan onay almadan satışa çıkmamaktadır.",
         ourHighQualityStandards: "Yüksek Kalite Standartlarımız",
+        selectLanguage: "Dil Seçiniz",
+        download: "İndir",
+        youCanDownloadOurDigitalCatalogHere:
+            "Dijital kataloğumuzu buradan indirebilirsiniz",
     },
     en: {
         products: "products",
@@ -170,5 +174,9 @@ export default {
         cementBasedAdhesives: "Cement Based Adhesives",
         rdInfo: "Our products, developed and produced entirely by our R&D department, are not put on sale without approval from our high-tech laboratories.",
         ourHighQualityStandards: "Our High Quality Standards",
+        selectLanguage: "Select Language",
+        download: "Download",
+        youCanDownloadOurDigitalCatalogHere:
+            "You can download our digital catalog here",
     },
 };

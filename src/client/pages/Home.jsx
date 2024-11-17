@@ -8,6 +8,7 @@ import ProjectSamplesSection from "../components/projectsGroup/projectSamplesSec
 import thermomexImg from "/assets/products/thermomex_isi_ve_yalitim_sivasi.png";
 import bannerImage from "/assets/info/etiperview.jpg";
 import { translateText as t } from "../../store/reducers/language";
+import Catalogs from "../components/catalogs";
 function Home() {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
@@ -17,6 +18,7 @@ function Home() {
         <div id="home" className="home">
             <Intro />
             <Metrics />
+            <Catalogs />
             <Info
                 image={thermomexImg}
                 header={t("naturalSolutionsInInsulation")}
